@@ -1,0 +1,69 @@
+\documentclass[dvipdfmx,12pt,a4paper]{jreport}
+	\usepackage{geometry}
+    \usepackage{pdfpages}
+    \usepackage{graphicx}
+    \usepackage{newtxmath}
+    \usepackage{array}
+    \usepackage{siunitx}
+    \usepackage{url}
+    \usepackage{amsmath}
+    \usepackage{comment}
+    \usepackage{amsfonts}
+    \usepackage{here}
+    \geometry{left=20mm,right=20mm,top=25mm,bottom=25mm} %geometry:余白設定
+    \renewcommand{\bibname}{参考文献}
+    %\renewcommand{\figurename}{Fig.}
+    %\renewcommand{\tablename}{Tab.}
+    \makeatletter
+    \DeclareRobustCommand\cite{\unskip
+    	\@ifnextchar[{\@tempswatrue\@citex}{\@tempswafalse\@citex[]}}
+    \def\@cite#1#2{$^{\hbox{\scriptsize{[#1\if@tempswa , #2\fi}]}}$}
+    \def\@biblabel#1{[#1]}
+    \makeatother
+    
+    \graphicspath{{./graphics/}} %図のディレクトリを設定.フォルダの場所によって先頭' . 'の数を変える.
+\begin{document}
+	\begin{titlepage}
+		
+		\begin{center}
+			
+			\vspace{20truept}
+			{\LARGE 2022年度}\\
+			\vspace{15truept}
+			{\LARGE 修士論文}
+			
+			\vspace{50truept}
+			
+			{\Huge Silk Fibroin Filmの圧電性向上の研究}\\
+			\vspace{10truept}
+			
+			\vspace*{280truept}
+			
+			{\LARGE 1521516}\\
+			\vspace{5truept}
+			
+			{\LARGE 金木　進}\\
+			\vspace{60truept}
+			
+			{\LARGE 2023年3月}
+			\vspace{30truept}
+			
+			{\LARGE 東京理科大学}\\
+			\vspace{15truept}
+			
+			{\LARGE 理学研究科　応用物理学専攻}\\
+			\vspace{15truept}
+			
+			{\LARGE 中嶋研究室}\\
+			
+		\end{center}
+		
+		
+	\end{titlepage}
+  \thispagestyle{empty}
+	\clearpage
+\addtocounter{page}{0}
+\tableofcontents
+  \chapter{序論}
+
+\end{document}
