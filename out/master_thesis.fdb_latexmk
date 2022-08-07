@@ -1,25 +1,20 @@
 # Fdb version 3
-["dvipdf"] 1659859714 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1659859720
-  "out/master_thesis.dvi" 1659859713 20360 59b1a06167313e2656c2768a0fb2296b "latex"
+["dvipdf"] 1659868653 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1659868661
+  "out/master_thesis.dvi" 1659868653 25424 6b211ec53c6edd39436991532fd3f5a2 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1659859702 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1659859720
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1659859690 9026 9565e9575d306d43c66d95cc97ba988b ""
+["latex"] 1659868633 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1659868661
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1659868632 12756 42e22f164fd241200c00779ba0128c4a ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1519818042 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth8.tfm" 1519818042 1196 f76ab7ae43ed1dfe29b9e6ec2933fdb4 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1519818042 1196 1be730212205a270378fba11a44765dc ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm" 1519818042 1196 d5b431ce76e19b70391960a9dd08fa4f ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1519818042 856 7404843a5f798859944d7973a47821d5 ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth8.tfm" 1519818042 856 8bfd9428b6290f70fd02322c8acb67da ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1519818042 856 39c171483fe1bb7d0e1368980c0c205b ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm" 1519818042 856 bdef40bcf3aed4751efa9be9bfa6eb4b ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
@@ -105,11 +100,14 @@
   "c:/w32tex/share/texmf-dist/tex/platex/base/jsize12.clo" 1613232139 8603 b3295bc4cc1325a821c424059c0c11d6 ""
   "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1614390960 2669784 69c6f764aa2584a9df6ea62285e4ac88 ""
   "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1611362022 36800 9621f390e0ff26f3a744e714fb52d892 ""
-  "master_thesis.tex" 1659859690 9026 9565e9575d306d43c66d95cc97ba988b ""
-  "out/master_thesis.aux" 1659859713 2632 0f3213c984ec3729ce5292aad15db7cc "latex"
-  "out/master_thesis.toc" 1659859713 1056 83034c2145514b361e3a3100593f371d "latex"
+  "graphics//AFM.png" 1659866770 66689 421b3697ca449d487064c34f37cd4380 ""
+  "graphics//SPM.png" 1659862867 46256 638e8bb842d233f78abb6989fa472d96 ""
+  "graphics//SPM2.png" 1659862877 42845 03f6776a6218c4ca6036ca405d1609c7 ""
+  "master_thesis.tex" 1659868632 12756 42e22f164fd241200c00779ba0128c4a ""
+  "out/master_thesis.aux" 1659868653 3325 8bc282e9a3ca34ff3e46bb1ec8ef07b8 "latex"
+  "out/master_thesis.toc" 1659868653 1189 eae298825b45cc922bcd7b0ebf55dcdc "latex"
   (generated)
-  "out/master_thesis.dvi"
   "out/master_thesis.aux"
+  "out/master_thesis.dvi"
   "out/master_thesis.log"
   "out/master_thesis.toc"
