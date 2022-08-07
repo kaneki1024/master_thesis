@@ -68,12 +68,198 @@
 		\section{研究背景}
 		\section{研究の目的}
 	\chapter{原理}
-		\section{圧電基本式}
-		\section{電気機械結合係数}
+		\section{圧電基本式と電気機械結合係数}
+		圧電体には正圧電効果と逆圧電効果という性質が存在する。
+		生じた歪みに対して、応力と電場の寄与がある。
+		さらに生じた電束密度に対しても電場と歪みの二つの寄与がある。
+		これらを式にまとめると
+				\begin{eqnarray}
+					\begin{cases}
+						\delta S=\frac{\partial S}{\partial T}\delta T + \frac{\partial S}{\partial E} \delta E 
+						= s^{E}\delta T+d \delta E & \\
+						\delta D=\frac{\partial D}{\partial T}\delta T + \frac{\partial D}{\partial E}\delta E 
+						= d \delta T+\varepsilon^T \delta E  &
+					\end{cases}
+					\label{圧電d形式1}
+				\end{eqnarray}
+			となる。実際の試料は1軸方向、2軸方向、3軸方向のみだけでなく、
+			せん断歪みを考慮する必要があり、テンソル形式で記述される。
+			ここで、$\delta S\rightarrow S, \delta T\rightarrow T,
+			\delta E\rightarrow E, \delta D\rightarrow D$とし、テンソル行列を$\left[　\right]$で表すと
+			式\ref{圧電d形式1}は
+			\begin{equation}
+				\begin{cases}
+					\left[S\right]=\left[s^E\right]\left[T\right]+\left[d_t\right]\left[E\right]& \\
+					\left[D\right]=\left[d\right]\left[T\right]+\left[\varepsilon^T\right]\left[E\right]
+				\end{cases}
+				\label{圧電d形式2}
+			\end{equation}
+			となり、これを圧電d形式と呼ぶ。
+			式\ref{圧電d形式2}をテンソルの要素も含めて記述すると
+			\begin{equation}
+				\begin{cases}
+				\left(
+				\begin{array}{c}
+					S_1 \\
+					S_2 \\
+					S_3 \\
+					S_4 \\
+					S_5 \\
+					S_6 
+				\end{array}
+				\right)=\left(
+				\begin{array}{cccccc}
+				s^E_{11} & s^E_{12} & s^E_{13} & 0 & 0 & 0 \\
+				s^E_{21} & s^E_{22} & s^E_{23} & 0 & 0 & 0 \\
+				s^E_{13} & s^E_{32} & s^E_{33} & 0 & 0 & 0 \\
+				0 & 0 & 0 & s^E_{44} & 0 & 0 \\
+				0 & 0 & 0 & 0 & s^E_{44} & 0 \\
+				0 & 0 & 0 & 0 & 0 & s^E_{66} 
+				\end{array}
+				\right)
+				\left(
+				\begin{array}{c}
+					T_1 \\
+					T_2 \\
+					T_3 \\
+					T_4 \\
+					T_5 \\
+					T_6 
+				\end{array}
+				\right)+
+				\left(
+				\begin{array}{ccc}
+					0&0	&d_{31} \\
+					0&0	&d_{31} \\
+					0&0	&d_{33} \\
+					0&d_{15}&0 \\
+					d_{15}&0&0 \\
+					0&0	&0 
+				\end{array}
+				\right)
+				\left(
+				\begin{array}{c}
+					E_1 \\
+					E_2 \\
+					E_3 \\
+				\end{array}
+				\right) & \\
+				\left(
+				\begin{array}{c}
+					D_1 \\
+					D_2 \\
+					D_3
+				\end{array}\right)=\left(
+				\begin{array}{cccccc}
+					0&0&0&0&d_{15}&0 \\
+					0&0&0&d_{15}&0&0 \\
+					d_{31}&d_{31}&d_{33}&0&0&0
+				\end{array}\right)
+				\left(
+				\begin{array}{c}
+					T_1 \\
+					T_2 \\
+					T_3 \\
+					T_4 \\
+					T_5 \\
+					T_6 
+				\end{array}
+				\right)+\left(
+				\begin{array}{ccc}
+					\varepsilon^T_{11}&0&0 \\
+					0&\varepsilon^T_{11}&0 \\
+					0&0&\varepsilon^T_{33}
+				\end{array}\right)
+				\left(
+				\begin{array}{c}
+					E_1 \\
+					E_2 \\
+					E_3 \\
+				\end{array}\right)
+				\end{cases}
+			\end{equation}
+			となる。また、$s^E_{66}=2\left(s^E_{11}-s^E_{12}\right)$である。
+			式\ref{圧電d形式2}を式変形すると
+			\begin{equation}
+				\begin{cases}
+				\left[T\right]=\left[c^E\right]\left[S\right]-\left[e_t\right]\left[E\right] & \\
+				\left[D\right]=\left[e\right]\left[S\right]+\left[\varepsilon^S\right]\left[E\right]
+				\end{cases}
+				\label{圧電e形式}
+			\end{equation}
+			\begin{equation}
+				\begin{cases}
+					\left[S\right]=\left[s^D\right]\left[T\right]-\left[g_t\right]\left[D\right] & \\
+					\left[E\right]=-\left[g\right]\left[T\right]+\left[\beta^T\right]\left[D\right]
+				\end{cases}
+				\label{圧電g形式}
+			\end{equation}
+			\begin{equation}
+				\begin{cases}
+					\left[T\right]=\left[c^D\right]\left[S\right]-\left[h_t\right]\left[D\right] & \\
+					\left[E\right]=-\left[h\right]\left[S\right]+\left[\beta^s\right]\left[D\right]
+				\end{cases}
+				\label{圧電h形式}
+			\end{equation}
+			の三式を導くことができ、式\ref{圧電e形式}を圧電e形式, 
+			式\ref{圧電g形式}を圧電g形式, 式\ref{圧電h形式}を圧電h形式と呼ぶ。応力$T$, 電場$E$, 歪み$S$, 電束密度$D$の係数である$[d],[e],[g],[h]$ではそれぞれ、
+			\begin{equation}
+				d_{ij}=\left(\frac{\partial D_i}{\partial T_j}\right)_E=\left(\frac{\partial S_j}{\partial E_i}\right)_T
+			\end{equation}
+			\begin{equation}
+				e_{ij}=\left(\frac{\partial D_i}{\partial S_j}\right)_E=-\left(\frac{\partial T_j}{\partial E_i}\right)_S
+			\end{equation} 
+			\begin{equation}
+				g_{ij}=-\left(\frac{\partial E_i}{\partial T_j}\right)_D=\left(\frac{\partial S_j}{\partial D_i}\right)_T
+			\end{equation}
+			\begin{equation}
+				h_{ij}=-\left(\frac{\partial E_i}{\partial S_j}\right)_D=-\left(\frac{\partial T_j}{\partial D_i}\right)_S
+			\end{equation}
+			で定義される。また、それぞれの圧電定数間には弾性コンプライアンス$s$、
+			誘電率$\varepsilon$を介して以下の関係がある。
+			\begin{equation}
+				d = e s
+			\end{equation}
+			\begin{equation}
+				g = h s
+			\end{equation}
+			\begin{equation}
+				d = \varepsilon g
+			\end{equation}
+			\begin{equation}
+				e = \varepsilon h
+			\end{equation}
+
+			圧電定数と同様に、圧電効果を示す定数として電気機械結合係数$k$がある。
+			電気機械結合係数$k$は電気的エネルギーと機械的エネルギーの変換を表す係数であり、
+			式\ref{電気機械結合係数の定義}のように与えた電気エネルギーと生じた機械エネルギー、
+			あるいは与えた機械的エネルギーと生じた電気的エネルギーの比の平方根で定義される。
+			\begin{equation}
+			k^2=\frac{\mbox{出力機械的エネルギー}}{\mbox{入力電気的エネルギー}}=
+			\frac{\mbox{出力電気的エネルギー}}{\mbox{入力機械的エネルギー}}
+			\label{電気機械結合係数の定義}
+			\end{equation}
+			また、電気機械結合係数は$k$は$k_{31}, k_{33}$の様に、
+			電場方向と機械入出力方向を示す二つの下付き文字で表現される。
+			表\ref{圧電材料}に代表的な圧電材料であるPZTとPVDFの物性値をまとめた。
+			\begin{table}[h]
+				\centering
+				\caption{PZTとPVDFの物性値\cite{物性値}}
+				\label{圧電材料}
+				\begin{tabular}{c|ccccc}\hline
+					材料&弾性率[N/m$^2$]&比誘電率$\varepsilon/\varepsilon_0$&$d_{31}$[pC/N]&$g_{31}$[Vm/N]&電気機械結合係数$k_{31}$ \\ \hline \hline
+					PZT&83.3&1200&110&0.01&0.31 \\
+					PVDF&3.0&13&20&0.17&0.10 \\ 
+					水晶&77&4.5&2&0.05&0.09 \\
+					VDCN/VAC&4.5&5&6&0.13&0.06 \\ 
+					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
+				\end{tabular} 
+			\end{table}
 	\chapter{実験手法}
 		\section{試料作製方法}
 		\section{評価方法}
-			\subsection{XRD}
+			\subsection{$\theta - 2\theta$測定(XRD)}
+			\subsection{Pole Figure測定(XRD)}
 			\subsection{PFM}
 			\subsection{誘電率測定}
 			\subsection{DSC}
