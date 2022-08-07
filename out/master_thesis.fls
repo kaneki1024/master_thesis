@@ -627,4 +627,10 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT out/master_thesis.aux
