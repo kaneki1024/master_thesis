@@ -251,7 +251,7 @@
 					PZT&83.3&1200&110&0.01&0.31 \\
 					PVDF&3.0&13&20&0.17&0.10 \\ 
 					水晶&77&4.5&2&0.05&0.09 \\
-					VDCN/VAC&4.5&5&6&0.13&0.06 \\ 
+					VDCN/VAc&4.5&5&6&0.13&0.06 \\ 
 					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
 				\end{tabular} 
 			\end{table}
@@ -260,6 +260,9 @@
 		\section{評価方法}
 			\subsection{$\theta - 2\theta$測定(XRD)}
 			\subsection{Pole Figure測定(XRD)}
+			
+			\newpage
+
 			\subsection{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
 			原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡（SPM）に属する。
 			走査型プローブ顕微鏡（SPM）とは、微小な深針（カンチレバー）で試料をなぞり、
@@ -289,7 +292,7 @@
 					\label{cantilever_photo_detector}
 				\end{minipage}
 			\end{figure}
-				\subsubsection{AFM}
+				\subsubsection{AFM（Atomic Force Microscopy）}
 				\begin{figure}[h]
 					\centering
 					\includegraphics[width=0.8\linewidth]{AFM.png}
@@ -307,10 +310,84 @@
 				表面の凹凸に対応したカンチレバーのたわみをレーザーの変位としてフォトディテクターから検出する。
 				このレーザーの変位を一定にするようにZピエゾを用いて、フィードバック制御を行う。そのZピエゾの変位を表面形状として画像化する。
 				本研究において、AFMを用いた計測はカンチレバーの消耗の観点からタッピングモードで行った。
-				\subsubsection{PFM}
+				\subsubsection{PFM（Piezoresponse Force Microscopy）}
+				走査型プローブ顕微鏡（Scanning Prob Microscope, SPM）の一種として圧電応答顕微鏡（Piezoresponse Force Microscopy, PFM）がある。
+				圧電応答顕微鏡（PFM）は試料の逆圧電効果による表面の歪みをカンチレバーの変位として取得し画像化する顕微鏡である。
+				図\ref{PFMの概念図}のように試料片面基板からカンチレバー間で交流電場を印加する。
+				このとき試料の分極方向に依存して、電場の変化に対応した歪みが試料に生じる。
+				その歪の大きさはカンチレバーの変位の大きさとして現れ、
+				Amplitude像として取得できる。
+				\begin{figure}[h]
+					\centering
+					\includegraphics{PFM.png}
+					\caption{PFMの概念図}
+					\label{PFMの概念図}
+				\end{figure}
+				\\
+				また、図\ref{PFM_phaseの概念図}のように交流電場に対応した試料の歪み方向は試料中の分極方向に依存しているため、
+				この分極方向を交流電場と歪みの位相差から解析し、Phase像として取得できる。
+				\begin{figure}[h]
+					\centering
+					\includegraphics{PFM_phase.png}
+					\caption{PFMのPhase像概念図。(a):電場E=0,(b):交流電場と試料の伸縮方向が同位相であるときの自発分極方向,(c):交流電場と試料の伸縮方向が逆位相であるときの自発分極方向}
+					\label{PFM_phaseの概念図}
+				\end{figure}
+				PFMはカンチレバーを試料上に接触させ走査するコンタクトモードで行われる。
+				カンチレバーと試料からの相互作用を加味した共振周波数、
+				コンタクト周波数でカンチレバーを振動させることで、
+				その振動振幅の変化から、より高精度に圧電応答を観察できるようになっている。
+				しかし、そのコンタクト周波数は走査中一定に保たれているわけではない。
+				なぜならば、走査中の試料表面の形状変化によるカンチレバーの接触面積の違いがコンタクト周波数をシフトさせる要因になる。
+				コンタクト周波数のシフトにより、圧電応答によるカンチレバーのたわみ変化の大きさと走査中における試料表面の形状変化によるカンチレバーのたわみ変化がクロストークしてしまい、
+				正確な圧電応答や表面像を取得できなくなる。よって測定材料は測定前に表面を平らにする必要がある。
+				
+				図\ref{PFM_phaseの概念図}は垂直方向のみでの議論である。しかし、図\ref{PFMの概念図}におけるフォトディテクターから分かる通り、
+				図\ref{面内と垂直の概念図}の通り、試料の面内方向の圧電性の評価も可能である。本研究においてはずり圧電の評価にて使用した。
+				\begin{figure}[h]
+					\centering
+					\includegraphics{lateral_vertical.png}
+					\caption{カンチレバーにおける面内方向(Lateral)と垂直方向(Vertical)の関係}
+					\label{面内と垂直の概念図}
+				\end{figure}
+				\newpage
+				生体材料の一つであるコラーゲンの圧電行列は以下の通りである。
+				\begin{equation}
+					\left(
+				\begin{array}{cccccc}
+					0&0&0&d_{14}&d_{15}&0 \\
+					0&0&0&d_{15}&-d_{14}&0 \\
+					d_{31}&d_{31}&d_{33}&0&0&0
+				\end{array}\right)
+			\end{equation}
+				コラーゲン繊維の側面において面内PFM、コラーゲン繊維の断面において垂直PFMを行った報告がある\cite{コラーゲン繊維PFM}。
+				このように生体材料の圧電測定においてPFMは頻繁に利用されている。
+				\begin{figure}[ht]
+					\begin{center}
+					\includegraphics[scale=0.6]{PFM_コラーゲン_側面.jpg}
+					\caption{コラーゲン繊維（側面）での面内PFM\cite{コラーゲン繊維PFM}.
+					(A)AFM topology(B)面内PFM(C)面内PFMのPhase
+					(D)AFM topology(E)面内PFM(F)面内PFMのPhase.
+					(A)-(C)のスケールバーは2 {\textmu}m$\times$2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm$\times$200 nm.}
+					\label{PFM_コラーゲン_側面}
+					\end{center}
+				\end{figure}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=0.6]{PFM_コラーゲン_断面.jpg}
+					\caption{コラーゲン繊維（断面）での垂直PFM\cite{コラーゲン繊維PFM}.
+					(A)AFM topology(B)垂直PFM(C)垂直PFMのPhase
+					(D)AFM topology(E)垂直PFM(F)垂直PFMのPhase.
+					(A)-(C)のスケールバーは2 {\textmu}m $\times$ 2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm $\times$ 200 nm.}
+					\label{PFM_コラーゲン_断面}
+				\end{figure}
+				\newpage
 			\subsection{誘電率測定}
 			\subsection{DSC}
 	\chapter{結果と考察}
 	\chapter{総括}
 	\chapter{付録}
+	\bibliography{master} %hoge.bibから拡張子を外した名前
+	\bibliographystyle{junsrt} %参考文献出力スタイル
 \end{document}
