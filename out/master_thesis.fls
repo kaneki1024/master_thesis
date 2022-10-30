@@ -670,6 +670,18 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT extractbb -B cropbox -O ./graphics//sora.jpg
+INPUT ./graphics//theta_2theta.jpg
+INPUT ./graphics//theta_2theta.jpg
+INPUT ./graphics//theta_2theta.jpg
+INPUT extractbb -B cropbox -O ./graphics//theta_2theta.jpg
+INPUT ./graphics//XRD_theta_2theta_ŒõŠwŒn.png
+INPUT ./graphics//XRD_theta_2theta_ŒõŠwŒn.png
+INPUT ./graphics//XRD_theta_2theta_ŒõŠwŒn.png
+INPUT extractbb -B cropbox -O ./graphics//XRD_theta_2theta_ŒõŠwŒn.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png

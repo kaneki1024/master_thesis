@@ -255,10 +255,51 @@
 					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
 				\end{tabular} 
 			\end{table}
+			\section{生体材料の圧電性}
+			\section{絹糸の圧電性}
+
 	\chapter{実験手法}
 		\section{試料作製方法}
 		\section{評価方法}
 			\subsection{$\theta - 2\theta$測定(XRD)}
+			試料の結晶構造の解析のためにXRD(X-Ray Diffraction)の$\theta-2\theta$測定を行った。
+			測定には図\ref{XRD_nakajima}に示したRINT-2000(rigaku corporation)を使用した。
+			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\ref{Bragg}の式を満たすとき、回折を生じる。
+			\begin{equation}
+				2d \sin \theta = n \lambda \ \ \ \ \ \ (n\in \mathbb{Z})
+				\label{Bragg}
+			\end{equation}
+			このとき、回折線の方向は入射Ｘ線の方向に対して図\ref{XRD_theta_2theta}の関係がある。
+			よって測定時には図\ref{集中法光学系}のようにX線源とX線検出器を走査させる。
+			図\ref{XRD_theta_2theta}の赤い矢印は回折に寄与している格子面の法線方向を示している。
+			格子面の法線方向は測定時において入射角$\theta$を走査させても変動しない。
+			よって$\theta-2\theta$測定は測定対象の全ての結晶の格子面の法線方向が測定試料の法線方向に存在している状態が望ましい。
+			また、この状態を多結晶という。結晶が配向している、あるいは単結晶の場合において$\theta-2\theta$測定を行うと
+			ピークが小さくなる、見れないといった現象を生じる。よって本研究では$\theta-2\theta$にて結晶性を評価し、配向性の評価はPole Figureを用いた。
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics[width=0.9\linewidth]{sora.jpg}
+					\caption{RINT-2000(rigaku corporation)}
+					\label{XRD_nakajima}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics[scale=0.9]{theta_2theta.jpg}
+					\caption{$\theta-2\theta$測定における面間隔$d$と$\theta$の関係。赤い矢印は回折に寄与している格子面の法線方向。}
+					\label{XRD_theta_2theta}
+				\end{minipage}
+			\end{figure}
+			
+			\newpage
+			\begin{figure}[h]
+				\centering
+				\includegraphics{XRD_theta_2theta_光学系.png}
+				\caption{集中法光学系}
+				\label{集中法光学系}
+			\end{figure}
+
 			\subsection{Pole Figure測定(XRD)}
 			
 			\newpage
@@ -367,8 +408,8 @@
 					\caption{コラーゲン繊維（側面）での面内PFM\cite{コラーゲン繊維PFM}.
 					(A)AFM topology(B)面内PFM(C)面内PFMのPhase
 					(D)AFM topology(E)面内PFM(F)面内PFMのPhase.
-					(A)-(C)のスケールバーは2 {\textmu}m$\times$2 {\textmu}m, 
-					(D)-(F)のスケールバーは200 nm$\times$200 nm.}
+					(A)-(C)のスケールバーは2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm.}
 					\label{PFM_コラーゲン_側面}
 					\end{center}
 				\end{figure}
@@ -378,8 +419,8 @@
 					\caption{コラーゲン繊維（断面）での垂直PFM\cite{コラーゲン繊維PFM}.
 					(A)AFM topology(B)垂直PFM(C)垂直PFMのPhase
 					(D)AFM topology(E)垂直PFM(F)垂直PFMのPhase.
-					(A)-(C)のスケールバーは2 {\textmu}m $\times$ 2 {\textmu}m, 
-					(D)-(F)のスケールバーは200 nm $\times$ 200 nm.}
+					(A)-(C)のスケールバーは2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm.}
 					\label{PFM_コラーゲン_断面}
 				\end{figure}
 				\newpage
