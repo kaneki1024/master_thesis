@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1667120106 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1667127943
+["bibtex out/master_thesis"] 1667204836 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1667205745
   "junsrt.bst" 0 -1 0 ""
   "master.bib" 1667037821 474 07ab48a355dda3d3f6404313389ce44b ""
-  "out/master_thesis.aux" 1667127941 6119 f414670711677f861d473852367bd26e "latex"
+  "out/master_thesis.aux" 1667205742 6342 e562223d06a67861e87b4603883c5aab "latex"
   (generated)
-  "out/master_thesis.bbl"
   "out/master_thesis.blg"
-["dvipdf"] 1667127941 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1667127943
-  "out/master_thesis.dvi" 1667127941 38356 f8ccfca9d354d1aba0eebeb034ea2d06 "latex"
+  "out/master_thesis.bbl"
+["dvipdf"] 1667205742 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1667205745
+  "out/master_thesis.dvi" 1667205742 40544 5c3722fed72e56ad20c192e06b61f2d6 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1667127934 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1667127943
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1667127934 20303 7a7d616eb4f4a6cdbb9bc180bae8cd04 ""
+["latex"] 1667205735 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1667205745
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1667205735 21861 5a38905d1ec677d774050d58b81cd491 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1349595401 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1519818042 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -24,6 +24,7 @@
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmb10.tfm" 1136768653 1336 fb32298c2d61d0c4b59f3065fdd6def9 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -38,6 +39,11 @@
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm" 1136768653 768 d7b9a2629a0c353102ad947dc9221d49 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm" 1565108074 1784 787807411224bc35651651f2b5a102b4 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm" 1579973516 4168 486c382a4df7cdb6900920de94205055 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi7.tfm" 1579973516 3340 5c1c85f4a255120c9719f5236b526c9a ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm" 1582823958 1988 da81f4bb13215429ff70e0a037f3ffb2 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy7.tfm" 1582823958 2008 ef9951c62b8ac136994a796e69bc923f ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm" 1589731764 760 e8ec875a87aa119f1af7ea4be48da9e8 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm" 1565108066 1772 e71b3849f8de8ff3ffaafae0ff23e991 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm" 1579973516 4160 7b8d324cb74e1a2c7fe8319bdbf0a6e7 ""
@@ -101,6 +107,7 @@
   "c:/w32tex/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg" 1582587462 4745 793d4d5a808c37a7085f620706b56fe1 ""
   "c:/w32tex/share/texmf-dist/tex/latex/siunitx/siunitx.sty" 1582587462 273434 c3d90844d64bf82fded1b064359b4e14 ""
   "c:/w32tex/share/texmf-dist/tex/latex/tools/array.sty" 1601535196 12675 9a7bbb9e485cd81cdcc1d56212b088ff ""
+  "c:/w32tex/share/texmf-dist/tex/latex/tools/bm.sty" 1601535196 12671 ace2aac118748ea10d1717448ecafbed ""
   "c:/w32tex/share/texmf-dist/tex/latex/tools/calc.sty" 1601535196 10216 5efd55f2010055e7b7875afd6a75be82 ""
   "c:/w32tex/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict" 1596538392 3535 7dc96051305a7e943219126c49c44cd6 ""
   "c:/w32tex/share/texmf-dist/tex/latex/translator/translator.sty" 1596538446 8765 3368c4a5a4b5466261cafb836195e916 ""
@@ -121,13 +128,14 @@
   "graphics//XRD_theta_2theta_ŒõŠwŒn.png" 1667120312 13446 4d37c36b5b17b802974c80acb844f753 ""
   "graphics//lateral_vertical.png" 1667036557 11740 0fba1586e1f014d023bcd67e5d17b040 ""
   "graphics//sora.jpg" 1667118497 11146 9bc93dc08341ff0ecf0709d12671154b ""
-  "graphics//theta_2theta.jpg" 1667114942 47662 3e9a8c5c21b0a45071b669eb217db0cc ""
-  "master_thesis.tex" 1667127934 20303 7a7d616eb4f4a6cdbb9bc180bae8cd04 ""
-  "out/master_thesis.aux" 1667127941 6119 f414670711677f861d473852367bd26e "latex"
-  "out/master_thesis.bbl" 1667120106 337 c6251204372e932a98def2ebbc1c9200 "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1667127941 1399 006bdc90d36e0f9f0aaa895b71a38327 "latex"
+  "graphics//theta_2theta.jpg" 1667190589 52228 09dcd16f10cbf1a36a47c0d67515c4d2 ""
+  "graphics//‹É“_‚Ì‘ª’è•û–@.jpg" 1667202643 53520 d23f7360324b58de1e317581f636d524 ""
+  "master_thesis.tex" 1667205735 21861 5a38905d1ec677d774050d58b81cd491 ""
+  "out/master_thesis.aux" 1667205742 6342 e562223d06a67861e87b4603883c5aab "latex"
+  "out/master_thesis.bbl" 1667204836 337 c6251204372e932a98def2ebbc1c9200 "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1667205742 1399 006bdc90d36e0f9f0aaa895b71a38327 "latex"
   (generated)
-  "out/master_thesis.aux"
   "out/master_thesis.log"
-  "out/master_thesis.toc"
   "out/master_thesis.dvi"
+  "out/master_thesis.toc"
+  "out/master_thesis.aux"
