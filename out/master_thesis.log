@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 OCT 2022 17:47
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 OCT 2022 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,13 +569,18 @@ File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
 [7]
+File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
+<./graphics//pole_figure_outplane.jpg>
+File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
+<./graphics//pole_figure_inplane.jpg>
+[8]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
 <./graphics//SPM2.png>
 File: ./graphics//AFM.png Graphic file (type bmp)
 <./graphics//AFM.png>
-[8]
+[9]
 File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
@@ -583,30 +588,30 @@ File: ./graphics//PFM_phase.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
+[10]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[10]
+[11]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[11] [12]
+[12] [13]
 第 4 章
-[13
-
-]
-第 5 章
 [14
 
 ]
+第 5 章
+[15
+
+]
 第 6 章
-(out/master_thesis.bbl [15
+(out/master_thesis.bbl [16
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 8.
-) [16
+) [17
 
 ] (out/master_thesis.aux)
 
@@ -615,12 +620,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9124 strings out of 479485
- 155110 string characters out of 5868332
- 464104 words of memory out of 5000000
- 26628 multiletter control sequences out of 15000+600000
+ 9134 strings out of 479485
+ 155439 string characters out of 5868332
+ 464127 words of memory out of 5000000
+ 26636 multiletter control sequences out of 15000+600000
  452899 words of font info for 167 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (17 pages, 40540 bytes).
+Output written on out/master_thesis.dvi (18 pages, 42108 bytes).

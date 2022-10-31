@@ -276,7 +276,7 @@
 			よって$\theta-2\theta$測定は測定対象の全ての結晶の格子面の法線方向が測定試料の法線方向に存在している状態が望ましい。
 			また、この状態を多結晶という。結晶が配向している、あるいは単結晶の場合において$\theta-2\theta$測定を行うと
 			ピークが小さくなる、見れないといった現象を生じる。よって本研究では$\theta-2\theta$測定にて
-			結晶性を評価し、配向性の評価にはPole Figure測定を用いた。
+			結晶性を評価し、配向性の評価にはPole figure測定を用いた。
 			\begin{figure}[h]
 				\centering
 				\begin{minipage}{0.45\hsize}
@@ -296,12 +296,12 @@
 			\newpage
 			\begin{figure}[h]
 				\centering
-				\includegraphics{XRD_theta_2theta_光学系.png}
+				\includegraphics[scale=1.3]{XRD_theta_2theta_光学系.png}
 				\caption{集中法光学系}
 				\label{集中法光学系}
 			\end{figure}
 
-			\subsection{Pole Figure測定(XRD)}
+			\subsection{Pole figure測定(XRD)}
 			$\theta-2\theta$測定は試料表面に平行な格子面を測定するため、
 			結晶面の逆格子ベクトル$\bm{g}_{hkl}$は常に試料の表面に垂直方向を向いている。
 			逆格子ベクトル$\bm{g}_{hkl}$の大きさは結晶面の間隔$d$の逆数$1/d$に対応しており、
@@ -309,18 +309,34 @@
 			$\theta-2\theta$測定においても試料の配置を変更するなどによって配向の有無程度は判断可能である。
 			しかし配向度などの定量な詳しい評価はPole figure測定などが必要になる。
 			
-			Pole Figure測定(別名:極点測定)は$\theta-2\theta$測定における回折角度$2\theta$を固定し、
+			Pole figure測定(別名:極点測定)は$\theta-2\theta$測定における回折角度$2\theta$を固定し、
 			試料を回転、あおりを行い回折強度を測定する手法である。測定する回折面は固定されているため図\ref{極点の測定方法}の通り
 			、$\bm{g}_{hkl}$の長さは一定となる。試料を$\alpha$(あおり)と$\beta$(面内回転)という
 			2つの優先方位軸を用いて、回折角度一定の半球をスキャンする。計測結果は図\ref{極点の測定方法}(B)の通り、極図形を用いて表現する。
 			\begin{figure}[h]
 				\centering
 				\includegraphics[scale=0.8]{極点の測定方法.jpg}
-				\caption{Pole Figure測定の概念図. (A)はスキャン方向. (B)は極図形.}
+				\caption{Pole figure測定の概念図. (A)はスキャン方向. (B)は極図形.}
 				\label{極点の測定方法}
 			\end{figure}
 			\newpage
-
+			Pole figure測定には図\ref{Pole_figure_outplane}のアウトプレーンの測定と図\ref{Pole_figure_inplane}のインプレーンの測定が存在する。
+			アウトプレーンは試料に対するあおりを試料台を傾けて実現する。
+			よって、$\alpha=0^{\circ}$近傍においては試料の側面に入射されてしまうため測定が困難になる。
+			結果的にアウトプレーンの想定では$\alpha=0^{\circ}\sim90^{\circ}$の全極点測定は実質不可能である。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\linewidth]{pole_figure_outplane.jpg}
+				\caption{アウトプレーンのPole figure測定}
+				\label{Pole_figure_outplane}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\linewidth]{pole_figure_inplane.jpg}
+				\caption{インプレーンのPole figure測定}
+				\label{Pole_figure_inplane}
+			\end{figure}
+			\newpage
 			\subsection{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
 			原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡（SPM）に属する。
 			走査型プローブ顕微鏡（SPM）とは、微小な深針（カンチレバー）で試料をなぞり、

@@ -9,12 +9,12 @@
 \contentsline {section}{\numberline {3.1}試料作製方法}{6}{}%
 \contentsline {section}{\numberline {3.2}評価方法}{6}{}%
 \contentsline {subsection}{\numberline {3.2.1}$\theta - 2\theta $測定(XRD)}{6}{}%
-\contentsline {subsection}{\numberline {3.2.2}Pole Figure測定(XRD)}{7}{}%
-\contentsline {subsection}{\numberline {3.2.3}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{8}{}%
-\contentsline {subsubsection}{AFM（Atomic Force Microscopy）}{8}{}%
-\contentsline {subsubsection}{PFM（Piezoresponse Force Microscopy）}{9}{}%
-\contentsline {subsection}{\numberline {3.2.4}誘電率測定}{12}{}%
-\contentsline {subsection}{\numberline {3.2.5}DSC}{12}{}%
-\contentsline {chapter}{\numberline {第4章}結果と考察}{13}{}%
-\contentsline {chapter}{\numberline {第5章}総括}{14}{}%
-\contentsline {chapter}{\numberline {第6章}付録}{15}{}%
+\contentsline {subsection}{\numberline {3.2.2}Pole figure測定(XRD)}{7}{}%
+\contentsline {subsection}{\numberline {3.2.3}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{9}{}%
+\contentsline {subsubsection}{AFM（Atomic Force Microscopy）}{9}{}%
+\contentsline {subsubsection}{PFM（Piezoresponse Force Microscopy）}{10}{}%
+\contentsline {subsection}{\numberline {3.2.4}誘電率測定}{13}{}%
+\contentsline {subsection}{\numberline {3.2.5}DSC}{13}{}%
+\contentsline {chapter}{\numberline {第4章}結果と考察}{14}{}%
+\contentsline {chapter}{\numberline {第5章}総括}{15}{}%
+\contentsline {chapter}{\numberline {第6章}付録}{16}{}%

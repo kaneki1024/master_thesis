@@ -721,6 +721,14 @@ INPUT ./graphics//極点の測定方法.jpg
 INPUT ./graphics//極点の測定方法.jpg
 INPUT ./graphics//極点の測定方法.jpg
 INPUT extractbb -B cropbox -O ./graphics//極点の測定方法.jpg
+INPUT ./graphics//pole_figure_outplane.jpg
+INPUT ./graphics//pole_figure_outplane.jpg
+INPUT ./graphics//pole_figure_outplane.jpg
+INPUT extractbb -B cropbox -O ./graphics//pole_figure_outplane.jpg
+INPUT ./graphics//pole_figure_inplane.jpg
+INPUT ./graphics//pole_figure_inplane.jpg
+INPUT ./graphics//pole_figure_inplane.jpg
+INPUT extractbb -B cropbox -O ./graphics//pole_figure_inplane.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
