@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 OCT 2022 20:23
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 OCT 2022 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,6 +573,8 @@ File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
+File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
+<./graphics//XRD_配置.jpg>
 [8]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
@@ -620,12 +622,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9134 strings out of 479485
- 155439 string characters out of 5868332
- 464127 words of memory out of 5000000
- 26636 multiletter control sequences out of 15000+600000
+ 9139 strings out of 479485
+ 155546 string characters out of 5868332
+ 464138 words of memory out of 5000000
+ 26640 multiletter control sequences out of 15000+600000
  452899 words of font info for 167 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (18 pages, 42108 bytes).
+Output written on out/master_thesis.dvi (18 pages, 42584 bytes).

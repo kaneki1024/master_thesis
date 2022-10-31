@@ -729,6 +729,10 @@ INPUT ./graphics//pole_figure_inplane.jpg
 INPUT ./graphics//pole_figure_inplane.jpg
 INPUT ./graphics//pole_figure_inplane.jpg
 INPUT extractbb -B cropbox -O ./graphics//pole_figure_inplane.jpg
+INPUT ./graphics//XRD_配置.jpg
+INPUT ./graphics//XRD_配置.jpg
+INPUT ./graphics//XRD_配置.jpg
+INPUT extractbb -B cropbox -O ./graphics//XRD_配置.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
