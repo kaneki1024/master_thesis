@@ -9,6 +9,7 @@
     \usepackage{amsmath}
     \usepackage{comment}
     \usepackage{amsfonts}
+		\usepackage{bm}
     \usepackage{here}
     \geometry{left=20mm,right=20mm,top=25mm,bottom=25mm} %geometry:余白設定
     \renewcommand{\bibname}{参考文献}
@@ -262,8 +263,8 @@
 		\section{評価方法}
 			\subsection{$\theta - 2\theta$測定(XRD)}
 			試料の結晶構造の解析のためにXRD(X-Ray Diffraction)の$\theta-2\theta$測定を行った。
-			測定には図\ref{XRD_nakajima}に示したRINT-2000(rigaku corporation)を使用した。
-			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\ref{Bragg}の式を満たすとき、回折を生じる。
+			測定には図\ref{XRD_nakajima}に示したRINT-2000(Rigaku Corporation)を使用した。
+			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\ref{Bragg}の式を満たすとき回折が生じる。
 			\begin{equation}
 				2d \sin \theta = n \lambda \ \ \ \ \ \ (n\in \mathbb{Z})
 				\label{Bragg}
@@ -271,16 +272,17 @@
 			このとき、回折線の方向は入射Ｘ線の方向に対して図\ref{XRD_theta_2theta}の関係がある。
 			よって測定時には図\ref{集中法光学系}のようにX線源とX線検出器を走査させる。
 			図\ref{XRD_theta_2theta}の赤い矢印は回折に寄与している格子面の法線方向を示している。
-			格子面の法線方向は測定時において入射角$\theta$を走査させても変動しない。
+			格子面の法線方向、もしくは逆格子ベクトル$g_{hkl}$は測定時において入射角$\theta$を走査させても変動しない。
 			よって$\theta-2\theta$測定は測定対象の全ての結晶の格子面の法線方向が測定試料の法線方向に存在している状態が望ましい。
 			また、この状態を多結晶という。結晶が配向している、あるいは単結晶の場合において$\theta-2\theta$測定を行うと
-			ピークが小さくなる、見れないといった現象を生じる。よって本研究では$\theta-2\theta$にて結晶性を評価し、配向性の評価はPole Figureを用いた。
+			ピークが小さくなる、見れないといった現象を生じる。よって本研究では$\theta-2\theta$測定にて
+			結晶性を評価し、配向性の評価にはPole Figure測定を用いた。
 			\begin{figure}[h]
 				\centering
 				\begin{minipage}{0.45\hsize}
 					\centering
 					\includegraphics[width=0.9\linewidth]{sora.jpg}
-					\caption{RINT-2000(rigaku corporation)}
+					\caption{RINT-2000(Rigaku Corporation)}
 					\label{XRD_nakajima}
 				\end{minipage}
 				\begin{minipage}{0.45\hsize}
@@ -300,7 +302,23 @@
 			\end{figure}
 
 			\subsection{Pole Figure測定(XRD)}
+			$\theta-2\theta$測定は試料表面に平行な格子面を測定するため、
+			結晶面の逆格子ベクトル$\bm{g}_{hkl}$は常に試料の表面に垂直方向を向いている。
+			逆格子ベクトル$\bm{g}_{hkl}$の大きさは結晶面の間隔$d$の逆数$1/d$に対応しており、
+			$\theta-2\theta$測定は結果的に様々な$d$値の格子面を観測する。
+			$\theta-2\theta$測定においても試料の配置を変更するなどによって配向の有無程度は判断可能である。
+			しかし配向度などの定量な詳しい評価はPole figure測定などが必要になる。
 			
+			Pole Figure測定(別名:極点測定)は$\theta-2\theta$測定における回折角度$2\theta$を固定し、
+			試料を回転、あおりを行い回折強度を測定する手法である。測定する回折面は固定されているため図\ref{極点の測定方法}の通り
+			、$\bm{g}_{hkl}$の長さは一定となる。試料を$\alpha$(あおり)と$\beta$(面内回転)という
+			2つの優先方位軸を用いて、回折角度一定の半球をスキャンする。計測結果は図\ref{極点の測定方法}(B)の通り、極図形を用いて表現する。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.8]{極点の測定方法.jpg}
+				\caption{Pole Figure測定の概念図. (A)はスキャン方向. (B)は極図形.}
+				\label{極点の測定方法}
+			\end{figure}
 			\newpage
 
 			\subsection{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
