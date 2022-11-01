@@ -312,11 +312,17 @@
 			Pole figure測定(別名:極点測定)は$\theta-2\theta$測定における回折角度$2\theta$を固定し、
 			試料を回転、あおりを行い回折強度を測定する手法である。測定する回折面は固定されているため図\ref{極点の測定方法}の通り
 			、$\bm{g}_{hkl}$の長さは一定となる。試料を$\alpha$(あおり)と$\beta$(面内回転)という
-			2つの優先方位軸を用いて、回折角度一定の半球をスキャンする。計測結果は図\ref{極点の測定方法}(B)の通り、極図形を用いて表現する。
+			2つの優先方位軸を用いて、回折角度一定の半球をスキャンする。
+			計測結果は図\ref{極点の測定方法}(B)の通り、極図形を用いて表現する。
+			配向度は図\ref{極点の測定方法}（C）の通り、得られた極座標を半径方向に積分し、以下の式\ref{orientation}に基づいて計算される。
+			\begin{equation}
+				配向度 = \frac{360 - \sum ピークの半値幅 }{360}\times 100
+				\label{orientation}
+			\end{equation}
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.8]{極点の測定方法.jpg}
-				\caption{Pole figure測定の概念図. (A)はスキャン方向. (B)は極図形.}
+				\includegraphics[width=\linewidth]{極点の測定方法.jpg}
+				\caption{Pole figure測定の概念図. (A)はスキャン方向. (B)は極図形. (C)は極図形の$\beta$依存性.}
 				\label{極点の測定方法}
 			\end{figure}
 			\newpage
@@ -324,7 +330,13 @@
 			アウトプレーンは試料に対するあおりを試料台を傾けて実現する。
 			よって、$\alpha=0^{\circ}$近傍においては試料の側面に入射されてしまうため測定が困難になる。
 			結果的にアウトプレーンの想定では$\alpha=0^{\circ}\sim90^{\circ}$の全極点測定は実質不可能である。
-			インプレーンのPole figure測定は図\ref{XRD_配置}において$2\theta$軸に直行する軸である$2\theta_\chi$軸を使用する。
+			インプレーンのPole figure測定は図\ref{Pole_figure_inplane}の通り、
+			試料台を傾けず受光部を傾けてあおり$\alpha$を実現する。
+			光学系においては図\ref{XRD_配置}の$2\theta$軸に直行する軸である$2\theta_\chi$軸を利用する。
+			インプレーンのPole figure測定で$\alpha=0$は低角で測定する薄膜法を同様の状況であるため、
+			薄膜法で使用する光学素子を使用する。例えば、集中光学法では集中発散ビーム(BB)を使用するが
+			Pole figure測定では薄膜法で使用される平行ビーム(PB)を使用する。
+			本研究においてはPole figure測定が可能であるSmart lab(Rigaku Corporation)を使用した。
 			
 			\begin{figure}[h]
 				\centering
@@ -343,6 +355,13 @@
 				\includegraphics[width=0.9\linewidth]{XRD_配置.jpg}
 				\caption{XRDの測定系}
 				\label{XRD_配置}
+			\end{figure}
+			\newpage
+			\begin{figure}[h]
+				\centering
+				\includegraphics{sora.jpg}
+				\caption{Pole figure測定に用いたXRD(Rigaku corportaion)}
+				\label{XRD_pole_figure}
 			\end{figure}
 			\newpage
 			\subsection{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
