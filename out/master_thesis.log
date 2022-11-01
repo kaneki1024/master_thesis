@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  1 NOV 2022 15:26
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  1 NOV 2022 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,6 +621,8 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 8.
 ) [18
 
+] [19
+
 ] (out/master_thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -636,4 +638,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (19 pages, 44364 bytes).
+Output written on out/master_thesis.dvi (20 pages, 44616 bytes).
