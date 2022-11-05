@@ -1,3 +1,21 @@
 % Encoding: UTF-8
 
+@Article{コラーゲン繊維PFM,
+  author    = {Denning, Denise and Alilat, Sofiane and Habelitz, Stefan and Fertala, Andrzej and Rodriguez, Brian J},
+  journal   = {J. Struct. Biol.},
+  title     = {Visualizing molecular polar order in tissues via electromechanical coupling},
+  year      = {2012},
+  number    = {3},
+  pages     = {409--419},
+  volume    = {180},
+  publisher = {Elsevier},
+}
+
+@Misc{sdgs_poster,
+  author = {国際連合広報センター},
+  note   = {\\ \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}},
+  title  = {SDGsのポスター・ロゴ・アイコンおよびガイドライン},
+  year   = {アクセス日(2022年11月5日)},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

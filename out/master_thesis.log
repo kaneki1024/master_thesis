@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  1 NOV 2022 20:24
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  5 NOV 2022 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -524,61 +524,71 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 69.
+File: ./graphics/sdg_poster.pdf Graphic file (type pdf)
+<./graphics/sdg_poster.pdf>
+File: ./graphics/sdg_poster.pdf Graphic file (type pdf)
+<./graphics/sdg_poster.pdf>
+File: ./graphics/sdg_poster.pdf Graphic file (type pdf)
+<./graphics/sdg_poster.pdf>
+File: ./graphics/sdg_poster.pdf Graphic file (type pdf)
+<./graphics/sdg_poster.pdf>
+File: ./graphics/sdg_poster.pdf Graphic file (type pdf)
+<./graphics/sdg_poster.pdf>
 [2
 
-]
+] [3]
 第 2 章
-[3
+[4
 
 ]
-Overfull \hbox (24.37642pt too wide) in paragraph at lines 249--257
+Overfull \hbox (24.37642pt too wide) in paragraph at lines 264--272
  [][] 
  []
 
-[4] [5]
+[5] [6]
 第 3 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 264.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 279.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 264.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 279.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 264.
+(Font)              size <10.95> substituted on input line 279.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 264.
+(Font)              size <10.95> substituted on input line 279.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 264.
+(Font)              size <10.95> substituted on input line 279.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 264.
+(Font)              size <10.95> substituted on input line 279.
 
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
 File: ./graphics//theta_2theta.jpg Graphic file (type bmp)
 <./graphics//theta_2theta.jpg>
-[6
+[7
 
 ]
 File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 <./graphics//XRD_theta_2theta_光学系.png>
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
-[7]
+[8]
 File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
 File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
 <./graphics//XRD_配置.jpg>
-[8]
+[9]
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
-[9]
+[10]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
@@ -592,36 +602,40 @@ File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
-[10]
+[11]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11]
+[12]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[12]
+[13]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[13] [14]
+[14] [15]
 第 4 章
-[15
-
-]
-第 5 章
 [16
 
 ]
-第 6 章
-(out/master_thesis.bbl [17
+第 5 章
+[17
 
 ]
-LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 8.
-) [18
+第 6 章
+(out/master_thesis.bbl [18
 
-] [19
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+[]$\OT1/cmtt/m/n/12 https : / / www . unic . or . jp / activities / economic _ social _ development / sustainable _
+ []
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 20.
+) [19
+
+] [20
 
 ] (out/master_thesis.aux)
 
@@ -630,12 +644,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9141 strings out of 479485
- 155576 string characters out of 5868332
- 464162 words of memory out of 5000000
- 26642 multiletter control sequences out of 15000+600000
+ 9156 strings out of 479485
+ 155878 string characters out of 5868332
+ 464179 words of memory out of 5000000
+ 26651 multiletter control sequences out of 15000+600000
  452899 words of font info for 167 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 83i,14n,88p,422b,532s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (20 pages, 44620 bytes).
+Output written on out/master_thesis.dvi (21 pages, 46700 bytes).
