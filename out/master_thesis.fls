@@ -650,34 +650,19 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT extractbb -O ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT extractbb -p 1 -B cropbox -O ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
-INPUT ./graphics/sdg_poster.pdf
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT ./graphics//sdgs_poster.jpg
+INPUT ./graphics//sdgs_poster.jpg
+INPUT ./graphics//sdgs_poster.jpg
+INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm

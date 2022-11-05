@@ -1,5 +1,7 @@
 \contentsline {chapter}{\numberline {第1章}序論}{2}{}%
 \contentsline {section}{\numberline {1.1}研究背景}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}SDGs}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}絹糸}{3}{}%
 \contentsline {section}{\numberline {1.2}研究の目的}{3}{}%
 \contentsline {chapter}{\numberline {第2章}原理}{4}{}%
 \contentsline {section}{\numberline {2.1}圧電基本式と電気機械結合係数}{4}{}%
