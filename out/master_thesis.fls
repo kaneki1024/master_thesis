@@ -775,6 +775,13 @@ INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_断面.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl

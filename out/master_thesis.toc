@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{AFM（Atomic Force Microscopy）}{11}{}%
 \contentsline {subsubsection}{PFM（Piezoresponse Force Microscopy）}{12}{}%
 \contentsline {subsection}{\numberline {3.2.4}誘電率測定}{15}{}%
-\contentsline {subsection}{\numberline {3.2.5}DSC}{15}{}%
-\contentsline {chapter}{\numberline {第4章}結果と考察}{16}{}%
-\contentsline {chapter}{\numberline {第5章}総括}{17}{}%
-\contentsline {chapter}{\numberline {第6章}付録}{18}{}%
+\contentsline {subsection}{\numberline {3.2.5}DSC}{16}{}%
+\contentsline {chapter}{\numberline {第4章}結果と考察}{17}{}%
+\contentsline {chapter}{\numberline {第5章}総括}{18}{}%
+\contentsline {chapter}{\numberline {第6章}付録}{19}{}%

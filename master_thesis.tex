@@ -70,14 +70,14 @@
 		\subsection{SDGs}
 		2015年9月25日-27日、国連総会において「国連持続可能な開発サミット」
 		が開催された。そして、2030年までに実現する国際目標として
-		 "Transforming Our World: 2030 Agenda for Sustainable Development" が採択された。\cite{sdgs_2030}。
+		 "Transforming Our World: 2030 Agenda for Sustainable Development" が採択された\cite{sdgs_2030}。
 		だれも取り残さなさい(leave no one behind)を基本理念とし、
 		17の目標と169のターゲットから構成されている。まとめて
 		「持続可能な開発目標（SDGs: Sustainable Development Goals）」と呼ばれる。
 		図\ref{sdgs_poster}の通り、17個の目標は貧困、紛争、健康などの人間的な活動の問題から
 		気候変動、海洋環境など環境問題まで言及している。
 		科学技術の向上により人類の生活は向上してきたが、今後は環境に対する負荷、
-		発展途上国にも普及する価格であるか、なども考慮しなくてはならない。
+		発展途上国にも普及するか、なども考慮しなくてはならない。
 		\\
 		\\
 
@@ -508,6 +508,75 @@
 				\end{figure}
 				\newpage
 			\subsection{誘電率測定}
+			作成したシルクフィブロインフィルムの誘電率はインピーダンスアナライザ
+			図\ref{インピーダンスアナライザ}(KEYSIGHT 4294A)を用いて測定した。
+			インピーダンスアナライザは自動平衡ブリッジ回路で構成されており図\ref{自動平衡ブリッジ回路}の通りである。
+			自動平衡ブリッジ回路は試料に印加される電圧を計測する交流電圧計$V_1$と、
+			試料を流れる電流を算出するために用いる交流電圧計$V_2$から構成されている。
+			また、交流電圧計$V_1$は四端子測定が行われている。
+			図\ref{自動平衡ブリッジ回路}における$L_C$はオペアンプの仮想短絡により0 Vである。
+			オペアンプの高インピーダンス特性により、試料を流れる電流$i_x$と$i_r$は等価とみなせる。
+			$i_r$は以下の式の通り、交流電圧計$V_2$を用いて計算できる。
+			\begin{equation}
+				i_r=i_x=-\frac{V_2}{R_r}
+			\end{equation}
+			試料に印加される電圧$V_1$と試料を流れる電流$i_x$を用いて以下の式のように、
+			試料のインピーダンス$Z$を算出できる。
+			また、式\ref{impedance}における$R$はレジスタンス、$X$はリアクタンスである。
+			\begin{equation}
+				Z=\frac{V_1}{i_x}=\frac{V_1}{i_r}=-\frac{V_1}{V_2}R_r = R + j X  
+				\label{impedance}
+			\end{equation}
+			式\ref{impedance}より基準抵抗$R_r$と交流電圧比$V_1/V_2$から求まる。
+			また、アドミッタンスはインピーダンスの逆数であるため式\ref{admittance}のように決まる。
+			式\ref{admittance}における$G$はコンダクタンス、$B$はサセプタンスである。
+			\begin{equation}
+				Y= \frac{1}{Z}=-\frac{V_2}{V_1}\frac{1}{R_r} = G + j B
+				\label{admittance}
+			\end{equation}
+
+			測定試料が高インピーダンスな誘電体であり、
+			測定する周波数区間が40 Hz -110 MHzであるため、
+			測定試料の等価回路として抵抗$R$とコンデンサ$C$の並列モデルを採用する。
+			このとき、アドミッタンス$Y_s$は以下のように記述できる。
+			\begin{equation}
+				Y_s = \frac{1}{R}+j\omega C
+				\label{Y_s}
+			\end{equation}
+			一方、測定試料を理想的なコンデンサとみなすとき、そのアドミッタンスは試料の寸法(厚さ$d$, 電極面積$S$)を用いて
+			\begin{equation}
+				Y_p= j \omega C_p = j \omega \varepsilon^{*} \frac{S}{d} = 
+				j\omega (\varepsilon'-j\varepsilon'')\frac{S}{d} =
+				\omega\varepsilon''\frac{S}{d} + j\omega \varepsilon' \frac{S}{d}
+				\label{Y_p}
+			\end{equation}
+			式\ref{Y_s}の$Y_s$と式\ref{Y_p}の$Y_p$は等価であるため、
+			誘電率の実部$\varepsilon'$と虚部$\varepsilon''$は以下のように記述できる。
+			\begin{equation}
+				\varepsilon' = C \frac{d}{S}
+				\label{real_epsilon}
+			\end{equation}
+			\begin{equation}
+				\varepsilon'' = \frac{d}{\omega R S}
+				\label{imaginary_epsilon}
+			\end{equation}
+			これより、インピーダンスアナライザを用いてアドミッタンス$Y$を計測しその実部虚部から、
+			抵抗$R$とコンデンサ$C$の値を求めて、式\ref{real_epsilon}と式\ref{imaginary_epsilon}から
+			誘電率の実部虚部を計算出来る。
+			\begin{figure}[h]
+				\centering
+				\includegraphics{sora.jpg}
+				\caption{KEYSIGHT 4294A}
+				\label{インピーダンスアナライザ}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics{自動平衡ブリッジ回路.jpg}
+				\caption{自動平衡ブリッジ回路}
+				\label{自動平衡ブリッジ回路}
+			\end{figure}
+
+			\newpage
 			\subsection{DSC}
 	\chapter{結果と考察}
 	\chapter{総括}
