@@ -92,7 +92,8 @@
 		\section{研究の目的}
 
 	\chapter{原理}
-		\section{圧電基本式と電気機械結合係数}
+		\section{圧電性}
+		\subsection{圧電基本式と電気機械結合係数}
 		圧電体には正圧電効果と逆圧電効果という性質が存在する。
 		生じた歪みに対して、応力と電場の寄与がある。
 		さらに生じた電束密度に対しても電場と歪みの二つの寄与がある。
@@ -278,13 +279,18 @@
 					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
 				\end{tabular} 
 			\end{table}
-			\section{生体材料の圧電性}
-			\section{絹糸の圧電性}
-
+			\subsection{生体材料の圧電性}
+			\subsection{絹糸の圧電性}
+		\section{誘電率}
+			\subsection{高分子の誘電率}
 	\chapter{実験手法}
 		\section{試料作製方法}
+		\newpage
 		\section{評価方法}
-			\subsection{$\theta - 2\theta$測定(XRD)}
+			\subsection{X線回折($\theta - 2\theta$測定とPole figure測定)}
+			本研究では$\theta-2\theta$測定にて
+			結晶性を評価し、配向性の評価にはPole figure測定を用いた。
+			\subsubsection{$\theta - 2\theta$測定の原理}
 			試料の結晶構造の解析のためにXRD(X-Ray Diffraction)の$\theta-2\theta$測定を行った。
 			測定には図\ref{XRD_nakajima}に示したRINT-2000(Rigaku Corporation)を使用した。
 			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\ref{Bragg}の式を満たすとき回折が生じる。
@@ -315,7 +321,6 @@
 					\label{XRD_theta_2theta}
 				\end{minipage}
 			\end{figure}
-			
 			\newpage
 			\begin{figure}[h]
 				\centering
@@ -324,7 +329,7 @@
 				\label{集中法光学系}
 			\end{figure}
 
-			\subsection{Pole figure測定(XRD)}
+			\subsubsection{Pole figure測定の原理}
 			$\theta-2\theta$測定は試料表面に平行な格子面を測定するため、
 			結晶面の逆格子ベクトル$\bm{g}_{hkl}$は常に試料の表面に垂直方向を向いている。
 			逆格子ベクトル$\bm{g}_{hkl}$の大きさは結晶面の間隔$d$の逆数$1/d$に対応しており、
@@ -507,9 +512,11 @@
 					\label{PFM_コラーゲン_断面}
 				\end{figure}
 				\newpage
-			\subsection{誘電率測定}
+			\subsection{誘電率測定と圧電共鳴法}
 			作成したシルクフィブロインフィルムの誘電率はインピーダンスアナライザ
 			図\ref{インピーダンスアナライザ}(KEYSIGHT 4294A)を用いて測定した。
+			圧電性の評価においては誘電率に現れる圧電性による効果を圧電共鳴法に基づいて評価した。
+			\subsubsection{誘電率測定の原理}
 			インピーダンスアナライザは自動平衡ブリッジ回路で構成されており図\ref{自動平衡ブリッジ回路}の通りである。
 			自動平衡ブリッジ回路は試料に印加される電圧を計測する交流電圧計$V_1$と、
 			試料を流れる電流を算出するために用いる交流電圧計$V_2$から構成されている。
@@ -534,6 +541,21 @@
 				Y= \frac{1}{Z}=-\frac{V_2}{V_1}\frac{1}{R_r} = G + j B
 				\label{admittance}
 			\end{equation}
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{sora.jpg}
+					\caption{KEYSIGHT 4294A}
+					\label{インピーダンスアナライザ}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{自動平衡ブリッジ回路.jpg}
+					\caption{自動平衡ブリッジ回路}
+					\label{自動平衡ブリッジ回路}
+				\end{minipage}
+			\end{figure}
 
 			測定試料が高インピーダンスな誘電体であり、
 			測定する周波数区間が40 Hz -110 MHzであるため、
@@ -543,7 +565,8 @@
 				Y_s = \frac{1}{R}+j\omega C
 				\label{Y_s}
 			\end{equation}
-			一方、測定試料を理想的なコンデンサとみなすとき、そのアドミッタンスは試料の寸法(厚さ$d$, 電極面積$S$)を用いて
+			一方、測定試料を理想的なコンデンサとみなすとき、そのアドミッタンスは試料の寸法
+			(厚さ$d$, 電極面積$S$)を用いて以下のように求められる。
 			\begin{equation}
 				Y_p= j \omega C_p = j \omega \varepsilon^{*} \frac{S}{d} = 
 				j\omega (\varepsilon'-j\varepsilon'')\frac{S}{d} =
@@ -562,19 +585,8 @@
 			\end{equation}
 			これより、インピーダンスアナライザを用いてアドミッタンス$Y$を計測しその実部虚部から、
 			抵抗$R$とコンデンサ$C$の値を求めて、式\ref{real_epsilon}と式\ref{imaginary_epsilon}から
-			誘電率の実部虚部を計算出来る。
-			\begin{figure}[h]
-				\centering
-				\includegraphics{sora.jpg}
-				\caption{KEYSIGHT 4294A}
-				\label{インピーダンスアナライザ}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics{自動平衡ブリッジ回路.jpg}
-				\caption{自動平衡ブリッジ回路}
-				\label{自動平衡ブリッジ回路}
-			\end{figure}
+			誘電率の実部虚部を計算出来る。圧電性の評価においては誘電率を測定し圧電共鳴法を用いて評価した。
+			\subsubsection{圧電共鳴法}
 
 			\newpage
 			\subsection{DSC}
