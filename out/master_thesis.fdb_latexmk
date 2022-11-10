@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1667963372 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1667963386
+["bibtex out/master_thesis"] 1668081400 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1668081441
   "junsrt.bst" 0 -1 0 ""
   "master.bib" 1667626665 976 9ef016b654192ba99469c8da56cef174 ""
-  "out/master_thesis.aux" 1667963382 8929 93fef1672af0d40444601a308307b1c8 "latex"
+  "out/master_thesis.aux" 1668081431 8991 4a5aa484c060037d1ae3086d0afb4a99 "latex"
   (generated)
-  "out/master_thesis.blg"
   "out/master_thesis.bbl"
-["dvipdf"] 1667963383 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1667963386
-  "out/master_thesis.dvi" 1667963382 55416 32c681abe15a30bdaf449a5aa5758428 "latex"
+  "out/master_thesis.blg"
+["dvipdf"] 1668081432 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1668081441
+  "out/master_thesis.dvi" 1668081431 56352 d786672026ddc7b58a3753ab2231f318 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1667963372 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1667963386
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1667963362 30232 da5b0568be013cef3f3a0dff2294e1fd ""
+["latex"] 1668081401 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1668081441
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1668081372 31936 4ff0821ea713cc0c0c98de7ff63d1940 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1349595401 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1519818042 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -133,14 +133,15 @@
   "graphics//sdgs_poster.jpg" 1667629349 159558 652dac4acdf9014935d764be2c269be7 ""
   "graphics//sora.jpg" 1667118497 11146 9bc93dc08341ff0ecf0709d12671154b ""
   "graphics//theta_2theta.jpg" 1667190589 52228 09dcd16f10cbf1a36a47c0d67515c4d2 ""
-  "graphics//極点の測定方法.jpg" 1667619659 150259 041afc6ee0111e368faf6aeb0302f9c3 ""
+  "graphics//極点の測定方法.jpg" 1667966005 152911 1fffc33e1f3ba3b8d8860553d699fcc1 ""
+  "graphics//結合効果.jpg" 1668078270 18829 b117e5f65593a65b7adac87d969bd0c4 ""
   "graphics//自動平衡ブリッジ回路.jpg" 1667882469 20144 4a60ef597e4cf74a9e53cf20e1365090 ""
-  "master_thesis.tex" 1667963362 30232 da5b0568be013cef3f3a0dff2294e1fd ""
-  "out/master_thesis.aux" 1667963382 8929 93fef1672af0d40444601a308307b1c8 "latex"
-  "out/master_thesis.bbl" 1667963372 773 ee777c926cd31dea1961baf37d3136be "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1667963382 1948 96138b6c78b43ae1e30ba380e6250894 "latex"
+  "master_thesis.tex" 1668081372 31936 4ff0821ea713cc0c0c98de7ff63d1940 ""
+  "out/master_thesis.aux" 1668081431 8991 4a5aa484c060037d1ae3086d0afb4a99 "latex"
+  "out/master_thesis.bbl" 1668081400 773 ee777c926cd31dea1961baf37d3136be "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1668081431 1999 a151e50902b20b48ad2c4b10e724218b "latex"
   (generated)
+  "out/master_thesis.dvi"
   "out/master_thesis.aux"
   "out/master_thesis.log"
-  "out/master_thesis.dvi"
   "out/master_thesis.toc"

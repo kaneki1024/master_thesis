@@ -663,6 +663,10 @@ INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
+INPUT ./graphics//Œ‹‡Œø‰Ê.jpg
+INPUT ./graphics//Œ‹‡Œø‰Ê.jpg
+INPUT ./graphics//Œ‹‡Œø‰Ê.jpg
+INPUT extractbb -B cropbox -O ./graphics//Œ‹‡Œø‰Ê.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm

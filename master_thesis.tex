@@ -93,7 +93,7 @@
 
 	\chapter{原理}
 		\section{圧電性}
-		\subsection{圧電基本式と電気機械結合係数}
+		\subsection{圧電基本式}
 		圧電体には正圧電効果と逆圧電効果という性質が存在する。
 		生じた歪みに対して、応力と電場の寄与がある。
 		さらに生じた電束密度に対しても電場と歪みの二つの寄与がある。
@@ -253,7 +253,39 @@
 			\begin{equation}
 				e = \varepsilon h
 			\end{equation}
+			\subsection{電気機械結合係数}
+			物理変数が異なる系の物理変数を変化させる現象を結合効果という。
+			力や温度変化によって分極が変化する現象はそれぞれ圧電効果(piezoelectric effect)
+			及び焦電効果(pyroelectric effect)と呼ばれる。
 
+			\begin{figure}[h]
+				\centering
+				\includegraphics{結合効果.jpg}
+				\caption{結合効果}
+				\label{結合効果}
+			\end{figure}
+			図\ref{結合効果}のように2種類の共役な物理変数 ($x_1$, $X_1$),($x_2$, $X_2$)
+			について、その間に線形な結合があると、熱力学ポテンシャルは、一般化したひずみ $x$ を独立変数として
+			\begin{equation}
+				\Phi=\frac{1}{2}c_{11}x_1^2 + c_{12}x_1x_2+\frac{1}{2}c_{22}x_2^2
+			\end{equation}
+			と書ける。$x$に共役した力$X$は
+			\begin{equation}
+				X_1 = \left( \frac{\partial \Phi}{\partial x_1} \right)_{x_2} = c_{11}x_1+c_{12}x_2
+			\end{equation}
+			\begin{equation}
+				X_2 = \left( \frac{\partial \Phi}{\partial x_2} \right)_{x_1} = c_{12}x_1 + c_{22}x_2
+			\end{equation}
+			となり、係数 $c_{12}$を介して異なる物理変数への結合が起きることが分かる。
+			非線形な結合である場合も線形な場合と同様の上式2つで記述できる。
+			両方向の結合の係数が等しく、これを相反定理（$c_{12}=c_{21}$）という。
+			また、異なる系の間におけるエネルギー変換効率として結合系数$k$を式\ref{結合係数}のように定義する。
+			\begin{equation}
+				k^2=\frac{c_{12}^2}{c_{11}c_{22}}
+				\label{結合係数}
+			\end{equation}
+			
+			\begin{comment}
 			圧電定数と同様に、圧電効果を示す定数として電気機械結合係数$k$がある。
 			電気機械結合係数$k$は電気的エネルギーと機械的エネルギーの変換を表す係数であり、
 			式\ref{電気機械結合係数の定義}のように与えた電気エネルギーと生じた機械エネルギー、
@@ -279,6 +311,7 @@
 					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
 				\end{tabular} 
 			\end{table}
+			\end{comment}
 			\subsection{生体材料の圧電性}
 			\subsection{絹糸の圧電性}
 		\section{誘電率}
