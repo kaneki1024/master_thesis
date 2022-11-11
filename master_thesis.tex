@@ -255,21 +255,24 @@
 			\end{equation}
 			\subsection{電気機械結合係数}
 			物理変数が異なる系の物理変数を変化させる現象を結合効果という。
-			力や温度変化によって分極が変化する現象はそれぞれ圧電効果(piezoelectric effect)
-			及び焦電効果(pyroelectric effect)と呼ばれる。
+			力や温度変化によって分極が変化する現象である圧電効果(piezoelectric effect)
+			及び焦電効果(pyroelectric effect)は結合効果の一つである。
 
 			\begin{figure}[h]
 				\centering
 				\includegraphics{結合効果.jpg}
-				\caption{結合効果}
+				\caption{線形な結合効果}
 				\label{結合効果}
 			\end{figure}
 			図\ref{結合効果}のように2種類の共役な物理変数 ($x_1$, $X_1$),($x_2$, $X_2$)
-			について、その間に線形な結合があると、熱力学ポテンシャルは、一般化したひずみ $x$ を独立変数として
+			について、その間に線形な結合があるとする。
+			熱力学ポテンシャルは、一般化したひずみ $x$ を独立変数として
+			式\ref{線形結合効果の熱力学ポテンシャル}のように記述出来る。
 			\begin{equation}
 				\Phi=\frac{1}{2}c_{11}x_1^2 + c_{12}x_1x_2+\frac{1}{2}c_{22}x_2^2
+				\label{線形結合効果の熱力学ポテンシャル}
 			\end{equation}
-			と書ける。$x$に共役した力$X$は
+			$x$に共役な物理変数$X$は
 			\begin{equation}
 				X_1 = \left( \frac{\partial \Phi}{\partial x_1} \right)_{x_2} = c_{11}x_1+c_{12}x_2
 			\end{equation}
@@ -285,6 +288,60 @@
 				\label{結合係数}
 			\end{equation}
 			
+			例えば共役な変数($x_1$, $X_1$)として応力$T$とひずみ$S$を採用する。
+			また、もう一つの共役な物理変数($x_2$, $X_2$)として電場$E$と電束密度$D$を採用する。
+			その二つの共役な物理変数を結ぶ結合の係数を$d$とおくとき、熱力学ポテンシャル$\Phi$は以下のように書ける。
+			\begin{equation}
+				\Phi = \frac{1}{2}s^ET^2 + d T E + \frac{1}{2}\varepsilon^T E^2
+			\end{equation}
+			一般化した議論と同様に熱力学ポテンシャル$\Phi$から$X_1=S$, $X_2=D$を計算する
+			と以下のように圧電d形式を入手できる。
+			\begin{equation}
+				S = \left(\frac{\partial \Phi}{\partial T} \right)_E = s^E T + d E
+			\end{equation}
+			\begin{equation}
+				D=\left(\frac{\partial \Phi}{\partial E}\right)_T = dT+\varepsilon^T E
+			\end{equation}
+			結合係数$k$は以下のように記述でき、電気的特性と機械的特性の変換であるため電気機械結合係数と呼ばれる。
+			\begin{equation}
+				k^2 = \frac{d^2}{\varepsilon^Ts^E}
+				\label{電気機械結合係数d}
+			\end{equation}
+
+			自由境界条件($T=0$)で逆圧電効果を例に単位体積当たりの入力のエネルギーと出力のエネルギーを計算する。
+			圧電d形式、式\ref{圧電d形式1}から自由状態($T=0$)において電源から
+			\begin{equation}
+				D=\varepsilon^T E
+			\end{equation}
+			という電束密度が供給される。これより、入力された電気エネルギー$U_{in}$は以下のように計算される。
+			\begin{equation}
+				U_{in} = \int^{D}_0 E dD = \int^{D}_0 \frac{D}{\varepsilon^T} dD  
+				= \frac{1}{2}\frac{D^2}{\varepsilon^T}
+				= \frac{1}{2}\varepsilon^T E^2 
+			\end{equation}
+			圧電体においては、入力された電気エネルギー$U_{in}$の一部が機械エネルギーに変換される。
+			電場に対するひずみは圧電d形式、式\ref{圧電d形式1}において$T=0$として以下の通りである。
+			\begin{equation}
+				S = d E
+			\end{equation}
+			単位体積あたりの機械エネルギーは
+			\begin{equation}
+				U_{out} = \int^S_0 \frac{S}{s^E} d S = \frac{1}{2} \frac{1}{s^E}S^2 
+				= \frac{1}{2}\frac{d^2}{s^E}E^2
+			\end{equation}
+			となる。よって入力電気エネルギーと出力機械エネルギーの割合は以下のように、式\ref{電気機械結合係数d}
+			と同等の電気機械結合係数を得る。
+			\begin{equation}
+				k^2 = \frac{\mbox{出力機械的エネルギー}}{\mbox{入力電気的エネルギー}}
+				= \frac{U_{in}}{U_{out}} = \frac{\frac{1}{2}\varepsilon^T E^2}{\frac{1}{2}\frac{d^2}{s^E}E^2}
+				= \frac{d^2}{\varepsilon^T s^E}
+			\end{equation}
+			また、正圧電効果も同様に議論でき以下の関係が言える。
+			\begin{equation}
+				k^2=\frac{\mbox{出力機械的エネルギー}}{\mbox{入力電気的エネルギー}}=
+				\frac{\mbox{出力電気的エネルギー}}{\mbox{入力機械的エネルギー}}
+				\label{電気機械結合係数の定義}
+			\end{equation}
 			\begin{comment}
 			圧電定数と同様に、圧電効果を示す定数として電気機械結合係数$k$がある。
 			電気機械結合係数$k$は電気的エネルギーと機械的エネルギーの変換を表す係数であり、
