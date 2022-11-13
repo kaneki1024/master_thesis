@@ -708,12 +708,25 @@
 				f_l = \frac{1}{2l}\sqrt{\frac{1}{\rho s_l}}
 			\end{equation} 
 			\begin{equation}
-				f_w = \frac{1}{2x}\sqrt{\frac{1}{\rho s_w}}
+				f_w = \frac{1}{2w}\sqrt{\frac{1}{\rho s_w}}
 			\end{equation}
 			\begin{equation}
 				f_t = \frac{1}{2t}\sqrt{\frac{c_t}{\rho}}
 			\end{equation} 
+			また、電気機械結合係数は0°カットであれば、それぞれ方向において以下のように決まる。
+			\begin{equation}
+				k_l^2 = \frac{d_{31}^2}{\varepsilon_{33}^T s_{11}}
+			\end{equation}
+			\begin{equation}
+				k_w^2 = \frac{\left(d_{32} - d_{31}s_{12}/s_{22} \right)^2}
+				{\varepsilon_{33}^T s_{22}}
+			\end{equation}
+			\begin{equation}
+				k_t^2 = \frac{e_{33}^2}{\varepsilon_{33}^S c_{33}}
+			\end{equation}
 			誘電率全体を上の3式を用いて以下の様に記述される。
+			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
+			あるいは固定端であるときの誘電率であり、Havriliak-Negamiの式と同値である。
 			\begin{equation}
 				\varepsilon_{33} =
 				\varepsilon_{33}^S
