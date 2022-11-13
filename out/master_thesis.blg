@@ -4,46 +4,46 @@ The top-level auxiliary file: out\master_thesis.aux
 The style file: junsrt.bst
 Database file #1: master.bib
 Warning--empty journal in sdgs_2030
-You've used 3 entries,
+You've used 4 entries,
             2270 wiz_defined-function locations,
-            556 strings with 4640 characters,
-and the built_in function-call counts, 833 in all, are:
-= -- 58
-> -- 27
+            560 strings with 4781 characters,
+and the built_in function-call counts, 1009 in all, are:
+= -- 70
+> -- 31
 < -- 3
-+ -- 11
-- -- 8
-* -- 37
-:= -- 109
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 3
++ -- 13
+- -- 9
+* -- 36
+:= -- 131
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 50
-empty$ -- 82
-format.name$ -- 16
-if$ -- 198
+cite$ -- 5
+duplicate$ -- 61
+empty$ -- 106
+format.name$ -- 18
+if$ -- 242
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 4
 missing$ -- 2
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 24
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 42
+skip$ -- 52
 stack$ -- 0
 substring$ -- 32
-swap$ -- 13
+swap$ -- 14
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 6
-width$ -- 4
-write$ -- 32
-is.kanji.str$ -- 31
+while$ -- 7
+width$ -- 5
+write$ -- 42
+is.kanji.str$ -- 38
 (There was 1 warning)

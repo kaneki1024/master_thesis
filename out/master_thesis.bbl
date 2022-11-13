@@ -7,8 +7,7 @@ UN~Desa, et~al.
 
 \bibitem{sdgs_poster}
 国際連合広報センター.
-\newblock Sdgsのポスター・ロゴ・アイコンおよびガイドライン,
-  アクセス日(2022年11月5日).
+\newblock Sdgsのポスター・ロゴ・アイコンおよびガイドライン.
 \newblock \\
   \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}.
 
@@ -18,5 +17,12 @@ Denise Denning, Sofiane Alilat, Stefan Habelitz, Andrzej Fertala, and Brian~J
 \newblock Visualizing molecular polar order in tissues via electromechanical
   coupling.
 \newblock {\em J. Struct. Biol.}, Vol. 180, No.~3, pp. 409--419, 2012.
+
+\bibitem{小林理研ニュース}
+古川猛夫.
+\newblock 「小林理学ニュース-圧電ポリマー研究の話」.
+\newblock \\
+  \url{http://www.kobayasiriken.or.jp/news/newstop/news_Frame_6kenkyu.htm}.
+\newblock \\ (最終閲覧日 2022/02/01).
 
 \end{thebibliography}
