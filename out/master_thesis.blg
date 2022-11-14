@@ -4,46 +4,46 @@ The top-level auxiliary file: out\master_thesis.aux
 The style file: junsrt.bst
 Database file #1: master.bib
 Warning--empty journal in sdgs_2030
-You've used 4 entries,
+You've used 5 entries,
             2270 wiz_defined-function locations,
-            560 strings with 4781 characters,
-and the built_in function-call counts, 1009 in all, are:
-= -- 70
-> -- 31
-< -- 3
-+ -- 13
-- -- 9
-* -- 36
-:= -- 131
-add.period$ -- 13
-call.type$ -- 4
-change.case$ -- 4
+            567 strings with 5078 characters,
+and the built_in function-call counts, 1458 in all, are:
+= -- 102
+> -- 56
+< -- 5
++ -- 22
+- -- 17
+* -- 60
+:= -- 186
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 61
-empty$ -- 106
-format.name$ -- 18
-if$ -- 242
+cite$ -- 6
+duplicate$ -- 90
+empty$ -- 136
+format.name$ -- 34
+if$ -- 354
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 2
-newline$ -- 24
-num.names$ -- 4
-pop$ -- 34
+int.to.str$ -- 5
+missing$ -- 3
+newline$ -- 29
+num.names$ -- 5
+pop$ -- 39
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 52
+skip$ -- 80
 stack$ -- 0
-substring$ -- 32
-swap$ -- 14
-text.length$ -- 3
+substring$ -- 44
+swap$ -- 29
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 7
-width$ -- 5
-write$ -- 42
-is.kanji.str$ -- 38
+while$ -- 9
+width$ -- 6
+write$ -- 53
+is.kanji.str$ -- 55
 (There was 1 warning)

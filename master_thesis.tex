@@ -690,8 +690,9 @@
 			図\ref{VDF-TrFEの圧電共鳴スペクトル}のように共鳴のスペクトルを生じる。
 			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.5\linewidth]{圧電共鳴.jpg}
-				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a)：長さ方向、(b):幅方向、(c):厚さ方向}
+				\includegraphics[width=0.6\linewidth]{圧電共鳴.jpg}
+				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a)：長さ方向の共鳴、(b):幅方向の共鳴、(c):厚さ方向の共鳴。
+				$l$は試料の長さ方向の寸法、$w$は幅方向の寸法、$t$は厚さ方向の寸法。}
 				\label{圧電共鳴のモード}
 			\end{figure}
 			\begin{figure}[h]
@@ -735,8 +736,51 @@
 					1+\frac{k_w^2}{1-k_w^2}\frac{\tan{\pi f/2f_w}}{\pi f/2f_w}
 				\right)
 				}
-				{1-k_t^2\frac{\pi f/2f_t}{\pi f/2f_t}}
+				{1-k_t^2\frac{\tan{\pi f/2f_t}}{\pi f/2f_t}}
+				\label{normal_piezo_resonance}
 			\end{equation}
+			\\
+			ずり圧電の共鳴モードは図\ref{圧電共鳴のモード}と異なる。
+			ずり圧電の場合は、図\ref{ずり圧電の共鳴モード}(a)の様に
+			配向軸に対して$\theta=45^\circ$にて正方形にカットした場合にて
+			図\ref{ずり圧電の共鳴モード}(b)の共鳴モードとなる。
+			正方形であるため、共鳴モードは一つしかない。
+			どの辺においても境界条件は自由端となる。
+			この条件は、PVDFやVDF-TrFEなどにおける、厚さ方向の共鳴と同じである。
+			また、ずり圧電は慣例的に膜厚方向を1軸、配向軸に垂直な方向をy軸、配向軸に平行な方向をz軸とる。
+			ずり圧電の性質をもつ材料としてPLLA(ポリ乳酸)がある。
+			PLLAにおける圧電スペクトルは図\ref{PLLA_piezo_resonance}の通りである。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.8\linewidth]{ずり圧電_共鳴モード.jpg}
+				\caption{ずり圧電の共鳴モード。(a):配向軸に対して$\theta=45^\circ$の角度で正方形に切り出す。
+				膜厚方向をx軸、試料平面内にy, z軸を取る。
+				(b):ずり圧電のイメージ図。}
+				\label{ずり圧電の共鳴モード}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics{PLLA_圧電共鳴スペクトル.jpg}
+				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
+				\label{PLLA_piezo_resonance}
+			\end{figure}
+			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\ref{ずりの共鳴周波数}、
+			式\ref{ずりの圧電共鳴_理論式}、式\ref{ずりの電気機械結合係数}で記述される。
+			式\ref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
+			式\ref{normal_piezo_resonance}同様にHavriliak-Negamiの式と同値である。
+			\begin{equation}
+				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
+				\label{ずりの共鳴周波数}
+			\end{equation}
+			\begin{equation}
+				\varepsilon_{11}^T=\varepsilon_{11}^S\left(1+k_{14}^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
+				\label{ずりの圧電共鳴_理論式}
+			\end{equation}
+			\begin{equation}
+				k_{14}^2=\frac{e_{14}^2}{\varepsilon_{11}^Sc_{44}}
+				\label{ずりの電気機械結合係数}
+			\end{equation}
+
 			\newpage
 			\subsection{DSC}
 	\chapter{結果と考察}

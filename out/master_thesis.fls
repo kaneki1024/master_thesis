@@ -794,6 +794,14 @@ INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
 INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
 INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
 INPUT extractbb -B cropbox -O ./graphics//VDF_TrFe_圧電共鳴.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT extractbb -B cropbox -O ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLLA_圧電共鳴スペクトル.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
