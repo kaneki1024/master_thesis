@@ -802,6 +802,14 @@ INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
 INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
 INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
