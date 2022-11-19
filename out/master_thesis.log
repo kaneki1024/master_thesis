@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  15 NOV 2022 21:19
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  19 NOV 2022 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,54 +532,60 @@ File: ./graphics//sdgs_poster.jpg Graphic file (type bmp)
 <./graphics//sdgs_poster.jpg>
 [2
 
-] [3]
+]
+File: ./graphics//fibroin_structure.jpg Graphic file (type bmp)
+<./graphics//fibroin_structure.jpg>
+[3] [4]
 第 2 章
-[4
+[5
 
 ]
 File: ./graphics//結合効果.jpg Graphic file (type bmp)
 <./graphics//結合効果.jpg>
-[5] [6] Excluding 'comment' comment. [7]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7] Excluding 'comment' comment. [8]
 第 3 章
-[8
+[9
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 380.
+(Font)              size <10.95> substituted on input line 421.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 380.
+(Font)              size <10.95> substituted on input line 421.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 380.
+(Font)              size <10.95> substituted on input line 421.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 380.
+(Font)              size <10.95> substituted on input line 421.
 
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
 File: ./graphics//theta_2theta.jpg Graphic file (type bmp)
 <./graphics//theta_2theta.jpg>
-[9]
+[10]
 File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 <./graphics//XRD_theta_2theta_光学系.png>
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
-[10]
+[11]
 File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
 File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
 <./graphics//XRD_配置.jpg>
-[11]
+[12]
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
-[12]
+[13]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
@@ -593,20 +599,20 @@ File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
-[13]
+[14]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
+[15]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[15]
+[16]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[16]
-Overfull \hbox (1.90643pt too wide) in paragraph at lines 606--609
+[17]
+Overfull \hbox (1.90643pt too wide) in paragraph at lines 647--650
 []\JY1/mc/m/n/12 作成したシルクフ ィ ブロインフ ィ ルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.17(KEYSIGHT
  []
 
@@ -614,7 +620,7 @@ File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
-[17]
+[18]
 File: ./graphics//圧電共鳴.jpg Graphic file (type bmp)
 <./graphics//圧電共鳴.jpg>
 File: ./graphics//VDF_TrFe_圧電共鳴.jpg Graphic file (type bmp)
@@ -622,27 +628,27 @@ File: ./graphics//VDF_TrFe_圧電共鳴.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
+[19]
 File: ./graphics//ずり圧電_共鳴モード.jpg Graphic file (type bmp)
 <./graphics//ずり圧電_共鳴モード.jpg>
 File: ./graphics//PLLA_圧電共鳴スペクトル.jpg Graphic file (type bmp)
 <./graphics//PLLA_圧電共鳴スペクトル.jpg>
-[19] [20]
+[20] [21]
 File: ./graphics//PLA_ずり圧電_長方形カット.jpg Graphic file (type bmp)
 <./graphics//PLA_ずり圧電_長方形カット.jpg>
 File: ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg Graphic file (type bmp)
 <./graphics//PLA_圧電共鳴スペクトル_長方形.jpg>
-[21] [22]
+[22] [23]
 第 4 章
-[23
-
-]
-第 5 章
 [24
 
 ]
+第 5 章
+[25
+
+]
 第 6 章
-(out/master_thesis.bbl [25
+(out/master_thesis.bbl [26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
@@ -650,14 +656,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 19.
+(Font)              No change on input line 20.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 33.
+(Font)              No change on input line 27.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 34.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 39.
-) [26
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 44.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 51.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 58.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 72.
+[27
 
-] [27
+]
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 78.
+) [28] [29
 
 ] (out/master_thesis.aux)
 
@@ -666,12 +685,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9202 strings out of 479485
- 157253 string characters out of 5868332
- 464414 words of memory out of 5000000
- 26694 multiletter control sequences out of 15000+600000
+ 9215 strings out of 479485
+ 157523 string characters out of 5868332
+ 464470 words of memory out of 5000000
+ 26706 multiletter control sequences out of 15000+600000
  452899 words of font info for 167 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (28 pages, 71916 bytes).
+Output written on out/master_thesis.dvi (30 pages, 80556 bytes).

@@ -663,6 +663,10 @@ INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
+INPUT ./graphics//fibroin_structure.jpg
+INPUT ./graphics//fibroin_structure.jpg
+INPUT ./graphics//fibroin_structure.jpg
+INPUT extractbb -B cropbox -O ./graphics//fibroin_structure.jpg
 INPUT ./graphics//Œ‹‡Œø‰Ê.jpg
 INPUT ./graphics//Œ‹‡Œø‰Ê.jpg
 INPUT ./graphics//Œ‹‡Œø‰Ê.jpg

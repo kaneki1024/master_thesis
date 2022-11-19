@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{sdgs_2030}
 UN~Desa, et~al.
@@ -10,6 +10,45 @@ UN~Desa, et~al.
 \newblock Sdgsのポスター・ロゴ・アイコンおよびガイドライン.
 \newblock \\
   \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}.
+
+\bibitem{fibroin_structure}
+Satoshi Inoue, Kazunori Tanaka, Fumio Arisaka, Sumiko Kimura, Kohei Ohtomo, and
+  Shigeki Mizuno.
+\newblock Silk fibroin of bombyx mori is secreted, assembling a high molecular
+  mass elementary unit consisting of h-chain, l-chain, and p25, with a 6: 6: 1
+  molar ratio.
+\newblock {\em Journal of Biological Chemistry}, Vol. 275, No.~51, pp.
+  40517--40528, 2000.
+
+\bibitem{H鎖の周期構造}
+Kazuei Mita, Sachiko Ichimura, and Tharappel~C James.
+\newblock Highly repetitive structure and its organization of the silk fibroin
+  gene.
+\newblock {\em Journal of molecular evolution}, Vol.~38, No.~6, pp. 583--592,
+  1994.
+
+\bibitem{fibroinの結晶構造}
+Bernard Lotz and Franiois~Colonna Cesari.
+\newblock The chemical structure and the crystalline structures of bombyx mori
+  silk fibroin.
+\newblock {\em Biochimie}, Vol.~61, No.~2, pp. 205--214, 1979.
+
+\bibitem{marshモデル}
+Richard~E Marsh, Robert~B Corey, and Linus Pauling.
+\newblock An investigation of the structure of silk fibroin.
+\newblock {\em Biochimica et Biophysica acta}, Vol.~16, pp. 1--34, 1955.
+
+\bibitem{fibroin_準安定状態}
+O~Kratky, E~Schauenstein, and A~Sekora.
+\newblock An unstable lattice in silk fibroin.
+\newblock {\em Nature}, Vol. 165, No. 4191, pp. 319--320, 1950.
+
+\bibitem{silk_III}
+Regina Valluzzi, Samuel~P Gido, Weiping Zhang, Wayne~S Muller, and David~L
+  Kaplan.
+\newblock Trigonal crystal structure of bombyx mori silk incorporating a
+  threefold helical chain conformation found at the air- water interface.
+\newblock {\em Macromolecules}, Vol.~29, No.~27, pp. 8606--8614, 1996.
 
 \bibitem{コラーゲン繊維PFM}
 Denise Denning, Sofiane Alilat, Stefan Habelitz, Andrzej Fertala, and Brian~J
