@@ -417,6 +417,34 @@
 			\subsection{絹糸の圧電性}
 		\section{高分子}
 			\subsection{高分子の誘電率}
+			時間とともに変動する電場に対して、誘電応答は時間的に遅れて生じる。
+			これを誘電緩和現象という。
+			電場が角周波数$\omega$で正弦波的に変動すると式\ref{E(t)}の様に表現される。
+			\begin{equation}
+				E(t)=E_0 e^{i\omega t}
+				\label{E(t)}
+			\end{equation}
+			電束密度は振幅$D_0$、位相が$\delta$遅れた信号として観測されると式\ref{D(t)}の様に表現される。
+			\begin{equation}
+				D(t)=D_0 e^{i(\omega t-\delta)}
+				\label{D(t)}
+			\end{equation}
+			誘電率$\varepsilon$は電束密度$D$と電場$E$の比例係数として定義されるため式\ref{E(t)}と式\ref{D(t)}
+			の比は以下のように計算される。
+			\begin{equation}
+				\frac{D(t)}{E(t)}=\frac{D_0e^{i(\omega t-\delta)}}{E_0 e^{i\omega t}}
+				=\frac{D_0}{E_0}\left(\cos\delta-i\sin\delta\right)=\varepsilon'(\omega)-i\varepsilon''(\omega)
+			\end{equation}
+			誘電率実部$\varepsilon'$は加えた電場が電気エネルギーとして蓄えられる成分に対応し、貯蔵誘電率とも呼ばれる。
+			誘電率虚部$\varepsilon''$は熱エネルギーとなって散逸する成分に対応し、損失誘電率と呼ばれる。
+			誘電率実部$\varepsilon'$と誘電率虚部$\varepsilon''$の比は以下の通りであり、損失正接(loss tanget)、
+			$\delta$を損失角と呼ぶ。
+			\begin{equation}
+				\frac{\varepsilon''}{\varepsilon'}=\tan\delta
+			\end{equation}
+			時間的なずれ($\delta$)の物理的な要因は分極の原因となる電荷の変位や双極子の回転が起こるときに、
+			粘性抵抗や質量の効果が働くといった点が挙げられる。その結果、誘電率は測定する周波数に依存して分散現象を示し、
+			分極の機構によってさまざまなスペクトルを描く。
 			\newpage
 			\subsection{結晶性高分子物質における繊維構造}
 			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
@@ -442,10 +470,10 @@
 			\end{figure}
 			\begin{figure}[h]
 				\centering
-				\includegraphics[width=\linewidth]{fiber_structures.jpg}
-				\caption{繊維の構造。(A):ラミー\cite{ラミー}, 
-				(B)木綿\cite{cotton}, 
-				(C):クモと絹糸(フィブロイン)の構造\cite{クモと絹糸の構造}}
+				\includegraphics[scale=0.8]{fiber_structures.jpg}
+				\caption{繊維の構造。 
+				(A)木綿\cite{cotton}, 
+				(B):クモと絹糸(フィブロイン)の構造\cite{クモと絹糸の構造}}
 			\end{figure}
 	\chapter{実験手法}
 		\section{試料作製方法}
