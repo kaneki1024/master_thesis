@@ -671,6 +671,14 @@ INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
+INPUT ./graphics//位置球.jpg
+INPUT ./graphics//位置球.jpg
+INPUT ./graphics//位置球.jpg
+INPUT extractbb -B cropbox -O ./graphics//位置球.jpg
+INPUT ./graphics//fiber_structures.jpg
+INPUT ./graphics//fiber_structures.jpg
+INPUT ./graphics//fiber_structures.jpg
+INPUT extractbb -B cropbox -O ./graphics//fiber_structures.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  19 NOV 2022 23:08
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  1 DEC 2022 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,44 +397,44 @@ LaTeX Info: Redefining \cite on input line 19.
 (out/master_thesis.aux)
 \openout1 = `master_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 26.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 26.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 26.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 26.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 26.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 27.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -480,32 +480,32 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (c:/w32tex/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 26.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 26.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 26.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 67.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 67.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
 (out/master_thesis.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -521,13 +521,13 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 ]
 第 1 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 69.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 69.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 71.
 File: ./graphics//sdgs_poster.jpg Graphic file (type bmp)
 <./graphics//sdgs_poster.jpg>
 [2
@@ -546,46 +546,51 @@ File: ./graphics//結合効果.jpg Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7] Excluding 'comment' comment. [8]
+File: ./graphics//位置球.jpg Graphic file (type bmp)
+<./graphics//位置球.jpg>
+File: ./graphics//fiber_structures.jpg Graphic file (type bmp)
+<./graphics//fiber_structures.jpg>
+[9]
 第 3 章
-[9
+[10
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 421.
+(Font)              size <10.95> substituted on input line 454.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 421.
+(Font)              size <10.95> substituted on input line 454.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 421.
+(Font)              size <10.95> substituted on input line 454.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 421.
+(Font)              size <10.95> substituted on input line 454.
 
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
 File: ./graphics//theta_2theta.jpg Graphic file (type bmp)
 <./graphics//theta_2theta.jpg>
-[10]
+[11]
 File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 <./graphics//XRD_theta_2theta_光学系.png>
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
-[11]
+[12]
 File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
 File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
 <./graphics//XRD_配置.jpg>
-[12]
+[13]
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
-[13]
+[14]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
@@ -599,56 +604,63 @@ File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
-[14]
+[15]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[16]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[16]
+[17]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[17]
-Overfull \hbox (1.90643pt too wide) in paragraph at lines 647--650
-[]\JY1/mc/m/n/12 作成したシルクフ ィ ブロインフ ィ ルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.17(KEYSIGHT
- []
-
+[18]
 File: ./graphics//sora.jpg Graphic file (type bmp)
 <./graphics//sora.jpg>
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
-[18]
+
+Overfull \hbox (1.90643pt too wide) in paragraph at lines 680--698
+[]\JY1/mc/m/n/12 作成したシルクフ ィ ブロインフ ィ ルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.17(KEYSIGHT
+ []
+
+[19] [20]
 File: ./graphics//圧電共鳴.jpg Graphic file (type bmp)
 <./graphics//圧電共鳴.jpg>
 File: ./graphics//VDF_TrFe_圧電共鳴.jpg Graphic file (type bmp)
 <./graphics//VDF_TrFe_圧電共鳴.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19]
+[21]
 File: ./graphics//ずり圧電_共鳴モード.jpg Graphic file (type bmp)
 <./graphics//ずり圧電_共鳴モード.jpg>
 File: ./graphics//PLLA_圧電共鳴スペクトル.jpg Graphic file (type bmp)
 <./graphics//PLLA_圧電共鳴スペクトル.jpg>
-[20] [21]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
 File: ./graphics//PLA_ずり圧電_長方形カット.jpg Graphic file (type bmp)
 <./graphics//PLA_ずり圧電_長方形カット.jpg>
 File: ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg Graphic file (type bmp)
 <./graphics//PLA_圧電共鳴スペクトル_長方形.jpg>
-[22] [23]
-第 4 章
-[24
 
-]
-第 5 章
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] [24]
+第 4 章
 [25
 
 ]
+第 5 章
+[26
+
+]
 第 6 章
-(out/master_thesis.bbl [26
+(out/master_thesis.bbl [27
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
@@ -668,15 +680,25 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 51.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 58.
+(Font)              No change on input line 56.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 72.
-[27
+(Font)              No change on input line 62.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 67.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 68.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 74.
+[28
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 78.
-) [28] [29
+(Font)              No change on input line 82.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 96.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 102.
+) [29] [30
 
 ] (out/master_thesis.aux)
 
@@ -685,12 +707,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9215 strings out of 479485
- 157523 string characters out of 5868332
- 464470 words of memory out of 5000000
- 26706 multiletter control sequences out of 15000+600000
+ 9230 strings out of 479485
+ 157823 string characters out of 5868332
+ 464522 words of memory out of 5000000
+ 26719 multiletter control sequences out of 15000+600000
  452899 words of font info for 167 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,422b,423s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (30 pages, 80556 bytes).
+Output written on out/master_thesis.dvi (31 pages, 87156 bytes).

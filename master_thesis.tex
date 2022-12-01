@@ -21,6 +21,7 @@
     \def\@cite#1#2{$^{\hbox{\scriptsize{[#1\if@tempswa , #2\fi}]}}$}
     \def\@biblabel#1{[#1]}
     \makeatother
+		\setcounter{secnumdepth}{4}
     
     \graphicspath{{./graphics/}} %図のディレクトリを設定.フォルダの場所によって先頭' . 'の数を変える.
 \begin{document}
@@ -89,6 +90,7 @@
 		\end{figure}
 		\newpage
 		\subsection{絹糸}
+		\subsubsection{絹糸の結晶構造}
 		図\ref{fibroin}(a)の様に絹糸はフィブロインとセリシンで構成されている。
 		絹糸を構成する一つの蛋白質であるフィブロインは3個の分子量の異なる分子により
 		構成されている。
@@ -103,7 +105,8 @@
 		これをsilk IIと呼ぶ。
 		準安定状態で$\alpha$ helix構造をとり結晶構造は斜方晶系をとる\cite{fibroinの結晶構造,fibroin_準安定状態}。
 		これをsilk Iと呼ぶ。加熱や延伸によりsilk Iはsilk IIへ転移する。
-		薄膜において、空気や水の界面においてthreefoldヘリックスを形成し、silk IIIと呼ぶ\cite{silk_III}。
+		薄膜の気液界面にてthreefoldヘリックスを形成し、silk IIIと呼ぶ\cite{silk_III}。
+
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width=\linewidth]{fibroin_structure.jpg}
@@ -412,8 +415,38 @@
 			\end{comment}
 			\subsection{生体材料の圧電性}
 			\subsection{絹糸の圧電性}
-		\section{誘電率}
+		\section{高分子}
 			\subsection{高分子の誘電率}
+			\newpage
+			\subsection{結晶性高分子物質における繊維構造}
+			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
+			図\ref{位置球}における$OY$と一定の角度$\phi$を保ちながらその周りに分布する二重回転の構造となっている。
+			図\ref{位置球}における$OY$は繊維軸と一致する。
+			また、微結晶の$b$軸を延長し、球と交差する点を$B$とし、
+			微結晶の分布は$OB$の周りに一様となる。従って、$b$となす角$\rho$である結晶面の
+			法線$N$の球における軌跡は図\ref{位置球}の位置球の表面上において円を描く。
+			また、微結晶の$b$軸は分布はY軸と一定の角$\phi$をなして$Y$軸周りに一様に分布する。
+			よって図\ref{位置球}における帯状部分をつくる。
+			このように結晶面の法線の分布を示した球を位置球といい、図\ref{位置球}の帯状部分を網面帯、
+			網面帯を描く元の円を網面円という。
+			繊維構造は$\phi$ の値により3つに大別される。繊維軸と微結晶の軸が一致する$\phi=0$を単純繊維構造、
+			有限の角度を持つ場合$\phi=\phi_0$をらせん繊維構造、
+			垂直$\phi=90^{\circ}$を環状繊維構造と呼ぶ。
+			単純繊維構造としてはラミー\cite{ラミー}、絹糸\cite{絹糸構造}が挙げられる。
+			らせん繊維構造としては木綿が挙げられ、らせん角$\phi \approx 30^{\circ}$である\cite{cotton}。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.8]{位置球.jpg}
+				\caption{微結晶と位置球の関係. 左が微結晶、右が1/8象限の位置球}
+				\label{位置球}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=\linewidth]{fiber_structures.jpg}
+				\caption{繊維の構造。(A):ラミー\cite{ラミー}, 
+				(B)木綿\cite{cotton}, 
+				(C):クモと絹糸(フィブロイン)の構造\cite{クモと絹糸の構造}}
+			\end{figure}
 	\chapter{実験手法}
 		\section{試料作製方法}
 		\newpage
@@ -647,6 +680,21 @@
 			作成したシルクフィブロインフィルムの誘電率はインピーダンスアナライザ
 			図\ref{インピーダンスアナライザ}(KEYSIGHT 4294A)を用いて測定した。
 			圧電性の評価においては誘電率に現れる圧電性による効果を圧電共鳴法に基づいて評価した。
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{sora.jpg}
+					\caption{KEYSIGHT 4294A}
+					\label{インピーダンスアナライザ}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{自動平衡ブリッジ回路.jpg}
+					\caption{自動平衡ブリッジ回路}
+					\label{自動平衡ブリッジ回路}
+				\end{minipage}
+			\end{figure}
 			\subsubsection{誘電率測定の原理}
 			インピーダンスアナライザは自動平衡ブリッジ回路で構成されており図\ref{自動平衡ブリッジ回路}の通りである。
 			自動平衡ブリッジ回路は試料に印加される電圧を計測する交流電圧計$V_1$と、
@@ -665,28 +713,32 @@
 				Z=\frac{V_1}{i_x}=\frac{V_1}{i_r}=-\frac{V_1}{V_2}R_r = R + j X  
 				\label{impedance}
 			\end{equation}
-			式\ref{impedance}より基準抵抗$R_r$と交流電圧比$V_1/V_2$から求まる。
-			また、アドミッタンスはインピーダンスの逆数であるため式\ref{admittance}のように決まる。
+			式\ref{impedance}よりインピーダンス$Z$は基準抵抗$R_r$と交流電圧比$V_1/V_2$から求まる。
+			交流電圧比$V_1/V_2$はロックインアンプを用いて計算されるため、
+			インピーダンスの大きさ$|Z|=|V_1 R_r/V_2|$と位相(Phase)$\phi$が出力される。
+			その二つをもちいるとレジスタンス$R$とリアクタンス$X$の値も以下の式で計算される。
+			\begin{equation}
+				R = |Z| \cos \phi
+			\end{equation}
+			\begin{equation}
+				X = |Z| \sin \phi
+			\end{equation}
+			またアドミッタンスはインピーダンスの逆数であるため式\ref{admittance}のように決まる。
 			式\ref{admittance}における$G$はコンダクタンス、$B$はサセプタンスである。
 			\begin{equation}
 				Y= \frac{1}{Z}=-\frac{V_2}{V_1}\frac{1}{R_r} = G + j B
 				\label{admittance}
 			\end{equation}
-			\begin{figure}[h]
-				\centering
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{sora.jpg}
-					\caption{KEYSIGHT 4294A}
-					\label{インピーダンスアナライザ}
-				\end{minipage}
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{自動平衡ブリッジ回路.jpg}
-					\caption{自動平衡ブリッジ回路}
-					\label{自動平衡ブリッジ回路}
-				\end{minipage}
-			\end{figure}
+			コンダクタンス$G$、サセプタンス$B$はロックインアンプにより出力される
+			インピーダンスの大きさ$|Z|$と位相$\phi$を用いて以下のように計算される。
+			\begin{equation}
+				G = \frac{1}{|Z|} \cos \left(-\phi\right) = \frac{1}{|Z|} \cos \phi
+				\label{コンダクタンス}
+			\end{equation}
+			\begin{equation}
+				B = \frac{1}{|Z|} \sin(-\phi) = \frac{-1}{|Z|}\sin \phi
+				\label{サセプタンス}
+			\end{equation}
 
 			測定試料が高インピーダンスな誘電体であり、
 			測定する周波数区間が40 Hz -110 MHzであるため、
@@ -714,16 +766,22 @@
 				\varepsilon'' = \frac{d}{\omega R_s S}
 				\label{imaginary_epsilon}
 			\end{equation}
-			これより、インピーダンスアナライザを用いてアドミッタンス$Y$を計測しその実部虚部から、
-			抵抗$R_s$とコンデンサ$C_s$の値を求めて、式\ref{real_epsilon}と式\ref{imaginary_epsilon}から
-			誘電率の実部虚部を計算出来る。
+			これより、インピーダンスアナライザを用いてインピーダンスの大きさ$|Z|$
+			と位相$\phi$を計測し
+			式\ref{コンダクタンス}、式\ref{サセプタンス}、式\ref{Y_s}から
+			抵抗$R_s$とコンデンサ$C_s$の値を求める。
+			そして式\ref{real_epsilon}と式\ref{imaginary_epsilon}から
+			誘電率の実部虚部を計算する。
 			
 			高周波においては誘電体のインピーダンスが小さくなる。
 			誘電体表面に作製した電極のインピーダンスが、誘電体のインピーダンスに対して相対的に影響が大きくなる。
 			等価モデルはコンデンサと抵抗の並列モデルではなく、抵抗とコンデンサの直列モデルが妥当となる場合がある。
+			高周波においてもインピーダンスアナライザを用いた計測を行う場合、
+			電極の抵抗を低くするなど工夫が必要である。
 			
-			圧電性の評価においては誘電率を測定し、誘電率に現れる圧電共鳴成分を用いて評価
+			本研究において圧電性の評価は誘電率を測定し、誘電率に現れる圧電共鳴成分を用いて評価
 			する圧電共鳴法を用いた。
+			\newpage
 			\subsubsection{圧電共鳴法}
 			圧電体は、逆圧電効果によって電圧を印加すると機械的な変形を生じる。
 			交流電圧を印加すると特定の周波数において機械的な共鳴状態が発生する。
@@ -748,7 +806,7 @@
 				\caption{VDF-TrFEの圧電共鳴スペクトル\cite{小林理研ニュース}}
 				\label{VDF-TrFEの圧電共鳴スペクトル}
 			\end{figure}
-			\\
+			\\ \\
 			長さ方向の共鳴が発生する周波数を$f_l$、幅方向の共鳴の周波数を$f_w$、
 			厚さ方向の共鳴の周波数を$f_t$はそれぞれの寸法を$l, w, t$として
 			以下の3式で表される。
