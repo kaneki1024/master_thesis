@@ -415,8 +415,9 @@
 			\end{comment}
 			\subsection{生体材料の圧電性}
 			\subsection{絹糸の圧電性}
+			\newpage
 		\section{高分子}
-			\subsection{高分子の誘電率}
+			\subsection{誘電率周波数依存性}
 			時間とともに変動する電場に対して、誘電応答は時間的に遅れて生じる。
 			これを誘電緩和現象という。
 			電場が角周波数$\omega$で正弦波的に変動すると式\ref{E(t)}の様に表現される。
@@ -445,6 +446,76 @@
 			時間的なずれ($\delta$)の物理的な要因は分極の原因となる電荷の変位や双極子の回転が起こるときに、
 			粘性抵抗や質量の効果が働くといった点が挙げられる。その結果、誘電率は測定する周波数に依存して分散現象を示し、
 			分極の機構によってさまざまなスペクトルを描く。
+
+			ステップ状の電場$E_s$を時間$t=0$において印加したときの電束密度の時間変化を$D_s(t)$とする。
+			誘電率は以下のように表現され、誘電余効関数と呼ぶ。
+			\begin{equation}
+				\varepsilon(t)=\frac{D_s(t)}{E_s}
+			\end{equation}
+			パルス状の$\delta$関数がステップ関数の一回微分であるため、パルス状の電場を印加したときにおける
+			誘電率の時間応答関数は以下のように、誘電余効関数の一回微分となる。また、$\varepsilon_p(t)$をパルス応答関数と呼ぶ。
+			\begin{equation}
+				\varepsilon_p(t)=\frac{d\varepsilon(t)}{dt}
+			\end{equation}
+			応答が刺激により生じるという因果性、一定の刺激に対して一定の応答が生じるという定常性、
+			複数の刺激に対する応答は、それぞれの刺激に対する応答の和で与えられるという線形生を仮定する。
+			任意の電場$E(t)$に対して生じる電束密度$D(t)$はパルス応答関数を用いて以下のように表現される。
+			\begin{equation}
+				D(t)=\int^{\infty}_0 \varepsilon_p(t_1)E(t-t_1) dt_1
+				\label{ボルツマン重ね合わせの原理}
+			\end{equation}
+			時間$t$に表れる電束密度という応答が時間$t_1$に与えたパルス刺激の応答の重ね合わせになっている。
+			これをボルツマン重ね合わせの原理という。正弦波の電場を印加したとして式\ref{E(t)}を式\ref{ボルツマン重ね合わせの原理}
+			に代入する。
+			\begin{equation}
+				D(t)=\int^{\infty}_0 \varepsilon_p(t_1)E_0e^{i\omega(t-t_1)}dt_1=E(t)\int^{\infty}_0 \varepsilon_p(t_1)e^{-i\omega t_1}dt_1
+			\end{equation}
+			誘電率は以下のように計算される。
+			\begin{equation}
+				\varepsilon(t)=\frac{D(t)}{E(t)}=\int^{\infty}_0 \varepsilon_p(t_1)e^{-i\omega t_1} dt_1
+			\end{equation}
+			$t_1\rightarrow t$にすると上式の最右辺はフーリエ変換の式となる。
+			周波数応答関数とパルス応答関数が互いにフーリエ変換の関係であると分かる。
+			\begin{equation}
+				\varepsilon(\omega)=\int^{\infty}_0 \varepsilon_p(t)e^{i\omega t}dt
+			\end{equation}
+
+			高分子内の双極子の回転緩和を簡単のためモーメント$\mu$の$N$個の双極子が二つの互いに逆向きの
+			状態(1,2)のみをとり得るとする。
+			それぞれの占有数を$N_1, N_2$とし、状態1から2への遷移確率$\omega_{12}$、
+			状態2から状態1への遷移確率$\omega_{21}$としその時間変化は以下のように記述される。
+			\begin{equation}
+				\frac{dN_1}{dt}=-N_1\omega_{12}+N_2\omega_{21}
+			\end{equation}
+			\begin{equation}
+				\frac{dN_2}{dt}=N_1\omega_{12}-N_2\omega_{21}
+			\end{equation}
+			遷移確率$\omega_{12}, \omega_{21}$は遷移する際の障壁の高さを$\Delta U$、
+			高温極限での遷移確率を$\Gamma$とすると以下のように表される。
+			\begin{equation}
+				\omega_{12}=\Gamma \exp\left(-\frac{\Delta U+\mu E}{kT} \right)
+			\end{equation}
+			\begin{equation}
+				\omega_{21}=\Gamma \exp\left(- \frac{\Delta U-\mu E}{kT} \right)
+			\end{equation}
+			双極子の数が$N=N_1+N_2$、分極$P=(N_1-N_2)\mu$であるため分極$P$の時間変動は以下のように計算される。
+			\begin{equation}
+				\frac{dP}{dt} = \left( \frac{dN_1}{dt}-\frac{dN_2}{dt}\right)\mu
+				=2\Gamma e^{-\frac{\Delta U}{kT}}\left(-N_1 e^{-\frac{\mu E}{kT}}+N_2e^{\frac{\mu E}{kT}} \right)\mu
+			\end{equation}
+			$e^{\frac{\Delta U}{kT}}/2\Gamma=\tau$と置くと以下のようにまとめられる。
+			\begin{equation}
+				\tau \frac{dP}{dt}=N\mu \sinh\left( \frac{\mu E}{kT}\right) - P \cosh\left( \frac{\mu E}{kT}\right)
+			\end{equation}
+			電場中の双極子がもつポテンシャルエネルギーが熱エネルギーより低い($\mu E/kT<<1$)ため以下の近似が成立する。
+			\begin{equation}
+				\sinh \left(\frac{\mu E}{kT} \right)\rightarrow \frac{\mu E}{kT}, \ \ \ \ \cosh\left(\frac{\mu E}{kT}\right)\rightarrow 1
+			\end{equation}
+			近似を用いると分極$P$の時間変化は次のように線形の微分方程式に従う。
+			\begin{equation}
+				\tau \frac{dP}{dt}+P=\frac{N\mu^2}{kT}E
+			\end{equation}
+			階段波電場に
 			\newpage
 			\subsection{結晶性高分子物質における繊維構造}
 			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
