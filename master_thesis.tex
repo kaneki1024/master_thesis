@@ -456,6 +456,7 @@
 			誘電率の時間応答関数は以下のように、誘電余効関数の一回微分となる。また、$\varepsilon_p(t)$をパルス応答関数と呼ぶ。
 			\begin{equation}
 				\varepsilon_p(t)=\frac{d\varepsilon(t)}{dt}
+				\label{パルス応答関数}
 			\end{equation}
 			応答が刺激により生じるという因果性、一定の刺激に対して一定の応答が生じるという定常性、
 			複数の刺激に対する応答は、それぞれの刺激に対する応答の和で与えられるという線形生を仮定する。
@@ -478,6 +479,7 @@
 			周波数応答関数とパルス応答関数が互いにフーリエ変換の関係であると分かる。
 			\begin{equation}
 				\varepsilon(\omega)=\int^{\infty}_0 \varepsilon_p(t)e^{i\omega t}dt
+				\label{周波数応答関数とパルス応答関数のフーリエ変換}
 			\end{equation}
 
 			高分子内の双極子の回転緩和を簡単のためモーメント$\mu$の$N$個の双極子が二つの互いに逆向きの
@@ -507,7 +509,7 @@
 			\begin{equation}
 				\tau \frac{dP}{dt}=N\mu \sinh\left( \frac{\mu E}{kT}\right) - P \cosh\left( \frac{\mu E}{kT}\right)
 			\end{equation}
-			電場中の双極子がもつポテンシャルエネルギーが熱エネルギーより低い($\mu E/kT<<1$)ため以下の近似が成立する。
+			電場中の双極子がもつポテンシャルエネルギーが熱エネルギーより低い($\mu E/kT \ll 1$)ため以下の近似が成立する。
 			\begin{equation}
 				\sinh \left(\frac{\mu E}{kT} \right)\rightarrow \frac{\mu E}{kT}, \ \ \ \ \cosh\left(\frac{\mu E}{kT}\right)\rightarrow 1
 			\end{equation}
@@ -515,7 +517,45 @@
 			\begin{equation}
 				\tau \frac{dP}{dt}+P=\frac{N\mu^2}{kT}E
 			\end{equation}
-			階段波電場に
+			階段波電場が印加されたとして、上の微分方程式を解くと以下のような誘電率の時間変動$\varepsilon(t)$が得られる。
+			\begin{equation}
+				\varepsilon(t)=\varepsilon_{in}+\Delta\varepsilon\left(1-\exp\left(-\frac{t}{\tau}\right)\right) \ \ \  
+				\left(\varepsilon(0)=\varepsilon_{in}, \Delta \varepsilon \coloneqq \frac{N\mu^2}{kT}\right)
+			\end{equation}
+			ここで$\varepsilon_{in}$は瞬間誘電率であり、配向分極より短時間で表れる電子分極、イオン分極の誘電率に対応する。
+			周波数おいて、配向分極より高周波に対応するため$\varepsilon_{\infty}$と記述される場合もある。
+			パルス電場が印加されたとすると式\ref{パルス応答関数}を用いて以下の誘電率$\varepsilon_{p}$が測定される。
+			\begin{equation}
+				\varepsilon_p(t)=\frac{\partial \varepsilon(t)}{\partial t}
+				=\varepsilon_{in}\delta(t)+\frac{\Delta \varepsilon}{\tau}e^{-t/\tau}
+				\label{デバイ関数のパルス応答関数}
+			\end{equation}
+			式\ref{周波数応答関数とパルス応答関数のフーリエ変換}に代入すると以下の周波数応答関数を得る。
+			\begin{equation}
+				\varepsilon(\omega)=\varepsilon_{\infty}+\frac{\Delta \varepsilon}{1+j\omega \tau }
+				\label{デバイ関数}
+			\end{equation}
+			上式はデバイ関数と呼ばれ、$\omega \tau=1$にて実部は$\Delta \varepsilon$だけ
+			減少し、虚部はピークを示す周波数依存性となる。
+			実際の物質の誘電緩和スペクトルは式\ref{デバイ関数のパルス応答関数}と式\ref{デバイ関数}は
+			より緩やかな時間、あるいは周波数依存性を示す。
+			これは微視的に誘電緩和時間が単一ではなく、分布を持っているからである。
+			緩和時間の分布を間接的に取り入れ、実測の誘電率の時間依存性を表現する経験式として以下のKorlrausch-Williams-Wattsの式がある。
+			\begin{equation}
+				\varepsilon(t)=
+				\varepsilon_{in}+\Delta \varepsilon \left( 1 - e^{-\frac{t}{\tau}\gamma}\right)
+				\ \ \ \ (0\leq \gamma \leq 1)
+			\end{equation}
+			周波数依存性を再現する経験式として以下のHavriliak-Negamiの式がある。
+			\begin{equation}
+				\varepsilon(\omega)=
+				\varepsilon_{\infty}
+				+
+				\frac{\Delta \varepsilon}{(1+(i\omega \tau)^\beta)^\alpha}
+				\label{Havriliak-Negami}
+			\end{equation}
+			ここでパラメータ$\alpha, \beta$は正で、$\alpha=1, \beta <1$及び、$\alpha<1, \beta=1$
+			の場合はそれぞれ、Cole-Coleの式、Davidson-Coleの式と呼ばれる。
 			\newpage
 			\subsection{結晶性高分子物質における繊維構造}
 			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
@@ -931,7 +971,7 @@
 			\end{equation}
 			誘電率全体を上の3式を用いて以下の様に記述される。
 			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
-			あるいは固定端であるときの誘電率であり、Havriliak-Negamiの式と同値である。
+			あるいは固定端であるときの誘電率であり、式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
 			\begin{equation}
 				\varepsilon_{33} =
 				\varepsilon_{33}^S
@@ -972,7 +1012,7 @@
 			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\ref{ずりの共鳴周波数}、
 			式\ref{ずりの圧電共鳴_理論式}、式\ref{ずりの電気機械結合係数}で記述される。
 			式\ref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
-			式\ref{normal_piezo_resonance}同様にHavriliak-Negamiの式と同値である。
+			式\ref{normal_piezo_resonance}同様に式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
 			\begin{equation}
 				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
 				\label{ずりの共鳴周波数}
