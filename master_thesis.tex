@@ -449,10 +449,35 @@
 			$\delta$を損失角と呼ぶ。
 			\begin{equation}
 				\frac{\varepsilon''}{\varepsilon'}=\tan\delta
+				\label{tandel}
 			\end{equation}
 			時間的なずれ($\delta$)の物理的な要因は分極の原因となる電荷の変位や双極子の回転が起こるときに、
 			粘性抵抗や質量の効果が働くといった点が挙げられる。その結果、誘電率は測定する周波数に依存して分散現象を示し、
 			分極の機構によってさまざまなスペクトルを描く。
+			\subsection{誘電性と導電性の関係}
+			誘電体は直流におけるインピーダンスの高さから絶縁体の一種とされている。
+			しかし交流波においては、周波数が高くなるほどインピーダンスが小さくなり導電性が高くなる。
+			電束密度$D$の時間微分は電流密度$J$であり、式\ref{D(t)}を用いて計算すると以下のようになる。
+			\begin{equation}
+				J=\frac{\partial D}{\partial t}=i\omega D
+				\label{電流密度}
+			\end{equation}
+			オームの法則は以下の通りである。
+			\begin{equation}
+				J=\sigma E
+				\label{オームの法則}
+			\end{equation}
+			式\ref{電流密度}と式\ref{オームの法則}は等価であるため、
+			誘電率の実部$\varepsilon'$虚部$\varepsilon''$と
+			導電率の実部$\sigma'$虚部$\sigma''$において
+			以下の関係が得られる。
+			\begin{equation}
+				\sigma'=\omega\varepsilon''
+			\end{equation}
+			\begin{equation}
+				\sigma''=\omega\varepsilon'
+			\end{equation}
+			上二式から式\ref{tandel}の損失正接の大小が導電性の大小に対応すると理解できる。
 			\subsection{周波数応答関数とパルス応答関数}
 			ステップ状の電場$E_s$を時間$t=0$において印加したときの電束密度の時間変化を$D_s(t)$とする。
 			誘電率は以下のように表現され、誘電余効関数と呼ぶ。

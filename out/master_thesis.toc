@@ -12,23 +12,24 @@
 \contentsline {subsection}{\numberline {2.1.4}絹糸の圧電性}{8}{}%
 \contentsline {section}{\numberline {2.2}誘電性}{9}{}%
 \contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}周波数応答関数とパルス応答関数}{9}{}%
-\contentsline {subsection}{\numberline {2.2.3}Havriliak-Negamiの式}{10}{}%
-\contentsline {section}{\numberline {2.3}結晶性高分子物質における繊維構造}{12}{}%
-\contentsline {chapter}{\numberline {第3章}実験手法}{13}{}%
-\contentsline {section}{\numberline {3.1}試料作製方法}{13}{}%
-\contentsline {section}{\numberline {3.2}評価方法}{14}{}%
-\contentsline {subsection}{\numberline {3.2.1}X線回折($\theta - 2\theta $測定とPole figure測定)}{14}{}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}$\theta - 2\theta $測定の原理}{14}{}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}Pole figure測定の原理}{15}{}%
-\contentsline {subsection}{\numberline {3.2.2}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{18}{}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}AFM（Atomic Force Microscopy）}{18}{}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}PFM（Piezoresponse Force Microscopy）}{19}{}%
-\contentsline {subsection}{\numberline {3.2.3}誘電率測定と圧電共鳴法}{22}{}%
-\contentsline {subsubsection}{\numberline {3.2.3.1}誘電率測定の原理}{22}{}%
-\contentsline {subsubsection}{\numberline {3.2.3.2}圧電共鳴法}{24}{}%
-\contentsline {subsection}{\numberline {3.2.4}DSC}{27}{}%
-\contentsline {subsection}{\numberline {3.2.5}FTIR}{27}{}%
-\contentsline {chapter}{\numberline {第4章}結果と考察}{28}{}%
-\contentsline {chapter}{\numberline {第5章}総括}{29}{}%
-\contentsline {chapter}{\numberline {第6章}付録}{30}{}%
+\contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}周波数応答関数とパルス応答関数}{10}{}%
+\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{11}{}%
+\contentsline {section}{\numberline {2.3}結晶性高分子物質における繊維構造}{13}{}%
+\contentsline {chapter}{\numberline {第3章}実験手法}{14}{}%
+\contentsline {section}{\numberline {3.1}試料作製方法}{14}{}%
+\contentsline {section}{\numberline {3.2}評価方法}{15}{}%
+\contentsline {subsection}{\numberline {3.2.1}X線回折($\theta - 2\theta $測定とPole figure測定)}{15}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}$\theta - 2\theta $測定の原理}{15}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Pole figure測定の原理}{16}{}%
+\contentsline {subsection}{\numberline {3.2.2}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{19}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}AFM（Atomic Force Microscopy）}{19}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}PFM（Piezoresponse Force Microscopy）}{20}{}%
+\contentsline {subsection}{\numberline {3.2.3}誘電率測定と圧電共鳴法}{23}{}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}誘電率測定の原理}{23}{}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}圧電共鳴法}{25}{}%
+\contentsline {subsection}{\numberline {3.2.4}DSC}{28}{}%
+\contentsline {subsection}{\numberline {3.2.5}FTIR}{28}{}%
+\contentsline {chapter}{\numberline {第4章}結果と考察}{29}{}%
+\contentsline {chapter}{\numberline {第5章}総括}{30}{}%
+\contentsline {chapter}{\numberline {第6章}付録}{31}{}%
