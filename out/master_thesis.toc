@@ -10,9 +10,11 @@
 \contentsline {subsection}{\numberline {2.1.2}電気機械結合係数}{6}{}%
 \contentsline {subsection}{\numberline {2.1.3}生体材料の圧電性}{8}{}%
 \contentsline {subsection}{\numberline {2.1.4}絹糸の圧電性}{8}{}%
-\contentsline {section}{\numberline {2.2}高分子}{9}{}%
-\contentsline {subsection}{\numberline {2.2.1}誘電率周波数依存性}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}結晶性高分子物質における繊維構造}{12}{}%
+\contentsline {section}{\numberline {2.2}誘電性}{9}{}%
+\contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}周波数応答関数とパルス応答関数}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Havriliak-Negamiの式}{10}{}%
+\contentsline {section}{\numberline {2.3}結晶性高分子物質における繊維構造}{12}{}%
 \contentsline {chapter}{\numberline {第3章}実験手法}{13}{}%
 \contentsline {section}{\numberline {3.1}試料作製方法}{13}{}%
 \contentsline {section}{\numberline {3.2}評価方法}{14}{}%
