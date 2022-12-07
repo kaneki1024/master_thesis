@@ -157,4 +157,48 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {ACS Publications},
 }
 
+@Article{クモと絹糸の構造,
+  author    = {Du, Ning and Yang, Zhen and Liu, Xiang Yang and Li, Yang and Xu, Hong Yao},
+  journal   = {Advanced Functional Materials},
+  title     = {Structural origin of the strain-hardening of spider silk},
+  year      = {2011},
+  number    = {4},
+  pages     = {772--778},
+  volume    = {21},
+  publisher = {Wiley Online Library},
+}
+
+@Article{Harvey,
+  author    = {Harvey, E Newton},
+  journal   = {Science},
+  title     = {The luminescence of adhesive tape},
+  year      = {1939},
+  number    = {2316},
+  pages     = {460--461},
+  volume    = {89},
+  publisher = {American Association for the Advancement of Science},
+}
+
+@Article{fukada_silk_fiber,
+  author    = {Fukada, Eiichi},
+  journal   = {Journal of the Physical Society of Japan},
+  title     = {On the piezoelectric effect of silk fibers},
+  year      = {1956},
+  number    = {12},
+  pages     = {1301A--1301A},
+  volume    = {11},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{fibroin_cast_film_piezo,
+  author    = {Yucel, Tuna and Cebe, Peggy and Kaplan, David L},
+  journal   = {Advanced functional materials},
+  title     = {Structural origins of silk piezoelectricity},
+  year      = {2011},
+  number    = {4},
+  pages     = {779--785},
+  volume    = {21},
+  publisher = {Wiley Online Library},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

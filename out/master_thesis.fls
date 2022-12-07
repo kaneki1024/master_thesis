@@ -671,6 +671,22 @@ INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
+INPUT ./graphics//fibroin_piezo_装置.jpg
+INPUT ./graphics//fibroin_piezo_装置.jpg
+INPUT ./graphics//fibroin_piezo_装置.jpg
+INPUT extractbb -B cropbox -O ./graphics//fibroin_piezo_装置.jpg
+INPUT ./graphics//cast_film_piezo_data.jpg
+INPUT ./graphics//cast_film_piezo_data.jpg
+INPUT ./graphics//cast_film_piezo_data.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_piezo_data.jpg
+INPUT ./graphics//orientation_beta_sheet_piezo.jpg
+INPUT ./graphics//orientation_beta_sheet_piezo.jpg
+INPUT ./graphics//orientation_beta_sheet_piezo.jpg
+INPUT extractbb -B cropbox -O ./graphics//orientation_beta_sheet_piezo.jpg
+INPUT ./graphics//electrospun_data.jpg
+INPUT ./graphics//electrospun_data.jpg
+INPUT ./graphics//electrospun_data.jpg
+INPUT extractbb -B cropbox -O ./graphics//electrospun_data.jpg
 INPUT ./graphics//位置球.jpg
 INPUT ./graphics//位置球.jpg
 INPUT ./graphics//位置球.jpg
