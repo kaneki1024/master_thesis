@@ -201,4 +201,117 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {Wiley Online Library},
 }
 
+@Article{エレクトロスパン,
+  author    = {Sencadas, Vitor and Garvey, Christopher and Mudie, Stephen and Kirkensgaard, Jacob JK and Gouadec, Gwenael and Hauser, Samuel},
+  journal   = {Nano Energy},
+  title     = {Electroactive properties of electrospun silk fibroin for energy harvesting applications},
+  year      = {2019},
+  pages     = {104106},
+  volume    = {66},
+  publisher = {Elsevier},
+}
+
+@Article{martin1941,
+  author    = {Martin, AJP},
+  journal   = {Proceedings of the Physical Society (1926-1948)},
+  title     = {Tribo-electricity in wool and hair},
+  year      = {1941},
+  number    = {2},
+  pages     = {186},
+  volume    = {53},
+  publisher = {IOP Publishing},
+}
+
+@Article{shubnikov1946,
+  author  = {Shubnikov, AV and others},
+  journal = {Moscow, Leningrad, Publishing House of the Academy of Sciences of the USSR},
+  title   = {Piezoelectric textures},
+  year    = {1946},
+}
+
+@InProceedings{bazhenov1950,
+  author    = {Bazhenov, VA},
+  booktitle = {Doklady Academy Nauk SSSR},
+  title     = {Piezoelectric effect of wood},
+  year      = {1950},
+  number    = {2},
+  pages     = {283--286},
+  volume    = {71},
+}
+
+@Article{fukada_wood,
+  author    = {Fukada, Eiichi},
+  journal   = {Journal of the Physical Society of Japan},
+  title     = {Piezoelectricity of wood},
+  year      = {1955},
+  number    = {2},
+  pages     = {149--154},
+  volume    = {10},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{平井_木材,
+  author    = {平井信之 and 浅野猪久夫 and 祖父江信夫},
+  journal   = {材料},
+  title     = {木材の圧電異方性},
+  year      = {1973},
+  number    = {241},
+  pages     = {948--955},
+  volume    = {22},
+  publisher = {公益社団法人 日本材料学会},
+}
+
+@Article{動脈_圧電性,
+  author    = {Fukada, Eiichi and Hara, Kiyoshi},
+  journal   = {Journal of the physical society of Japan},
+  title     = {Piezoelectric effect in blood vessel walls},
+  year      = {1969},
+  number    = {3},
+  pages     = {777--780},
+  volume    = {26},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{筋肉_圧電性,
+  author    = {Fukada, Eiichi and Ueda, Hiroyoshi Ueda Hiroyoshi},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric effect in muscle},
+  year      = {1970},
+  number    = {7},
+  pages     = {844},
+  volume    = {9},
+  publisher = {IOP Publishing},
+}
+
+@Article{皮膚_圧電性,
+  author    = {Shamos, Morris H and Lavine, Leroy S},
+  journal   = {Nature},
+  title     = {Piezoelectricity as a fundamental property of biological tissues},
+  year      = {1967},
+  number    = {5073},
+  pages     = {267--269},
+  volume    = {213},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{貝_強誘電性_圧電性,
+  author    = {Li, Tao and Zeng, Kaiyang},
+  journal   = {Journal of Applied Physics},
+  title     = {Nanoscale piezoelectric and ferroelectric behaviors of seashell by piezoresponse force microscopy},
+  year      = {2013},
+  number    = {18},
+  pages     = {187202},
+  volume    = {113},
+  publisher = {American Institute of Physics},
+}
+
+@Article{hoda_bone_1953,
+  author  = {保田岩夫},
+  journal = {京都医会誌},
+  title   = {骨折治療に関する基礎的諸問題},
+  year    = {1953},
+  pages   = {395--406},
+  volume  = {4},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

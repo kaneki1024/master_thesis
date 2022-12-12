@@ -50,16 +50,84 @@ Regina Valluzzi, Samuel~P Gido, Weiping Zhang, Wayne~S Muller, and David~L
   threefold helical chain conformation found at the air- water interface.
 \newblock {\em Macromolecules}, Vol.~29, No.~27, pp. 8606--8614, 1996.
 
-\bibitem{Harvey}
-E~Newton Harvey.
-\newblock The luminescence of adhesive tape.
-\newblock {\em Science}, Vol.~89, No. 2316, pp. 460--461, 1939.
+\bibitem{martin1941}
+AJP Martin.
+\newblock Tribo-electricity in wool and hair.
+\newblock {\em Proceedings of the Physical Society (1926-1948)}, Vol.~53,
+  No.~2, p. 186, 1941.
+
+\bibitem{shubnikov1946}
+AV~Shubnikov, et~al.
+\newblock Piezoelectric textures.
+\newblock {\em Moscow, Leningrad, Publishing House of the Academy of Sciences
+  of the USSR}, 1946.
+
+\bibitem{bazhenov1950}
+VA~Bazhenov.
+\newblock Piezoelectric effect of wood.
+\newblock In {\em Doklady Academy Nauk SSSR}, Vol.~71, pp. 283--286, 1950.
+
+\bibitem{fukada_wood}
+Eiichi Fukada.
+\newblock Piezoelectricity of wood.
+\newblock {\em Journal of the Physical Society of Japan}, Vol.~10, No.~2, pp.
+  149--154, 1955.
+
+\bibitem{平井_木材}
+平井信之, 浅野猪久夫, 祖父江信夫.
+\newblock 木材の圧電異方性.
+\newblock 材料, Vol.~22, No. 241, pp. 948--955, 1973.
+
+\bibitem{fukada_コラーゲン}
+Eiichi Fukada and Iwao Yasuda.
+\newblock Piezoelectric effects in collagen.
+\newblock {\em Japanese Journal of Applied Physics}, Vol.~3, No.~2, p. 117,
+  1964.
 
 \bibitem{fukada_silk_fiber}
 Eiichi Fukada.
 \newblock On the piezoelectric effect of silk fibers.
 \newblock {\em Journal of the Physical Society of Japan}, Vol.~11, No.~12, pp.
   1301A--1301A, 1956.
+
+\bibitem{皮膚_圧電性}
+Morris~H Shamos and Leroy~S Lavine.
+\newblock Piezoelectricity as a fundamental property of biological tissues.
+\newblock {\em Nature}, Vol. 213, No. 5073, pp. 267--269, 1967.
+
+\bibitem{hoda_bone_1953}
+保田岩夫.
+\newblock 骨折治療に関する基礎的諸問題.
+\newblock 京都医会誌, Vol.~4, pp. 395--406, 1953.
+
+\bibitem{fukada_bone}
+Eiichi Fukada and Iwao Yasuda.
+\newblock On the piezoelectric effect of bone.
+\newblock {\em Journal of the physical society of Japan}, Vol.~12, No.~10, pp.
+  1158--1162, 1957.
+
+\bibitem{動脈_圧電性}
+Eiichi Fukada and Kiyoshi Hara.
+\newblock Piezoelectric effect in blood vessel walls.
+\newblock {\em Journal of the physical society of Japan}, Vol.~26, No.~3, pp.
+  777--780, 1969.
+
+\bibitem{筋肉_圧電性}
+Eiichi Fukada and Hiroyoshi Ueda~Hiroyoshi Ueda.
+\newblock Piezoelectric effect in muscle.
+\newblock {\em Japanese Journal of Applied Physics}, Vol.~9, No.~7, p. 844,
+  1970.
+
+\bibitem{貝_強誘電性_圧電性}
+Tao Li and Kaiyang Zeng.
+\newblock Nanoscale piezoelectric and ferroelectric behaviors of seashell by
+  piezoresponse force microscopy.
+\newblock {\em Journal of Applied Physics}, Vol. 113, No.~18, p. 187202, 2013.
+
+\bibitem{Harvey}
+E~Newton Harvey.
+\newblock The luminescence of adhesive tape.
+\newblock {\em Science}, Vol.~89, No. 2316, pp. 460--461, 1939.
 
 \bibitem{fibroin_cast_film_piezo}
 Tuna Yucel, Peggy Cebe, and David~L Kaplan.
