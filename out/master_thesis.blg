@@ -5,46 +5,46 @@ The style file: junsrt.bst
 Database file #1: master.bib
 Warning--empty journal in sdgs_2030
 Warning--can't use both volume and number fields in bazhenov1950
-You've used 32 entries,
+You've used 36 entries,
             2270 wiz_defined-function locations,
-            768 strings with 9387 characters,
-and the built_in function-call counts, 12293 in all, are:
-= -- 1039
-> -- 307
-< -- 74
-+ -- 123
-- -- 91
-* -- 668
-:= -- 1406
-add.period$ -- 100
-call.type$ -- 32
-change.case$ -- 32
+            797 strings with 10078 characters,
+and the built_in function-call counts, 13874 in all, are:
+= -- 1176
+> -- 344
+< -- 85
++ -- 138
+- -- 102
+* -- 757
+:= -- 1582
+add.period$ -- 112
+call.type$ -- 36
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 797
-empty$ -- 1117
-format.name$ -- 182
-if$ -- 3084
+cite$ -- 38
+duplicate$ -- 902
+empty$ -- 1256
+format.name$ -- 204
+if$ -- 3482
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 30
-newline$ -- 164
-num.names$ -- 36
-pop$ -- 170
+int.to.str$ -- 36
+missing$ -- 34
+newline$ -- 184
+num.names$ -- 40
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 695
+skip$ -- 789
 stack$ -- 0
-substring$ -- 777
-swap$ -- 343
-text.length$ -- 74
+substring$ -- 880
+swap$ -- 392
+text.length$ -- 85
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 104
-width$ -- 34
-write$ -- 355
-is.kanji.str$ -- 390
+while$ -- 118
+width$ -- 38
+write$ -- 399
+is.kanji.str$ -- 439
 (There were 2 warnings)

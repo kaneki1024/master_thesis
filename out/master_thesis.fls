@@ -671,6 +671,10 @@ INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT ./graphics//結合効果.jpg
 INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
@@ -774,6 +778,37 @@ INPUT extractbb -B cropbox -O ./graphics//XRD_配置.jpg
 INPUT ./graphics//sora.jpg
 INPUT ./graphics//sora.jpg
 INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//sora.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//自動平衡ブリッジ回路.jpg
+INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//圧電共鳴.jpg
+INPUT ./graphics//圧電共鳴.jpg
+INPUT ./graphics//圧電共鳴.jpg
+INPUT extractbb -B cropbox -O ./graphics//圧電共鳴.jpg
+INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
+INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
+INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
+INPUT extractbb -B cropbox -O ./graphics//VDF_TrFe_圧電共鳴.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//ずり圧電_共鳴モード.jpg
+INPUT extractbb -B cropbox -O ./graphics//ずり圧電_共鳴モード.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLLA_圧電共鳴スペクトル.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLA_ずり圧電_長方形カット.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
@@ -807,37 +842,6 @@ INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_断面.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//自動平衡ブリッジ回路.jpg
-INPUT ./graphics//自動平衡ブリッジ回路.jpg
-INPUT ./graphics//自動平衡ブリッジ回路.jpg
-INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
-INPUT ./graphics//圧電共鳴.jpg
-INPUT ./graphics//圧電共鳴.jpg
-INPUT ./graphics//圧電共鳴.jpg
-INPUT extractbb -B cropbox -O ./graphics//圧電共鳴.jpg
-INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
-INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
-INPUT ./graphics//VDF_TrFe_圧電共鳴.jpg
-INPUT extractbb -B cropbox -O ./graphics//VDF_TrFe_圧電共鳴.jpg
-INPUT ./graphics//ずり圧電_共鳴モード.jpg
-INPUT ./graphics//ずり圧電_共鳴モード.jpg
-INPUT ./graphics//ずり圧電_共鳴モード.jpg
-INPUT extractbb -B cropbox -O ./graphics//ずり圧電_共鳴モード.jpg
-INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
-INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
-INPUT ./graphics//PLLA_圧電共鳴スペクトル.jpg
-INPUT extractbb -B cropbox -O ./graphics//PLLA_圧電共鳴スペクトル.jpg
-INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
-INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
-INPUT ./graphics//PLA_ずり圧電_長方形カット.jpg
-INPUT extractbb -B cropbox -O ./graphics//PLA_ずり圧電_長方形カット.jpg
-INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
-INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
-INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
-INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl

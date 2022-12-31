@@ -314,4 +314,58 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   volume  = {4},
 }
 
+@Article{fukada_bone,
+  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  journal   = {Journal of the physical society of Japan},
+  title     = {On the piezoelectric effect of bone},
+  year      = {1957},
+  number    = {10},
+  pages     = {1158--1162},
+  volume    = {12},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{fukada_コラーゲン,
+  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric effects in collagen},
+  year      = {1964},
+  number    = {2},
+  pages     = {117},
+  volume    = {3},
+  publisher = {IOP Publishing},
+}
+
+@Article{DNA_圧電性,
+  author    = {Ando, Yutaka and Fukada, Eiichi},
+  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  title     = {Piezoelectric properties of oriented deoxyribonucleate films},
+  year      = {1976},
+  number    = {1},
+  pages     = {63--79},
+  volume    = {14},
+  publisher = {Wiley Online Library},
+}
+
+@Article{合成キラル高分子の圧電性,
+  author    = {Fukada, Eiichi},
+  journal   = {PLASTICS ENGINEERING-NEW YORK-},
+  title     = {Piezoelectricity and pyroelectricity of biopolymers},
+  year      = {1995},
+  pages     = {393--393},
+  volume    = {28},
+  publisher = {Marcel Dekker Inc},
+}
+
+@Article{CONH_theory,
+  author    = {Namiki, Koji and Hayakawa, Reinosuke and Wada, Yasaku},
+  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  title     = {Molecular theory of piezoelectricity of $\alpha$-helical polypeptide},
+  year      = {1980},
+  number    = {5},
+  pages     = {993--1004},
+  volume    = {18},
+  publisher = {Wiley Online Library},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

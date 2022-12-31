@@ -90,6 +90,12 @@ Eiichi Fukada.
 \newblock {\em Journal of the Physical Society of Japan}, Vol.~11, No.~12, pp.
   1301A--1301A, 1956.
 
+\bibitem{DNA_圧電性}
+Yutaka Ando and Eiichi Fukada.
+\newblock Piezoelectric properties of oriented deoxyribonucleate films.
+\newblock {\em Journal of Polymer Science: Polymer Physics Edition}, Vol.~14,
+  No.~1, pp. 63--79, 1976.
+
 \bibitem{皮膚_圧電性}
 Morris~H Shamos and Leroy~S Lavine.
 \newblock Piezoelectricity as a fundamental property of biological tissues.
@@ -123,6 +129,23 @@ Tao Li and Kaiyang Zeng.
 \newblock Nanoscale piezoelectric and ferroelectric behaviors of seashell by
   piezoresponse force microscopy.
 \newblock {\em Journal of Applied Physics}, Vol. 113, No.~18, p. 187202, 2013.
+
+\bibitem{動脈_強誘電性}
+Yuanming Liu, Yanhang Zhang, Ming-Jay Chow, Qian~Nataly Chen, and Jiangyu Li.
+\newblock Biological ferroelectricity uncovered in aortic walls by
+  piezoresponse force microscopy.
+\newblock {\em Physical review letters}, Vol. 108, No.~7, p. 078103, 2012.
+
+\bibitem{合成キラル高分子の圧電性}
+Eiichi Fukada.
+\newblock Piezoelectricity and pyroelectricity of biopolymers.
+\newblock {\em PLASTICS ENGINEERING-NEW YORK-}, Vol.~28, pp. 393--393, 1995.
+
+\bibitem{CONH_theory}
+Koji Namiki, Reinosuke Hayakawa, and Yasaku Wada.
+\newblock Molecular theory of piezoelectricity of $\alpha$-helical polypeptide.
+\newblock {\em Journal of Polymer Science: Polymer Physics Edition}, Vol.~18,
+  No.~5, pp. 993--1004, 1980.
 
 \bibitem{Harvey}
 E~Newton Harvey.
@@ -166,13 +189,6 @@ Ning Du, Zhen Yang, Xiang~Yang Liu, Yang Li, and Hong~Yao Xu.
 \newblock {\em Advanced Functional Materials}, Vol.~21, No.~4, pp. 772--778,
   2011.
 
-\bibitem{コラーゲン繊維PFM}
-Denise Denning, Sofiane Alilat, Stefan Habelitz, Andrzej Fertala, and Brian~J
-  Rodriguez.
-\newblock Visualizing molecular polar order in tissues via electromechanical
-  coupling.
-\newblock {\em J. Struct. Biol.}, Vol. 180, No.~3, pp. 409--419, 2012.
-
 \bibitem{小林理研ニュース}
 古川猛夫.
 \newblock 「小林理学ニュース-圧電ポリマー研究の話」.
@@ -193,5 +209,12 @@ M~Nishi, K~Kano, Yoshiyuki Takahashi, and T~Furukawa.
   polymers.
 \newblock In {\em 10th International Symposium on Electrets (ISE 10).
   Proceedings (Cat. No. 99 CH36256)}, pp. 473--476. IEEE, 1999.
+
+\bibitem{コラーゲン繊維PFM}
+Denise Denning, Sofiane Alilat, Stefan Habelitz, Andrzej Fertala, and Brian~J
+  Rodriguez.
+\newblock Visualizing molecular polar order in tissues via electromechanical
+  coupling.
+\newblock {\em J. Struct. Biol.}, Vol. 180, No.~3, pp. 409--419, 2012.
 
 \end{thebibliography}
