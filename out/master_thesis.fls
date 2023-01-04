@@ -675,6 +675,14 @@ INPUT ./graphics//アルファヘリックス_CONH.jpg
 INPUT ./graphics//アルファヘリックス_CONH.jpg
 INPUT ./graphics//アルファヘリックス_CONH.jpg
 INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg

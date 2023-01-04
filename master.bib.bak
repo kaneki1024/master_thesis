@@ -368,4 +368,55 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {Wiley Online Library},
 }
 
+@Article{動脈_強誘電性,
+  author    = {Liu, Yuanming and Zhang, Yanhang and Chow, Ming-Jay and Chen, Qian Nataly and Li, Jiangyu},
+  journal   = {Physical review letters},
+  title     = {Biological ferroelectricity uncovered in aortic walls by piezoresponse force microscopy},
+  year      = {2012},
+  number    = {7},
+  pages     = {078103},
+  volume    = {108},
+  publisher = {APS},
+}
+
+@Article{赤本,
+  author    = {日下一也},
+  journal   = {材料},
+  title     = {“高分子圧電材料と無機圧電セラミックスの基礎から応用” 田實佳郎 監修 ((株) シーエムシー出版)},
+  year      = {2015},
+  number    = {9},
+  pages     = {S6},
+  volume    = {64},
+  publisher = {公益社団法人 日本材料学会},
+}
+
+@Misc{村田製作所_PLLA,
+  author       = {株式会社村田製作所},
+  howpublished = {\\ \url{https://corporate.murata.com/ja-jp/more_murata/techmag/metamorphosis16/appnote/01}},
+  note         = {\\ (最終閲覧日 2023/01/04)},
+  title        = {ポリ乳酸の圧電性を応用した新しいセンサデバイスの開発},
+}
+
+@Article{plla_バネ,
+  author    = {Ito, Syuhei and Imoto, Kenji and Takai, Kyohei and Kuroda, Shintaro and Kamimura, Yuki and Kataoka, Takuya and Kawai, Naoki and Date, Munehiro and Fukada, Eiichi and Tajitsu, Yoshiro},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Sensing using piezoelectric chiral polymer fiber},
+  year      = {2012},
+  number    = {9S1},
+  pages     = {09LD16},
+  volume    = {51},
+  publisher = {IOP Publishing},
+}
+
+@Article{組み紐_plla,
+  author    = {Tajitsu, Yoshiro and Kawase, Yuka and Katsuya, Kyousuke and Tamura, Masataka and Sakamoto, Kosei and Kawahara, Kazuki and Harada, Yuhei and Kondo, Takashi and Imada, Yuya},
+  journal   = {IEEE Transactions on Dielectrics and Electrical Insulation},
+  title     = {New wearable sensor in the shape of a braided cord (Kumihimo)},
+  year      = {2018},
+  number    = {3},
+  pages     = {772--777},
+  volume    = {25},
+  publisher = {IEEE},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

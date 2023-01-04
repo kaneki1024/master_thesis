@@ -147,6 +147,39 @@ Koji Namiki, Reinosuke Hayakawa, and Yasaku Wada.
 \newblock {\em Journal of Polymer Science: Polymer Physics Edition}, Vol.~18,
   No.~5, pp. 993--1004, 1980.
 
+\bibitem{赤本}
+日下一也.
+\newblock “高分子圧電材料と無機圧電セラミックスの基礎から応用” 田實佳郎 監修
+  ((株) シーエムシー出版).
+\newblock 材料, Vol.~64, No.~9, p.~S6, 2015.
+
+\bibitem{村田製作所_PLLA}
+株式会社村田製作所.
+\newblock ポリ乳酸の圧電性を応用した新しいセンサデバイスの開発.
+\newblock \\
+  \url{https://corporate.murata.com/ja-jp/more_murata/techmag/metamorphosis16/appnote/01}.
+\newblock \\ (最終閲覧日 2023/01/04).
+
+\bibitem{plla_バネ}
+Syuhei Ito, Kenji Imoto, Kyohei Takai, Shintaro Kuroda, Yuki Kamimura, Takuya
+  Kataoka, Naoki Kawai, Munehiro Date, Eiichi Fukada, and Yoshiro Tajitsu.
+\newblock Sensing using piezoelectric chiral polymer fiber.
+\newblock {\em Japanese Journal of Applied Physics}, Vol.~51, No. 9S1, p.
+  09LD16, 2012.
+
+\bibitem{組み紐_plla}
+Yoshiro Tajitsu, Yuka Kawase, Kyousuke Katsuya, Masataka Tamura, Kosei
+  Sakamoto, Kazuki Kawahara, Yuhei Harada, Takashi Kondo, and Yuya Imada.
+\newblock New wearable sensor in the shape of a braided cord (kumihimo).
+\newblock {\em IEEE Transactions on Dielectrics and Electrical Insulation},
+  Vol.~25, No.~3, pp. 772--777, 2018.
+
+\bibitem{beta_sheet_piezo_theory}
+Eiichi Fukada and Saburo Takashita.
+\newblock Piezoelectric constant in oriented $\beta$-form polypeptides.
+\newblock {\em Japanese Journal of Applied Physics}, Vol.~10, No.~6, p. 722,
+  1971.
+
 \bibitem{Harvey}
 E~Newton Harvey.
 \newblock The luminescence of adhesive tape.
