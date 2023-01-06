@@ -667,22 +667,6 @@ INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT extractbb -B cropbox -O ./graphics//fibroin_structure.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
@@ -699,6 +683,30 @@ INPUT ./graphics//electrospun_data.jpg
 INPUT ./graphics//electrospun_data.jpg
 INPUT ./graphics//electrospun_data.jpg
 INPUT extractbb -B cropbox -O ./graphics//electrospun_data.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//anti_parallel_beta.jpg
+INPUT ./graphics//anti_parallel_beta.jpg
+INPUT ./graphics//anti_parallel_beta.jpg
+INPUT extractbb -B cropbox -O ./graphics//anti_parallel_beta.jpg
+INPUT ./graphics//anit_parallel_force.jpg
+INPUT ./graphics//anit_parallel_force.jpg
+INPUT ./graphics//anit_parallel_force.jpg
+INPUT extractbb -B cropbox -O ./graphics//anit_parallel_force.jpg
 INPUT ./graphics//位置球.jpg
 INPUT ./graphics//位置球.jpg
 INPUT ./graphics//位置球.jpg
@@ -707,6 +715,18 @@ INPUT ./graphics//fiber_structures.jpg
 INPUT ./graphics//fiber_structures.jpg
 INPUT ./graphics//fiber_structures.jpg
 INPUT extractbb -B cropbox -O ./graphics//fiber_structures.jpg
+INPUT ./graphics//試料作製手順.jpg
+INPUT ./graphics//試料作製手順.jpg
+INPUT ./graphics//試料作製手順.jpg
+INPUT extractbb -B cropbox -O ./graphics//試料作製手順.jpg
+INPUT ./graphics//試料作製手順2.jpg
+INPUT ./graphics//試料作製手順2.jpg
+INPUT ./graphics//試料作製手順2.jpg
+INPUT extractbb -B cropbox -O ./graphics//試料作製手順2.jpg
+INPUT ./graphics//試料.jpg
+INPUT ./graphics//試料.jpg
+INPUT ./graphics//試料.jpg
+INPUT extractbb -B cropbox -O ./graphics//試料.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
@@ -755,10 +775,10 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy7.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT extractbb -B cropbox -O ./graphics//sora.jpg
+INPUT ./graphics//rint_2000.jpg
+INPUT ./graphics//rint_2000.jpg
+INPUT ./graphics//rint_2000.jpg
+INPUT extractbb -B cropbox -O ./graphics//rint_2000.jpg
 INPUT ./graphics//theta_2theta.jpg
 INPUT ./graphics//theta_2theta.jpg
 INPUT ./graphics//theta_2theta.jpg
@@ -783,12 +803,14 @@ INPUT ./graphics//XRD_配置.jpg
 INPUT ./graphics//XRD_配置.jpg
 INPUT ./graphics//XRD_配置.jpg
 INPUT extractbb -B cropbox -O ./graphics//XRD_配置.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
-INPUT ./graphics//sora.jpg
+INPUT ./graphics//smartlab.jpg
+INPUT ./graphics//smartlab.jpg
+INPUT ./graphics//smartlab.jpg
+INPUT extractbb -B cropbox -O ./graphics//smartlab.jpg
+INPUT ./graphics//4294A.jpg
+INPUT ./graphics//4294A.jpg
+INPUT ./graphics//4294A.jpg
+INPUT extractbb -B cropbox -O ./graphics//4294A.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg

@@ -115,7 +115,76 @@
 			(c):H鎖周期構造におけるアミノ酸配列。}
 			\label{fibroin}
 		\end{figure}
+		\newpage
+		\subsection{絹糸の圧電性}
+			絹糸の圧電性に関して初めて言及されたのはHarveyとされている\cite{Harvey}。
+			ただし、定量的な測定などが行われたのではなく、その可能性に言及されたのみに留まる。
+			初めて定量的に評価を行ったのはFukadaである\cite{fukada_silk_fiber}。
+			乾燥させた絹糸を圧縮させて45°カットで切り出し、圧電性を評価した。
+			$d$定数がおおよそ1 pC/N程度と報告した。
+			また、絹糸に含まれるセリシンの除去を行うと圧電性の向上が期待できるとも述べられた。
+			その後、Yucelらによって絹糸のセリシンを除去しフィブロインのキャストフィルムを作製して
+			圧電性の報告がされた\cite{fibroin_cast_film_piezo}。
+			図\ref{silk_fibroin_cast_装置}の(A)の様に190℃のヒートブロックを
+			局所的に試料を温めながら、試料をなぞる様に移動させる。同時に力を加えて延伸する。
+			硬くて脆いという特徴があるfibroinのキャストフィルムだが2.7倍まで延伸したと報告されている。
+			図\ref{silk_fibroin_cast_装置}(B)の動的粘弾性装置(Dynamic Mechanical Analysis: DMA)
+			を加工してずり圧電の圧電性を評価した。延伸倍率と圧電$d_{14}$の関係は図\ref{cast_film_data}(A)
+			の通りである。試料の切り出しの角度と$d_{14}$の関係は図\ref{cast_film_data}(B)の通りである。
+			ずり圧電の特徴である角度依存性が確認出来る。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.6]{fibroin_piezo_装置.jpg}
+				\caption{Fibroin cast filmの延伸と測定装置\cite{fibroin_cast_film_piezo}。
+				(A): 延伸の様子、(B):DMA装置を加工したずり圧電の測定装置。}
+				\label{silk_fibroin_cast_装置}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.6]{cast_film_piezo_data.jpg}
+				\caption{Fibroin cast film における圧電性\cite{fibroin_cast_film_piezo}。
+				(A):延伸倍率と$d_{14}$定数の関係、(B):$d_{14}$定数の角度依存性。}
+				\label{cast_film_data}
+			\end{figure}
+			\\
+			また、FTIRやXRDのデータを合わせて検証した結果、
+			図\ref{orientation_beta_sheet_piezo}のように
+			配向性と逆平行$\beta$ sheet の含有量の両方を高める
+			と圧電性が向上すると述べている。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.6]{orientation_beta_sheet_piezo.jpg}
+				\caption{配向性、逆平行$\beta$ sheetの含有量と圧電性の関係\cite{fibroin_cast_film_piezo}}
+				\label{orientation_beta_sheet_piezo}
+			\end{figure}
+			\\
+			
+			Fiber状で作製し、圧電性を検証した事例としてエレクトロスピニング法(電界紡糸法)による報告がある\cite{エレクトロスパン}。
+			エレクトロスピニング法(電界紡糸法)とは、
+			糸ノズル内のポリマー溶液に高電圧を加えて、ナノファイバーを生成する製法である。
+			エレクトロスピニング法を活用してFibroin溶液からFibroin nano fiberを作製し、その圧電性を
+			DMA装置やPFMを用いて報告している。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=1]{electrospun_data.jpg}
+				\caption{エレクトロスピニング法によるFibroin nano fiber\cite{エレクトロスパン}。(A):SEM像、(B):PFMを用いたバタフライ曲線}
+				\label{electrospun}
+			\end{figure}
+			\newpage
+			シルクフィブロインの圧電性が低いため、ナノ粒子の強誘電体を混ぜて圧電性を向上させる方法がある。
+			また、圧電性を向上させるのと同時にデバイスに利用する例が頻繁に報告されている。
+			しかし、圧電性能がナノ粒子の分散の程度に大きく依存し、社会実装には至っていない。
 
+			ペロブスカイト型の圧電体としてチタン酸ジルコン鉛(PZT)が有名だが、鉛を含むため毒性が高い。
+			よって、PZT以外のペロブスカイト型の圧電体であるBaTiO$_3$、ZnSO$_3$などのナノ粒子を
+			シルクフィブロインに混ぜ生体適合性を担保しつつ圧電性を向上させ、
+			人の動きによって発電するワイヤー状のデバイスを開発したという報告されている\cite{kim2015silk}。
+			他にも酸化亜鉛のナノロッドをフィブロイン膜に作成し、e-skinとして実装した報告もあるが
+			生体適合性は下がっている\cite{gogurla2020self}。
+			
+			絹糸ではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
+			も報告されている。電極の上にクモの糸を並べて素子を作成し、整流しコンデンサーに蓄えたと報告している\cite{karan2018nature}。
+			
 		\newpage
 		\section{研究の目的}
 
@@ -500,9 +569,9 @@
 			\end{figure}
 			\\
 			また、PLLAをfiber状に加工してデバイスに組み込んだ例も報告されている。
-			図\ref{plla_fiber_device}(A)はPLLAをfiber状からバネ型に加工し、電極を載せたデバイスである。
+			図\ref{PLLA_fiber_device}(A)はPLLAをfiber状からバネ型に加工し、電極を載せたデバイスである。
 			バネの伸縮に応じた電圧が計測されている\cite{plla_バネ}。また、図\ref{PLLA_fiber_device}(B)はfiber状のPLLAを
-			組み紐に組み込むことでファッショナブルな身体計測デバイスを作成し、脈波などの身体情報を入手した
+			組み紐に組み込み、ファッショナブルな身体計測デバイスを作成し、脈波などの身体情報を入手した
 			と報告している\cite{組み紐_plla}。
 			\begin{figure}[h]
 				\centering
@@ -514,66 +583,37 @@
 			\newpage
 			$\alpha$ヘリックス構造の分子を持ち、大きな圧電性が期待できるPLLAは理論、実験、
 			デバイス応用まで進んでいる。しかし、蛋白質の二次構造として$\alpha$ヘリックス以外にも
-			$\beta$ シート構造も取りうる。デバイス応用まで社会実装は進んでいないが$\beta$シート構造も
+			$\beta$ シート構造も取りうる。本研究の材料である絹糸は逆平行$\beta$シートを構成する。
+			デバイス応用などの社会実装は進んでいないが$\beta$シート構造も
 			圧電性が生じると報告されている\cite{beta_sheet_piezo_theory}。
-
-
-			\newpage
-			\subsection{絹糸の圧電性}
-			絹糸の圧電性に関して初めて言及されたのはHarveyとされている\cite{Harvey}。
-			ただし、定量的な測定などが行われたのではなく、その可能性に言及されたのみに留まる。
-			初めて定量的に評価を行ったのはFukadaである\cite{fukada_silk_fiber}。
-			乾燥させた絹糸を圧縮させて45°カットで切り出し、圧電性を評価した。
-			$d$定数がおおよそ1 pC/N程度と報告した。
-			また、絹糸に含まれるセリシンの除去を行うと圧電性の向上が期待できるとも述べられた。
-			その後、Yucelらによって絹糸のセリシンを除去しフィブロインのキャストフィルムを作製して
-			圧電性の報告がされた\cite{fibroin_cast_film_piezo}。
-			図\ref{silk_fibroin_cast_装置}の(A)の様に190℃のヒートブロックを
-			局所的に試料を温めながら、試料をなぞる様に移動させる。同時に力を加えて延伸する。
-			硬くて脆いという特徴があるfibroinのキャストフィルムだが2.7倍まで延伸したと報告されている。
-			図\ref{silk_fibroin_cast_装置}(B)の動的粘弾性装置(Dynamic Mechanical Analysis: DMA)
-			を加工してずり圧電の圧電性を評価した。延伸倍率と圧電$d_{14}$の関係は図\ref{cast_film_data}(A)
-			の通りである。試料の切り出しの角度と$d_{14}$の関係は図\ref{cast_film_data}(B)の通りである。
-			ずり圧電の特徴である角度依存性が確認出来る。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.6]{fibroin_piezo_装置.jpg}
-				\caption{Fibroin cast filmの延伸と測定装置\cite{fibroin_cast_film_piezo}。
-				(A): 延伸の様子、(B):DMA装置を加工したずり圧電の測定装置。}
-				\label{silk_fibroin_cast_装置}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.6]{cast_film_piezo_data.jpg}
-				\caption{Fibroin cast film における圧電性\cite{fibroin_cast_film_piezo}。
-				(A):延伸倍率と$d_{14}$定数の関係、(B):$d_{14}$定数の角度依存性。}
-				\label{cast_film_data}
-			\end{figure}
-			\\
-			また、FTIRやXRDのデータを合わせて検証した結果、
-			図\ref{orientation_beta_sheet_piezo}のように
-			配向性と逆平行$\beta$ sheet の含有量の両方を高める
-			と圧電性が向上すると述べている。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.6]{orientation_beta_sheet_piezo.jpg}
-				\caption{配向性、逆平行$\beta$ sheetの含有量と圧電性の関係\cite{fibroin_cast_film_piezo}}
-				\label{orientation_beta_sheet_piezo}
-			\end{figure}
-			\\
 			
-			Fiber状で作製し、圧電性を検証した事例としてエレクトロスピニング法(電界紡糸法)による報告がある\cite{エレクトロスパン}。
-			エレクトロスピニング法(電界紡糸法)とは、
-			糸ノズル内のポリマー溶液に高電圧を加えて、ナノファイバーを生成する製法である。
-			エレクトロスピニング法を活用してFibroin溶液からFibroin nano fiberを作製し、その圧電性を
-			DMA装置やPFMを用いて報告している。
+			逆平行$\beta$ シートの構造は図\ref{逆平行ベータシート}の通りである。
+			図\ref{逆平行ベータシート}(A)の通り、分子間で水素結合した構造である。
+			水素結合により、酸素原子Oにおいて窒素原子Nに向って引っ張る力$f$が図\ref{逆平行ベータシート}(B)の通り
+			存在する。平衡状態においては図\ref{逆平行ベータシート_力}において酸素原子Oから窒素原子Nの方向である
+			ADを向いている。ずりの力が加えられたときに酸素原子が図\ref{逆平行ベータシート}の分子鎖方向、
+			図\ref{逆平行ベータシート_力}におけるAE方向に移動する現象は現実的ではない。
+			よってずりの力が加えられたときに酸素原子Oは図\ref{逆平行ベータシート_力}におけるAB方向に移動する。
+			よって図\ref{逆平行ベータシート}、図\ref{逆平行ベータシート_力}における$f$は三次元的に向きを変え、
+			逆平行$\beta$シートの表裏方向に電荷の偏りが生じる。
+			単純なモデルでは逆平行$\beta$シートの圧電性はこのようにして理解されている。
+
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=1]{electrospun_data.jpg}
-				\caption{エレクトロスピニング法によるFibroin nano fiber\cite{エレクトロスパン}。(A):SEM像、(B):PFMを用いたバタフライ曲線}
-				\label{electrospun}
+				\includegraphics[width=\linewidth]{anti_parallel_beta.jpg}
+				\caption{1枚の逆平行$\beta$シートの構造。(A):三次元における逆平行$\beta$シート、
+				(B):上からみた逆平行$\beta$シート。青の矢印はずりの力を加える方向。}
+				\label{逆平行ベータシート}
 			\end{figure}
-
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=\linewidth]{anit_parallel_force.jpg}
+				\caption{1枚の逆平行$\beta$シートの構造でずりの力が加えられたときの横からみた変動。
+				矢印前が平衡状態、矢印後がずりの力が加えられている状態。}
+				\label{逆平行ベータシート_力}
+			\end{figure}
+			\newpage
+			
 			\newpage
 		\section{誘電性}
 		電場が印加されると分極を生じる性質を誘電性といい、誘電性を有する物質を誘電体と呼ぶ。
@@ -779,6 +819,47 @@
 			\end{figure}
 	\chapter{実験手法}
 		\section{試料作製方法}
+		本研究では
+		図\ref{セリシンを含まない試料作製手順}、図\ref{セリシンを含むフィルム作成手順}
+		の通り熱プレスして絹糸フィルムを作成した。
+		セリシンを除去したフィルムを作成する場合は、まず、糊を用いて割りばし格子状に組み、固定し
+		絹糸を巻く。
+		次に加熱した炭酸ナトリウム水溶液に入れ数時間放置して取り出す。
+		乾燥させ割りばしにカッターで切り込みを入れ絹糸を外す。
+		鉄板の上に並べ、若干水で濡らして２時間プレスする。
+		一旦乾燥させる理由は、糸が濡れていると綺麗に並べずらいからである。
+		セリシンが含まれているフィルムを作成する場合は鉄板に糸を巻いて、水で濡らし、
+		上下に鉄板をさらに挟んだ状態で2時間プレスする。
+		一回、熱プレスを行ってもプレスが不十分である場合がある。
+		特に、セリシンを含むフィルムにおいては、糸を巻いている鉄板
+		は熱プレスが不十分で、表裏で弾性の違いを生じる。
+		その差が激しいとフィルムが丸まってしまう。
+		そういった場合は、再び水に濡らし1枚の状態で熱プレスする。
+
+		図\ref{試料外観}が作成したフィルムの外観である。
+		セリシンなしのフィルムにおいてはフィブロイン単体で生じるとされる
+		光沢が伺える。
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.7]{試料作製手順.jpg}
+			\caption{セリシンを含まない絹糸フィルムの作成手順}
+			\label{セリシンを含まない試料作製手順}
+		\end{figure}
+		\newpage
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\linewidth]{試料作製手順2.jpg}
+			\caption{セリシンを含む絹糸フィルムの作成手順}
+			\label{セリシンを含むフィルム作成手順}
+		\end{figure}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=1]{試料.jpg}
+			\caption{作成した絹糸フィルム。左がセリシンを含む。右がセリシンを含まない。}
+			\label{試料外観}
+		\end{figure}
+
 		\newpage
 		\section{評価方法}
 			\subsection{X線回折($\theta - 2\theta$測定とPole figure測定)}
@@ -804,7 +885,7 @@
 				\centering
 				\begin{minipage}{0.45\hsize}
 					\centering
-					\includegraphics[width=0.9\linewidth]{sora.jpg}
+					\includegraphics[width=0.9\linewidth]{rint_2000.jpg}
 					\caption{RINT-2000(Rigaku Corporation)}
 					\label{XRD_nakajima}
 				\end{minipage}
@@ -881,7 +962,7 @@
 			\newpage
 			\begin{figure}[h]
 				\centering
-				\includegraphics{sora.jpg}
+				\includegraphics[width=0.5\linewidth]{smartlab.jpg}
 				\caption{Pole figure測定に用いたXRD(Rigaku corportaion)}
 				\label{XRD_pole_figure}
 			\end{figure}
@@ -894,7 +975,7 @@
 				\centering
 				\begin{minipage}{0.45\hsize}
 					\centering
-					\includegraphics{sora.jpg}
+					\includegraphics[width=\linewidth]{4294A.jpg}
 					\caption{KEYSIGHT 4294A}
 					\label{インピーダンスアナライザ}
 				\end{minipage}

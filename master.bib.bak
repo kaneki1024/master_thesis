@@ -419,4 +419,35 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {IEEE},
 }
 
+@Article{beta_sheet_piezo_theory,
+  author    = {Fukada, Eiichi and Takashita, Saburo},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric constant in oriented $\beta$-form polypeptides},
+  year      = {1971},
+  number    = {6},
+  pages     = {722},
+  volume    = {10},
+  publisher = {IOP Publishing},
+}
+
+@Article{kim2015silk,
+  author    = {Kim, Kyeong Nam and Chun, Jinsung and Chae, Song A and Ahn, Chang Won and Kim, Ill Won and Kim, Sang-Woo and Wang, Zhong Lin and Baik, Jeong Min},
+  journal   = {Nano Energy},
+  title     = {Silk fibroin-based biodegradable piezoelectric composite nanogenerators using lead-free ferroelectric nanoparticles},
+  year      = {2015},
+  pages     = {87--94},
+  volume    = {14},
+  publisher = {Elsevier},
+}
+
+@Article{gogurla2020self,
+  author    = {Gogurla, Narendar and Roy, Biswajit and Kim, Sunghwan},
+  journal   = {Nano Energy},
+  title     = {Self-powered artificial skin made of engineered silk protein hydrogel},
+  year      = {2020},
+  pages     = {105242},
+  volume    = {77},
+  publisher = {Elsevier},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
