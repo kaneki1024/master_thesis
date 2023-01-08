@@ -450,4 +450,72 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {Elsevier},
 }
 
+@Article{karan2018nature,
+  author    = {Karan, Sumanta Kumar and Maiti, Sandip and Kwon, Owoong and Paria, Sarbaranjan and Maitra, Anirban and Si, Suman Kumar and Kim, Yunseok and Kim, Jin Kon and Khatua, Bhanu Bhusan},
+  journal   = {Nano Energy},
+  title     = {Nature driven spider silk as high energy conversion efficient bio-piezoelectric nanogenerator},
+  year      = {2018},
+  pages     = {655--666},
+  volume    = {49},
+  publisher = {Elsevier},
+}
+
+@Book{セリシン構造,
+  author    = {北条, 舒正},
+  publisher = {信州大学繊維学部},
+  title     = {絹糸の構造},
+  year      = {1980},
+  url       = {https://ci.nii.ac.jp/ncid/BN01601850},
+}
+
+@Article{セリシンの微細構造,
+  author  = {待田 行雄 and 森 精},
+  journal = {日本蚕糸学雑誌},
+  title   = {セリシン量を異にする繭糸の微細構造},
+  year    = {1987},
+  number  = {4},
+  pages   = {343-349},
+  volume  = {56},
+  doi     = {10.11416/kontyushigen1930.56.343},
+}
+
+@Article{絹糸_液晶,
+  author  = {Magoshi, J and Magoshi, Y and Nakamura, S},
+  journal = {Polymer communications (Guildford)},
+  title   = {Physical properties and structure of silk. IX: Liquid crystal formation of silk fibroin},
+  year    = {1985},
+  number  = {2},
+  pages   = {60--61},
+  volume  = {26},
+}
+
+@Article{絹糸_2D_XRD,
+  author    = {Kawahara, Yutaka and Yoshioka, Taiyo and Tashiro, Kohji},
+  journal   = {Journal of Fiber Science and Technology},
+  title     = {Changes in the Higher-Order Structure of Silk Fibers Obtained by Forcibly Spinning as Compared to Those Obtained by the Naturally Spinning System of the Bombyx mori Silkworm},
+  year      = {2019},
+  number    = {1},
+  pages     = {001--008},
+  volume    = {75},
+  publisher = {The Society of Fiber Science and Technology, Japan},
+}
+
+@Article{朝倉NMR,
+  author    = {Asakura, Tetsuo and Yao, Juming and Yamane, Tsutomu and Umemura, Kosuke and Ulrich, Anne S},
+  journal   = {Journal of the American Chemical Society},
+  title     = {Heterogeneous structure of silk fibers from Bombyx M Ori Resolved by 13C Solid-State NMR spectroscopy},
+  year      = {2002},
+  number    = {30},
+  pages     = {8794--8795},
+  volume    = {124},
+  publisher = {ACS Publications},
+}
+
+@Misc{朝倉_NMR_研究室,
+  author       = {朝倉哲夫},
+  howpublished = {\\ \url{http://web.tuat.ac.jp/~asakura/gaiyo-kozo2.html}},
+  note         = {\\ (最終閲覧日 2023/01/08)},
+  title        = {「新たに決定されたシルク繊維化後の構造」},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -667,6 +667,14 @@ INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT extractbb -B cropbox -O ./graphics//fibroin_structure.jpg
+INPUT ./graphics//silk_fiber_デバイ.jpg
+INPUT ./graphics//silk_fiber_デバイ.jpg
+INPUT ./graphics//silk_fiber_デバイ.jpg
+INPUT extractbb -B cropbox -O ./graphics//silk_fiber_デバイ.jpg
+INPUT ./graphics//NMR_silk_II.jpg
+INPUT ./graphics//NMR_silk_II.jpg
+INPUT ./graphics//NMR_silk_II.jpg
+INPUT extractbb -B cropbox -O ./graphics//NMR_silk_II.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg

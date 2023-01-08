@@ -1,0 +1,521 @@
+% Encoding: UTF-8
+
+@Article{コラーゲン繊維PFM,
+  author    = {Denning, Denise and Alilat, Sofiane and Habelitz, Stefan and Fertala, Andrzej and Rodriguez, Brian J},
+  journal   = {J. Struct. Biol.},
+  title     = {Visualizing molecular polar order in tissues via electromechanical coupling},
+  year      = {2012},
+  number    = {3},
+  pages     = {409--419},
+  volume    = {180},
+  publisher = {Elsevier},
+}
+
+@Misc{sdgs_poster,
+  author       = {国際連合広報センター},
+  howpublished = {\\ \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}},
+  title        = {SDGsのポスター・ロゴ・アイコンおよびガイドライン},
+}
+
+@Article{sdgs_2030,
+  author = {Desa, UN and others},
+  title  = {Transforming our world: The 2030 agenda for sustainable development},
+  year   = {2016},
+}
+
+@Misc{小林理研ニュース,
+  author       = {古川猛夫},
+  howpublished = {\\ \url{http://www.kobayasiriken.or.jp/news/newstop/news_Frame_6kenkyu.htm}},
+  note         = {\\ (最終閲覧日 2022/02/01)},
+  title        = {「小林理学ニュース-圧電ポリマー研究の話」},
+}
+
+@Article{plla_piezo_resonance,
+  author    = {Zin, SH Mat and Velayutham, TS and Furukawa, T and Kodama, H and Gan, WC and Chio-Srichan, Sirinart and Kriechbaum, M and Nakajima, T},
+  journal   = {Polymer},
+  title     = {Quantitative study on the face shear piezoelectricity and its relaxation in uniaxially-drawn and annealed poly-l-lactic acid},
+  year      = {2022},
+  pages     = {125095},
+  volume    = {254},
+  publisher = {Elsevier},
+}
+
+@InProceedings{PLA_長方形_圧電共鳴,
+  author       = {Nishi, M and Kano, K and Takahashi, Yoshiyuki and Furukawa, T},
+  booktitle    = {10th International Symposium on Electrets (ISE 10). Proceedings (Cat. No. 99 CH36256)},
+  title        = {Piezoelectric resonance in uniaxially oriented films of chiral polymers},
+  year         = {1999},
+  organization = {IEEE},
+  pages        = {473--476},
+}
+
+@Article{fibroin_structure,
+  author    = {Inoue, Satoshi and Tanaka, Kazunori and Arisaka, Fumio and Kimura, Sumiko and Ohtomo, Kohei and Mizuno, Shigeki},
+  journal   = {Journal of Biological Chemistry},
+  title     = {Silk fibroin of Bombyx mori is secreted, assembling a high molecular mass elementary unit consisting of H-chain, L-chain, and P25, with a 6: 6: 1 molar ratio},
+  year      = {2000},
+  number    = {51},
+  pages     = {40517--40528},
+  volume    = {275},
+  publisher = {ASBMB},
+}
+
+@Article{H鎖の周期構造,
+  author    = {Mita, Kazuei and Ichimura, Sachiko and James, Tharappel C},
+  journal   = {Journal of molecular evolution},
+  title     = {Highly repetitive structure and its organization of the silk fibroin gene},
+  year      = {1994},
+  number    = {6},
+  pages     = {583--592},
+  volume    = {38},
+  publisher = {Springer},
+}
+
+@Article{fibroinの結晶構造,
+  author    = {Lotz, Bernard and Cesari, Franiois Colonna},
+  journal   = {Biochimie},
+  title     = {The chemical structure and the crystalline structures of Bombyx mori silk fibroin},
+  year      = {1979},
+  number    = {2},
+  pages     = {205--214},
+  volume    = {61},
+  publisher = {Elsevier},
+}
+
+@Article{marshモデル,
+  author    = {Marsh, Richard E and Corey, Robert B and Pauling, Linus},
+  journal   = {Biochimica et Biophysica acta},
+  title     = {An investigation of the structure of silk fibroin},
+  year      = {1955},
+  pages     = {1--34},
+  volume    = {16},
+  publisher = {Elsevier},
+}
+
+@Article{fibroin_準安定状態,
+  author    = {Kratky, O and Schauenstein, E and Sekora, A},
+  journal   = {Nature},
+  title     = {An unstable lattice in silk fibroin},
+  year      = {1950},
+  number    = {4191},
+  pages     = {319--320},
+  volume    = {165},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{silk_III,
+  author    = {Valluzzi, Regina and Gido, Samuel P and Zhang, Weiping and Muller, Wayne S and Kaplan, David L},
+  journal   = {Macromolecules},
+  title     = {Trigonal crystal structure of Bombyx mori silk incorporating a threefold helical chain conformation found at the air- water interface},
+  year      = {1996},
+  number    = {27},
+  pages     = {8606--8614},
+  volume    = {29},
+  publisher = {ACS Publications},
+}
+
+@InCollection{ラミー,
+  author    = {J.E.G. {van Dam} and T.A. Gorshkova},
+  booktitle = {Encyclopedia of Applied Plant Sciences},
+  publisher = {Elsevier},
+  title     = {CELL WALLS AND FIBERS | Fiber Formation},
+  year      = {2003},
+  address   = {Oxford},
+  editor    = {Brian Thomas},
+  isbn      = {978-0-12-227050-5},
+  pages     = {87-96},
+  doi       = {https://doi.org/10.1016/B0-12-227050-9/00046-6},
+  url       = {https://www.sciencedirect.com/science/article/pii/B0122270509000466},
+}
+
+@InCollection{cotton,
+  author    = {M. Dochia and C. Sirghie and R.M. Kozłowski and Z. Roskwitalski},
+  booktitle = {Handbook of Natural Fibres},
+  publisher = {Woodhead Publishing},
+  title     = {2 - Cotton fibres},
+  year      = {2012},
+  editor    = {Ryszard M. Kozłowski},
+  isbn      = {978-1-84569-697-9},
+  pages     = {11-23},
+  series    = {Woodhead Publishing Series in Textiles},
+  volume    = {1},
+  abstract  = {Abstract:
+Cotton, the seed hair of plants of the genus Gossypium, and the purest form of cellulose available in nature, is the dominant natural fibre. Cotton has a multilayered structure which consists of a primary wall, a secondary wall and lumen. Under the microscope it looks like a twisted ribbon or like a collapsed and twisted tube. The strength of cotton has been attributed to its highly fibrillar and crystalline structure and its strength is increased by 25% when it is wet. Cotton is a good conductor of heat, is susceptible to damage by mildew, turns yellow and becomes weak when exposed to prolonged sunlight. It is easily flammable and has rather poor resistance to wear. The highest quality cotton varieties have the longest fibres, thin, with good resilience and elasticity which makes them easy to spin, suitable for the production of high-quality goods – especially garments. Recent advances have included production of genetically modified cotton (GM) and also organic cotton.},
+  doi       = {https://doi.org/10.1533/9780857095503.1.9},
+  keywords  = {cotton, organic cotton, genetically modified cotton, genus , structure, strength, short, medium, long staple, quality measuring, mildew resistance},
+  url       = {https://www.sciencedirect.com/science/article/pii/B9781845696979500023},
+}
+
+@Article{絹糸構造,
+  author    = {Shen, Yu and Johnson, Michael A and Martin, David C},
+  journal   = {Macromolecules},
+  title     = {Microstructural characterization of Bombyx mori silk fibers},
+  year      = {1998},
+  number    = {25},
+  pages     = {8857--8864},
+  volume    = {31},
+  publisher = {ACS Publications},
+}
+
+@Article{クモと絹糸の構造,
+  author    = {Du, Ning and Yang, Zhen and Liu, Xiang Yang and Li, Yang and Xu, Hong Yao},
+  journal   = {Advanced Functional Materials},
+  title     = {Structural origin of the strain-hardening of spider silk},
+  year      = {2011},
+  number    = {4},
+  pages     = {772--778},
+  volume    = {21},
+  publisher = {Wiley Online Library},
+}
+
+@Article{Harvey,
+  author    = {Harvey, E Newton},
+  journal   = {Science},
+  title     = {The luminescence of adhesive tape},
+  year      = {1939},
+  number    = {2316},
+  pages     = {460--461},
+  volume    = {89},
+  publisher = {American Association for the Advancement of Science},
+}
+
+@Article{fukada_silk_fiber,
+  author    = {Fukada, Eiichi},
+  journal   = {Journal of the Physical Society of Japan},
+  title     = {On the piezoelectric effect of silk fibers},
+  year      = {1956},
+  number    = {12},
+  pages     = {1301A--1301A},
+  volume    = {11},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{fibroin_cast_film_piezo,
+  author    = {Yucel, Tuna and Cebe, Peggy and Kaplan, David L},
+  journal   = {Advanced functional materials},
+  title     = {Structural origins of silk piezoelectricity},
+  year      = {2011},
+  number    = {4},
+  pages     = {779--785},
+  volume    = {21},
+  publisher = {Wiley Online Library},
+}
+
+@Article{エレクトロスパン,
+  author    = {Sencadas, Vitor and Garvey, Christopher and Mudie, Stephen and Kirkensgaard, Jacob JK and Gouadec, Gwenael and Hauser, Samuel},
+  journal   = {Nano Energy},
+  title     = {Electroactive properties of electrospun silk fibroin for energy harvesting applications},
+  year      = {2019},
+  pages     = {104106},
+  volume    = {66},
+  publisher = {Elsevier},
+}
+
+@Article{martin1941,
+  author    = {Martin, AJP},
+  journal   = {Proceedings of the Physical Society (1926-1948)},
+  title     = {Tribo-electricity in wool and hair},
+  year      = {1941},
+  number    = {2},
+  pages     = {186},
+  volume    = {53},
+  publisher = {IOP Publishing},
+}
+
+@Article{shubnikov1946,
+  author  = {Shubnikov, AV and others},
+  journal = {Moscow, Leningrad, Publishing House of the Academy of Sciences of the USSR},
+  title   = {Piezoelectric textures},
+  year    = {1946},
+}
+
+@InProceedings{bazhenov1950,
+  author    = {Bazhenov, VA},
+  booktitle = {Doklady Academy Nauk SSSR},
+  title     = {Piezoelectric effect of wood},
+  year      = {1950},
+  number    = {2},
+  pages     = {283--286},
+  volume    = {71},
+}
+
+@Article{fukada_wood,
+  author    = {Fukada, Eiichi},
+  journal   = {Journal of the Physical Society of Japan},
+  title     = {Piezoelectricity of wood},
+  year      = {1955},
+  number    = {2},
+  pages     = {149--154},
+  volume    = {10},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{平井_木材,
+  author    = {平井信之 and 浅野猪久夫 and 祖父江信夫},
+  journal   = {材料},
+  title     = {木材の圧電異方性},
+  year      = {1973},
+  number    = {241},
+  pages     = {948--955},
+  volume    = {22},
+  publisher = {公益社団法人 日本材料学会},
+}
+
+@Article{動脈_圧電性,
+  author    = {Fukada, Eiichi and Hara, Kiyoshi},
+  journal   = {Journal of the physical society of Japan},
+  title     = {Piezoelectric effect in blood vessel walls},
+  year      = {1969},
+  number    = {3},
+  pages     = {777--780},
+  volume    = {26},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{筋肉_圧電性,
+  author    = {Fukada, Eiichi and Ueda, Hiroyoshi Ueda Hiroyoshi},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric effect in muscle},
+  year      = {1970},
+  number    = {7},
+  pages     = {844},
+  volume    = {9},
+  publisher = {IOP Publishing},
+}
+
+@Article{皮膚_圧電性,
+  author    = {Shamos, Morris H and Lavine, Leroy S},
+  journal   = {Nature},
+  title     = {Piezoelectricity as a fundamental property of biological tissues},
+  year      = {1967},
+  number    = {5073},
+  pages     = {267--269},
+  volume    = {213},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{貝_強誘電性_圧電性,
+  author    = {Li, Tao and Zeng, Kaiyang},
+  journal   = {Journal of Applied Physics},
+  title     = {Nanoscale piezoelectric and ferroelectric behaviors of seashell by piezoresponse force microscopy},
+  year      = {2013},
+  number    = {18},
+  pages     = {187202},
+  volume    = {113},
+  publisher = {American Institute of Physics},
+}
+
+@Article{hoda_bone_1953,
+  author  = {保田岩夫},
+  journal = {京都医会誌},
+  title   = {骨折治療に関する基礎的諸問題},
+  year    = {1953},
+  pages   = {395--406},
+  volume  = {4},
+}
+
+@Article{fukada_bone,
+  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  journal   = {Journal of the physical society of Japan},
+  title     = {On the piezoelectric effect of bone},
+  year      = {1957},
+  number    = {10},
+  pages     = {1158--1162},
+  volume    = {12},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{fukada_コラーゲン,
+  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric effects in collagen},
+  year      = {1964},
+  number    = {2},
+  pages     = {117},
+  volume    = {3},
+  publisher = {IOP Publishing},
+}
+
+@Article{DNA_圧電性,
+  author    = {Ando, Yutaka and Fukada, Eiichi},
+  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  title     = {Piezoelectric properties of oriented deoxyribonucleate films},
+  year      = {1976},
+  number    = {1},
+  pages     = {63--79},
+  volume    = {14},
+  publisher = {Wiley Online Library},
+}
+
+@Article{合成キラル高分子の圧電性,
+  author    = {Fukada, Eiichi},
+  journal   = {PLASTICS ENGINEERING-NEW YORK-},
+  title     = {Piezoelectricity and pyroelectricity of biopolymers},
+  year      = {1995},
+  pages     = {393--393},
+  volume    = {28},
+  publisher = {Marcel Dekker Inc},
+}
+
+@Article{CONH_theory,
+  author    = {Namiki, Koji and Hayakawa, Reinosuke and Wada, Yasaku},
+  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  title     = {Molecular theory of piezoelectricity of $\alpha$-helical polypeptide},
+  year      = {1980},
+  number    = {5},
+  pages     = {993--1004},
+  volume    = {18},
+  publisher = {Wiley Online Library},
+}
+
+@Article{動脈_強誘電性,
+  author    = {Liu, Yuanming and Zhang, Yanhang and Chow, Ming-Jay and Chen, Qian Nataly and Li, Jiangyu},
+  journal   = {Physical review letters},
+  title     = {Biological ferroelectricity uncovered in aortic walls by piezoresponse force microscopy},
+  year      = {2012},
+  number    = {7},
+  pages     = {078103},
+  volume    = {108},
+  publisher = {APS},
+}
+
+@Article{赤本,
+  author    = {日下一也},
+  journal   = {材料},
+  title     = {“高分子圧電材料と無機圧電セラミックスの基礎から応用” 田實佳郎 監修 ((株) シーエムシー出版)},
+  year      = {2015},
+  number    = {9},
+  pages     = {S6},
+  volume    = {64},
+  publisher = {公益社団法人 日本材料学会},
+}
+
+@Misc{村田製作所_PLLA,
+  author       = {株式会社村田製作所},
+  howpublished = {\\ \url{https://corporate.murata.com/ja-jp/more_murata/techmag/metamorphosis16/appnote/01}},
+  note         = {\\ (最終閲覧日 2023/01/04)},
+  title        = {ポリ乳酸の圧電性を応用した新しいセンサデバイスの開発},
+}
+
+@Article{plla_バネ,
+  author    = {Ito, Syuhei and Imoto, Kenji and Takai, Kyohei and Kuroda, Shintaro and Kamimura, Yuki and Kataoka, Takuya and Kawai, Naoki and Date, Munehiro and Fukada, Eiichi and Tajitsu, Yoshiro},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Sensing using piezoelectric chiral polymer fiber},
+  year      = {2012},
+  number    = {9S1},
+  pages     = {09LD16},
+  volume    = {51},
+  publisher = {IOP Publishing},
+}
+
+@Article{組み紐_plla,
+  author    = {Tajitsu, Yoshiro and Kawase, Yuka and Katsuya, Kyousuke and Tamura, Masataka and Sakamoto, Kosei and Kawahara, Kazuki and Harada, Yuhei and Kondo, Takashi and Imada, Yuya},
+  journal   = {IEEE Transactions on Dielectrics and Electrical Insulation},
+  title     = {New wearable sensor in the shape of a braided cord (Kumihimo)},
+  year      = {2018},
+  number    = {3},
+  pages     = {772--777},
+  volume    = {25},
+  publisher = {IEEE},
+}
+
+@Article{beta_sheet_piezo_theory,
+  author    = {Fukada, Eiichi and Takashita, Saburo},
+  journal   = {Japanese Journal of Applied Physics},
+  title     = {Piezoelectric constant in oriented $\beta$-form polypeptides},
+  year      = {1971},
+  number    = {6},
+  pages     = {722},
+  volume    = {10},
+  publisher = {IOP Publishing},
+}
+
+@Article{kim2015silk,
+  author    = {Kim, Kyeong Nam and Chun, Jinsung and Chae, Song A and Ahn, Chang Won and Kim, Ill Won and Kim, Sang-Woo and Wang, Zhong Lin and Baik, Jeong Min},
+  journal   = {Nano Energy},
+  title     = {Silk fibroin-based biodegradable piezoelectric composite nanogenerators using lead-free ferroelectric nanoparticles},
+  year      = {2015},
+  pages     = {87--94},
+  volume    = {14},
+  publisher = {Elsevier},
+}
+
+@Article{gogurla2020self,
+  author    = {Gogurla, Narendar and Roy, Biswajit and Kim, Sunghwan},
+  journal   = {Nano Energy},
+  title     = {Self-powered artificial skin made of engineered silk protein hydrogel},
+  year      = {2020},
+  pages     = {105242},
+  volume    = {77},
+  publisher = {Elsevier},
+}
+
+@Article{karan2018nature,
+  author    = {Karan, Sumanta Kumar and Maiti, Sandip and Kwon, Owoong and Paria, Sarbaranjan and Maitra, Anirban and Si, Suman Kumar and Kim, Yunseok and Kim, Jin Kon and Khatua, Bhanu Bhusan},
+  journal   = {Nano Energy},
+  title     = {Nature driven spider silk as high energy conversion efficient bio-piezoelectric nanogenerator},
+  year      = {2018},
+  pages     = {655--666},
+  volume    = {49},
+  publisher = {Elsevier},
+}
+
+@Book{セリシン構造,
+  author    = {北条, 舒正},
+  publisher = {信州大学繊維学部},
+  title     = {絹糸の構造},
+  year      = {1980},
+  url       = {https://ci.nii.ac.jp/ncid/BN01601850},
+}
+
+@Article{セリシンの微細構造,
+  author  = {待田 行雄 and 森 精},
+  journal = {日本蚕糸学雑誌},
+  title   = {セリシン量を異にする繭糸の微細構造},
+  year    = {1987},
+  number  = {4},
+  pages   = {343-349},
+  volume  = {56},
+  doi     = {10.11416/kontyushigen1930.56.343},
+}
+
+@Article{絹糸_液晶,
+  author  = {Magoshi, J and Magoshi, Y and Nakamura, S},
+  journal = {Polymer communications (Guildford)},
+  title   = {Physical properties and structure of silk. IX: Liquid crystal formation of silk fibroin},
+  year    = {1985},
+  number  = {2},
+  pages   = {60--61},
+  volume  = {26},
+}
+
+@Article{絹糸_2D_XRD,
+  author    = {Kawahara, Yutaka and Yoshioka, Taiyo and Tashiro, Kohji},
+  journal   = {Journal of Fiber Science and Technology},
+  title     = {Changes in the Higher-Order Structure of Silk Fibers Obtained by Forcibly Spinning as Compared to Those Obtained by the Naturally Spinning System of the Bombyx mori Silkworm},
+  year      = {2019},
+  number    = {1},
+  pages     = {001--008},
+  volume    = {75},
+  publisher = {The Society of Fiber Science and Technology, Japan},
+}
+
+@Article{朝倉NMR,
+  author    = {Asakura, Tetsuo and Yao, Juming and Yamane, Tsutomu and Umemura, Kosuke and Ulrich, Anne S},
+  journal   = {Journal of the American Chemical Society},
+  title     = {Heterogeneous structure of silk fibers from Bombyx M Ori Resolved by 13C Solid-State NMR spectroscopy},
+  year      = {2002},
+  number    = {30},
+  pages     = {8794--8795},
+  volume    = {124},
+  publisher = {ACS Publications},
+}
+
+@Misc{朝倉_NMR_研究室,
+  author       = {朝倉哲夫},
+  howpublished = {\\ \url{http://web.tuat.ac.jp/~asakura/gaiyo-kozo2.html}},
+  note         = {\\ (最終閲覧日 2023/01/08)},
+  title        = {「新たに決定されたシルク繊維化後の構造」},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
