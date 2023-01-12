@@ -847,6 +847,14 @@ INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//DSC.jpg
+INPUT ./graphics//DSC.jpg
+INPUT ./graphics//DSC.jpg
+INPUT extractbb -B cropbox -O ./graphics//DSC.jpg
+INPUT ./graphics//DSC_hitachi.jpg
+INPUT ./graphics//DSC_hitachi.jpg
+INPUT ./graphics//DSC_hitachi.jpg
+INPUT extractbb -B cropbox -O ./graphics//DSC_hitachi.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
