@@ -847,14 +847,18 @@ INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
-INPUT ./graphics//DSC.jpg
-INPUT ./graphics//DSC.jpg
-INPUT ./graphics//DSC.jpg
-INPUT extractbb -B cropbox -O ./graphics//DSC.jpg
-INPUT ./graphics//DSC_hitachi.jpg
-INPUT ./graphics//DSC_hitachi.jpg
-INPUT ./graphics//DSC_hitachi.jpg
-INPUT extractbb -B cropbox -O ./graphics//DSC_hitachi.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT extractbb -B cropbox -O ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT extractbb -B cropbox -O ./graphics//DSC_cast_film_report.jpeg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
