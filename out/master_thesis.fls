@@ -735,6 +735,10 @@ INPUT ./graphics//試料.jpg
 INPUT ./graphics//試料.jpg
 INPUT ./graphics//試料.jpg
 INPUT extractbb -B cropbox -O ./graphics//試料.jpg
+INPUT ./graphics//金属マスク.jpg
+INPUT ./graphics//金属マスク.jpg
+INPUT ./graphics//金属マスク.jpg
+INPUT extractbb -B cropbox -O ./graphics//金属マスク.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
@@ -847,6 +851,14 @@ INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg

@@ -128,15 +128,15 @@
 		延伸され繊維化する。
 		繊維化後の状態をsilk IIと呼ぶ。silk IIは延伸されているため配向した
 		逆平行$\beta$シートが形成されている。絹糸の二次元XRDは図\ref{silk_fiber_debai}の通りであり、デバイシェラー環から
-		配向による異方性が伺える\cite{絹糸_2D_XRD}。
+		配向による異方性が伺える\cite{yoshioka2016molecular}。
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.8]{silk_fiber_デバイ.jpg}
-			\caption{絹糸の2次元XRD\cite{絹糸_2D_XRD}}
+			\caption{絹糸の2次元XRD\cite{yoshioka2016molecular}。左下の数字は配向係数。}
 			\label{silk_fiber_debai}
 		\end{figure}
 		絹糸の構造はMarshらによって逆平行$\beta$シートのモデルが提案され長く採用されてきた\cite{marshモデル}。
-		しかしそのモデルのみだとX線回折像を説明しきれない箇所がある。
+		しかしそのモデルのみだとX線回折像を説明しきれない箇所があるとされている。
 		AsakuraらはNMRを用いて構造解析を行い、絹糸は分子間間隔の異なる2種類の
 		逆平行$\beta$シート構造と歪んだ$\beta$ターン構造で構成されていると主張している\cite{朝倉NMR}。
 		また、彼らはsilk I型は$\alpha$ヘリックスではなく
@@ -875,9 +875,12 @@
 		セリシンなしのフィルムにおいてはフィブロイン単体で生じるとされる
 		光沢が伺える。
 
+		電極はスパッタを用いて作成した。
+		その際に図\ref{金属マスク}の金属マスクを用いて角度依存性、試料寸法依存性の試料を作成した。
+
 		\begin{figure}[h]
 			\centering
-			\includegraphics[scale=0.7]{試料作製手順.jpg}
+			\includegraphics[scale=0.65]{試料作製手順.jpg}
 			\caption{セリシンを含まない絹糸フィルムの作成手順}
 			\label{セリシンを含まない試料作製手順}
 		\end{figure}
@@ -893,6 +896,12 @@
 			\includegraphics[scale=1]{試料.jpg}
 			\caption{作成した絹糸フィルム。左がセリシンを含む。右がセリシンを含まない。}
 			\label{試料外観}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.9]{金属マスク.jpg}
+			\caption{作製した金属マスク}
+			\label{金属マスク}
 		\end{figure}
 
 		\newpage
@@ -1242,9 +1251,43 @@
 				\end{minipage}
 			\end{figure}
 	\chapter{結果と考察}
+			\section{X線回折と配向性評価}
+			\newpage
+			\section{圧電共鳴の試料寸法と角度依存性}
+			\newpage
+			\section{誘電率の温度依存性}
 	\chapter{総括}
 	\chapter{付録}
 	\section{キャストフィルムの作成方法}
+	絹糸からセリシンを除去したキャストフィルム作成方法は
+	図\ref{フィブロインキャストフィルムの作成方法}の通りである。
+	熱湯にした炭酸ナトリウム水溶液(Na$_2$CO$_3$)に絹糸を入れてセリシンを除去する。
+	セリシン以外のゴミも同時に除去されるためこれを繰り返す。
+	その次に、塩化カルシウムCaCl$_2$と蒸留水と無水エタノール
+	に絹糸を混ぜて加熱すると溶解する。
+	その後、透析して塩を取り除く。
+	透析する前にゴミを除去するため、濾過してもよいが溶解
+	直後のフィブロイン溶液は粘性が高く濾過されない場合がある。
+	透析には毎日、水を入れ替えて最低3日ほど繰り返す。
+	入れ替える回数、透析する時間を伸ばす程、塩が除去されると期待出来る。
+	50℃以下でキャストするとSilk I型となり、50℃以上でキャストするとSilk II型となる。
+
+	セリシンを除去していないフィルムを作成する場合は図\ref{フィブロインキャストフィルムの作成方法}の右側の
+	溶解過程のみ行えばよい。
+	\begin{figure}[h]
+		\centering
+		\includegraphics{cast_film_作成方法.jpg}
+		\caption{キャストフィルムの作成方法\cite{フィブロイン溶解方法}}
+		\label{フィブロインキャストフィルムの作成方法}
+	\end{figure}
+	\newpage
+	キャストにて作成した試料は以下の通りである。
+	セリシンを除去した場合は透明になると判明した。
+	\begin{figure}[h]
+		\centering
+		\includegraphics{cast_film_sample.jpg}
+		\caption{キャストで作成した試料。(A)はセリシンを除去しなった試料、(B)はセリシンを除去した試料。}
+	\end{figure}
 	\newpage
 	\section{DSC}
 	熱特性を評価するために
@@ -1299,7 +1342,7 @@
 	\newpage
 	\section{FTIR}
 	\newpage
-	\subsection{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
+	\section{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
 	原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡(SPM)に属する。
 	走査型プローブ顕微鏡(SPM)とは、微小な深針（カンチレバー）で試料をなぞり、
 	その形状や物性を観察、計測する顕微鏡の総称である。図\ref{SPM}, \ref{cantilever_photo_detector}

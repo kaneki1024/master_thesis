@@ -17,15 +17,13 @@ Satoshi Inoue, Kazunori Tanaka, Fumio Arisaka, Sumiko Kimura, Kohei Ohtomo, and
 \newblock Silk fibroin of bombyx mori is secreted, assembling a high molecular
   mass elementary unit consisting of h-chain, l-chain, and p25, with a 6: 6: 1
   molar ratio.
-\newblock {\em Journal of Biological Chemistry}, Vol. 275, No.~51, pp.
-  40517--40528, 2000.
+\newblock {\em J. Biol. Chem.}, Vol. 275, No.~51, pp. 40517--40528, 2000.
 
 \bibitem{H鎖の周期構造}
 Kazuei Mita, Sachiko Ichimura, and Tharappel~C James.
 \newblock Highly repetitive structure and its organization of the silk fibroin
   gene.
-\newblock {\em Journal of molecular evolution}, Vol.~38, No.~6, pp. 583--592,
-  1994.
+\newblock {\em J. Mol. Evol.}, Vol.~38, No.~6, pp. 583--592, 1994.
 
 \bibitem{fibroinの結晶構造}
 Bernard Lotz and Franiois~Colonna Cesari.
@@ -36,7 +34,7 @@ Bernard Lotz and Franiois~Colonna Cesari.
 \bibitem{marshモデル}
 Richard~E Marsh, Robert~B Corey, and Linus Pauling.
 \newblock An investigation of the structure of silk fibroin.
-\newblock {\em Biochimica et Biophysica acta}, Vol.~16, pp. 1--34, 1955.
+\newblock {\em Biochim. Biophys. Acta}, Vol.~16, pp. 1--34, 1955.
 
 \bibitem{fibroin_準安定状態}
 O~Kratky, E~Schauenstein, and A~Sekora.
@@ -67,20 +65,18 @@ J~Magoshi, Y~Magoshi, and S~Nakamura.
 \newblock {\em Polymer communications (Guildford)}, Vol.~26, No.~2, pp. 60--61,
   1985.
 
-\bibitem{絹糸_2D_XRD}
-Yutaka Kawahara, Taiyo Yoshioka, and Kohji Tashiro.
-\newblock Changes in the higher-order structure of silk fibers obtained by
-  forcibly spinning as compared to those obtained by the naturally spinning
-  system of the bombyx mori silkworm.
-\newblock {\em Journal of Fiber Science and Technology}, Vol.~75, No.~1, pp.
-  001--008, 2019.
+\bibitem{yoshioka2016molecular}
+Taiyo Yoshioka, Kohji Tashiro, and Noboru Ohta.
+\newblock Molecular orientation enhancement of silk by the
+  hot-stretching-induced transition from $\alpha$-helix-hfip complex to
+  $\beta$-sheet.
+\newblock {\em Biomacromolecules}, Vol.~17, No.~4, pp. 1437--1448, 2016.
 
 \bibitem{朝倉NMR}
 Tetsuo Asakura, Juming Yao, Tsutomu Yamane, Kosuke Umemura, and Anne~S Ulrich.
 \newblock Heterogeneous structure of silk fibers from bombyx m ori resolved by
   13c solid-state nmr spectroscopy.
-\newblock {\em Journal of the American Chemical Society}, Vol. 124, No.~30, pp.
-  8794--8795, 2002.
+\newblock {\em J. Am. Chem. Soc.}, Vol. 124, No.~30, pp. 8794--8795, 2002.
 
 \bibitem{朝倉_NMR_研究室}
 朝倉哲夫.
@@ -96,14 +92,12 @@ E~Newton Harvey.
 \bibitem{fukada_silk_fiber}
 Eiichi Fukada.
 \newblock On the piezoelectric effect of silk fibers.
-\newblock {\em Journal of the Physical Society of Japan}, Vol.~11, No.~12, pp.
-  1301A--1301A, 1956.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~11, No.~12, pp. 1301A--1301A, 1956.
 
 \bibitem{fibroin_cast_film_piezo}
 Tuna Yucel, Peggy Cebe, and David~L Kaplan.
 \newblock Structural origins of silk piezoelectricity.
-\newblock {\em Advanced functional materials}, Vol.~21, No.~4, pp. 779--785,
-  2011.
+\newblock {\em Adv. Funct. Mater.}, Vol.~21, No.~4, pp. 779--785, 2011.
 
 \bibitem{エレクトロスパン}
 Vitor Sencadas, Christopher Garvey, Stephen Mudie, Jacob~JK Kirkensgaard,
@@ -152,8 +146,7 @@ VA~Bazhenov.
 \bibitem{fukada_wood}
 Eiichi Fukada.
 \newblock Piezoelectricity of wood.
-\newblock {\em Journal of the Physical Society of Japan}, Vol.~10, No.~2, pp.
-  149--154, 1955.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~10, No.~2, pp. 149--154, 1955.
 
 \bibitem{平井_木材}
 平井信之, 浅野猪久夫, 祖父江信夫.
@@ -163,8 +156,7 @@ Eiichi Fukada.
 \bibitem{fukada_コラーゲン}
 Eiichi Fukada and Iwao Yasuda.
 \newblock Piezoelectric effects in collagen.
-\newblock {\em Japanese Journal of Applied Physics}, Vol.~3, No.~2, p. 117,
-  1964.
+\newblock {\em Jpn. J. Appl. Phys.}, Vol.~3, No.~2, p. 117, 1964.
 
 \bibitem{DNA_圧電性}
 Yutaka Ando and Eiichi Fukada.
@@ -185,32 +177,29 @@ Morris~H Shamos and Leroy~S Lavine.
 \bibitem{fukada_bone}
 Eiichi Fukada and Iwao Yasuda.
 \newblock On the piezoelectric effect of bone.
-\newblock {\em Journal of the physical society of Japan}, Vol.~12, No.~10, pp.
-  1158--1162, 1957.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~12, No.~10, pp. 1158--1162, 1957.
 
 \bibitem{動脈_圧電性}
 Eiichi Fukada and Kiyoshi Hara.
 \newblock Piezoelectric effect in blood vessel walls.
-\newblock {\em Journal of the physical society of Japan}, Vol.~26, No.~3, pp.
-  777--780, 1969.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~26, No.~3, pp. 777--780, 1969.
 
 \bibitem{筋肉_圧電性}
 Eiichi Fukada and Hiroyoshi Ueda~Hiroyoshi Ueda.
 \newblock Piezoelectric effect in muscle.
-\newblock {\em Japanese Journal of Applied Physics}, Vol.~9, No.~7, p. 844,
-  1970.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~9, No.~7, p. 844, 1970.
 
 \bibitem{貝_強誘電性_圧電性}
 Tao Li and Kaiyang Zeng.
 \newblock Nanoscale piezoelectric and ferroelectric behaviors of seashell by
   piezoresponse force microscopy.
-\newblock {\em Journal of Applied Physics}, Vol. 113, No.~18, p. 187202, 2013.
+\newblock {\em J. Phys. Soc. Japan}, Vol. 113, No.~18, p. 187202, 2013.
 
 \bibitem{動脈_強誘電性}
 Yuanming Liu, Yanhang Zhang, Ming-Jay Chow, Qian~Nataly Chen, and Jiangyu Li.
 \newblock Biological ferroelectricity uncovered in aortic walls by
   piezoresponse force microscopy.
-\newblock {\em Physical review letters}, Vol. 108, No.~7, p. 078103, 2012.
+\newblock {\em Phys. Rev. Lett.}, Vol. 108, No.~7, p. 078103, 2012.
 
 \bibitem{合成キラル高分子の圧電性}
 Eiichi Fukada.
@@ -240,8 +229,7 @@ Koji Namiki, Reinosuke Hayakawa, and Yasaku Wada.
 Syuhei Ito, Kenji Imoto, Kyohei Takai, Shintaro Kuroda, Yuki Kamimura, Takuya
   Kataoka, Naoki Kawai, Munehiro Date, Eiichi Fukada, and Yoshiro Tajitsu.
 \newblock Sensing using piezoelectric chiral polymer fiber.
-\newblock {\em Japanese Journal of Applied Physics}, Vol.~51, No. 9S1, p.
-  09LD16, 2012.
+\newblock {\em Jpn. J. Appl. Phys.}, Vol.~51, No. 9S1, p. 09LD16, 2012.
 
 \bibitem{組み紐_plla}
 Yoshiro Tajitsu, Yuka Kawase, Kyousuke Katsuya, Masataka Tamura, Kosei
@@ -253,8 +241,7 @@ Yoshiro Tajitsu, Yuka Kawase, Kyousuke Katsuya, Masataka Tamura, Kosei
 \bibitem{beta_sheet_piezo_theory}
 Eiichi Fukada and Saburo Takashita.
 \newblock Piezoelectric constant in oriented $\beta$-form polypeptides.
-\newblock {\em Japanese Journal of Applied Physics}, Vol.~10, No.~6, p. 722,
-  1971.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~10, No.~6, p. 722, 1971.
 
 \bibitem{ラミー}
 J.E.G. {van Dam} and T.A. Gorshkova.
@@ -277,8 +264,7 @@ M.~Dochia, C.~Sirghie, R.M. Koz^^c5^^82owski, and Z.~Roskwitalski.
 \bibitem{クモと絹糸の構造}
 Ning Du, Zhen Yang, Xiang~Yang Liu, Yang Li, and Hong~Yao Xu.
 \newblock Structural origin of the strain-hardening of spider silk.
-\newblock {\em Advanced Functional Materials}, Vol.~21, No.~4, pp. 772--778,
-  2011.
+\newblock {\em Adv. Funct. Mater.}, Vol.~21, No.~4, pp. 772--778, 2011.
 
 \bibitem{小林理研ニュース}
 古川猛夫.
@@ -301,6 +287,12 @@ M~Nishi, K~Kano, Yoshiyuki Takahashi, and T~Furukawa.
 \newblock In {\em 10th International Symposium on Electrets (ISE 10).
   Proceedings (Cat. No. 99 CH36256)}, pp. 473--476. IEEE, 1999.
 
+\bibitem{フィブロイン溶解方法}
+二宮純子, 上野崇寿, 桑原眸, 森田洋.
+\newblock 絹フィブロインを用いた化学実験教材の開発
+  -タンパク質の検出反応と染色実験-.
+\newblock 日本理科教育学会理科教育学研究, Vol.~59, No.~3, 2019.
+
 \bibitem{cast_film_熱特性_DSC}
 Xiao Hu, David Kaplan, and Peggy Cebe.
 \newblock Dynamic protein- water relationships during $\beta$-sheet formation.
@@ -311,6 +303,6 @@ Denise Denning, Sofiane Alilat, Stefan Habelitz, Andrzej Fertala, and Brian~J
   Rodriguez.
 \newblock Visualizing molecular polar order in tissues via electromechanical
   coupling.
-\newblock {\em J. Struct. Biol.}, Vol. 180, No.~3, pp. 409--419, 2012.
+\newblock {\em J Struct Biol}, Vol. 180, No.~3, pp. 409--419, 2012.
 
 \end{thebibliography}
