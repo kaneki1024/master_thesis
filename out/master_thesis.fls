@@ -851,6 +851,22 @@ INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT extractbb -B cropbox -O ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT extractbb -B cropbox -O ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT ./graphics//cast_film_作成方法.jpg
 INPUT ./graphics//cast_film_作成方法.jpg
 INPUT ./graphics//cast_film_作成方法.jpg
