@@ -30,14 +30,14 @@
   title        = {「小林理学ニュース-圧電ポリマー研究の話」},
 }
 
-@Article{plla_piezo_resonance,
-  author    = {Zin, SH Mat and Velayutham, TS and Furukawa, T and Kodama, H and Gan, WC and Chio-Srichan, Sirinart and Kriechbaum, M and Nakajima, T},
-  journal   = {Polymer},
-  title     = {Quantitative study on the face shear piezoelectricity and its relaxation in uniaxially-drawn and annealed poly-l-lactic acid},
-  year      = {2022},
-  pages     = {125095},
-  volume    = {254},
-  publisher = {Elsevier},
+@Article{PLLA_piezo_resonance,
+  author  = {S.H. {Mat Zin} and T.S. Velayutham and T. Furukawa and H. Kodama and W.C. Gan and Sirinart Chio-Srichan and M. Kriechbaum and T. Nakajima},
+  journal = {Polymer},
+  title   = {Quantitative study on the face shear piezoelectricity and its relaxation in uniaxially-drawn and annealed poly-l-lactic acid},
+  year    = {2022},
+  issn    = {0032-3861},
+  pages   = {125095},
+  volume  = {254},
 }
 
 @InProceedings{PLA_長方形_圧電共鳴,
@@ -139,11 +139,6 @@
   pages     = {11-23},
   series    = {Woodhead Publishing Series in Textiles},
   volume    = {1},
-  abstract  = {Abstract:
-Cotton, the seed hair of plants of the genus Gossypium, and the purest form of cellulose available in nature, is the dominant natural fibre. Cotton has a multilayered structure which consists of a primary wall, a secondary wall and lumen. Under the microscope it looks like a twisted ribbon or like a collapsed and twisted tube. The strength of cotton has been attributed to its highly fibrillar and crystalline structure and its strength is increased by 25% when it is wet. Cotton is a good conductor of heat, is susceptible to damage by mildew, turns yellow and becomes weak when exposed to prolonged sunlight. It is easily flammable and has rather poor resistance to wear. The highest quality cotton varieties have the longest fibres, thin, with good resilience and elasticity which makes them easy to spin, suitable for the production of high-quality goods – especially garments. Recent advances have included production of genetically modified cotton (GM) and also organic cotton.},
-  doi       = {https://doi.org/10.1533/9780857095503.1.9},
-  keywords  = {cotton, organic cotton, genetically modified cotton, genus , structure, strength, short, medium, long staple, quality measuring, mildew resistance},
-  url       = {https://www.sciencedirect.com/science/article/pii/B9781845696979500023},
 }
 
 @Article{絹糸構造,
@@ -185,7 +180,7 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   title     = {On the piezoelectric effect of silk fibers},
   year      = {1956},
   number    = {12},
-  pages     = {1301A--1301A},
+  pages     = {1301},
   volume    = {11},
   publisher = {The Physical Society of Japan},
 }
@@ -213,7 +208,7 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
 
 @Article{martin1941,
   author    = {Martin, AJP},
-  journal   = {Proceedings of the Physical Society (1926-1948)},
+  journal   = {Proc. Phys. Soc.},
   title     = {Tribo-electricity in wool and hair},
   year      = {1941},
   number    = {2},
@@ -338,7 +333,7 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
 
 @Article{DNA_圧電性,
   author    = {Ando, Yutaka and Fukada, Eiichi},
-  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  journal   = {J Polym Sci B Polym Phys},
   title     = {Piezoelectric properties of oriented deoxyribonucleate films},
   year      = {1976},
   number    = {1},
@@ -347,19 +342,19 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {Wiley Online Library},
 }
 
-@Article{合成キラル高分子の圧電性,
+@Book{合成キラル高分子の圧電性,
   author    = {Fukada, Eiichi},
-  journal   = {PLASTICS ENGINEERING-NEW YORK-},
+  editor    = {Hari Singh Nalwa},
+  publisher = {Marcel Dekker Inc},
   title     = {Piezoelectricity and pyroelectricity of biopolymers},
   year      = {1995},
-  pages     = {393--393},
   volume    = {28},
-  publisher = {Marcel Dekker Inc},
+  pages     = {393--393},
 }
 
 @Article{CONH_theory,
   author    = {Namiki, Koji and Hayakawa, Reinosuke and Wada, Yasaku},
-  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  journal   = {J Polym Sci B Polym Phys},
   title     = {Molecular theory of piezoelectricity of $\alpha$-helical polypeptide},
   year      = {1980},
   number    = {5},
@@ -379,15 +374,11 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
   publisher = {APS},
 }
 
-@Article{赤本,
-  author    = {日下一也},
-  journal   = {材料},
-  title     = {“高分子圧電材料と無機圧電セラミックスの基礎から応用” 田實佳郎 監修 ((株) シーエムシー出版)},
-  year      = {2015},
-  number    = {9},
-  pages     = {S6},
-  volume    = {64},
-  publisher = {公益社団法人 日本材料学会},
+@Book{赤本,
+  author    = {田實佳郎},
+  publisher = {シーエムシー出版},
+  title     = {高分子圧電材料と無機圧電セラミックスの基礎から応用},
+  year      = {2021},
 }
 
 @Misc{村田製作所_PLLA,
@@ -410,7 +401,7 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
 
 @Article{組み紐_plla,
   author    = {Tajitsu, Yoshiro and Kawase, Yuka and Katsuya, Kyousuke and Tamura, Masataka and Sakamoto, Kosei and Kawahara, Kazuki and Harada, Yuhei and Kondo, Takashi and Imada, Yuya},
-  journal   = {IEEE Transactions on Dielectrics and Electrical Insulation},
+  journal   = {IEEE Trans. Dielectr. Electr. Insul.},
   title     = {New wearable sensor in the shape of a braided cord (Kumihimo)},
   year      = {2018},
   number    = {3},
@@ -481,7 +472,7 @@ Cotton, the seed hair of plants of the genus Gossypium, and the purest form of c
 
 @Article{絹糸_液晶,
   author  = {Magoshi, J and Magoshi, Y and Nakamura, S},
-  journal = {Polymer communications (Guildford)},
+  journal = {Polym. commun (Guildf.)},
   title   = {Physical properties and structure of silk. IX: Liquid crystal formation of silk fibroin},
   year    = {1985},
   number  = {2},

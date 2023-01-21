@@ -62,8 +62,7 @@ Regina Valluzzi, Samuel~P Gido, Weiping Zhang, Wayne~S Muller, and David~L
 J~Magoshi, Y~Magoshi, and S~Nakamura.
 \newblock Physical properties and structure of silk. ix: Liquid crystal
   formation of silk fibroin.
-\newblock {\em Polymer communications (Guildford)}, Vol.~26, No.~2, pp. 60--61,
-  1985.
+\newblock {\em Polym. commun (Guildf.)}, Vol.~26, No.~2, pp. 60--61, 1985.
 
 \bibitem{yoshioka2016molecular}
 Taiyo Yoshioka, Kohji Tashiro, and Noboru Ohta.
@@ -92,7 +91,7 @@ E~Newton Harvey.
 \bibitem{fukada_silk_fiber}
 Eiichi Fukada.
 \newblock On the piezoelectric effect of silk fibers.
-\newblock {\em J. Phys. Soc. Japan}, Vol.~11, No.~12, pp. 1301A--1301A, 1956.
+\newblock {\em J. Phys. Soc. Japan}, Vol.~11, No.~12, p. 1301, 1956.
 
 \bibitem{fibroin_cast_film_piezo}
 Tuna Yucel, Peggy Cebe, and David~L Kaplan.
@@ -126,11 +125,31 @@ Sumanta~Kumar Karan, Sandip Maiti, Owoong Kwon, Sarbaranjan Paria, Anirban
   bio-piezoelectric nanogenerator.
 \newblock {\em Nano Energy}, Vol.~49, pp. 655--666, 2018.
 
+\bibitem{小林理研ニュース}
+古川猛夫.
+\newblock 「小林理学ニュース-圧電ポリマー研究の話」.
+\newblock \\
+  \url{http://www.kobayasiriken.or.jp/news/newstop/news_Frame_6kenkyu.htm}.
+\newblock \\ (最終閲覧日 2022/02/01).
+
+\bibitem{plla_piezo_resonance}
+S.H. {Mat Zin}, T.S. Velayutham, T.~Furukawa, H.~Kodama, W.C. Gan, Sirinart
+  Chio-Srichan, M.~Kriechbaum, and T.~Nakajima.
+\newblock Quantitative study on the face shear piezoelectricity and its
+  relaxation in uniaxially-drawn and annealed poly-l-lactic acid.
+\newblock {\em Polymer}, Vol. 254, p. 125095, 2022.
+
+\bibitem{PLA_長方形_圧電共鳴}
+M~Nishi, K~Kano, Yoshiyuki Takahashi, and T~Furukawa.
+\newblock Piezoelectric resonance in uniaxially oriented films of chiral
+  polymers.
+\newblock In {\em 10th International Symposium on Electrets (ISE 10).
+  Proceedings (Cat. No. 99 CH36256)}, pp. 473--476. IEEE, 1999.
+
 \bibitem{martin1941}
 AJP Martin.
 \newblock Tribo-electricity in wool and hair.
-\newblock {\em Proceedings of the Physical Society (1926-1948)}, Vol.~53,
-  No.~2, p. 186, 1941.
+\newblock {\em Proc. Phys. Soc.}, Vol.~53, No.~2, p. 186, 1941.
 
 \bibitem{shubnikov1946}
 AV~Shubnikov, et~al.
@@ -161,8 +180,7 @@ Eiichi Fukada and Iwao Yasuda.
 \bibitem{DNA_圧電性}
 Yutaka Ando and Eiichi Fukada.
 \newblock Piezoelectric properties of oriented deoxyribonucleate films.
-\newblock {\em Journal of Polymer Science: Polymer Physics Edition}, Vol.~14,
-  No.~1, pp. 63--79, 1976.
+\newblock {\em J Polym Sci B Polym Phys}, Vol.~14, No.~1, pp. 63--79, 1976.
 
 \bibitem{皮膚_圧電性}
 Morris~H Shamos and Leroy~S Lavine.
@@ -203,20 +221,18 @@ Yuanming Liu, Yanhang Zhang, Ming-Jay Chow, Qian~Nataly Chen, and Jiangyu Li.
 
 \bibitem{合成キラル高分子の圧電性}
 Eiichi Fukada.
-\newblock Piezoelectricity and pyroelectricity of biopolymers.
-\newblock {\em PLASTICS ENGINEERING-NEW YORK-}, Vol.~28, pp. 393--393, 1995.
+\newblock {\em Piezoelectricity and pyroelectricity of biopolymers}, Vol.~28.
+\newblock Marcel Dekker Inc, 1995.
 
 \bibitem{CONH_theory}
 Koji Namiki, Reinosuke Hayakawa, and Yasaku Wada.
 \newblock Molecular theory of piezoelectricity of $\alpha$-helical polypeptide.
-\newblock {\em Journal of Polymer Science: Polymer Physics Edition}, Vol.~18,
-  No.~5, pp. 993--1004, 1980.
+\newblock {\em J Polym Sci B Polym Phys}, Vol.~18, No.~5, pp. 993--1004, 1980.
 
 \bibitem{赤本}
-日下一也.
-\newblock “高分子圧電材料と無機圧電セラミックスの基礎から応用” 田實佳郎 監修
-  ((株) シーエムシー出版).
-\newblock 材料, Vol.~64, No.~9, p.~S6, 2015.
+田實佳郎.
+\newblock 高分子圧電材料と無機圧電セラミックスの基礎から応用.
+\newblock シーエムシー出版, 2021.
 
 \bibitem{村田製作所_PLLA}
 株式会社村田製作所.
@@ -235,8 +251,8 @@ Syuhei Ito, Kenji Imoto, Kyohei Takai, Shintaro Kuroda, Yuki Kamimura, Takuya
 Yoshiro Tajitsu, Yuka Kawase, Kyousuke Katsuya, Masataka Tamura, Kosei
   Sakamoto, Kazuki Kawahara, Yuhei Harada, Takashi Kondo, and Yuya Imada.
 \newblock New wearable sensor in the shape of a braided cord (kumihimo).
-\newblock {\em IEEE Transactions on Dielectrics and Electrical Insulation},
-  Vol.~25, No.~3, pp. 772--777, 2018.
+\newblock {\em IEEE Trans. Dielectr. Electr. Insul.}, Vol.~25, No.~3, pp.
+  772--777, 2018.
 
 \bibitem{beta_sheet_piezo_theory}
 Eiichi Fukada and Saburo Takashita.
@@ -265,27 +281,6 @@ M.~Dochia, C.~Sirghie, R.M. Koz^^c5^^82owski, and Z.~Roskwitalski.
 Ning Du, Zhen Yang, Xiang~Yang Liu, Yang Li, and Hong~Yao Xu.
 \newblock Structural origin of the strain-hardening of spider silk.
 \newblock {\em Adv. Funct. Mater.}, Vol.~21, No.~4, pp. 772--778, 2011.
-
-\bibitem{小林理研ニュース}
-古川猛夫.
-\newblock 「小林理学ニュース-圧電ポリマー研究の話」.
-\newblock \\
-  \url{http://www.kobayasiriken.or.jp/news/newstop/news_Frame_6kenkyu.htm}.
-\newblock \\ (最終閲覧日 2022/02/01).
-
-\bibitem{plla_piezo_resonance}
-SH~Mat Zin, TS~Velayutham, T~Furukawa, H~Kodama, WC~Gan, Sirinart Chio-Srichan,
-  M~Kriechbaum, and T~Nakajima.
-\newblock Quantitative study on the face shear piezoelectricity and its
-  relaxation in uniaxially-drawn and annealed poly-l-lactic acid.
-\newblock {\em Polymer}, Vol. 254, p. 125095, 2022.
-
-\bibitem{PLA_長方形_圧電共鳴}
-M~Nishi, K~Kano, Yoshiyuki Takahashi, and T~Furukawa.
-\newblock Piezoelectric resonance in uniaxially oriented films of chiral
-  polymers.
-\newblock In {\em 10th International Symposium on Electrets (ISE 10).
-  Proceedings (Cat. No. 99 CH36256)}, pp. 473--476. IEEE, 1999.
 
 \bibitem{フィブロイン溶解方法}
 二宮純子, 上野崇寿, 桑原眸, 森田洋.

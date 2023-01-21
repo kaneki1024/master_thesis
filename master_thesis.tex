@@ -36,10 +36,10 @@
 			
 			\vspace{50truept}
 			
-			{\Huge 複素誘電スペクトロスコピーによる\\絹糸の誘電・圧電・機械的特性の評価}\\
+			{\Huge 複素誘電スペクトロスコピーによる\\シルクフィルムの\\誘電・圧電・機械的特性の評価}\\
 			\vspace{10truept}
 			
-			\vspace*{280truept}
+			\vspace*{260truept}
 			
 			{\LARGE 1521516}\\
 			\vspace{5truept}
@@ -74,11 +74,12 @@
 		 "Transforming Our World: 2030 Agenda for Sustainable Development" が採択された\cite{sdgs_2030}。
 		だれも取り残さなさい(leave no one behind)を基本理念とし、
 		17の目標と169のターゲットから構成されている。まとめて
-		「持続可能な開発目標（SDGs: Sustainable Development Goals）」と呼ばれる。
+		「持続可能な開発目標(SDGs: Sustainable Development Goals)」と呼ばれる。
 		図\ref{sdgs_poster}の通り、17個の目標は貧困、紛争、健康などの人間的な活動の問題から
 		気候変動、海洋環境など環境問題まで言及している。
 		科学技術の向上により人類の生活は向上してきたが、今後は環境に対する負荷、
 		発展途上国にも普及するか、なども考慮しなくてはならない。
+		環境負荷においては生分解性、発展途上国への普及においては安価で複雑な工程を踏まず実現できるかが重要となる。
 		\\
 		\\
 
@@ -91,6 +92,7 @@
 		\newpage
 		\subsection{絹糸}
 		\subsubsection{絹糸の概論}
+
 		\newpage
 		\subsubsection{絹糸の構造}
 		図\ref{fibroin}(a)の様に絹糸はフィブロインとセリシンで構成されている。
@@ -132,7 +134,7 @@
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.8]{silk_fiber_デバイ.jpg}
-			\caption{絹糸の2次元XRD\cite{yoshioka2016molecular}。左下の数字は配向係数。}
+			\caption{絹糸の2次元XRD\cite{yoshioka2016molecular}。左下の数字はHermanの配向係数。}
 			\label{silk_fiber_debai}
 		\end{figure}
 		絹糸の構造はMarshらによって逆平行$\beta$シートのモデルが提案され長く採用されてきた\cite{marshモデル}。
@@ -161,11 +163,11 @@
 			その後、Yucelらによって絹糸のセリシンを除去しフィブロインのキャストフィルムを作製して
 			圧電性の報告がされた\cite{fibroin_cast_film_piezo}。
 			図\ref{silk_fibroin_cast_装置}の(A)の様に190℃のヒートブロックを
-			局所的に試料を温めながら、試料をなぞる様に移動させる。同時に力を加えて延伸する。
+			局所的に試料を温めながら、試料をなぞる様に移動させ、力を加えて延伸する。
 			硬くて脆いという特徴があるfibroinのキャストフィルムだが2.7倍まで延伸したと報告されている。
 			図\ref{silk_fibroin_cast_装置}(B)の動的粘弾性装置(Dynamic Mechanical Analysis: DMA)
-			を加工してずり圧電の圧電性を評価した。延伸倍率と圧電$d_{14}$の関係は図\ref{cast_film_data}(A)
-			の通りである。試料の切り出しの角度と$d_{14}$の関係は図\ref{cast_film_data}(B)の通りである。
+			を利用してずり圧電の圧電性を評価した。延伸倍率と圧電定数$d_{14}$の関係は図\ref{cast_film_data}(A)
+			の通りである。試料の切り出しの角度と圧電定数$d_{14}$の関係は図\ref{cast_film_data}(B)の通りである。
 			ずり圧電の特徴である角度依存性が確認出来る。
 			\begin{figure}[h]
 				\centering
@@ -219,9 +221,138 @@
 			
 			絹糸ではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
 			も報告されている。電極の上にクモの糸を並べて素子を作成し、整流しコンデンサーに蓄えたと報告している\cite{karan2018nature}。
-			
+			\newpage
+			\subsection{圧電共鳴法}
+			圧電体は、逆圧電効果によって電圧を印加すると機械的な変形を生じる。
+			交流電圧を印加すると特定の周波数において機械的な共鳴状態が発生する。
+			これを圧電共鳴と呼ぶ。
+			PVDFやVDF-TrFEなどの長さ方向、幅方向、厚さ方向に圧電性を持つ材料は
+			図\ref{圧電共鳴のモード}のように3モードにおいて共振する。
+			長さ方向の共振においては、長さ、幅、厚さの全てが自由端条件となる。
+			幅方向の共振は、長さ方向が固定端条件となりそれ以外は自由端条件である。
+			厚さ方向の共振は、厚さ方向のみが自由端条件となる。
+			そしてそれぞれのモードにおいて、誘電率においても
+			図\ref{VDF-TrFEの圧電共鳴スペクトル}のように共鳴のスペクトルを生じる。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.5\linewidth]{圧電共鳴.jpg}
+				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a)：長さ方向の共鳴、(b):幅方向の共鳴、(c):厚さ方向の共鳴。
+				$l$は試料の長さ方向の寸法、$w$は幅方向の寸法、$t$は厚さ方向の寸法。}
+				\label{圧電共鳴のモード}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.5\linewidth]{VDF_TrFe_圧電共鳴.jpg}
+				\caption{VDF-TrFEの圧電共鳴スペクトル\cite{小林理研ニュース}}
+				\label{VDF-TrFEの圧電共鳴スペクトル}
+			\end{figure}
+			\\ \\
+			長さ方向の共鳴が発生する周波数を$f_l$、幅方向の共鳴の周波数を$f_w$、
+			厚さ方向の共鳴の周波数を$f_t$はそれぞれの寸法を$l, w, t$として
+			以下の3式で表される。
+			\begin{equation}
+				f_l = \frac{1}{2l}\sqrt{\frac{1}{\rho s_l}}
+			\end{equation} 
+			\begin{equation}
+				f_w = \frac{1}{2w}\sqrt{\frac{1}{\rho s_w}}
+			\end{equation}
+			\begin{equation}
+				f_t = \frac{1}{2t}\sqrt{\frac{c_t}{\rho}}
+			\end{equation} 
+			また、電気機械結合係数は0°カットであれば、それぞれ方向において以下のように決まる。
+			\begin{equation}
+				k_l^2 = \frac{d_{31}^2}{\varepsilon_{33}^T s_{11}}
+			\end{equation}
+			\begin{equation}
+				k_w^2 = \frac{\left(d_{32} - d_{31}s_{12}/s_{22} \right)^2}
+				{\varepsilon_{33}^T s_{22}}
+			\end{equation}
+			\begin{equation}
+				k_t^2 = \frac{e_{33}^2}{\varepsilon_{33}^S c_{33}}
+			\end{equation}
+			誘電率全体を上の3式を用いて以下の様に記述される。
+			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
+			あるいは固定端であるときの誘電率であり、式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			\begin{equation}
+				\varepsilon_{33} =
+				\varepsilon_{33}^S
+				\frac{\left(1+\frac{k_l^2}{1-k_l^2}\frac{\tan{\pi f/2f_l}}{\pi f/2f_l}\right)
+				\left( 
+					1+\frac{k_w^2}{1-k_w^2}\frac{\tan{\pi f/2f_w}}{\pi f/2f_w}
+				\right)
+				}
+				{1-k_t^2\frac{\tan{\pi f/2f_t}}{\pi f/2f_t}}
+				\label{normal_piezo_resonance}
+			\end{equation}
+			\\
+			ずり圧電の共鳴モードは図\ref{圧電共鳴のモード}と異なる。
+			ずり圧電の場合は、図\ref{ずり圧電の共鳴モード}(a)の様に
+			配向軸に対して$\theta=45^\circ$にて正方形にカットした場合にて
+			図\ref{ずり圧電の共鳴モード}(b)の共鳴モードとなる。
+			正方形であるため、共鳴モードは一つしかない。
+			どの試料の辺においても境界条件は自由端となる。
+			また、試料の厚さは長さや幅に対して十分小さいとみなして固定端条件となる。
+			この条件は、PVDFやVDF-TrFEなどにおける、厚さ方向の共鳴と同じである。
+			また、ずり圧電は慣例的に膜厚方向を1軸、配向軸に垂直な方向をy軸、配向軸に平行な方向をz軸とる。
+			ずり圧電の性質をもつ材料としてPLLA(ポリ乳酸)がある。
+			PLLAにおける圧電スペクトルは図\ref{PLLA_piezo_resonance}の通りである。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.8\linewidth]{ずり圧電_共鳴モード.jpg}
+				\caption{ずり圧電の共鳴モード。(a):配向軸に対して$\theta=45^\circ$の角度で正方形に切り出す。
+				膜厚方向をx軸、試料平面内にy, z軸を取る。
+				(b):ずり圧電のイメージ図。}
+				\label{ずり圧電の共鳴モード}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics{PLLA_圧電共鳴スペクトル.jpg}
+				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
+				\label{PLLA_piezo_resonance}
+			\end{figure}
+			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\ref{ずりの共鳴周波数}、
+			式\ref{ずりの圧電共鳴_理論式}、式\ref{ずりの電気機械結合係数}で記述される。
+			式\ref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
+			式\ref{normal_piezo_resonance}同様に式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			\begin{equation}
+				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
+				\label{ずりの共鳴周波数}
+			\end{equation}
+			\begin{equation}
+				\varepsilon_{11}^T=\varepsilon_{11}^S\left(1+k_{14}^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
+				\label{ずりの圧電共鳴_理論式}
+			\end{equation}
+			\begin{equation}
+				k_{14}^2=\frac{e_{14}^2}{\varepsilon_{11}^Sc_{44}}
+				\label{ずりの電気機械結合係数}
+			\end{equation}
+			図\ref{PLA_45_cut}のように試料を正方形ではなく、
+			長方形にカットして圧電共鳴スペクトルを観測した事例もある
+			\cite{PLA_長方形_圧電共鳴}。
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{PLA_ずり圧電_長方形カット.jpg}
+					\caption{PLAの長方形$45^\circ$カット\cite{PLA_長方形_圧電共鳴}}
+					\label{PLA_45_cut}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{PLA_圧電共鳴スペクトル_長方形.jpg}
+					\caption{PLAの長方形$45^{\circ}$カットにおける圧電共鳴スペクトル観測\cite{PLA_長方形_圧電共鳴}}
+				\end{minipage}
+			\end{figure}
 		\section{研究の目的}
-
+		環境に優しい機能性材料に注目が集まっているため、
+		生体適合性、生分解性、圧電性を有する絹糸も期待されている。
+		しかしながら報告されている絹糸を圧縮して作成されたシルクフィルムは精度の良い定量的な評価に至っていない。
+		また、絹糸の一部を利用したフィブロインのキャストフィルムによる圧電性評価の報告は試料に直接的に
+		力を加えて計測する方法であり、圧電共鳴法程、正確ではない。
+		また、材料を溶解させて試料を作成するキャストフィルムは絹糸の高い配向性を利用していない。
+		
+		本研究では、絹糸の高い配向性を利用し熱プレスを用いてシルクフィルムを作成した。
+		また、圧電共鳴法をもちいて高精度にシルクフィルムの圧電性、誘電性、機械特性を評価することを目的とした。
 	\chapter{原理}
 		\section{圧電性}
 		\subsection{圧電基本式}
@@ -401,17 +532,17 @@
 					0 & 0 & 0 & 0 & 0 & 0
 				\end{array}\right)
 			\end{equation}
+			\newpage
 			\subsection{電気機械結合係数}
 			物理変数が異なる系の物理変数を変化させる現象を結合効果という。
-			力や温度変化によって分極が変化する現象である圧電効果(piezoelectric effect)
-			及び焦電効果(pyroelectric effect)は結合効果の一つである。
-
+			試料に加えられた力や温度によって分極が変化する現象である圧電性、焦電性は結合効果の一つである。
 			\begin{figure}[h]
 				\centering
 				\includegraphics{結合効果.jpg}
 				\caption{線形な結合効果}
 				\label{結合効果}
 			\end{figure}
+
 			図\ref{結合効果}のように2種類の共役な物理変数 ($x_1$, $X_1$),($x_2$, $X_2$)
 			について、その間に線形な結合があるとする。
 			熱力学ポテンシャルは、一般化したひずみ $x$ を独立変数として
@@ -1010,7 +1141,7 @@
 				\label{XRD_pole_figure}
 			\end{figure}
 			\newpage
-			\subsection{誘電率測定と圧電共鳴法}
+			\subsection{誘電率測定}
 			作成したシルクフィブロインフィルムの誘電率はインピーダンスアナライザ
 			図\ref{インピーダンスアナライザ}(KEYSIGHT 4294A)を用いて測定した。
 			圧電性の評価においては誘電率に現れる圧電性による効果を圧電共鳴法に基づいて評価した。
@@ -1115,113 +1246,9 @@
 			
 			本研究において圧電性の評価は誘電率を測定し、誘電率に現れる圧電共鳴成分を用いて評価
 			する圧電共鳴法を用いた。
-			\newpage
-			\subsubsection{圧電共鳴法}
-			圧電体は、逆圧電効果によって電圧を印加すると機械的な変形を生じる。
-			交流電圧を印加すると特定の周波数において機械的な共鳴状態が発生する。
-			これを圧電共鳴と呼ぶ。
-			PVDFやVDF-TrFEなどの長さ方向、幅方向、厚さ方向に圧電性を持つ材料は
-			図\ref{圧電共鳴のモード}のように3モードにおいて共振する。
-			長さ方向の共振においては、長さ、幅、厚さの全てが自由端条件となる。
-			幅方向の共振は、長さ方向が固定端条件となりそれ以外は自由端条件である。
-			厚さ方向の共振は、厚さ方向のみが自由端条件となる。
-			そしてそれぞれのモードにおいて、誘電率においても
-			図\ref{VDF-TrFEの圧電共鳴スペクトル}のように共鳴のスペクトルを生じる。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.5\linewidth]{圧電共鳴.jpg}
-				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a)：長さ方向の共鳴、(b):幅方向の共鳴、(c):厚さ方向の共鳴。
-				$l$は試料の長さ方向の寸法、$w$は幅方向の寸法、$t$は厚さ方向の寸法。}
-				\label{圧電共鳴のモード}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.5\linewidth]{VDF_TrFe_圧電共鳴.jpg}
-				\caption{VDF-TrFEの圧電共鳴スペクトル\cite{小林理研ニュース}}
-				\label{VDF-TrFEの圧電共鳴スペクトル}
-			\end{figure}
-			\\ \\
-			長さ方向の共鳴が発生する周波数を$f_l$、幅方向の共鳴の周波数を$f_w$、
-			厚さ方向の共鳴の周波数を$f_t$はそれぞれの寸法を$l, w, t$として
-			以下の3式で表される。
-			\begin{equation}
-				f_l = \frac{1}{2l}\sqrt{\frac{1}{\rho s_l}}
-			\end{equation} 
-			\begin{equation}
-				f_w = \frac{1}{2w}\sqrt{\frac{1}{\rho s_w}}
-			\end{equation}
-			\begin{equation}
-				f_t = \frac{1}{2t}\sqrt{\frac{c_t}{\rho}}
-			\end{equation} 
-			また、電気機械結合係数は0°カットであれば、それぞれ方向において以下のように決まる。
-			\begin{equation}
-				k_l^2 = \frac{d_{31}^2}{\varepsilon_{33}^T s_{11}}
-			\end{equation}
-			\begin{equation}
-				k_w^2 = \frac{\left(d_{32} - d_{31}s_{12}/s_{22} \right)^2}
-				{\varepsilon_{33}^T s_{22}}
-			\end{equation}
-			\begin{equation}
-				k_t^2 = \frac{e_{33}^2}{\varepsilon_{33}^S c_{33}}
-			\end{equation}
-			誘電率全体を上の3式を用いて以下の様に記述される。
-			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
-			あるいは固定端であるときの誘電率であり、式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
-			\begin{equation}
-				\varepsilon_{33} =
-				\varepsilon_{33}^S
-				\frac{\left(1+\frac{k_l^2}{1-k_l^2}\frac{\tan{\pi f/2f_l}}{\pi f/2f_l}\right)
-				\left( 
-					1+\frac{k_w^2}{1-k_w^2}\frac{\tan{\pi f/2f_w}}{\pi f/2f_w}
-				\right)
-				}
-				{1-k_t^2\frac{\tan{\pi f/2f_t}}{\pi f/2f_t}}
-				\label{normal_piezo_resonance}
-			\end{equation}
-			\\
-			ずり圧電の共鳴モードは図\ref{圧電共鳴のモード}と異なる。
-			ずり圧電の場合は、図\ref{ずり圧電の共鳴モード}(a)の様に
-			配向軸に対して$\theta=45^\circ$にて正方形にカットした場合にて
-			図\ref{ずり圧電の共鳴モード}(b)の共鳴モードとなる。
-			正方形であるため、共鳴モードは一つしかない。
-			どの試料の辺においても境界条件は自由端となる。
-			また、試料の厚さは長さや幅に対して十分小さいとみなして固定端条件となる。
-			この条件は、PVDFやVDF-TrFEなどにおける、厚さ方向の共鳴と同じである。
-			また、ずり圧電は慣例的に膜厚方向を1軸、配向軸に垂直な方向をy軸、配向軸に平行な方向をz軸とる。
-			ずり圧電の性質をもつ材料としてPLLA(ポリ乳酸)がある。
-			PLLAにおける圧電スペクトルは図\ref{PLLA_piezo_resonance}の通りである。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.8\linewidth]{ずり圧電_共鳴モード.jpg}
-				\caption{ずり圧電の共鳴モード。(a):配向軸に対して$\theta=45^\circ$の角度で正方形に切り出す。
-				膜厚方向をx軸、試料平面内にy, z軸を取る。
-				(b):ずり圧電のイメージ図。}
-				\label{ずり圧電の共鳴モード}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics{PLLA_圧電共鳴スペクトル.jpg}
-				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
-				\label{PLLA_piezo_resonance}
-			\end{figure}
-			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\ref{ずりの共鳴周波数}、
-			式\ref{ずりの圧電共鳴_理論式}、式\ref{ずりの電気機械結合係数}で記述される。
-			式\ref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
-			式\ref{normal_piezo_resonance}同様に式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
-			\begin{equation}
-				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
-				\label{ずりの共鳴周波数}
-			\end{equation}
-			\begin{equation}
-				\varepsilon_{11}^T=\varepsilon_{11}^S\left(1+k_{14}^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
-				\label{ずりの圧電共鳴_理論式}
-			\end{equation}
-			\begin{equation}
-				k_{14}^2=\frac{e_{14}^2}{\varepsilon_{11}^Sc_{44}}
-				\label{ずりの電気機械結合係数}
-			\end{equation}
-			式\ref{ずりの圧電共鳴_理論式}は式\ref{normal_piezo_resonance}において、
-			$k_l=0, k_w=0$とし、$t\rightarrow l, f_t \rightarrow f_R$にして以下のように近似すると得られる。
+			フィッティングに用いた関数は式\ref{normal_piezo_resonance}であるが
+			$k_l=0, k_w=0$とし、$t\rightarrow l, f_t \rightarrow f_R$にして以下のように近似すると
+			式\ref{ずりの圧電共鳴_理論式}が得られる。
 			\begin{equation}
 				\varepsilon_{33} =
 				\varepsilon_{33}^S
@@ -1229,26 +1256,12 @@
 				= \varepsilon_{33}^S\left(1-k_l^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)^{-1}
 				\approx \varepsilon_{33}^S\left(1+k_l^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
 			\end{equation}
-			図\ref{PLA_45_cut}のように試料を正方形ではなく、
-			長方形にカットして圧電共鳴スペクトルを観測した事例もある
-			\cite{PLA_長方形_圧電共鳴}。
-			ただし、一般的にずり圧電$k_{14}$は微小で共鳴スペクトルが明確でない場合もあるが、
-			長さ方向と幅方向のどちらにおいても計測対象が$k_{14}$の1つであるため
-			本研究では正方形カットを採用した。
-			\begin{figure}[h]
-				\centering
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{PLA_ずり圧電_長方形カット.jpg}
-					\caption{PLAの長方形$45^\circ$カット\cite{PLA_長方形_圧電共鳴}}
-					\label{PLA_45_cut}
-				\end{minipage}
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{PLA_圧電共鳴スペクトル_長方形.jpg}
-					\caption{PLAの長方形$45^{\circ}$カットにおける圧電共鳴スペクトル観測\cite{PLA_長方形_圧電共鳴}}
-				\end{minipage}
-			\end{figure}
+			また、フィッティングに式\ref{normal_piezo_resonance}を用いているため、
+			弾性率は2倍大きく、圧電e定数は$\sqrt{2}$倍大きく、圧電d定数は$1/\sqrt{2}$倍
+			小さく求められるため、フィッティングした後に修正した。
+			そして長さ方向と幅方向のどちらにおいても計測対象が$k_{14}$の1つであるため
+			本研究では試料の寸法は正方形とした。
+			\newpage
 	\chapter{結果と考察}
 			\section{X線回折と配向性評価}
 			\newpage
