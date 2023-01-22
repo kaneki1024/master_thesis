@@ -4,48 +4,50 @@ The top-level auxiliary file: out\master_thesis.aux
 The style file: junsrt.bst
 Database file #1: master.bib
 Warning--empty journal in sdgs_2030
+Warning--can't use both author and editor fields in 応用物性
 Warning--can't use both volume and number fields in bazhenov1950
 Warning--can't use both author and editor fields in 合成キラル高分子の圧電性
-You've used 52 entries,
+Warning--can't use both author and editor fields in cotton
+You've used 53 entries,
             2270 wiz_defined-function locations,
-            887 strings with 12777 characters,
-and the built_in function-call counts, 19372 in all, are:
-= -- 1578
+            891 strings with 12800 characters,
+and the built_in function-call counts, 19381 in all, are:
+= -- 1570
 > -- 555
-< -- 116
-+ -- 219
+< -- 115
++ -- 220
 - -- 167
-* -- 1049
+* -- 1043
 := -- 2245
-add.period$ -- 162
-call.type$ -- 52
-change.case$ -- 49
+add.period$ -- 164
+call.type$ -- 53
+change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 1253
-empty$ -- 1736
+cite$ -- 58
+duplicate$ -- 1260
+empty$ -- 1744
 format.name$ -- 334
-if$ -- 4840
+if$ -- 4836
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 51
-newline$ -- 266
-num.names$ -- 56
-pop$ -- 295
+int.to.str$ -- 53
+missing$ -- 54
+newline$ -- 271
+num.names$ -- 55
+pop$ -- 307
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1075
+skip$ -- 1074
 stack$ -- 0
-substring$ -- 1098
-swap$ -- 520
-text.length$ -- 116
+substring$ -- 1078
+swap$ -- 515
+text.length$ -- 115
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 155
-width$ -- 54
-write$ -- 573
-is.kanji.str$ -- 647
-(There were 3 warnings)
+warning$ -- 5
+while$ -- 153
+width$ -- 55
+write$ -- 581
+is.kanji.str$ -- 652
+(There were 5 warnings)

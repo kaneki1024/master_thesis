@@ -851,6 +851,13 @@ INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//theta_2theta_fibroin_film.jpg
+INPUT ./graphics//theta_2theta_fibroin_film.jpg
+INPUT extractbb -B cropbox -O ./graphics//theta_2theta_fibroin_film.jpg
+INPUT ./graphics//pole_figure_silk_fibroin.jpg
+INPUT ./graphics//pole_figure_silk_fibroin.jpg
+INPUT ./graphics//pole_figure_silk_fibroin.jpg
+INPUT extractbb -B cropbox -O ./graphics//pole_figure_silk_fibroin.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
@@ -867,6 +874,67 @@ INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT extractbb -B cropbox -O ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし_拡大.jpg
+INPUT ./graphics//温度_弾性率_セリシンなし.jpg
+INPUT ./graphics//温度_弾性率_セリシンなし.jpg
+INPUT ./graphics//温度_弾性率_セリシンなし.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_弾性率_セリシンなし.jpg
+INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmb10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT ./graphics//デバイ.jpg
+INPUT ./graphics//デバイ.jpg
+INPUT ./graphics//デバイ.jpg
+INPUT extractbb -B cropbox -O ./graphics//デバイ.jpg
 INPUT ./graphics//cast_film_作成方法.jpg
 INPUT ./graphics//cast_film_作成方法.jpg
 INPUT ./graphics//cast_film_作成方法.jpg

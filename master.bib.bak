@@ -128,17 +128,18 @@
   url       = {https://www.sciencedirect.com/science/article/pii/B0122270509000466},
 }
 
-@InCollection{cotton,
+@InBook{cotton,
   author    = {M. Dochia and C. Sirghie and R.M. Kozłowski and Z. Roskwitalski},
-  booktitle = {Handbook of Natural Fibres},
-  publisher = {Woodhead Publishing},
-  title     = {2 - Cotton fibres},
-  year      = {2012},
+  chapter   = {2},
   editor    = {Ryszard M. Kozłowski},
-  isbn      = {978-1-84569-697-9},
   pages     = {11-23},
+  publisher = {Woodhead Publishing},
+  title     = {Cotton fibres},
+  year      = {2012},
+  isbn      = {978-1-84569-697-9},
   series    = {Woodhead Publishing Series in Textiles},
   volume    = {1},
+  booktitle = {Handbook of Natural Fibres},
 }
 
 @Article{絹糸構造,
@@ -208,7 +209,7 @@
 
 @Article{martin1941,
   author    = {Martin, AJP},
-  journal   = {Proceedings of the Physical Society (1926-1948)},
+  journal   = {Proc. Phys. Soc.},
   title     = {Tribo-electricity in wool and hair},
   year      = {1941},
   number    = {2},
@@ -333,7 +334,7 @@
 
 @Article{DNA_圧電性,
   author    = {Ando, Yutaka and Fukada, Eiichi},
-  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  journal   = {J Polym Sci B Polym Phys},
   title     = {Piezoelectric properties of oriented deoxyribonucleate films},
   year      = {1976},
   number    = {1},
@@ -354,7 +355,7 @@
 
 @Article{CONH_theory,
   author    = {Namiki, Koji and Hayakawa, Reinosuke and Wada, Yasaku},
-  journal   = {Journal of Polymer Science: Polymer Physics Edition},
+  journal   = {J Polym Sci B Polym Phys},
   title     = {Molecular theory of piezoelectricity of $\alpha$-helical polypeptide},
   year      = {1980},
   number    = {5},
@@ -401,7 +402,7 @@
 
 @Article{組み紐_plla,
   author    = {Tajitsu, Yoshiro and Kawase, Yuka and Katsuya, Kyousuke and Tamura, Masataka and Sakamoto, Kosei and Kawahara, Kazuki and Harada, Yuhei and Kondo, Takashi and Imada, Yuya},
-  journal   = {IEEE Transactions on Dielectrics and Electrical Insulation},
+  journal   = {IEEE Trans. Dielectr. Electr. Insul.},
   title     = {New wearable sensor in the shape of a braided cord (Kumihimo)},
   year      = {2018},
   number    = {3},
@@ -472,7 +473,7 @@
 
 @Article{絹糸_液晶,
   author  = {Magoshi, J and Magoshi, Y and Nakamura, S},
-  journal = {Polymer communications (Guildford)},
+  journal = {Polym. commun (Guildf.)},
   title   = {Physical properties and structure of silk. IX: Liquid crystal formation of silk fibroin},
   year    = {1985},
   number  = {2},
@@ -538,6 +539,14 @@
   year    = {2019},
   number  = {3},
   volume  = {59},
+}
+
+@Book{応用物性,
+  author    = {佐藤勝昭},
+  editor    = {応用物理学会},
+  publisher = {オーム社},
+  title     = {応用物性},
+  year      = {1991},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
