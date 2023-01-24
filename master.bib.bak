@@ -128,18 +128,17 @@
   url       = {https://www.sciencedirect.com/science/article/pii/B0122270509000466},
 }
 
-@InBook{cotton,
+@Book{cotton,
   author    = {M. Dochia and C. Sirghie and R.M. Kozłowski and Z. Roskwitalski},
-  chapter   = {2},
   editor    = {Ryszard M. Kozłowski},
-  pages     = {11-23},
   publisher = {Woodhead Publishing},
-  title     = {Cotton fibres},
+  title     = {Handbook of Natural Fibres},
   year      = {2012},
   isbn      = {978-1-84569-697-9},
   series    = {Woodhead Publishing Series in Textiles},
   volume    = {1},
-  booktitle = {Handbook of Natural Fibres},
+  chapter   = {2},
+  pages     = {11-23},
 }
 
 @Article{絹糸構造,

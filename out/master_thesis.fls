@@ -878,18 +878,26 @@ INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし_拡大.jpg
-INPUT ./graphics//温度_弾性率_セリシンなし.jpg
-INPUT ./graphics//温度_弾性率_セリシンなし.jpg
-INPUT ./graphics//温度_弾性率_セリシンなし.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_弾性率_セリシンなし.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
+INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
 INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
 INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
 INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
 INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンあり.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
+INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンあり_拡大.jpg
+INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
+INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
+INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
+INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンあり.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm

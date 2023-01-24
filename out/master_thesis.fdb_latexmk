@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1674391332 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674391355
+["bibtex out/master_thesis"] 1674563438 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674563462
   "junsrt.bst" 0 -1 0 ""
-  "master.bib" 1674365247 18678 fdaae905f46efd23e9d123aea5d2b8c0 ""
-  "out/master_thesis.aux" 1674391351 26887 4cd5450eafb349df66ba283e12188180 "latex"
+  "master.bib" 1674467863 18678 fdaae905f46efd23e9d123aea5d2b8c0 ""
+  "out/master_thesis.aux" 1674563458 27714 23c72bd9d2c0fad00e55dab9f1c749dd "latex"
   (generated)
   "out/master_thesis.blg"
   "out/master_thesis.bbl"
-["dvipdf"] 1674391352 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674391355
-  "out/master_thesis.dvi" 1674391351 175448 dad093a3ca58879c204091961f91c520 "latex"
+["dvipdf"] 1674563458 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674563462
+  "out/master_thesis.dvi" 1674563458 182472 066cc4c1a2af4f881eca90c21adf2d20 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1674391332 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674391355
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674391314 98851 83b04425a6b272db4318d34e880362dd ""
+["latex"] 1674563438 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674563462
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674563418 103559 65bd314eb5e4bb42cea4d0f9455b5b96 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1349595401 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1519818042 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -159,17 +159,19 @@
   "graphics//silk_fiber_デバイ.jpg" 1673583892 163323 386e01bc1b1d846408ef9947534abe91 ""
   "graphics//smartlab.jpg" 1672911964 315176 34e7c2bf9ced105f3f93081530985a21 ""
   "graphics//theta_2theta.jpg" 1667190589 52228 09dcd16f10cbf1a36a47c0d67515c4d2 ""
-  "graphics//theta_2theta_fibroin_film.jpg" 1674346248 308926 b2313c9ef0267930c0760d98d07bfdcd ""
+  "graphics//theta_2theta_fibroin_film.jpg" 1674563194 276241 696fc7cb3ca37e2bf7dd23d5a08c3a1a ""
   "graphics//ずり圧電_共鳴モード.jpg" 1668580895 97978 18d8c3f6eb59e9f6c8cd400a0b9dd9b3 ""
   "graphics//アルファヘリックス_CONH.jpg" 1670925080 94300 a4671d6c3151b30f89067cbbf720295b ""
   "graphics//デバイ.jpg" 1674365811 104699 32fefeaa288e858a154356a0f5e05667 ""
   "graphics//リーフグリップリモコン.jpg" 1672809465 15095 96a0f9411f6dbad92ff822b7356d3d00 ""
   "graphics//圧電共鳴.jpg" 1668390815 124818 3e66f010ab684c04a4b9953724b06273 ""
   "graphics//位置球.jpg" 1669863628 51601 07a4d6b227f818bd900c30d8005dda28 ""
-  "graphics//温度_k_e_d_セリシンなし.jpg" 1674389321 83851 768de758e9e2c55cd431f1df9bceaf67 ""
-  "graphics//温度_弾性率_セリシンなし.jpg" 1674384471 129654 248d267bcb213e1a3ec255f02cb1ec9e ""
+  "graphics//温度_k_e_d_セリシンあり.jpg" 1674558435 93128 6610354fcbe775d173551bc7b8e6aa98 ""
+  "graphics//温度_k_e_d_セリシンなし.jpg" 1674396871 83959 eac49a7990b94ce0a2fe982d88d807be ""
+  "graphics//温度_誘電率_セリシンあり.jpg" 1674473312 1767532 575c8881d5fd69f3b5d750a055557231 ""
+  "graphics//温度_誘電率_セリシンあり_拡大.jpg" 1674476094 137912 34125e00f64e8737b9c1550a40adab23 ""
   "graphics//温度_誘電率_セリシンなし.jpg" 1674377435 2750404 493afd6fadb0cb6aef79b4ed9e13b063 ""
-  "graphics//温度_誘電率_セリシンなし_拡大.jpg" 1674383772 99457 7f47ebe4ae1b06b4b079f967ad332bec ""
+  "graphics//温度_誘電率_セリシンなし_拡大_2.jpg" 1674437710 118294 4b5537648c9e6e4241f46a364df54aa4 ""
   "graphics//極点の測定方法.jpg" 1667966005 152911 1fffc33e1f3ba3b8d8860553d699fcc1 ""
   "graphics//金属マスク.jpg" 1673596839 33313 adeb4914a2906008ff1d705bd165849b ""
   "graphics//結合効果.jpg" 1668233729 14868 ac5a50b74d58eaeeb72a5a65e288b04a ""
@@ -179,12 +181,12 @@
   "graphics//自動平衡ブリッジ回路.jpg" 1667882469 20144 4a60ef597e4cf74a9e53cf20e1365090 ""
   "graphics//弾性率_角度依存性.jpg" 1673614847 228741 de872ec57f1c52810439bed4c291ced4 ""
   "graphics//電気機械結合係数の角度依存性.jpg" 1673686885 154171 eb46138e70d6d94a8b45cf49e6e74950 ""
-  "master_thesis.tex" 1674391314 98851 83b04425a6b272db4318d34e880362dd ""
-  "out/master_thesis.aux" 1674391351 26887 4cd5450eafb349df66ba283e12188180 "latex"
-  "out/master_thesis.bbl" 1674391332 12112 40c8d7e0efe7775ba5322d94c7085bfd "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1674391351 3110 bc7feb9f0fe01082728c04c0180e0d9c "latex"
+  "master_thesis.tex" 1674563418 103559 65bd314eb5e4bb42cea4d0f9455b5b96 ""
+  "out/master_thesis.aux" 1674563458 27714 23c72bd9d2c0fad00e55dab9f1c749dd "latex"
+  "out/master_thesis.bbl" 1674563438 12112 40c8d7e0efe7775ba5322d94c7085bfd "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1674563458 3110 469b1a8fc10a9c418c031e89d9682572 "latex"
   (generated)
-  "out/master_thesis.dvi"
   "out/master_thesis.aux"
-  "out/master_thesis.log"
+  "out/master_thesis.dvi"
   "out/master_thesis.toc"
+  "out/master_thesis.log"
