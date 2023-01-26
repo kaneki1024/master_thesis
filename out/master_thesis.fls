@@ -858,6 +858,14 @@ INPUT ./graphics//pole_figure_silk_fibroin.jpg
 INPUT ./graphics//pole_figure_silk_fibroin.jpg
 INPUT ./graphics//pole_figure_silk_fibroin.jpg
 INPUT extractbb -B cropbox -O ./graphics//pole_figure_silk_fibroin.jpg
+INPUT ./graphics//theta_2theta_セリシンあり.jpg
+INPUT ./graphics//theta_2theta_セリシンあり.jpg
+INPUT ./graphics//theta_2theta_セリシンあり.jpg
+INPUT extractbb -B cropbox -O ./graphics//theta_2theta_セリシンあり.jpg
+INPUT ./graphics//セリシンあり_polefigure.jpg
+INPUT ./graphics//セリシンあり_polefigure.jpg
+INPUT ./graphics//セリシンあり_polefigure.jpg
+INPUT extractbb -B cropbox -O ./graphics//セリシンあり_polefigure.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
@@ -951,6 +959,10 @@ INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT extractbb -B cropbox -O ./graphics//糸の種類別XRD.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
@@ -996,6 +1008,22 @@ INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//PFM_コラーゲン_断面.jpg
 INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_断面.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_5_5.jpg
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_1_1.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_silk.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
