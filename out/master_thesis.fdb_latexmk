@@ -1,27 +1,25 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1674817710 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674818398
+["bibtex out/master_thesis"] 1674838214 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674842979
   "junsrt.bst" 0 -1 0 ""
   "master.bib" 1674467863 18678 fdaae905f46efd23e9d123aea5d2b8c0 ""
-  "out/master_thesis.aux" 1674818394 30792 e08be500508bf298ea97bc1a2f338a2f "latex"
+  "out/master_thesis.aux" 1674842963 30792 77b522e00397ac6215653c26efa00175 "latex"
   (generated)
   "out/master_thesis.bbl"
   "out/master_thesis.blg"
-["dvipdf"] 1674818395 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674818398
-  "out/master_thesis.dvi" 1674818394 192844 e11f124b48de64e5cc3adc5100f09f2b "latex"
+["dvipdf"] 1674842964 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674842979
+  "out/master_thesis.dvi" 1674842963 192364 b17b4a7b671ef9959ec853085d1955c1 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1674818370 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674818398
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674818370 110549 8f352a161ec18cfcf489b1347b4b17b2 ""
+["latex"] 1674842862 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674842979
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674842860 112419 190c9fc42668e6b72b6c690f760d49df ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1349595400 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1349595401 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1349595401 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1519818042 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1519818042 1196 1be730212205a270378fba11a44765dc ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm" 1519818042 1196 d5b431ce76e19b70391960a9dd08fa4f ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1519818042 856 7404843a5f798859944d7973a47821d5 ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1519818042 856 39c171483fe1bb7d0e1368980c0c205b ""
-  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm" 1519818042 856 bdef40bcf3aed4751efa9be9bfa6eb4b ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlgothr-h.tfm" 1605305076 504 e15e0ced49bc0fca57e32b1199da50ac ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlgothr-v.tfm" 1605305076 504 90cc0bfc6764b11e5837e72f13617993 ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm" 1605305076 504 e15e0ced49bc0fca57e32b1199da50ac ""
+  "c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm" 1605305076 504 90cc0bfc6764b11e5837e72f13617993 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
@@ -119,6 +117,8 @@
   "c:/w32tex/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605908458 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "c:/w32tex/share/texmf-dist/tex/platex/base/jreport.cls" 1613232139 28956 74fdfec6238561e8f6aeb96dde1454bf ""
   "c:/w32tex/share/texmf-dist/tex/platex/base/jsize12.clo" 1613232139 8603 b3295bc4cc1325a821c424059c0c11d6 ""
+  "c:/w32tex/share/texmf-dist/tex/platex/japanese-otf/ajmacros.sty" 1554187118 31169 82da95c56dec9c45e5b9734751394461 ""
+  "c:/w32tex/share/texmf-dist/tex/platex/japanese-otf/otf.sty" 1605305076 23768 dbbf7a5cd1b6a95a19377ffa5890e36f ""
   "c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt" 1614390960 2669784 69c6f764aa2584a9df6ea62285e4ac88 ""
   "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1611362022 36800 9621f390e0ff26f3a744e714fb52d892 ""
   "graphics//0deg_without_sericin_2.jpg" 1673606673 667883 add39cdecca74fe9706947384ae6b433 ""
@@ -191,12 +191,12 @@
   "graphics//“d‹C‹@ŠBŒ‹‡ŒW”‚ÌŠp“xˆË‘¶«.jpg" 1673686885 154171 eb46138e70d6d94a8b45cf49e6e74950 ""
   "graphics//”MƒvƒŒƒXƒVƒ‹ƒNƒtƒBƒ‹ƒ€_DSC.jpg" 1674809899 271102 a07ee9585a2c410042a1b3f97e684495 ""
   "graphics//”Mˆ—Œã_—U“d—¦_ü”g”•ªU.jpg" 1674732234 158544 34bc80b9fdf7a57dbf12ae16ab6667ae ""
-  "master_thesis.tex" 1674818370 110549 8f352a161ec18cfcf489b1347b4b17b2 ""
-  "out/master_thesis.aux" 1674818394 30792 e08be500508bf298ea97bc1a2f338a2f "latex"
-  "out/master_thesis.bbl" 1674817710 12112 40c8d7e0efe7775ba5322d94c7085bfd "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1674818394 3208 c01ad86de5ee08538991ee62f9525c37 "latex"
+  "master_thesis.tex" 1674842860 112419 190c9fc42668e6b72b6c690f760d49df ""
+  "out/master_thesis.aux" 1674842963 30792 77b522e00397ac6215653c26efa00175 "latex"
+  "out/master_thesis.bbl" 1674838215 12112 40c8d7e0efe7775ba5322d94c7085bfd "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1674842963 3208 d10c6a23268f1555c327928bc0f01717 "latex"
   (generated)
-  "out/master_thesis.dvi"
-  "out/master_thesis.toc"
-  "out/master_thesis.log"
   "out/master_thesis.aux"
+  "out/master_thesis.dvi"
+  "out/master_thesis.log"
+  "out/master_thesis.toc"
