@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{22}{}%
 \contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{22}{}%
 \contentsline {subsection}{\numberline {2.2.3}周波数応答関数とパルス応答関数}{23}{}%
-\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{24}{}%
+\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{23}{}%
 \contentsline {section}{\numberline {2.3}結晶性高分子物質における繊維構造}{26}{}%
 \contentsline {chapter}{\numberline {第3章}実験手法}{27}{}%
 \contentsline {section}{\numberline {3.1}試料作製方法}{27}{}%
@@ -30,13 +30,13 @@
 \contentsline {section}{\numberline {4.1}X線回折と配向性評価}{35}{}%
 \contentsline {section}{\numberline {4.2}圧電共鳴の試料寸法と角度依存性}{38}{}%
 \contentsline {section}{\numberline {4.3}誘電率の温度依存性}{41}{}%
-\contentsline {chapter}{\numberline {第5章}総括}{47}{}%
-\contentsline {chapter}{\numberline {第6章}付録}{48}{}%
-\contentsline {section}{\numberline {6.1}$\theta -2\theta $の角度依存性}{48}{}%
-\contentsline {section}{\numberline {6.2}キャストフィルムの作成方法}{49}{}%
-\contentsline {section}{\numberline {6.3}様々な種類の絹糸のXRD($\theta $-$2\theta $)}{51}{}%
-\contentsline {section}{\numberline {6.4}DSC}{52}{}%
-\contentsline {section}{\numberline {6.5}FTIR}{54}{}%
-\contentsline {section}{\numberline {6.6}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{55}{}%
-\contentsline {subsubsection}{\numberline {6.6.0.1}AFM(Atomic Force Microscopy)}{55}{}%
-\contentsline {subsubsection}{\numberline {6.6.0.2}PFM(Piezoresponse Force Microscopy)}{56}{}%
+\contentsline {chapter}{\numberline {第5章}総括}{48}{}%
+\contentsline {chapter}{\numberline {第6章}付録}{49}{}%
+\contentsline {section}{\numberline {6.1}$\theta -2\theta $の角度依存性}{49}{}%
+\contentsline {section}{\numberline {6.2}キャストフィルムの作成方法}{50}{}%
+\contentsline {section}{\numberline {6.3}様々な種類の絹糸のXRD($\theta $-$2\theta $)}{52}{}%
+\contentsline {section}{\numberline {6.4}DSC}{53}{}%
+\contentsline {section}{\numberline {6.5}FTIR}{55}{}%
+\contentsline {section}{\numberline {6.6}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{56}{}%
+\contentsline {subsubsection}{\numberline {6.6.0.1}AFM(Atomic Force Microscopy)}{56}{}%
+\contentsline {subsubsection}{\numberline {6.6.0.2}PFM(Piezoresponse Force Microscopy)}{57}{}%

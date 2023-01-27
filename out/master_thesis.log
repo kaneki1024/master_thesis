@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  26 JAN 2023 18:39
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  27 JAN 2023 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -616,19 +616,19 @@ File: ./graphics//金属マスク.jpg Graphic file (type bmp)
 [28]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1042.
+(Font)              size <10.95> substituted on input line 1041.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1042.
+(Font)              size <10.95> substituted on input line 1041.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1042.
+(Font)              size <10.95> substituted on input line 1041.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1042.
+(Font)              size <10.95> substituted on input line 1041.
 
 File: ./graphics//rint_2000.jpg Graphic file (type bmp)
 <./graphics//rint_2000.jpg>
@@ -655,7 +655,7 @@ File: ./graphics//4294A.jpg Graphic file (type bmp)
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
 
-Overfull \hbox (1.90643pt too wide) in paragraph at lines 1149--1167
+Overfull \hbox (1.90643pt too wide) in paragraph at lines 1148--1166
 []\JY1/mc/m/n/12 作成したシルクフ ィ ブロインフ ィ ルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.13(KEYSIGHT
  []
 
@@ -697,98 +697,107 @@ File: ./graphics//温度_誘電率_セリシンあり.jpg Graphic file (type bmp
 <./graphics//温度_誘電率_セリシンあり.jpg>
 File: ./graphics//温度_誘電率_セリシンあり_拡大.jpg Graphic file (type bmp)
 <./graphics//温度_誘電率_セリシンあり_拡大.jpg>
-[44]
+[44] [45]
 File: ./graphics//温度_k_e_d_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//温度_k_e_d_セリシンあり.jpg>
-[45] [46]
+[46]
+File: ./graphics//熱処理後_誘電率_周波数分散.jpg Graphic file (type bmp)
+<./graphics//熱処理後_誘電率_周波数分散.jpg>
+[47]
 第 5 章
-[47
+[48
 
 ]
 第 6 章
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1529.
+(Font)              size <12> substituted on input line 1550.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1529.
+(Font)              size <12> substituted on input line 1550.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1529.
+(Font)              size <12> substituted on input line 1550.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1529.
+(Font)              size <12> substituted on input line 1550.
 
 File: ./graphics//デバイ.jpg Graphic file (type bmp)
 <./graphics//デバイ.jpg>
 
-Overfull \hbox (4.12563pt too wide) in paragraph at lines 1536--1538
+Overfull \hbox (4.12563pt too wide) in paragraph at lines 1557--1559
  [][] 
  []
 
-[48
+[49
 
 ]
 File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
 <./graphics//cast_film_作成方法.jpg>
 
-Overfull \hbox (24.20062pt too wide) in paragraph at lines 1559--1560
+Overfull \hbox (24.20062pt too wide) in paragraph at lines 1580--1581
  [][] 
  []
 
-[49]
+[50]
 File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
 <./graphics//cast_film_sample.jpg>
-[50]
+[51]
 File: ./graphics//糸の種類別XRD.jpg Graphic file (type bmp)
 <./graphics//糸の種類別XRD.jpg>
-[51]
+[52]
 File: ./graphics//DSC_silk_0112_2.jpg Graphic file (type bmp)
 <./graphics//DSC_silk_0112_2.jpg>
-[52]
+[53]
 File: ./graphics//cast_film_DSC_20210621.jpg Graphic file (type bmp)
 <./graphics//cast_film_DSC_20210621.jpg>
 File: ./graphics//DSC_cast_film_report.jpeg Graphic file (type bmp)
 <./graphics//DSC_cast_film_report.jpeg>
-[53] [54]
+[54]
+File: ./graphics//熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
+<./graphics//熱プレスシルクフィルム_DSC.jpg>
+[55]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
 <./graphics//SPM2.png>
 File: ./graphics//AFM.png Graphic file (type bmp)
 <./graphics//AFM.png>
-[55]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
 
-Overfull \hbox (7.59662pt too wide) in paragraph at lines 1688--1720
+Overfull \hbox (7.59662pt too wide) in paragraph at lines 1719--1751
 []\JY1/mc/m/n/12 走査型プロ ーブ顕微鏡 \OT1/cmr/m/n/12 (Scan-ning Prob Mi-cro-scope, SPM) \JY1/mc/m/n/12 の一種として圧電応答顕微鏡 \OT1/cmr/m/n/12 (Piezore-
  []
 
+[56]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[56]
+[57]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[57]
+[58]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[58]
+[59]
 File: ./graphics//AFM_5_5.jpg Graphic file (type bmp)
 <./graphics//AFM_5_5.jpg>
 File: ./graphics//AFM_1_1.jpg Graphic file (type bmp)
 <./graphics//AFM_1_1.jpg>
 File: ./graphics//AFM_silk.jpg Graphic file (type bmp)
 <./graphics//AFM_silk.jpg>
-[59] (out/master_thesis.bbl
+[60] (out/master_thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
 []$\OT1/cmtt/m/n/12 https : / / www . unic . or . jp / activities / economic _ social _ development / sustainable _
  []
@@ -811,7 +820,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 72.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 78.
-[60
+[61
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
@@ -834,7 +843,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 146.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 157.
-[61]
+[62]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 162.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
@@ -866,7 +875,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--248
 []$\OT1/cmtt/m/n/12 https : / / corporate . murata . com / ja-[]jp / more _ murata / techmag / metamorphosis16 /
  []
 
-[62]
+[63]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 253.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
@@ -887,7 +896,7 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 298.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 305.
-) [63] [64
+) [64] [65
 
 ] (out/master_thesis.aux)
 
@@ -896,12 +905,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9556 strings out of 479485
- 166214 string characters out of 5868332
- 465244 words of memory out of 5000000
- 26995 multiletter control sequences out of 15000+600000
+ 9566 strings out of 479485
+ 166603 string characters out of 5868332
+ 465268 words of memory out of 5000000
+ 27003 multiletter control sequences out of 15000+600000
  471675 words of font info for 212 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,436b,1020s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (65 pages, 189828 bytes).
+Output written on out/master_thesis.dvi (66 pages, 192844 bytes).

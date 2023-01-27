@@ -632,10 +632,10 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+OUTPUT out/master_thesis.dvi
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-OUTPUT out/master_thesis.dvi
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -906,6 +906,10 @@ INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
 INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
 INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
 INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンあり.jpg
+INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
+INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
+INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
+INPUT extractbb -B cropbox -O ./graphics//熱処理後_誘電率_周波数分散.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
@@ -975,6 +979,10 @@ INPUT ./graphics//DSC_cast_film_report.jpeg
 INPUT ./graphics//DSC_cast_film_report.jpeg
 INPUT ./graphics//DSC_cast_film_report.jpeg
 INPUT extractbb -B cropbox -O ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT extractbb -B cropbox -O ./graphics//熱プレスシルクフィルム_DSC.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
