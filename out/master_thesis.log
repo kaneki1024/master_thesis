@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  28 JAN 2023 03:07
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  28 JAN 2023 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -415,52 +415,52 @@ Package: ajmacros 2019/04/01 21:00 iNOUE Koich! <inoue@ma.ns.musashi-tech.ac.jp>
 \@tempcnte=\count308
 \@tempcntf=\count309
 ))
-LaTeX Info: Redefining \cite on input line 21.
+LaTeX Info: Redefining \cite on input line 20.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 29.
+(Font)              scaled to size 11.54663pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 29.
+(Font)              scaled to size 11.54663pt on input line 28.
 (out/master_thesis.aux)
 \openout1 = `master_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 29.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 29.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 28.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 29.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 29.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 29.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 28.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -507,48 +507,48 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 Dictionary: translator-basic-dictionary, Language: English 
 )
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 8.46753pt on input line 29.
+(Font)              scaled to size 8.46753pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 6.35065pt on input line 29.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 29.
+(Font)              scaled to size 6.35065pt on input line 28.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 29.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 29.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 35.
+(Font)              scaled to size 19.95642pt on input line 34.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 35.
+(Font)              scaled to size 19.95642pt on input line 34.
 [1
 
-] [2]
+]
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 70.
+(Font)              scaled to size 23.94002pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 70.
+(Font)              scaled to size 23.94002pt on input line 69.
 LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 70.
+(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 70.
+(Font)              scaled to size 23.94002pt on input line 69.
 LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 70.
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 70.
+(Font)              scaled to size 23.94002pt on input line 69.
 (out/master_thesis.toc
 LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/hgt/m/n' tried instead on input line 1.
@@ -568,33 +568,33 @@ LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 [2]
 第 1 章
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 72.
+(Font)              scaled to size 16.62714pt on input line 71.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 72.
+(Font)              scaled to size 16.62714pt on input line 71.
 LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 71.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 71.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 72.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 72.
+LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/hgt/m/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 72.
-LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <17.28> not available
+(Font)              scaled to size 13.85594pt on input line 72.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/hgt/m/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 72.
+(Font)              scaled to size 13.85594pt on input line 72.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 73.
+(Font)              scaled to size 7.69775pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 73.
-LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 73.
-LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 73.
-LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 73.
-LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 73.
-LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 76.
-LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 76.
+(Font)              scaled to size 7.69775pt on input line 75.
 File: ./graphics//sdgs_poster.jpg Graphic file (type bmp)
 <./graphics//sdgs_poster.jpg>
 [3
@@ -686,23 +686,23 @@ File: ./graphics//金属マスク.jpg Graphic file (type bmp)
 [28]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1043.
+(Font)              size <10.95> substituted on input line 1042.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1043.
+(Font)              size <10.95> substituted on input line 1042.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1043.
+(Font)              size <10.95> substituted on input line 1042.
 
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 10.1033pt on input line 1043.
+(Font)              scaled to size 10.1033pt on input line 1042.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.60152pt on input line 1043.
+(Font)              scaled to size 7.60152pt on input line 1042.
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1043.
+(Font)              size <10.95> substituted on input line 1042.
 
 File: ./graphics//rint_2000.jpg Graphic file (type bmp)
 <./graphics//rint_2000.jpg>
@@ -729,7 +729,7 @@ File: ./graphics//4294A.jpg Graphic file (type bmp)
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
 
-Overfull \hbox (5.06282pt too wide) in paragraph at lines 1150--1168
+Overfull \hbox (5.06282pt too wide) in paragraph at lines 1149--1167
 []\JY1/hmc/m/n/12 作成したシルクフ ィブロインフ ィルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.13(KEYSIGHT
  []
 
@@ -766,92 +766,83 @@ File: ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg Graphic file 
 [42]
 File: ./graphics//温度_k_e_d_セリシンなし.jpg Graphic file (type bmp)
 <./graphics//温度_k_e_d_セリシンなし.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[43]
 File: ./graphics//温度_誘電率_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//温度_誘電率_セリシンあり.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./graphics//温度_誘電率_セリシンあり_拡大.jpg Graphic file (type bmp)
 <./graphics//温度_誘電率_セリシンあり_拡大.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[43]
+[44] [45]
 File: ./graphics//温度_k_e_d_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//温度_k_e_d_セリシンあり.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[44]
+[46]
 File: ./graphics//熱処理後_誘電率_周波数分散.jpg Graphic file (type bmp)
 <./graphics//熱処理後_誘電率_周波数分散.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[45] [46] [47] [48] [49]
+[47]
 第 5 章
-[50
+[48
 
 ]
 第 6 章
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1552.
+(Font)              size <12> substituted on input line 1551.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1552.
+(Font)              size <12> substituted on input line 1551.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1552.
+(Font)              size <12> substituted on input line 1551.
 
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 12.02774pt on input line 1552.
+(Font)              scaled to size 12.02774pt on input line 1551.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 9.04485pt on input line 1552.
+(Font)              scaled to size 9.04485pt on input line 1551.
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1552.
+(Font)              size <12> substituted on input line 1551.
 
 File: ./graphics//デバイ.jpg Graphic file (type bmp)
 <./graphics//デバイ.jpg>
 
-Overfull \hbox (4.12563pt too wide) in paragraph at lines 1559--1561
+Overfull \hbox (4.12563pt too wide) in paragraph at lines 1558--1560
  [][] 
  []
 
-[51
+[49
 
 ]
 File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
 <./graphics//cast_film_作成方法.jpg>
 
-Overfull \hbox (24.20062pt too wide) in paragraph at lines 1582--1583
+Overfull \hbox (24.20062pt too wide) in paragraph at lines 1581--1582
  [][] 
  []
 
-[52]
+[50]
 File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
 <./graphics//cast_film_sample.jpg>
-[53]
+[51]
 File: ./graphics//糸の種類別XRD.jpg Graphic file (type bmp)
 <./graphics//糸の種類別XRD.jpg>
-[54]
+[52]
 File: ./graphics//DSC_silk_0112_2.jpg Graphic file (type bmp)
 <./graphics//DSC_silk_0112_2.jpg>
-[55]
+[53]
 File: ./graphics//cast_film_DSC_20210621.jpg Graphic file (type bmp)
 <./graphics//cast_film_DSC_20210621.jpg>
 File: ./graphics//DSC_cast_film_report.jpeg Graphic file (type bmp)
 <./graphics//DSC_cast_film_report.jpeg>
-[56]
+[54]
 File: ./graphics//熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
 <./graphics//熱プレスシルクフィルム_DSC.jpg>
-[57]
+File: ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
+<./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg>
+[55]
+File: ./graphics//TG_DTA.jpg Graphic file (type bmp)
+<./graphics//TG_DTA.jpg>
+[56] [57]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
@@ -866,7 +857,7 @@ File: ./graphics//PFM.png Graphic file (type bmp)
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
 
-Overfull \hbox (7.59767pt too wide) in paragraph at lines 1721--1753
+Overfull \hbox (7.59767pt too wide) in paragraph at lines 1759--1791
 []\JY1/hmc/m/n/12 走査型プロ ーブ顕微鏡 \OT1/cmr/m/n/12 (Scan-ning Prob Mi-cro-scope, SPM) \JY1/hmc/m/n/12 の一種として圧電応答顕微鏡 \OT1/cmr/m/n/12 (Piezore-
  []
 
@@ -886,9 +877,9 @@ File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 File: ./graphics//AFM_5_5.jpg Graphic file (type bmp)
 <./graphics//AFM_5_5.jpg>
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.46753pt on input line 1804.
+(Font)              scaled to size 8.46753pt on input line 1842.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 6.35065pt on input line 1804.
+(Font)              scaled to size 6.35065pt on input line 1842.
 File: ./graphics//AFM_1_1.jpg Graphic file (type bmp)
 <./graphics//AFM_1_1.jpg>
 File: ./graphics//AFM_silk.jpg Graphic file (type bmp)
@@ -1001,12 +992,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 11299 strings out of 479485
- 187335 string characters out of 5868332
- 487403 words of memory out of 5000000
- 28727 multiletter control sequences out of 15000+600000
+ 11309 strings out of 479485
+ 187686 string characters out of 5868332
+ 487427 words of memory out of 5000000
+ 28735 multiletter control sequences out of 15000+600000
  468777 words of font info for 216 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,444b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (69 pages, 192364 bytes).
+Output written on out/master_thesis.dvi (68 pages, 196208 bytes).

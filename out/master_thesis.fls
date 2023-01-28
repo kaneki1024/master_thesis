@@ -1012,6 +1012,14 @@ INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
 INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
 INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
 INPUT extractbb -B cropbox -O ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT extractbb -B cropbox -O ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
