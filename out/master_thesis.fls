@@ -692,6 +692,10 @@ INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
+INPUT ./graphics//silk_device.jpg
+INPUT ./graphics//silk_device.jpg
+INPUT ./graphics//silk_device.jpg
+INPUT extractbb -B cropbox -O ./graphics//silk_device.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
@@ -1069,6 +1073,10 @@ INPUT ./graphics//AFM_silk.jpg
 INPUT ./graphics//AFM_silk.jpg
 INPUT ./graphics//AFM_silk.jpg
 INPUT extractbb -B cropbox -O ./graphics//AFM_silk.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT extractbb -B cropbox -O ./graphics//PFM_silk_fiber.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl

@@ -14,9 +14,9 @@
 \contentsline {subsection}{\numberline {2.1.3}生体材料の圧電性}{19}{}%
 \contentsline {section}{\numberline {2.2}誘電性}{22}{}%
 \contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{22}{}%
-\contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{23}{}%
+\contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{22}{}%
 \contentsline {subsection}{\numberline {2.2.3}周波数応答関数とパルス応答関数}{23}{}%
-\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{24}{}%
+\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{23}{}%
 \contentsline {section}{\numberline {2.3}結晶性高分子物質における繊維構造}{26}{}%
 \contentsline {chapter}{\numberline {第3章}実験手法}{27}{}%
 \contentsline {section}{\numberline {3.1}試料作製方法}{27}{}%

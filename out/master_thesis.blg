@@ -8,46 +8,46 @@ Warning--can't use both author and editor fields in 応用物性
 Warning--can't use both volume and number fields in bazhenov1950
 Warning--can't use both author and editor fields in 合成キラル高分子の圧電性
 Warning--can't use both author and editor fields in cotton
-You've used 53 entries,
+You've used 60 entries,
             2270 wiz_defined-function locations,
-            891 strings with 12800 characters,
-and the built_in function-call counts, 19381 in all, are:
-= -- 1570
-> -- 555
-< -- 115
-+ -- 220
-- -- 167
-* -- 1043
-:= -- 2245
-add.period$ -- 164
-call.type$ -- 53
-change.case$ -- 48
+            926 strings with 14325 characters,
+and the built_in function-call counts, 21987 in all, are:
+= -- 1767
+> -- 655
+< -- 127
++ -- 258
+- -- 198
+* -- 1190
+:= -- 2556
+add.period$ -- 184
+call.type$ -- 60
+change.case$ -- 53
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 1260
-empty$ -- 1744
-format.name$ -- 334
-if$ -- 4836
+cite$ -- 65
+duplicate$ -- 1415
+empty$ -- 1975
+format.name$ -- 396
+if$ -- 5473
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 54
-newline$ -- 271
-num.names$ -- 55
-pop$ -- 307
+int.to.str$ -- 60
+missing$ -- 62
+newline$ -- 305
+num.names$ -- 62
+pop$ -- 356
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1074
+skip$ -- 1205
 stack$ -- 0
-substring$ -- 1078
-swap$ -- 515
-text.length$ -- 115
+substring$ -- 1230
+swap$ -- 571
+text.length$ -- 127
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 153
-width$ -- 55
-write$ -- 581
-is.kanji.str$ -- 652
+while$ -- 172
+width$ -- 62
+write$ -- 653
+is.kanji.str$ -- 744
 (There were 5 warnings)

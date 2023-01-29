@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1674896655 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674903246
+["bibtex out/master_thesis"] 1674985746 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674985901
   "junsrt.bst" 0 -1 0 ""
-  "master.bib" 1674467863 18678 fdaae905f46efd23e9d123aea5d2b8c0 ""
-  "out/master_thesis.aux" 1674896686 31374 63386321e8b60ce2f58aa329d8451501 "latex"
+  "master.bib" 1674984666 21309 dbd99fb6a1f63dcac20b088ac43a9f38 ""
+  "out/master_thesis.aux" 1674985890 32324 4b0fdbae9645e9a95d08043cc67b55ce "latex"
   (generated)
   "out/master_thesis.blg"
   "out/master_thesis.bbl"
-["dvipdf"] 1674896686 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674903246
-  "out/master_thesis.dvi" 1674896686 196208 eb3d0470711ac0967083194e0a9074c0 "latex"
+["dvipdf"] 1674985891 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674985901
+  "out/master_thesis.dvi" 1674985890 205016 f6043a036146f1769429117fce3431bf "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1674896656 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674903246
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674896633 115106 9638743ca69905603efc126f64f54f32 ""
+["latex"] 1674985821 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674985901
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674985768 119399 d6cea70c9da19dc32257414b1f415817 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1349595400 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1349595401 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -130,9 +130,10 @@
   "graphics//AFM_silk.jpg" 1674715105 83358 079c6ab659d691007ca929bf4046e4ad ""
   "graphics//DSC_cast_film_report.jpeg" 1673526528 701782 c892b2e6eeaace59403b3933537140b7 ""
   "graphics//DSC_silk_0112_2.jpg" 1673519063 284431 15544e5fe4a1acdb843b74e446efd3c9 ""
-  "graphics//NMR_silk_II.jpg" 1673167385 60571 80b717f14b92c4a273cbe695b0f10f0f ""
+  "graphics//NMR_silk_II.jpg" 1674968507 301558 020bb43334662d5a3e14443feeda3b43 ""
   "graphics//PFM.png" 1667031389 33842 edc41ac87cd50d573773c5cc2b88fdd1 ""
   "graphics//PFM_phase.png" 1667031707 54118 ff192b1c536c8b4889e2078966286009 ""
+  "graphics//PFM_silk_fiber.jpg" 1674904029 776170 f697b08a9d7acf2c21a40e1bc3313b8c ""
   "graphics//PFM_コラーゲン_側面.jpg" 1667042035 349020 275540d6d767d91d38bae3356ccdb929 ""
   "graphics//PFM_コラーゲン_断面.jpg" 1667042371 423610 4d6a5ffc0e57c044c42a73b676d57009 ""
   "graphics//PLA_ずり圧電_長方形カット.jpg" 1668482077 14498 b84e3a183c3fd91dcec31052db3aa933 ""
@@ -162,6 +163,7 @@
   "graphics//pole_figure_silk_fibroin.jpg" 1674353169 260617 464d264867801ef3e8b28e9ab0966171 ""
   "graphics//rint_2000.jpg" 1672912128 269187 e47b44c80f868812a2164578209f5fe4 ""
   "graphics//sdgs_poster.jpg" 1667629349 159558 652dac4acdf9014935d764be2c269be7 ""
+  "graphics//silk_device.jpg" 1674980520 395749 fa2a58d188c639e2da8b54b073c050fb ""
   "graphics//silk_fiber_デバイ.jpg" 1673583892 163323 386e01bc1b1d846408ef9947534abe91 ""
   "graphics//smartlab.jpg" 1672911964 315176 34e7c2bf9ced105f3f93081530985a21 ""
   "graphics//theta_2theta.jpg" 1667190589 52228 09dcd16f10cbf1a36a47c0d67515c4d2 ""
@@ -193,12 +195,12 @@
   "graphics//電気機械結合係数の角度依存性.jpg" 1673686885 154171 eb46138e70d6d94a8b45cf49e6e74950 ""
   "graphics//熱プレスシルクフィルム_DSC.jpg" 1674809899 271102 a07ee9585a2c410042a1b3f97e684495 ""
   "graphics//熱処理後_誘電率_周波数分散.jpg" 1674732234 158544 34bc80b9fdf7a57dbf12ae16ab6667ae ""
-  "master_thesis.tex" 1674896633 115106 9638743ca69905603efc126f64f54f32 ""
-  "out/master_thesis.aux" 1674896686 31374 63386321e8b60ce2f58aa329d8451501 "latex"
-  "out/master_thesis.bbl" 1674896655 12112 40c8d7e0efe7775ba5322d94c7085bfd "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1674896686 3264 f70db61e96afa84efd16a462d8fc1494 "latex"
+  "master_thesis.tex" 1674985768 119399 d6cea70c9da19dc32257414b1f415817 ""
+  "out/master_thesis.aux" 1674985890 32324 4b0fdbae9645e9a95d08043cc67b55ce "latex"
+  "out/master_thesis.bbl" 1674985746 14061 6ab23d24d428b1ca494ad0dcdf54b40c "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1674985890 3264 5624d24ec069a0fc5ee164bd61660ead "latex"
   (generated)
-  "out/master_thesis.aux"
   "out/master_thesis.dvi"
   "out/master_thesis.toc"
+  "out/master_thesis.aux"
   "out/master_thesis.log"

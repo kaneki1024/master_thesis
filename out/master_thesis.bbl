@@ -11,6 +11,20 @@ UN~Desa, et~al.
 \newblock \\
   \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}.
 
+\bibitem{繊維の女王}
+M~Schoeser.
+\newblock {\em The Science of Silk}.
+\newblock Yale University Press New Haven, CT, 2007.
+
+\bibitem{カイコの科学}
+日本蚕糸学会.
+\newblock カイコの科学.
+\newblock 朝倉書店, 2020.
+
+\bibitem{富岡世界遺産}
+Scientific United Nations~Educational and Cultural Organization.
+\newblock Mill, tomioka silk. related sites., 2015.
+
 \bibitem{fibroin_structure}
 Satoshi Inoue, Kazunori Tanaka, Fumio Arisaka, Sumiko Kimura, Kohei Ohtomo, and
   Shigeki Mizuno.
@@ -77,11 +91,43 @@ Tetsuo Asakura, Juming Yao, Tsutomu Yamane, Kosuke Umemura, and Anne~S Ulrich.
   13c solid-state nmr spectroscopy.
 \newblock {\em J. Am. Chem. Soc.}, Vol. 124, No.~30, pp. 8794--8795, 2002.
 
+\bibitem{asakura_silk1_1}
+Tetsuo Asakura, Jun Ashida, Tsutomu Yamane, Tsunenori Kameda, Yasumoto
+  Nakazawa, Kosuke Ohgo, and Kohei Komatsu.
+\newblock A repeated $\beta$-turn structure in poly (ala-gly) as a model for
+  silk i of bombyx mori silk fibroin studied with two-dimensional
+  spin-diffusion nmr under off magic angle spinning and rotational echo double
+  resonance.
+\newblock {\em J. Mol. Biol.}, Vol. 306, No.~2, pp. 291--305, 2001.
+
+\bibitem{asakura_silk1_2}
+Tetsuo Asakura, Kosuke Ohgo, Kohei Komatsu, Masakazu Kanenari, and Kenji
+  Okuyama.
+\newblock Refinement of repeated $\beta$-turn structure for silk i conformation
+  of bombyx mori silk fibroin using 13c solid-state nmr and x-ray diffraction
+  methods.
+\newblock {\em Macromolecules}, Vol.~38, No.~17, pp. 7397--7403, 2005.
+
+\bibitem{asakura_silk1_3}
+Tetsuo Asakura, Yu~Suzuki, Koji Yazawa, Akihiro Aoki, Yusuke Nishiyama,
+  Katsuyuki Nishimura, Furitsu Suzuki, and Hironori Kaji.
+\newblock Determination of accurate 1h positions of (ala-gly) n as a sequential
+  peptide model of bombyx mori silk fibroin before spinning (silk i).
+\newblock {\em Macromolecules}, Vol.~46, No.~19, pp. 8046--8050, 2013.
+
 \bibitem{朝倉_NMR_研究室}
 朝倉哲夫.
 \newblock 「新たに決定されたシルク繊維化後の構造」.
 \newblock \\ \url{http://web.tuat.ac.jp/~asakura/gaiyo-kozo2.html}.
 \newblock \\ (最終閲覧日 2023/01/08).
+
+\bibitem{asakura_silk2}
+Tetsuo Asakura, Akihiro Aoki, Kohei Komatsu, Chie Ito, Ikue Suzuki, Akira
+  Naito, and Hironori Kaji.
+\newblock Lamellar structure in alanine--glycine copolypeptides studied by
+  solid-state nmr spectroscopy: a model for the crystalline domain of bombyx
+  mori silk fibroin in silk ii form.
+\newblock {\em Biomacromolecules}, Vol.~21, No.~8, pp. 3102--3111, 2020.
 
 \bibitem{Harvey}
 E~Newton Harvey.
