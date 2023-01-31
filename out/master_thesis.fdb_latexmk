@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1674985746 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1674985901
+["bibtex out/master_thesis"] 1675163027 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1675163089
   "junsrt.bst" 0 -1 0 ""
-  "master.bib" 1674984666 21309 dbd99fb6a1f63dcac20b088ac43a9f38 ""
-  "out/master_thesis.aux" 1674985890 32324 4b0fdbae9645e9a95d08043cc67b55ce "latex"
+  "master.bib" 1675005161 23689 ab5a2d22d6eb94233546f41a9177100a ""
+  "out/master_thesis.aux" 1675163086 33901 5046d9b50fd33beeac2a2bd806d444c5 "latex"
   (generated)
-  "out/master_thesis.blg"
   "out/master_thesis.bbl"
-["dvipdf"] 1674985891 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1674985901
-  "out/master_thesis.dvi" 1674985890 205016 f6043a036146f1769429117fce3431bf "latex"
+  "out/master_thesis.blg"
+["dvipdf"] 1675163086 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1675163089
+  "out/master_thesis.dvi" 1675163086 214764 7fd7a0b3938f7ca1a086e4fb12978473 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1674985821 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1674985901
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1674985768 119399 d6cea70c9da19dc32257414b1f415817 ""
+["latex"] 1675163064 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1675163089
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1675163063 124302 e553479233c4fd9e03b8db500aa980d3 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1349595400 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1349595401 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -130,6 +130,7 @@
   "graphics//AFM_silk.jpg" 1674715105 83358 079c6ab659d691007ca929bf4046e4ad ""
   "graphics//DSC_cast_film_report.jpeg" 1673526528 701782 c892b2e6eeaace59403b3933537140b7 ""
   "graphics//DSC_silk_0112_2.jpg" 1673519063 284431 15544e5fe4a1acdb843b74e446efd3c9 ""
+  "graphics//FTIR_セリシンあり.jpg" 1675142362 40763 65f001e87180d9c5ab956b3045f201ed ""
   "graphics//NMR_silk_II.jpg" 1674968507 301558 020bb43334662d5a3e14443feeda3b43 ""
   "graphics//PFM.png" 1667031389 33842 edc41ac87cd50d573773c5cc2b88fdd1 ""
   "graphics//PFM_phase.png" 1667031707 54118 ff192b1c536c8b4889e2078966286009 ""
@@ -156,6 +157,7 @@
   "graphics//fibroin_piezo_装置.jpg" 1671367361 278078 df43f2e6fa327e6bdea4da7420fb6c82 ""
   "graphics//fibroin_structure.jpg" 1673095358 251158 ed0ca4c4b44bc705988d353d980885a6 ""
   "graphics//lateral_vertical.png" 1667036557 11740 0fba1586e1f014d023bcd67e5d17b040 ""
+  "graphics//number_k.jpg" 1675162860 96692 49f030169bc8283d0ed5534725370e59 ""
   "graphics//orientation_beta_sheet_piezo.jpg" 1671367445 87373 50a38313b075429cc7d1d70cf55863ce ""
   "graphics//plla_fiber_device.jpg" 1672812288 44232 ed8449e766489312b49839f9988b8369 ""
   "graphics//pole_figure_inplane.jpg" 1667210841 43010 f164854989ccbb373754f24b5ec52024 ""
@@ -171,6 +173,7 @@
   "graphics//theta_2theta_セリシンあり.jpg" 1674563579 264134 bc06ca7a61d1fb5962a0b4d722c0379b ""
   "graphics//ずり圧電_共鳴モード.jpg" 1668580895 97978 18d8c3f6eb59e9f6c8cd400a0b9dd9b3 ""
   "graphics//アルファヘリックス_CONH.jpg" 1670925080 94300 a4671d6c3151b30f89067cbbf720295b ""
+  "graphics//シルクフィルム_熱処理後.jpg" 1675146036 192210 c017d12fa94caf6610b5c1fb24dfdc58 ""
   "graphics//セリシンあり_polefigure.jpg" 1674723875 146180 bda89a7df83ef110c7dcd2df1f79018a ""
   "graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg" 1674890183 412030 46a226056c08e477ac2256c00d270895 ""
   "graphics//デバイ.jpg" 1674365811 104699 32fefeaa288e858a154356a0f5e05667 ""
@@ -195,12 +198,12 @@
   "graphics//電気機械結合係数の角度依存性.jpg" 1673686885 154171 eb46138e70d6d94a8b45cf49e6e74950 ""
   "graphics//熱プレスシルクフィルム_DSC.jpg" 1674809899 271102 a07ee9585a2c410042a1b3f97e684495 ""
   "graphics//熱処理後_誘電率_周波数分散.jpg" 1674732234 158544 34bc80b9fdf7a57dbf12ae16ab6667ae ""
-  "master_thesis.tex" 1674985768 119399 d6cea70c9da19dc32257414b1f415817 ""
-  "out/master_thesis.aux" 1674985890 32324 4b0fdbae9645e9a95d08043cc67b55ce "latex"
-  "out/master_thesis.bbl" 1674985746 14061 6ab23d24d428b1ca494ad0dcdf54b40c "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1674985890 3264 5624d24ec069a0fc5ee164bd61660ead "latex"
+  "master_thesis.tex" 1675163063 124302 e553479233c4fd9e03b8db500aa980d3 ""
+  "out/master_thesis.aux" 1675163086 33901 5046d9b50fd33beeac2a2bd806d444c5 "latex"
+  "out/master_thesis.bbl" 1675163027 15784 25a3315e2288250c24b0179acc4d99f6 "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1675163086 3335 ed4a8bc80e3f1f813d94aba1b83eb4b5 "latex"
   (generated)
-  "out/master_thesis.dvi"
-  "out/master_thesis.toc"
-  "out/master_thesis.aux"
   "out/master_thesis.log"
+  "out/master_thesis.aux"
+  "out/master_thesis.toc"
+  "out/master_thesis.dvi"

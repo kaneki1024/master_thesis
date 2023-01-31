@@ -613,4 +613,63 @@
   year   = {2015},
 }
 
+@Article{人工血管1,
+  author    = {Enomoto, Soichiro and Sumi, Makoto and Kajimoto, Kan and Nakazawa, Yasumoto and Takahashi, Rui and Takabayashi, Chiyuki and Asakura, Tetsuo and Sata, Masataka},
+  journal   = {J. Vasc. Surg. Cases},
+  title     = {Long-term patency of small-diameter vascular graft made from fibroin, a silk-based biodegradable material},
+  year      = {2010},
+  number    = {1},
+  pages     = {155--164},
+  volume    = {51},
+  publisher = {Elsevier},
+}
+
+@Article{人工血管2,
+  author    = {Aytemiz, Derya and Sakiyama, Wataru and Suzuki, Yu and Nakaizumi, Naoki and Tanaka, Ryou and Ogawa, Yoko and Takagi, Yoshihide and Nakazawa, Yasumoto and Asakura, Tetsuo},
+  journal   = {Adv. Healthc. Mater.},
+  title     = {Small-diameter silk vascular grafts (3 mm diameter) with a double-raschel knitted silk tube coated with silk fibroin sponge},
+  year      = {2013},
+  number    = {2},
+  pages     = {361--368},
+  volume    = {2},
+  publisher = {Wiley Online Library},
+}
+
+@Article{軟骨,
+  author    = {Silva, Simone S and Motta, Antonella and Rodrigues, M{\'a}rcia T and Pinheiro, Ana FM and Gomes, Manuela E and Mano, Joao F and Reis, Rui L and Migliaresi, Claudio},
+  journal   = {Biomacromolecules},
+  title     = {Novel genipin-cross-linked chitosan/silk fibroin sponges for cartilage engineering strategies},
+  year      = {2008},
+  number    = {10},
+  pages     = {2764--2774},
+  volume    = {9},
+  publisher = {ACS Publications},
+}
+
+@Book{農研機構,
+  author = {農業・食品産業技術総合研究機構},
+  title  = {カイコってすごい虫！},
+  year   = {2022},
+}
+
+@Article{焼結,
+  author    = {Kaneko, Atsushi and Tamada, Yasushi and Hirai, Shinji and Kuzuya, Toshihiro and Hashimoto, Tomoko},
+  journal   = {Macromol Mater Eng},
+  title     = {Characterization of a Silk-Resinified Compact Fabricated Using a Pulse-Energizing Sintering Device},
+  year      = {2012},
+  number    = {3},
+  pages     = {272--278},
+  volume    = {297},
+  publisher = {Wiley Online Library},
+}
+
+@Article{焼結2,
+  author  = {平井, 伸治 and 金子, 淳 and 玉田, 靖},
+  journal = {サテライト・ベンチャー・ビジネス・ラボラトリー年報},
+  title   = {シルク由来樹脂の電子材料への応用},
+  year    = {2005},
+  pages   = {75--77},
+  volume  = {7},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

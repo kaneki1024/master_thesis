@@ -915,6 +915,10 @@ INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT ./graphics//電気機械結合係数の角度依存性.jpg
 INPUT extractbb -B cropbox -O ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//number_k.jpg
+INPUT ./graphics//number_k.jpg
+INPUT ./graphics//number_k.jpg
+INPUT extractbb -B cropbox -O ./graphics//number_k.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
@@ -1024,6 +1028,14 @@ INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT extractbb -B cropbox -O ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT extractbb -B cropbox -O ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
