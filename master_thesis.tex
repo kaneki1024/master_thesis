@@ -325,7 +325,7 @@
 			\end{equation}
 			誘電率全体を上の3式を用いて以下の様に記述される。
 			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
-			あるいは固定端であるときの誘電率であり、式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			あるいは固定端であるときの誘電率であり、式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
 			\begin{equation}
 				\varepsilon_{33} =
 				\varepsilon_{33}^S
@@ -363,10 +363,10 @@
 				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
 				\label{PLLA_piezo_resonance}
 			\end{figure}
-			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\ref{ずりの共鳴周波数}、
-			式\ref{ずりの圧電共鳴_理論式}、式\ref{ずりの電気機械結合係数}で記述される。
-			式\ref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
-			式\ref{normal_piezo_resonance}同様に式\ref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\eqref{ずりの共鳴周波数}、
+			式\eqref{ずりの圧電共鳴_理論式}、式\eqref{ずりの電気機械結合係数}で記述される。
+			式\eqref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
+			式\eqref{normal_piezo_resonance}同様に式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
 			\begin{equation}
 				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
 				\label{ずりの共鳴周波数}
@@ -426,7 +426,7 @@
 			せん断歪みを考慮する必要があり、テンソル形式で記述される。
 			ここで、$\delta S\rightarrow S, \delta T\rightarrow T,
 			\delta E\rightarrow E, \delta D\rightarrow D$とし、テンソル行列を$\left[　\right]$で表すと
-			式\ref{圧電d形式1}は
+			式\eqref{圧電d形式1}は
 			\begin{equation}
 				\begin{cases}
 					\left[S\right]=\left[s^E\right]\left[T\right]+\left[d_t\right]\left[E\right]& \\
@@ -435,7 +435,7 @@
 				\label{圧電d形式2}
 			\end{equation}
 			となり、これを圧電$d$形式と呼ぶ。
-			式\ref{圧電d形式2}をテンソルの要素も含めて記述すると
+			式\eqref{圧電d形式2}をテンソルの要素も含めて記述すると
 			\begin{equation}
 				\begin{cases}
 				\left(
@@ -519,7 +519,7 @@
 				\end{cases}
 				\label{圧電d形式_テンソル}
 			\end{equation}
-			となる。式\ref{圧電d形式2}を式変形すると
+			となる。式\eqref{圧電d形式2}を式変形すると
 			\begin{equation}
 				\begin{cases}
 				\left[T\right]=\left[c^E\right]\left[S\right]-\left[e_t\right]\left[E\right] & \\
@@ -541,8 +541,8 @@
 				\end{cases}
 				\label{圧電h形式}
 			\end{equation}
-			の三式を導け、それぞれ式\ref{圧電e形式}を圧電e形式, 
-			式\ref{圧電g形式}を圧電g形式, 式\ref{圧電h形式}を圧電h形式と呼ぶ。応力$T$, 電場$E$, 歪み$S$, 電束密度$D$の係数である$[d],[e],[g],[h]$ではそれぞれ、
+			の三式を導け、それぞれ式\eqref{圧電e形式}を圧電e形式, 
+			式\eqref{圧電g形式}を圧電g形式, 式\eqref{圧電h形式}を圧電h形式と呼ぶ。応力$T$, 電場$E$, 歪み$S$, 電束密度$D$の係数である$[d],[e],[g],[h]$ではそれぞれ、
 			\begin{equation}
 				d_{ij}=\left(\frac{\partial D_i}{\partial T_j}\right)_E=\left(\frac{\partial S_j}{\partial E_i}\right)_T
 			\end{equation}
@@ -570,7 +570,7 @@
 			\begin{equation}
 				e = \varepsilon h
 			\end{equation}
-			$d, e, g, h$はどれも式\ref{圧電d形式_テンソル}の様にテンソルで記述される。
+			$d, e, g, h$はどれも式\eqref{圧電d形式_テンソル}の様にテンソルで記述される。
 			具体的なテンソルの中身は結晶と試料の全体の対称性から決まる。
 			結晶が無秩序に存在する場合、分子や結晶の対称性に関係なく圧電性は現れない。
 			結晶が無秩序に存在する状態は、$\infty$個の$\infty$回軸がある。
@@ -600,7 +600,7 @@
 			図\ref{結合効果}のように2種類の共役な物理変数 ($x_1$, $X_1$),($x_2$, $X_2$)
 			について、その間に線形な結合があるとする。
 			熱力学ポテンシャルは、一般化したひずみ $x$ を独立変数として
-			式\ref{線形結合効果の熱力学ポテンシャル}のように記述出来る。
+			式\eqref{線形結合効果の熱力学ポテンシャル}のように記述出来る。
 			\begin{equation}
 				\Phi=\frac{1}{2}c_{11}x_1^2 + c_{12}x_1x_2+\frac{1}{2}c_{22}x_2^2
 				\label{線形結合効果の熱力学ポテンシャル}
@@ -615,7 +615,7 @@
 			となり、係数 $c_{12}$を介して異なる物理変数への結合が起きることが分かる。
 			非線形な結合である場合も線形な場合と同様の上式2つで記述できる。
 			両方向の結合の係数が等しく、これを相反定理（$c_{12}=c_{21}$）という。
-			また、異なる系の間におけるエネルギー変換効率として結合系数$k$を式\ref{結合係数}のように定義する。
+			また、異なる系の間におけるエネルギー変換効率として結合系数$k$を式\eqref{結合係数}のように定義する。
 			\begin{equation}
 				k^2=\frac{c_{12}^2}{c_{11}c_{22}}
 				\label{結合係数}
@@ -642,7 +642,7 @@
 			\end{equation}
 
 			自由境界条件($T=0$)で逆圧電効果を例に単位体積当たりの入力のエネルギーと出力のエネルギーを計算する。
-			圧電$d$形式、式\ref{圧電d形式1}から自由状態($T=0$)において電源から
+			圧電$d$形式、式\eqref{圧電d形式1}から自由状態($T=0$)において電源から
 			\begin{equation}
 				D=\varepsilon^T E
 			\end{equation}
@@ -653,7 +653,7 @@
 				= \frac{1}{2}\varepsilon^T E^2 
 			\end{equation}
 			圧電体においては、入力された電気エネルギー$U_{in}$の一部が機械エネルギーに変換される。
-			電場に対するひずみは圧電$d$形式、式\ref{圧電d形式1}において$T=0$として以下の通りである。
+			電場に対するひずみは圧電$d$形式、式\eqref{圧電d形式1}において$T=0$として以下の通りである。
 			\begin{equation}
 				S = d E
 			\end{equation}
@@ -662,7 +662,7 @@
 				U_{out} = \int^S_0 \frac{S}{s^E} d S = \frac{1}{2} \frac{1}{s^E}S^2 
 				= \frac{1}{2}\frac{d^2}{s^E}E^2
 			\end{equation}
-			となる。よって入力電気エネルギーと出力機械エネルギーの割合は以下のように、式\ref{電気機械結合係数d}
+			となる。よって入力電気エネルギーと出力機械エネルギーの割合は以下のように、式\eqref{電気機械結合係数d}
 			と同等の電気機械結合係数を得る。
 			\begin{equation}
 				k^2 = \frac{\mbox{出力機械的エネルギー}}{\mbox{入力電気的エネルギー}}
@@ -682,13 +682,13 @@
 
 			また、$1-k^2$は応力$T$を0とした誘電率$\varepsilon^T$と歪み$S$を0としたときの
 			誘電率$\varepsilon^S$の比とも解釈される。
-			式\ref{圧電d形式1}の圧電$d$形式の2式目を以下のように応力$T$を求める形に式変形する。			
+			式\eqref{圧電d形式1}の圧電$d$形式の2式目を以下のように応力$T$を求める形に式変形する。			
 			\begin{equation}
 				T = \frac{D-\varepsilon^T E}{d}
 			\end{equation}
-			上式を式\ref{圧電d形式1}の1式目に代入し、電束密度$D$を求める形に変形する。
-			この際に式\ref{電気機械結合係数d}を使用した。
-			また、圧電e形式である式\ref{圧電e形式}の2式目と等価となる。
+			上式を式\eqref{圧電d形式1}の1式目に代入し、電束密度$D$を求める形に変形する。
+			この際に式\eqref{電気機械結合係数d}を使用した。
+			また、圧電e形式である式\eqref{圧電e形式}の2式目と等価となる。
 			\begin{equation}
 				D = \frac{d}{s^E}S + \varepsilon^T\left(1-k^2\right)E
 				  = e S + \varepsilon^S E
@@ -845,17 +845,17 @@
 			\subsection{誘電応答における時間的な遅れ}
 			時間とともに変動する電場に対して、誘電応答は時間的に遅れて生じる。
 			これを誘電緩和現象という。
-			電場が角周波数$\omega$で正弦波的に変動すると式\ref{E(t)}の様に表現される。
+			電場が角周波数$\omega$で正弦波的に変動すると式\eqref{E(t)}の様に表現される。
 			\begin{equation}
 				E(t)=E_0 e^{i\omega t}
 				\label{E(t)}
 			\end{equation}
-			電束密度は振幅$D_0$、位相が$\delta$遅れた信号として観測されると式\ref{D(t)}の様に表現される。
+			電束密度は振幅$D_0$、位相が$\delta$遅れた信号として観測されると式\eqref{D(t)}の様に表現される。
 			\begin{equation}
 				D(t)=D_0 e^{i(\omega t-\delta)}
 				\label{D(t)}
 			\end{equation}
-			誘電率$\varepsilon$は電束密度$D$と電場$E$の比例係数として定義されるため式\ref{E(t)}と式\ref{D(t)}
+			誘電率$\varepsilon$は電束密度$D$と電場$E$の比例係数として定義されるため式\eqref{E(t)}と式\eqref{D(t)}
 			の比は以下のように計算される。
 			\begin{equation}
 				\frac{D(t)}{E(t)}=\frac{D_0e^{i(\omega t-\delta)}}{E_0 e^{i\omega t}}
@@ -875,7 +875,7 @@
 			\subsection{誘電性と導電性の関係}
 			誘電体は直流におけるインピーダンスの高さから絶縁体の一種とされている。
 			しかし交流波においては、周波数が高くなるほどインピーダンスが小さくなり導電性が高くなる。
-			電束密度$D$の時間微分は電流密度$J$であり、式\ref{D(t)}を用いて計算すると以下のようになる。
+			電束密度$D$の時間微分は電流密度$J$であり、式\eqref{D(t)}を用いて計算すると以下のようになる。
 			\begin{equation}
 				J=\frac{\partial D}{\partial t}=i\omega D
 				\label{電流密度}
@@ -885,7 +885,7 @@
 				J=\sigma E
 				\label{オームの法則}
 			\end{equation}
-			式\ref{電流密度}と式\ref{オームの法則}は等価であるため、
+			式\eqref{電流密度}と式\eqref{オームの法則}は等価であるため、
 			誘電率の実部$\varepsilon'$虚部$\varepsilon''$と
 			導電率の実部$\sigma'$虚部$\sigma''$において
 			以下の関係が得られる。
@@ -915,7 +915,7 @@
 				\label{ボルツマン重ね合わせの原理}
 			\end{equation}
 			時間$t$に表れる電束密度という応答が時間$t_1$に与えたパルス刺激の応答の重ね合わせになっている。
-			これをボルツマン重ね合わせの原理という。正弦波の電場を印加したとして式\ref{E(t)}を式\ref{ボルツマン重ね合わせの原理}
+			これをボルツマン重ね合わせの原理という。正弦波の電場を印加したとして式\eqref{E(t)}を式\eqref{ボルツマン重ね合わせの原理}
 			に代入する。
 			\begin{equation}
 				D(t)=\int^{\infty}_0 \varepsilon_p(t_1)E_0e^{i\omega(t-t_1)}dt_1=E(t)\int^{\infty}_0 \varepsilon_p(t_1)e^{-i\omega t_1}dt_1
@@ -973,20 +973,20 @@
 			\end{equation}
 			ここで$\varepsilon_{in}$は瞬間誘電率であり、配向分極より短時間で表れる電子分極、イオン分極の誘電率に対応する。
 			周波数おいて、配向分極より高周波に対応するため$\varepsilon_{\infty}$と記述される場合もある。
-			パルス電場が印加されたとすると式\ref{パルス応答関数}を用いて以下の誘電率$\varepsilon_{p}$が測定される。
+			パルス電場が印加されたとすると式\eqref{パルス応答関数}を用いて以下の誘電率$\varepsilon_{p}$が測定される。
 			\begin{equation}
 				\varepsilon_p(t)=\frac{\partial \varepsilon(t)}{\partial t}
 				=\varepsilon_{in}\delta(t)+\frac{\Delta \varepsilon}{\tau}e^{-t/\tau}
 				\label{デバイ関数のパルス応答関数}
 			\end{equation}
-			式\ref{周波数応答関数とパルス応答関数のフーリエ変換}に代入すると以下の周波数応答関数を得る。
+			式\eqref{周波数応答関数とパルス応答関数のフーリエ変換}に代入すると以下の周波数応答関数を得る。
 			\begin{equation}
 				\varepsilon(\omega)=\varepsilon_{\infty}+\frac{\Delta \varepsilon}{1+j\omega \tau }
 				\label{デバイ関数}
 			\end{equation}
 			上式はデバイ関数と呼ばれ、$\omega \tau=1$にて実部は$\Delta \varepsilon$だけ
 			減少し、虚部はピークを示す周波数依存性となる。
-			実際の物質の誘電緩和スペクトルは式\ref{デバイ関数のパルス応答関数}と式\ref{デバイ関数}は
+			実際の物質の誘電緩和スペクトルは式\eqref{デバイ関数のパルス応答関数}と式\eqref{デバイ関数}は
 			より緩やかな時間、あるいは周波数依存性を示す。
 			これは微視的に誘電緩和時間が単一ではなく、分布を持っているからである。
 			緩和時間の分布を間接的に取り入れ、実測の誘電率の時間依存性を表現する経験式として以下のKorlrausch-Williams-Wattsの式がある。
@@ -1095,7 +1095,7 @@
 			\subsubsection{$\theta - 2\theta$測定の原理}
 			試料の結晶構造の解析のためにXRD(X-Ray Diffraction)の$\theta-2\theta$測定を行った。
 			測定には図\ref{XRD_nakajima}に示したRINT-2000(Rigaku Corporation)を使用した。
-			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\ref{Bragg}の式を満たすとき回折が生じる。
+			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\eqref{Bragg}の式を満たすとき回折が生じる。
 			\begin{equation}
 				2d \sin \theta = n \lambda \ \ \ \ \ \ (n\in \mathbb{Z})
 				\label{Bragg}
@@ -1144,7 +1144,7 @@
 			、$\bm{g}_{hkl}$の長さは一定となる。試料を$\alpha$(あおり)と$\beta$(面内回転)という
 			2つの優先方位軸を用いて、回折角度一定の半球をスキャンする。
 			計測結果は図\ref{極点の測定方法}(B)の通り、極図形を用いて表現する。
-			配向度は図\ref{極点の測定方法}(C)の通り、得られた極座標を半径方向に積分し、以下の式\ref{orientation}に基づいて計算される。
+			配向度は図\ref{極点の測定方法}(C)の通り、得られた極座標を半径方向に積分し、以下の式\eqref{orientation}に基づいて計算される。
 			\begin{equation}
 				配向度 = \frac{360 - \sum ピークの半値幅 }{360}\times 100
 				\label{orientation}
@@ -1227,12 +1227,12 @@
 			\end{equation}
 			試料に印加される電圧$V_1$と試料を流れる電流$i_x$を用いて以下の式のように、
 			試料のインピーダンス$Z$を算出できる。
-			また、式\ref{impedance}における$R$はレジスタンス、$X$はリアクタンスである。
+			また、式\eqref{impedance}における$R$はレジスタンス、$X$はリアクタンスである。
 			\begin{equation}
 				Z=\frac{V_1}{i_x}=\frac{V_1}{i_r}=-\frac{V_1}{V_2}R_r = R + j X  
 				\label{impedance}
 			\end{equation}
-			式\ref{impedance}よりインピーダンス$Z$は基準抵抗$R_r$と交流電圧比$V_1/V_2$から求まる。
+			式\eqref{impedance}よりインピーダンス$Z$は基準抵抗$R_r$と交流電圧比$V_1/V_2$から求まる。
 			交流電圧比$V_1/V_2$はロックインアンプを用いて計算されるため、
 			インピーダンスの大きさ$|Z|=|V_1 R_r/V_2|$と位相(Phase)$\phi$が出力される。
 			その二つをもちいるとレジスタンス$R$とリアクタンス$X$の値も以下の式で計算される。
@@ -1242,8 +1242,8 @@
 			\begin{equation}
 				X = |Z| \sin \phi
 			\end{equation}
-			またアドミッタンスはインピーダンスの逆数であるため式\ref{admittance}のように決まる。
-			式\ref{admittance}における$G$はコンダクタンス、$B$はサセプタンスである。
+			またアドミッタンスはインピーダンスの逆数であるため式\eqref{admittance}のように決まる。
+			式\eqref{admittance}における$G$はコンダクタンス、$B$はサセプタンスである。
 			\begin{equation}
 				Y= \frac{1}{Z}=-\frac{V_2}{V_1}\frac{1}{R_r} = G + j B
 				\label{admittance}
@@ -1275,7 +1275,7 @@
 				\omega\varepsilon''\frac{S}{d} + j\omega \varepsilon' \frac{S}{d}
 				\label{Y_p}
 			\end{equation}
-			式\ref{Y_s}の$Y_s$と式\ref{Y_p}の$Y_p$は等価であるため、
+			式\eqref{Y_s}の$Y_s$と式\eqref{Y_p}の$Y_p$は等価であるため、
 			誘電率の実部$\varepsilon'$と虚部$\varepsilon''$は以下のように記述できる。
 			\begin{equation}
 				\varepsilon' = C_s \frac{d}{S}
@@ -1287,9 +1287,9 @@
 			\end{equation}
 			これより、インピーダンスアナライザを用いてインピーダンスの大きさ$|Z|$
 			と位相$\phi$を計測し
-			式\ref{コンダクタンス}、式\ref{サセプタンス}、式\ref{Y_s}から
+			式\eqref{コンダクタンス}、式\eqref{サセプタンス}、式\eqref{Y_s}から
 			抵抗$R_s$とコンデンサ$C_s$の値を求める。
-			そして式\ref{real_epsilon}と式\ref{imaginary_epsilon}から
+			そして式\eqref{real_epsilon}と式\eqref{imaginary_epsilon}から
 			誘電率の実部虚部を計算する。
 			
 			高周波においては誘電体のインピーダンスが小さくなる。
@@ -1300,9 +1300,9 @@
 			
 			本研究において圧電性の評価は誘電率を測定し、誘電率に現れる圧電共鳴成分を用いて評価
 			する圧電共鳴法を用いた。
-			フィッティングに用いた関数は式\ref{normal_piezo_resonance}であるが
+			フィッティングに用いた関数は式\eqref{normal_piezo_resonance}であるが
 			$k_l=0, k_w=0$とし、$t\rightarrow l, f_t \rightarrow f_R$にして以下のように近似すると
-			式\ref{ずりの圧電共鳴_理論式}が得られる。
+			式\eqref{ずりの圧電共鳴_理論式}が得られる。
 			\begin{equation}
 				\varepsilon_{33} =
 				\varepsilon_{33}^S
@@ -1310,7 +1310,7 @@
 				= \varepsilon_{33}^S\left(1-k_l^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)^{-1}
 				\approx \varepsilon_{33}^S\left(1+k_l^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
 			\end{equation}
-			また、フィッティングに式\ref{normal_piezo_resonance}を用いているため、
+			また、フィッティングに式\eqref{normal_piezo_resonance}を用いているため、
 			弾性率は2倍大きく、圧電$e$定数は$\sqrt{2}$倍大きく、圧電$d$定数は$1/\sqrt{2}$倍
 			小さく求められるため、フィッティングした後に修正した。
 			そして長さ方向と幅方向のどちらにおいても計測対象が$k_{14}$の1つであるため
@@ -1375,19 +1375,19 @@
 			図\ref{45deg_cut_piezo_resonant}は45°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
 			また、図\ref{0deg_cut_piezo_resonant}は0°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
 			どちらの場合においても圧電共鳴は、100 kHz付近に観測された。
-			同時に共鳴周波数の式\ref{ずりの共鳴周波数}に対応して、正方形試料の
+			同時に共鳴周波数の式\eqref{ずりの共鳴周波数}に対応して、正方形試料の
 			1辺が大きいと低周波側に、1辺が小さいと高周波側に表れた。
 			ずり圧電の原理上、0°カットの場合は圧電共鳴スペクトルは表れないと考えられるが
 			異なる結果となった。
-			共鳴周波数$f_r$から式\ref{ずりの共鳴周波数}を用いて弾性率$c=1/s$は、試料寸法$l$、密度$\rho$
+			共鳴周波数$f_r$から式\eqref{ずりの共鳴周波数}を用いて弾性率$c=1/s$は、試料寸法$l$、密度$\rho$
 			として以下のように計算される。
 			\begin{equation}
 				c = \frac{1}{s} = 2l^2 f_R^2 \rho
 			\end{equation}
-			入手した圧電共鳴スペクトルに対し、式\ref{ずりの圧電共鳴_理論式}に基づいてフィッティングした
+			入手した圧電共鳴スペクトルに対し、式\eqref{ずりの圧電共鳴_理論式}に基づいてフィッティングした
 			後に上式から弾性率を計算した。
 			横軸を試料の切り出し角度、縦軸を弾性率としてプロットしたのが図\ref{弾性率_角度依存性}(A)である。
-			また、式\ref{ずりの共鳴周波数}から横軸を$1/2l$、縦軸を共鳴周波数$f_R$としてプロットすると
+			また、式\eqref{ずりの共鳴周波数}から横軸を$1/2l$、縦軸を共鳴周波数$f_R$としてプロットすると
 			その1次の近似曲線曲線から密度$\rho$をもちいて弾性率を計算できる。
 			図\ref{弾性率_角度依存性}(B)はそれを角度別にプロットしたグラフである。
 			図\ref{弾性率_角度依存性}(B)は図\ref{弾性率_角度依存性}(A)と異なり試料寸法の情報が残っている。
@@ -1413,7 +1413,7 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=\linewidth]{弾性率_角度依存性.jpg}
-				\caption{角度別弾性率の違い.(A)式\ref{ずりの圧電共鳴_理論式}に基づいてfittingして得られた角度別の弾性率。
+				\caption{角度別弾性率の違い.(A)式\eqref{ずりの圧電共鳴_理論式}に基づいてfittingして得られた角度別の弾性率。
 				(B)横軸は正方形試料の1辺の長さ$l$の逆数と圧電共鳴周波数$f_R$の関係と角度別の1次の近似直線}
 				\label{弾性率_角度依存性}
 			\end{figure}
@@ -1503,7 +1503,7 @@
 			図\ref{温度_誘電率_セリシンなし_拡大像}(A)は共鳴付近の周波数分散であり、
 			誘電率虚部$\varepsilon''/\varepsilon_0$から圧電共鳴の周波数変動が確認される。
 			また、縦軸を共鳴周波数、横軸を温度としてプロットしたものが図\ref{温度_誘電率_セリシンなし_拡大像}(B)
-			である。正方形試料の一辺の長さ$l$、密度$\rho$と式\ref{ずりの共鳴周波数}を用いて共鳴周波数から
+			である。正方形試料の一辺の長さ$l$、密度$\rho$と式\eqref{ずりの共鳴周波数}を用いて共鳴周波数から
 			弾性率を計算した。温度と弾性率の関係が図\ref{温度_誘電率_セリシンなし_拡大像}(C)である。
 			\begin{figure}[H]
 				\centering
@@ -1524,7 +1524,7 @@
 			フィブロインキャストフィルムの圧電性の報告においても190℃にて延伸しているため\cite{fibroin_cast_film_piezo}、
 			単純な比較は出来ないが計測の必要があると思われる。
 		
-		計測した誘電率に対し、式\ref{ずりの圧電共鳴_理論式}を用いてフィッティングした。
+		計測した誘電率に対し、式\eqref{ずりの圧電共鳴_理論式}を用いてフィッティングした。
 		フィッティングして電気機械結合係数$k_{14}$、圧電$e$定数、圧電$d$定数、
 		共鳴時の束縛誘電率$\varepsilon_s$が得られる。
 		温度に対し、それぞれの関係をプロットしたのが図\ref{温度_k_e_d_セリシンなし}である。
@@ -1548,7 +1548,7 @@
 			\newpage
 			0℃以下の圧電$e$定数においては弾性率の低下と誘電率の上昇により微小な減少、80℃以降は緩やかな弾性率の変化
 			と緩やかな誘電率の変化で同様に緩やかな変化となる。一方で、0℃から60℃付近は誘電率の大きな変動と弾性率の大きな変動により
-			圧電$e$定数は激しい変動となる。圧電$d$定数は式\ref{e_to_d}に基づいて計算され、対応する値となる。
+			圧電$e$定数は激しい変動となる。圧電$d$定数は式\eqref{e_to_d}に基づいて計算され、対応する値となる。
 			特に0℃から60℃付近は激しい変化となる。
 
 			セリシンを除去していないフィルムにおいても同様に-70℃から120℃まで温度を変化させながら、
@@ -1568,7 +1568,7 @@
 			圧電共鳴が温度に応じてシフトする様子が図\ref{温度_弾性率_セリシンあり}(A)で確認される。
 			縦軸を圧電共鳴の周波数、横軸を温度としたグラフが図\ref{温度_弾性率_セリシンあり}(B)
 			である。
-			正方形試料の一辺の長さ$l$、密度$\rho$と式\ref{ずりの共鳴周波数}を用いて共鳴周波数から
+			正方形試料の一辺の長さ$l$、密度$\rho$と式\eqref{ずりの共鳴周波数}を用いて共鳴周波数から
 			弾性率を計算した。温度と弾性率の関係が図\ref{温度_弾性率_セリシンあり}(C)である。
 			温度が上がるにつれて弾性率が低くなっているが30℃以降は3.2 GPa程度で一定となる。
 			ただし、90℃以上においては再び下がり始めているがその大きさは微小であり、
@@ -1586,7 +1586,7 @@
 				\label{温度_弾性率_セリシンあり}
 			\end{figure}
 
-			複数の共鳴を１つの共鳴とみなして式\ref{ずりの圧電共鳴_理論式}を用いてフィッティングした。
+			複数の共鳴を１つの共鳴とみなして式\eqref{ずりの圧電共鳴_理論式}を用いてフィッティングした。
 			フィッティングで使用した電気機械結合係数$k_{14}$、フィッティングにより得られる
 			圧電$e$定数$e_{14}$、圧電$d$定数$d_{14}$、束縛誘電率$\varepsilon'_{S}$
 			と温度の関係を図\ref{温度_d_e_セリシンあり}にまとめた。

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 JAN 2023 20:04
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 JAN 2023 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1028,6 +1028,6 @@ Here is how much of TeX's memory you used:
  28771 multiletter control sequences out of 15000+600000
  468777 words of font info for 216 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 83i,13n,88p,444b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 83i,13n,88p,466b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (72 pages, 214764 bytes).
+Output written on out/master_thesis.dvi (72 pages, 215256 bytes).
