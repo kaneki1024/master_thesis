@@ -91,8 +91,87 @@
 			\label{sdgs_poster}
 		\end{figure}
 		\newpage
-		\subsection{絹糸}
-		\subsubsection{絹糸の概論}
+		\section{生体材料の圧電性}
+			生体材料における最初の圧電性の報告は、1941年に報告されたMartinによる羊毛を用いた検証とされる。
+			羊毛を並べて糊を用いて束にする。束を輪切りにして、断面に力を加えると1 V発生したと報告している。
+			同時に焦電性の検証もしており、液体窒素に漬けて温度を下げると約10 Vの
+			電圧が発生したと報告している\cite{martin1941}。
+
+			最初に研究が活発になった自然由来の材料として木材が挙げられる。Shubnikovによってその圧電性の予測がされた。
+			また、非晶質内で結晶粒子が配向している系をpiezoelectric textureと呼んだ\cite{shubnikov1946}。
+			Bazhenov と Konstantinovaによって木材の圧電性の実験が行われた\cite{bazhenov1950}。
+			その後、Fukadaによって木材のずり圧電効果の正圧電性と逆圧電性の実験が成功し、
+			同時に熱力学的証明を行った\cite{fukada_wood}。
+			その後、様々な種類の木材における圧電性など詳細な研究が行われた。その結果、
+			木材の対称性は斜方晶系$D_2(222)$に属し、$d_{36}$が有限な値を持ち、$|d_{14}|>|d_{36}|$
+			であると示された\cite{平井_木材}。
+
+			蛋白質はアミノ酸が図\ref{アルファヘリックス}(A)の様なペプチド結合(CONH)にて結合した構造を持ち、
+			ポリペプチドとも呼ばれる。自然由来の材料、合成材料のどちらにおいても
+			ポリペプチド化合物における圧電性の研究が行われてきた。
+			自然由来の材料ではコラーゲン\cite{fukada_コラーゲン}、絹\cite{fukada_silk_fiber}、DNA\cite{DNA_圧電性}、皮膚\cite{皮膚_圧電性}、
+			骨\cite{hoda_bone_1953,fukada_bone}、腱\cite{fukada_コラーゲン}、
+			血管壁\cite{動脈_圧電性}、筋肉\cite{筋肉_圧電性}、貝殻\cite{貝_強誘電性_圧電性}
+			においてずりの圧電性があると証明された。
+			また、動脈\cite{動脈_強誘電性}や貝\cite{貝_強誘電性_圧電性}には圧電性だけでなく、強誘電性も確認されている。
+			合成材料においてはpoly-L-alanine, poly-$\gamma$-methyl-L-glutamate, poly-$\gamma$-benzyl-L-glutamate
+			などにおいてもずり圧電が確認されている\cite{合成キラル高分子の圧電性}。
+
+			ずり圧電は高分子における不斉炭素が試料の非対称性に寄与している。
+			不斉炭素原子にはL体とD体が存在し、その両方が存在するラセミ体などの材料は統計的鏡映対称性が存在するため、
+			ずりの圧電性は生まれない。
+			生物を構成するアミノ酸はL体しか存在せず、生物由来の糖はD体のみしか存在しない。
+			これを生命のホモキラリティと呼ぶ。
+			このようにL体もしくはD体のみ存在する場合、ずりの圧電性が生まれる。
+			ずりの圧電性である$d_{14}$の符号はL体で構成されている材料においては負であり、
+			D体で構成されている材料は正となる。分子の構造が$\alpha$ヘリックス、
+			もしくは引き延ばされた$\beta$型分子のどちらにおいても成立する。
+			ただし、$\alpha$ヘリックスは双極子の向きが揃っているため、
+			分子の歪みにより大きな分極が発生する可能性があり、圧電性においては
+			実験及び理論においても研究が進んでいる。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.8]{アルファヘリックス_CONH.jpg}
+				\caption{ペプチド結合と$\alpha$ヘリックス\cite{CONH_theory}。
+				(A) ペプチド結合、(B) $\alpha$ヘリックス内のCONH双極子の内部回転。}
+				\label{アルファヘリックス}
+			\end{figure}
+			ポリペプチドの$\alpha$ヘリックスの圧電性は分子格子力学を用いて計算されている\cite{CONH_theory}。
+			ヘリックス骨格の圧電率は$6.3$ pC/Nと報告されており、結晶化度を考慮した
+			PBLGの実験値と一致している。
+			\subsection{ずりの圧電性を利用したデバイス}
+			$\alpha$ヘリックスの圧電性はCONH内部の双極子回転で生じるが、
+			最適化された構造の材料としてL体のポリ乳酸がPLLAが挙げられる。
+			PLLAは植物由来の合成材料であり、生分解性が高い。
+			また、ポリフッ化ビニリデン(PVDF)に匹敵する圧電性を有し、
+			加工が容易であり、焦電性が存在せず圧力以外のセンシングを排除できるため
+			工業的に注目されている。特に圧電体でありながら焦電性を有さないという点においては
+			キネティック系のHMIへの応用として非常に有利である。
+			フィルム状のPLLAを利用したデバイスとして図\ref{リーフグリップリモコン}
+			の様なリーフグリップリモコンがある\cite{赤本,村田製作所_PLLA}。PLLAの変形から
+			デバイスの曲げとねじれの検知が行う。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.9]{リーフグリップリモコン.jpg}
+				\caption{PLLAのずり圧電を利用したリーフグリップリモコン\cite{村田製作所_PLLA}}
+				\label{リーフグリップリモコン}
+			\end{figure}
+			\\
+			また、PLLAをfiber状に加工してデバイスに組み込んだ例も報告されている。
+			図\ref{PLLA_fiber_device}(A)はPLLAをfiber状からバネ型に加工し、電極を載せたデバイスである。
+			バネの伸縮に応じた電圧が計測されている\cite{plla_バネ}。また、図\ref{PLLA_fiber_device}(B)はfiber状のPLLAを
+			組み紐に組み込み、ファッショナブルな身体計測デバイスを作成し、脈波などの身体情報を入手した
+			と報告している\cite{組み紐_plla}。
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.9]{plla_fiber_device.jpg}
+				\caption{PLLAをファイバー状に加工してデバイスに組み込んだ事例。
+				(A)PLLAをバネ上に加工し振動デバイスを作成\cite{plla_バネ}、(B)PLLAを利用した組み紐型、身体情報計測デバイス\cite{組み紐_plla}}
+				\label{PLLA_fiber_device}
+			\end{figure}
+			\newpage
+		\section{シルク}
+		\subsection{シルクの概論}
 		繊維は、綿、麻、絹(シルク)、ウールなどの天然繊維、レーヨンなどの再生繊維、
 		ナイロンなどの合成繊維に分類される。
 		その中でも、優れた光沢と耐久性を持ち、5000年以上に渡って利用されてきたシルクは
@@ -130,7 +209,7 @@
 		北海道から九州の沖縄まで広く分布している。
 
 		様々な種類の蚕が存在するが、近年では衣服としての利用以外も検討されている。
-		絹糸は外科手術の縫合糸として利用されたという実績が存在し、生体親和性が高いされる。
+		シルクは外科手術の縫合糸として利用されたという実績が存在し、生体親和性が高いされる。
 		よってその親和性を利用して図\ref{silk_device}の(A)人工血管\cite{人工血管1,人工血管2}、
 		(B)軟骨再生材料としてのスポンジ\cite{軟骨}、
 		(C)創傷保護材としてのフィルム\cite{農研機構}などに利用されている。
@@ -145,9 +224,9 @@
 			\label{silk_device}
 		\end{figure}
 		\newpage
-		\subsubsection{絹糸の構造}
-		図\ref{fibroin}(a)の様に絹糸はフィブロインとセリシンで構成されている。
-		絹糸を構成する一つの蛋白質であるフィブロインは図\ref{fibroin}(b)の様に分子量の異なる3個の分子により
+		\subsection{シルクの構造}
+		図\ref{fibroin}(a)の様にシルクはフィブロインとセリシンで構成されている。
+		シルクを構成する一つの蛋白質であるフィブロインは図\ref{fibroin}(b)の様に分子量の異なる3個の分子により
 		構成されている。
 		分子量 360 kDaのH鎖と
 		27 kDaのL鎖がC末端近傍にてジスルフィド結合したヘテロ2量体が、
@@ -164,33 +243,33 @@
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width=\linewidth]{fibroin_structure.jpg}
-			\caption{絹糸の構造。(a) 絹糸1本の構造, (b) フィブロインにおけるH鎖とL鎖の関係, 
+			\caption{シルクの構造。(a) シルク1本の構造, (b) フィブロインにおけるH鎖とL鎖の関係, 
 			(c) H鎖周期構造におけるアミノ酸配列。}
 			\label{fibroin}
 		\end{figure}
 
-		絹糸におけるセリシンは、図\ref{fibroin}(A)の通りフィブロインを囲む形に存在している。
+		シルクにおけるセリシンは、図\ref{fibroin}(A)の通りフィブロインを囲む形に存在している。
 		しかし、溶解性においては単一の蛋白質ではなく、4種類に分けられる\cite{セリシン構造}。
 		表面に分布するセリシンが最も溶解性が高く、内側に進むにつれて溶解性が低くなる。
 		溶解性が高い順にsericin I, II, III, IVと呼ばれている\cite{セリシンの微細構造}。
 
-		絹糸の構造研究はセリシンが結晶構造を取らないため絹糸のフィブロイン構造を指す場合が
+		シルクの構造研究はセリシンが結晶構造を取らないためシルクのフィブロイン構造を指す場合が
 		多い。蚕体内の中部紡糸線ではフィブロインとセリシンは液状である。
 		これを乾燥させて固体化させるとsilk I 型になる。
 		前部紡糸線で液晶化し\cite{絹糸_液晶}、蚕の8の字首振り運動により、前部紡糸線の紡糸菅にて
 		延伸され繊維化する。
 		繊維化後の状態をsilk IIと呼ぶ。silk IIは延伸されているため配向した
-		逆平行$\beta$シートが形成されている。絹糸の二次元XRDは図\ref{silk_fiber_debai}の通りであり、デバイシェラー環から
+		逆平行$\beta$シートが形成されている。シルクの二次元XRDは図\ref{silk_fiber_debai}の通りであり、デバイシェラー環から
 		配向による異方性が伺える\cite{yoshioka2016molecular}。
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.8]{silk_fiber_デバイ.jpg}
-			\caption{絹糸の2次元XRD\cite{yoshioka2016molecular}。左下の数字はHermanの配向係数。}
+			\caption{シルクの2次元XRD\cite{yoshioka2016molecular}。左下の数字はHermanの配向係数。}
 			\label{silk_fiber_debai}
 		\end{figure}
-		絹糸の構造はMarshらによって逆平行$\beta$シートのモデルが提案され長く採用されてきた\cite{marshモデル}。
+		シルクの構造はMarshらによって逆平行$\beta$シートのモデルが提案され長く採用されてきた\cite{marshモデル}。
 		しかしそのモデルのみだとX線回折像を説明しきれない箇所があるとされている。
-		AsakuraらはNMRを用いて構造解析を行い、絹糸は分子間間隔の異なる2種類の
+		AsakuraらはNMRを用いて構造解析を行い、シルクは分子間間隔の異なる2種類の
 		逆平行$\beta$シート構造と歪んだ$\beta$ターン構造で構成されていると主張している\cite{朝倉NMR}。
 		また、彼らはsilk I型は$\alpha$ヘリックスではなく
 		$\beta$ターンと主張している\cite{asakura_silk1_1,asakura_silk1_2,asakura_silk1_3}。
@@ -199,19 +278,16 @@
 			\includegraphics[scale=0.3]{NMR_silk_II.jpg}
 			\caption{NMRによるSilk IIの構造解析\cite{朝倉_NMR_研究室,asakura_silk2}}
 		\end{figure}
-
-		
-		
 		\newpage
-		\subsection{絹糸の圧電性}
-			絹糸の圧電性に関して初めて言及したのはHarveyとされている\cite{Harvey}。
+		\subsection{シルクの圧電性}
+			シルクの圧電性に関して初めて言及したのはHarveyとされている\cite{Harvey}。
 			ただし、定量的な測定などが行われたのではなく、その可能性に言及されたのみに留まる。
 			初めて定量的に評価を行ったのはFukadaである\cite{fukada_silk_fiber}。
-			乾燥させた絹糸を圧縮させて45°カットで切り出し、圧電性を評価した。
+			乾燥させたシルクを圧縮させて45°カットで切り出し、圧電性を評価した。
 			$d$定数がおおよそ1 pC/N程度と報告した。
 			ただし、精度に問題があり「おおよそ」と表現されている。
-			また、絹糸に含まれるセリシンの除去を行うと圧電性の向上が期待できるとも述べられた。
-			その後、Yucelらによって絹糸のセリシンを除去しフィブロインのキャストフィルムを作製して
+			また、シルクに含まれるセリシンの除去を行うと圧電性の向上が期待できるとも述べられた。
+			その後、Yucelらによってシルクのセリシンを除去しフィブロインのキャストフィルムを作製して
 			圧電性の報告がされた\cite{fibroin_cast_film_piezo}。
 			図\ref{silk_fibroin_cast_装置}の(A)の様に190℃のヒートブロックを
 			局所的に試料を温めながら、試料をなぞる様に移動させ、力を加えて延伸する。
@@ -227,14 +303,14 @@
 				(A) 延伸の様子、(B) DMA装置を加工したずり圧電の測定装置。}
 				\label{silk_fibroin_cast_装置}
 			\end{figure}
-			\begin{figure}[h]
+			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.6]{cast_film_piezo_data.jpg}
 				\caption{Fibroin cast film における圧電性\cite{fibroin_cast_film_piezo}。
 				(A) 延伸倍率と$d_{14}$定数の関係、(B) $d_{14}$定数の角度依存性。}
 				\label{cast_film_data}
 			\end{figure}
-			\\
+			\newpage
 			また、FTIRやXRDのデータを合わせて検証した結果、
 			図\ref{orientation_beta_sheet_piezo}のように
 			配向性と逆平行$\beta$ sheet の含有量の両方を高める
@@ -271,141 +347,19 @@
 			他にも酸化亜鉛のナノロッドをフィブロイン膜に作成し、e-skinとして実装した報告もあるが
 			生体適合性は下がっている\cite{gogurla2020self}。
 			
-			絹糸ではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
-			も報告されている。電極の上にクモの糸を並べて素子を作成し、整流しコンデンサーに蓄えたと報告している\cite{karan2018nature}。
-			\newpage
-			\subsection{圧電共鳴法}
-			圧電体は、逆圧電効果によって電圧を印加すると機械的な変形を生じる。
-			交流電圧を印加すると特定の周波数において機械的な共鳴状態が発生する。
-			これを圧電共鳴と呼ぶ。
-			PVDFやVDF-TrFEなどの長さ方向、幅方向、厚さ方向に圧電性を持つ材料は
-			図\ref{圧電共鳴のモード}のように3モードにおいて共振する。
-			長さ方向の共振においては、長さ、幅、厚さの全てが自由端条件となる。
-			幅方向の共振は、長さ方向が固定端条件となりそれ以外は自由端条件である。
-			厚さ方向の共振は、厚さ方向のみが自由端条件となる。
-			そしてそれぞれのモードにおいて、誘電率においても
-			図\ref{VDF-TrFEの圧電共鳴スペクトル}のように共鳴のスペクトルを生じる。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.5\linewidth]{圧電共鳴.jpg}
-				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a) 長さ方向の共鳴、
-				(b) 幅方向の共鳴、(c) 厚さ方向の共鳴。
-				$l$は試料の長さ方向の寸法、$w$は幅方向の寸法、$t$は厚さ方向の寸法。}
-				\label{圧電共鳴のモード}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.5\linewidth]{VDF_TrFe_圧電共鳴.jpg}
-				\caption{VDF-TrFEの圧電共鳴スペクトル\cite{小林理研ニュース}}
-				\label{VDF-TrFEの圧電共鳴スペクトル}
-			\end{figure}
-			\\ \\
-			長さ方向の共鳴が発生する周波数を$f_l$、幅方向の共鳴の周波数を$f_w$、
-			厚さ方向の共鳴の周波数を$f_t$はそれぞれの寸法を$l, w, t$として
-			以下の3式で表される。
-			\begin{equation}
-				f_l = \frac{1}{2l}\sqrt{\frac{1}{\rho s_l}}
-			\end{equation} 
-			\begin{equation}
-				f_w = \frac{1}{2w}\sqrt{\frac{1}{\rho s_w}}
-			\end{equation}
-			\begin{equation}
-				f_t = \frac{1}{2t}\sqrt{\frac{c_t}{\rho}}
-			\end{equation} 
-			また、電気機械結合係数は0°カットであれば、それぞれ方向において以下のように決まる。
-			\begin{equation}
-				k_l^2 = \frac{d_{31}^2}{\varepsilon_{33}^T s_{11}}
-			\end{equation}
-			\begin{equation}
-				k_w^2 = \frac{\left(d_{32} - d_{31}s_{12}/s_{22} \right)^2}
-				{\varepsilon_{33}^T s_{22}}
-			\end{equation}
-			\begin{equation}
-				k_t^2 = \frac{e_{33}^2}{\varepsilon_{33}^S c_{33}}
-			\end{equation}
-			誘電率全体を上の3式を用いて以下の様に記述される。
-			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
-			あるいは固定端であるときの誘電率であり、式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
-			\begin{equation}
-				\varepsilon_{33} =
-				\varepsilon_{33}^S
-				\frac{\left(1+\frac{k_l^2}{1-k_l^2}\frac{\tan{\pi f/2f_l}}{\pi f/2f_l}\right)
-				\left( 
-					1+\frac{k_w^2}{1-k_w^2}\frac{\tan{\pi f/2f_w}}{\pi f/2f_w}
-				\right)
-				}
-				{1-k_t^2\frac{\tan{\pi f/2f_t}}{\pi f/2f_t}}
-				\label{normal_piezo_resonance}
-			\end{equation}
-			\\
-			ずり圧電の共鳴モードは図\ref{圧電共鳴のモード}と異なる。
-			ずり圧電の場合は、図\ref{ずり圧電の共鳴モード}(a)の様に
-			配向軸に対して$\theta=45^\circ$にて正方形にカットした場合にて
-			図\ref{ずり圧電の共鳴モード}(b)の共鳴モードとなる。
-			正方形であるため、共鳴モードは一つしかない。
-			どの試料の辺においても境界条件は自由端となる。
-			また、試料の厚さは長さや幅に対して十分小さいとみなして固定端条件となる。
-			この条件は、PVDFやVDF-TrFEなどにおける、厚さ方向の共鳴と同じである。
-			また、ずり圧電は慣例的に膜厚方向を1軸、配向軸に垂直な方向をy軸、配向軸に平行な方向をz軸とる。
-			ずり圧電の性質をもつ材料としてPLLA(ポリ乳酸)がある。
-			PLLAにおける圧電スペクトルは図\ref{PLLA_piezo_resonance}の通りである。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.8\linewidth]{ずり圧電_共鳴モード.jpg}
-				\caption{ずり圧電の共鳴モード。(a) 配向軸に対して$\theta=45^\circ$の角度で正方形に切り出す。
-				膜厚方向をx軸、試料平面内にy, z軸を取る。
-				(b) ずり圧電のイメージ図。}
-				\label{ずり圧電の共鳴モード}
-			\end{figure}
-			\begin{figure}[h]
-				\centering
-				\includegraphics{PLLA_圧電共鳴スペクトル.jpg}
-				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
-				\label{PLLA_piezo_resonance}
-			\end{figure}
-			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\eqref{ずりの共鳴周波数}、
-			式\eqref{ずりの圧電共鳴_理論式}、式\eqref{ずりの電気機械結合係数}で記述される。
-			式\eqref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
-			式\eqref{normal_piezo_resonance}同様に式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
-			\begin{equation}
-				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
-				\label{ずりの共鳴周波数}
-			\end{equation}
-			\begin{equation}
-				\varepsilon_{11}^T=\varepsilon_{11}^S\left(1+k_{14}^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
-				\label{ずりの圧電共鳴_理論式}
-			\end{equation}
-			\begin{equation}
-				k_{14}^2=\frac{e_{14}^2}{\varepsilon_{11}^Sc_{44}}
-				\label{ずりの電気機械結合係数}
-			\end{equation}
-			図\ref{PLA_45_cut}のように試料を正方形ではなく、
-			長方形にカットして圧電共鳴スペクトルを観測した事例もある
-			\cite{PLA_長方形_圧電共鳴}。
-			\begin{figure}[h]
-				\centering
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{PLA_ずり圧電_長方形カット.jpg}
-					\caption{PLAの長方形$45^\circ$カット\cite{PLA_長方形_圧電共鳴}}
-					\label{PLA_45_cut}
-				\end{minipage}
-				\begin{minipage}{0.45\hsize}
-					\centering
-					\includegraphics{PLA_圧電共鳴スペクトル_長方形.jpg}
-					\caption{PLAの長方形$45^{\circ}$カットにおける圧電共鳴スペクトル観測\cite{PLA_長方形_圧電共鳴}}
-				\end{minipage}
-			\end{figure}
+			蚕のシルクではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
+			も報告されている。電極の上にクモの糸を並べて素子を作成し、
+			整流しコンデンサーに蓄えたと報告している\cite{karan2018nature}。
 		\section{研究の目的}
 		環境に優しい機能性材料に注目が集まっているため、
-		生体適合性、生分解性、圧電性を有する絹糸も期待されている。
-		しかしながら報告されている絹糸を圧縮して作成されたシルクフィルムは精度の良い定量的な評価に至っていない。
-		また、絹糸の一部を利用したフィブロインのキャストフィルムによる圧電性評価の報告は試料に直接的に
+		生体適合性、生分解性、圧電性を有するシルクも期待されている。
+		しかしながら報告されているシルクを圧縮して作成されたシルクフィルムは精度の良い定量的な評価に至っていない。
+		また、シルクの一部を利用したフィブロインのキャストフィルムによる圧電性評価の報告は試料に直接的に
 		力を加えて計測する方法であり、圧電共鳴法程、正確ではない。
-		また、材料を溶解させて試料を作成するキャストフィルムは絹糸の高い配向性を利用していない。
+		また、材料を溶解させて試料を作成するキャストフィルムはシルクの高い配向性を利用していない。
 		
-		本研究では、絹糸の高い配向性を利用し熱プレスを用いてシルクフィルムを作成した。
-		また、圧電共鳴法をもちいて高精度にシルクフィルムの圧電性、誘電性、機械特性を評価することを目的とした。
+		本研究では、シルクの高い配向性を利用し熱プレスを用いてシルクフィルムを作成した。
+		また、圧電共鳴法を用いて高精度にシルクフィルムの圧電性、誘電性、機械特性を評価することを目的とした。
 	\chapter{原理}
 		\section{圧電性}
 		\subsection{圧電基本式}
@@ -541,8 +495,8 @@
 				\end{cases}
 				\label{圧電h形式}
 			\end{equation}
-			の三式を導け、それぞれ式\eqref{圧電e形式}を圧電e形式, 
-			式\eqref{圧電g形式}を圧電g形式, 式\eqref{圧電h形式}を圧電h形式と呼ぶ。応力$T$, 電場$E$, 歪み$S$, 電束密度$D$の係数である$[d],[e],[g],[h]$ではそれぞれ、
+			の三式を導け、それぞれ式\eqref{圧電e形式}を圧電$e$形式, 
+			式\eqref{圧電g形式}を圧電$g$形式, 式\eqref{圧電h形式}を圧電$h$形式と呼ぶ。応力$T$, 電場$E$, 歪み$S$, 電束密度$D$の係数である$[d],[e],[g],[h]$ではそれぞれ、
 			\begin{equation}
 				d_{ij}=\left(\frac{\partial D_i}{\partial T_j}\right)_E=\left(\frac{\partial S_j}{\partial E_i}\right)_T
 			\end{equation}
@@ -688,7 +642,7 @@
 			\end{equation}
 			上式を式\eqref{圧電d形式1}の1式目に代入し、電束密度$D$を求める形に変形する。
 			この際に式\eqref{電気機械結合係数d}を使用した。
-			また、圧電e形式である式\eqref{圧電e形式}の2式目と等価となる。
+			また、圧電$e$形式である式\eqref{圧電e形式}の2式目と等価となる。
 			\begin{equation}
 				D = \frac{d}{s^E}S + \varepsilon^T\left(1-k^2\right)E
 				  = e S + \varepsilon^S E
@@ -720,119 +674,6 @@
 				\end{tabular} 
 			\end{table}
 			\end{comment}
-			\newpage
-			\subsection{生体材料の圧電性}
-			生体材料における最初の圧電性の報告は、1941年に報告されたMartinによる羊毛を用いた検証とされる。
-			羊毛を並べて糊を用いて束にする。束を輪切りにして、断面に力を加えると1 V発生したと報告している。
-			同時に焦電性の検証もしており、液体窒素に漬けて温度を下げると約10 Vの
-			電圧が発生したと報告している\cite{martin1941}。
-
-			最初に研究が活発になった自然由来の材料として木材が挙げられる。Shubnikovによってその圧電性の予測がされた。
-			また、非晶質内で結晶粒子が配向している系をpiezoelectric textureと呼んだ\cite{shubnikov1946}。
-			Bazhenov と Konstantinovaによって木材の圧電性の実験が行われた\cite{bazhenov1950}。
-			その後、Fukadaによって木材のずり圧電効果の正圧電性と逆圧電性の実験が成功し、
-			同時に熱力学的証明を行った\cite{fukada_wood}。
-			その後、様々な種類の木材における圧電性など詳細な研究が行われた。その結果、
-			木材の対称性は斜方晶系$D_2(222)$に属し、$d_{36}$が有限な値を持ち、$|d_{14}|>|d_{36}|$
-			であると示された\cite{平井_木材}。
-
-			蛋白質はアミノ酸が図\ref{アルファヘリックス}(A)の様なペプチド結合(CONH)にて結合した構造を持ち、
-			ポリペプチドとも呼ばれる。自然由来の材料、合成材料のどちらにおいても
-			ポリペプチド化合物における圧電性の研究が行われてきた。
-			自然由来の材料ではコラーゲン\cite{fukada_コラーゲン}、絹\cite{fukada_silk_fiber}、DNA\cite{DNA_圧電性}、皮膚\cite{皮膚_圧電性}、
-			骨\cite{hoda_bone_1953,fukada_bone}、腱\cite{fukada_コラーゲン}、
-			血管壁\cite{動脈_圧電性}、筋肉\cite{筋肉_圧電性}、貝殻\cite{貝_強誘電性_圧電性}
-			においてずりの圧電性があると証明された。
-			また、動脈\cite{動脈_強誘電性}や貝\cite{貝_強誘電性_圧電性}には圧電性だけでなく、強誘電性も確認されている。
-			合成材料においてはpoly-L-alanine, poly-$\gamma$-methyl-L-glutamate, poly-$\gamma$-benzyl-L-glutamate
-			などにおいてもずり圧電が確認されている\cite{合成キラル高分子の圧電性}。
-
-			ずり圧電は高分子における不斉炭素が試料の非対称性に寄与している。
-			不斉炭素原子にはL体とD体が存在し、その両方が存在するラセミ体などの材料は統計的鏡映対称性が存在するため、
-			ずりの圧電性は生まれない。
-			生物を構成するアミノ酸はL体しか存在せず、生物由来の糖はD体のみしか存在しない。
-			これを生命のホモキラリティと呼ぶ。
-			このようにL体もしくはD体のみ存在する場合、ずりの圧電性が生まれる。
-			ずりの圧電性である$d_{14}$の符号はL体で構成されている材料においては負であり、
-			D体で構成されている材料は正となる。分子の構造が$\alpha$ヘリックス、
-			もしくは引き延ばされた$\beta$型分子のどちらにおいても成立する。
-			ただし、$\alpha$ヘリックスは双極子の向きが揃っているため、
-			分子の歪みにより大きな分極が発生する可能性があり、圧電性においては
-			実験及び理論においても研究が進んでいる。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.8]{アルファヘリックス_CONH.jpg}
-				\caption{ペプチド結合と$\alpha$ヘリックス\cite{CONH_theory}。
-				(A) ペプチド結合、(B) $\alpha$ヘリックス内のCONH双極子の内部回転。}
-				\label{アルファヘリックス}
-			\end{figure}
-			ポリペプチドの$\alpha$ヘリックスの圧電性は分子格子力学を用いて計算されている\cite{CONH_theory}。
-			ヘリックス骨格の圧電率は$6.3$ pC/Nと報告されており、結晶化度を考慮した
-			PBLGの実験値と一致している。
-			
-			$\alpha$ヘリックスの圧電性はCONH内部の双極子回転で生じるが、
-			最適化された構造の材料としてL体のポリ乳酸がPLLAが挙げられる。
-			PLLAは植物由来の合成材料であり、生分解性が高い。
-			また、ポリフッ化ビニリデン(PVDF)に匹敵する圧電性を有し、
-			加工が容易であり、焦電性が存在せず圧力以外のセンシングを排除できるため
-			工業的に注目されている。特に圧電体でありながら焦電性を有さないという点においては
-			キネティック系のHMIへの応用として非常に有利である。
-			フィルム状のPLLAを利用したデバイスとして図\ref{リーフグリップリモコン}
-			の様なリーフグリップリモコンがある\cite{赤本,村田製作所_PLLA}。PLLAの変形から
-			デバイスの曲げとねじれの検知が行う。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.9]{リーフグリップリモコン.jpg}
-				\caption{PLLAのずり圧電を利用したリーフグリップリモコン\cite{村田製作所_PLLA}}
-				\label{リーフグリップリモコン}
-			\end{figure}
-			\\
-			また、PLLAをfiber状に加工してデバイスに組み込んだ例も報告されている。
-			図\ref{PLLA_fiber_device}(A)はPLLAをfiber状からバネ型に加工し、電極を載せたデバイスである。
-			バネの伸縮に応じた電圧が計測されている\cite{plla_バネ}。また、図\ref{PLLA_fiber_device}(B)はfiber状のPLLAを
-			組み紐に組み込み、ファッショナブルな身体計測デバイスを作成し、脈波などの身体情報を入手した
-			と報告している\cite{組み紐_plla}。
-			\begin{figure}[h]
-				\centering
-				\includegraphics{plla_fiber_device.jpg}
-				\caption{PLLAをファイバー状に加工してデバイスに組み込んだ事例。
-				(A)PLLAをバネ上に加工し振動デバイスを作成\cite{plla_バネ}、(B)PLLAを利用した組み紐型、身体情報計測デバイス\cite{組み紐_plla}}
-				\label{PLLA_fiber_device}
-			\end{figure}
-			\newpage
-			$\alpha$ヘリックス構造の分子を持ち、大きな圧電性が期待できるPLLAは理論、実験、
-			デバイス応用まで進んでいる。しかし、蛋白質の二次構造として$\alpha$ヘリックス以外にも
-			$\beta$ シート構造も取りうる。本研究の材料である絹糸は逆平行$\beta$シートを構成する。
-			デバイス応用などの社会実装は進んでいないが$\beta$シート構造も
-			圧電性が生じると報告されている\cite{beta_sheet_piezo_theory}。
-			
-			逆平行$\beta$ シートの構造は図\ref{逆平行ベータシート}の通りである。
-			図\ref{逆平行ベータシート}(A)の通り、分子間で水素結合した構造である。
-			水素結合により、酸素原子Oにおいて窒素原子Nに向って引っ張る力$f$が図\ref{逆平行ベータシート}(B)の通り
-			存在する。平衡状態においては図\ref{逆平行ベータシート_力}において酸素原子Oから窒素原子Nの方向である
-			ADを向いている。ずりの力が加えられたときに酸素原子が図\ref{逆平行ベータシート}の分子鎖方向、
-			図\ref{逆平行ベータシート_力}におけるAE方向に移動する現象は現実的ではない。
-			よってずりの力が加えられたときに酸素原子Oは図\ref{逆平行ベータシート_力}におけるAB方向に移動する。
-			よって図\ref{逆平行ベータシート}、図\ref{逆平行ベータシート_力}における$f$は三次元的に向きを変え、
-			逆平行$\beta$シートの表裏方向に電荷の偏りが生じる。
-			単純なモデルでは逆平行$\beta$シートの圧電性はこのようにして理解されている。
-
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=\linewidth]{anti_parallel_beta.jpg}
-				\caption{1枚の逆平行$\beta$シートの構造。(A)三次元における逆平行$\beta$シート、
-				(B)上からみた逆平行$\beta$シート。青の矢印はずりの力を加える方向。}
-				\label{逆平行ベータシート}
-			\end{figure}
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=\linewidth]{anit_parallel_force.jpg}
-				\caption{1枚の逆平行$\beta$シートの構造でずりの力が加えられたときの横からみた変動。
-				矢印前が平衡状態、矢印後がずりの力が加えられている状態。}
-				\label{逆平行ベータシート_力}
-			\end{figure}
-			\newpage
-			
 			\newpage
 		\section{誘電性}
 		電場が印加されると分極を生じる性質を誘電性といい、誘電性を有する物質を誘電体と呼ぶ。
@@ -1005,6 +846,163 @@
 			\end{equation}
 			ここでパラメータ$\alpha, \beta$は正で、$\alpha=1, \beta <1$及び、$\alpha<1, \beta=1$
 			の場合はそれぞれ、Cole-Coleの式、Davidson-Coleの式と呼ばれる。
+			\subsection{圧電共鳴法}
+			圧電体は、逆圧電効果によって電圧を印加すると機械的な変形を生じる。
+			交流電圧を印加すると特定の周波数において機械的な共鳴状態が発生する。
+			これを圧電共鳴と呼ぶ。
+			PVDFやVDF-TrFEなどの長さ方向、幅方向、厚さ方向に圧電性を持つ材料は
+			図\ref{圧電共鳴のモード}のように3モードにおいて共振する。
+			長さ方向の共振においては、長さ、幅、厚さの全てが自由端条件となる。
+			幅方向の共振は、長さ方向が固定端条件となりそれ以外は自由端条件である。
+			厚さ方向の共振は、厚さ方向のみが自由端条件となる。
+			そしてそれぞれのモードにおいて、誘電率においても
+			図\ref{VDF-TrFEの圧電共鳴スペクトル}のように共鳴のスペクトルを生じる。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.6\linewidth]{圧電共鳴.jpg}
+				\caption{長さ方向、幅方向、厚さ方向に圧電生を持つ材料の圧電共鳴。(a) 長さ方向の共鳴、
+				(b) 幅方向の共鳴、(c) 厚さ方向の共鳴。
+				$l$は試料の長さ方向の寸法、$w$は幅方向の寸法、$t$は厚さ方向の寸法。}
+				\label{圧電共鳴のモード}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.5\linewidth]{VDF_TrFe_圧電共鳴.jpg}
+				\caption{VDF-TrFEの圧電共鳴スペクトル\cite{小林理研ニュース}}
+				\label{VDF-TrFEの圧電共鳴スペクトル}
+			\end{figure}
+			\\ \\
+			長さ方向の共鳴が発生する周波数を$f_l$、幅方向の共鳴の周波数を$f_w$、
+			厚さ方向の共鳴の周波数を$f_t$はそれぞれの寸法を$l, w, t$として
+			以下の3式で表される。
+			\begin{equation}
+				f_l = \frac{1}{2l}\sqrt{\frac{1}{\rho s_l}}
+			\end{equation} 
+			\begin{equation}
+				f_w = \frac{1}{2w}\sqrt{\frac{1}{\rho s_w}}
+			\end{equation}
+			\begin{equation}
+				f_t = \frac{1}{2t}\sqrt{\frac{c_t}{\rho}}
+			\end{equation} 
+			また、電気機械結合係数は0°カットであれば、それぞれ方向において以下のように決まる。
+			\begin{equation}
+				k_l^2 = \frac{d_{31}^2}{\varepsilon_{33}^T s_{11}}
+			\end{equation}
+			\begin{equation}
+				k_w^2 = \frac{\left(d_{32} - d_{31}s_{12}/s_{22} \right)^2}
+				{\varepsilon_{33}^T s_{22}}
+			\end{equation}
+			\begin{equation}
+				k_t^2 = \frac{e_{33}^2}{\varepsilon_{33}^S c_{33}}
+			\end{equation}
+			誘電率全体を上の3式を用いて以下の様に記述される。
+			$\varepsilon_{33}^S$は3軸どの方向においてもひずみがない、
+			あるいは固定端であるときの誘電率であり、式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			\begin{equation}
+				\varepsilon_{33} =
+				\varepsilon_{33}^S
+				\frac{\left(1+\frac{k_l^2}{1-k_l^2}\frac{\tan{\pi f/2f_l}}{\pi f/2f_l}\right)
+				\left( 
+					1+\frac{k_w^2}{1-k_w^2}\frac{\tan{\pi f/2f_w}}{\pi f/2f_w}
+				\right)
+				}
+				{1-k_t^2\frac{\tan{\pi f/2f_t}}{\pi f/2f_t}}
+				\label{normal_piezo_resonance}
+			\end{equation}
+			\\
+			ずり圧電の共鳴モードは図\ref{圧電共鳴のモード}と異なる。
+			ずり圧電の場合は、図\ref{ずり圧電の共鳴モード}(a)の様に
+			配向軸に対して$\theta=45^\circ$にて正方形にカットした場合にて
+			図\ref{ずり圧電の共鳴モード}(b)の共鳴モードとなる。
+			正方形であるため、共鳴モードは一つしかない。
+			どの試料の辺においても境界条件は自由端となる。
+			また、試料の厚さは長さや幅に対して十分小さいとみなして固定端条件となる。
+			この条件は、PVDFやVDF-TrFEなどにおける、厚さ方向の共鳴と同じである。
+			また、ずり圧電は慣例的に膜厚方向を1軸、配向軸に垂直な方向をy軸、配向軸に平行な方向をz軸とる。
+			ずり圧電の性質をもつ材料としてPLLA(ポリ乳酸)がある。
+			PLLAにおける圧電スペクトルは図\ref{PLLA_piezo_resonance}の通りである。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.8\linewidth]{ずり圧電_共鳴モード.jpg}
+				\caption{ずり圧電の共鳴モード。(a) 配向軸に対して$\theta=45^\circ$の角度で正方形に切り出す。
+				膜厚方向をx軸、試料平面内にy, z軸を取る。
+				(b) ずり圧電のイメージ図。}
+				\label{ずり圧電の共鳴モード}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics{PLLA_圧電共鳴スペクトル.jpg}
+				\caption{ずり圧電の性質をもつPLLAの圧電共鳴スペクトル\cite{plla_piezo_resonance}}
+				\label{PLLA_piezo_resonance}
+			\end{figure}
+			共鳴周波数$f_R$、誘電率の周波数特性$\varepsilon_{11}^T$、電気機械結合係数$k_{14}$は式\eqref{ずりの共鳴周波数}、
+			式\eqref{ずりの圧電共鳴_理論式}、式\eqref{ずりの電気機械結合係数}で記述される。
+			式\eqref{ずりの圧電共鳴_理論式}における$\varepsilon_{11}^S$は
+			式\eqref{normal_piezo_resonance}同様に式\eqref{Havriliak-Negami}のHavriliak-Negamiの式と同値である。
+			\begin{equation}
+				f_R = \frac{1}{2l}\sqrt{\frac{2c_{44}}{\rho}}
+				\label{ずりの共鳴周波数}
+			\end{equation}
+			\begin{equation}
+				\varepsilon_{11}^T=\varepsilon_{11}^S\left(1+k_{14}^2\frac{\tan{\pi f/2f_R}}{\pi f/2f_R}\right)
+				\label{ずりの圧電共鳴_理論式}
+			\end{equation}
+			\begin{equation}
+				k_{14}^2=\frac{e_{14}^2}{\varepsilon_{11}^Sc_{44}}
+				\label{ずりの電気機械結合係数}
+			\end{equation}
+			図\ref{PLA_45_cut}のように試料を正方形ではなく、
+			長方形にカットして圧電共鳴スペクトルを観測した事例もある
+			\cite{PLA_長方形_圧電共鳴}。
+			\newpage
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{PLA_ずり圧電_長方形カット.jpg}
+					\caption{PLAの長方形$45^\circ$カット\cite{PLA_長方形_圧電共鳴}}
+					\label{PLA_45_cut}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics{PLA_圧電共鳴スペクトル_長方形.jpg}
+					\caption{PLAの長方形$45^{\circ}$カットにおける圧電共鳴スペクトル観測\cite{PLA_長方形_圧電共鳴}}
+				\end{minipage}
+			\end{figure}
+			\newpage
+			\section{逆平行$\beta$ シートにおけるずりの圧電性}
+			$\alpha$ヘリックス構造の分子を持ち、大きな圧電性が期待できるPLLAは理論、実験、
+			デバイス応用まで進んでいる。しかし、蛋白質の二次構造として$\alpha$ヘリックス以外にも
+			$\beta$ シート構造も取りうる。本研究の材料であるシルクは逆平行$\beta$シートを構成する。
+			デバイス応用などの社会実装は進んでいないが$\beta$シート構造も
+			圧電性が生じると報告されている\cite{beta_sheet_piezo_theory}。
+			
+			逆平行$\beta$ シートの構造は図\ref{逆平行ベータシート}の通りである。
+			図\ref{逆平行ベータシート}(A)の通り、分子間で水素結合した構造である。
+			水素結合により、酸素原子Oにおいて窒素原子Nに向って引っ張る力$f$が図\ref{逆平行ベータシート}(B)の通り
+			存在する。平衡状態においては図\ref{逆平行ベータシート_力}において酸素原子Oから窒素原子Nの方向である
+			ADを向いている。ずりの力が加えられたときに酸素原子が図\ref{逆平行ベータシート}の分子鎖方向、
+			図\ref{逆平行ベータシート_力}におけるAE方向に移動する現象は現実的ではない。
+			よってずりの力が加えられたときに酸素原子Oは図\ref{逆平行ベータシート_力}におけるAB方向に移動する。
+			よって図\ref{逆平行ベータシート}、図\ref{逆平行ベータシート_力}における$f$は三次元的に向きを変え、
+			逆平行$\beta$シートの表裏方向に電荷の偏りが生じる。
+			単純なモデルでは逆平行$\beta$シートの圧電性はこのようにして理解されている。
+
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\linewidth]{anti_parallel_beta.jpg}
+				\caption{1枚の逆平行$\beta$シートの構造。(A)三次元における逆平行$\beta$シート、
+				(B)上からみた逆平行$\beta$シート。青の矢印はずりの力を加える方向。}
+				\label{逆平行ベータシート}
+			\end{figure}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\linewidth]{anit_parallel_force.jpg}
+				\caption{1枚の逆平行$\beta$シートの構造でずりの力が加えられたときの横からみた変動。
+				矢印前が平衡状態、矢印後がずりの力が加えられている状態。}
+				\label{逆平行ベータシート_力}
+			\end{figure}
+			\newpage
 			\newpage
 			\section{結晶性高分子物質における繊維構造}
 			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
@@ -1020,7 +1018,7 @@
 			繊維構造は$\phi$ の値により3つに大別される。繊維軸と微結晶の軸が一致する$\phi=0$を単純繊維構造、
 			有限の角度を持つ場合$\phi=\phi_0$をらせん繊維構造、
 			垂直$\phi=90^{\circ}$を環状繊維構造と呼ぶ。
-			単純繊維構造としてはラミー\cite{ラミー}、絹糸\cite{絹糸構造}が挙げられる。
+			単純繊維構造としてはラミー\cite{ラミー}、シルク\cite{絹糸構造}が挙げられる。
 			らせん繊維構造としては木綿が挙げられ、らせん角$\phi \approx 30^{\circ}$である\cite{cotton}。
 			\begin{figure}[h]
 				\centering
@@ -1033,17 +1031,17 @@
 				\includegraphics[scale=0.8]{fiber_structures.jpg}
 				\caption{繊維の構造。 
 				(A)木綿\cite{cotton}, 
-				(B)クモと絹糸(フィブロイン)の構造\cite{クモと絹糸の構造}}
+				(B)クモと蚕のシルク(フィブロイン)の構造\cite{クモと絹糸の構造}}
 			\end{figure}
 	\chapter{実験手法}
 		\section{試料作製方法}
 		本研究では
 		図\ref{セリシンを含まない試料作製手順}、図\ref{セリシンを含むフィルム作成手順}
-		の通り熱プレスして絹糸フィルムを作成した。
+		の通り熱プレスしてシルクフィルムを作成した。
 		セリシンを除去したフィルムを作成する場合は、まず、糊を用いて割りばし格子状に組み、固定し
-		絹糸を巻く。
+		シルクを巻く。
 		次に加熱した炭酸ナトリウム水溶液に入れ数時間放置して取り出す。
-		乾燥させ割りばしにカッターで切り込みを入れ絹糸を外す。
+		乾燥させ割りばしにカッターで切り込みを入れシルクを外す。
 		鉄板の上に並べ、若干水で濡らして２時間プレスする。
 		一旦乾燥させる理由は、糸が濡れていると綺麗に並べずらいからである。
 		セリシンが含まれているフィルムを作成する場合は鉄板に糸を巻いて、水で濡らし、
@@ -1064,20 +1062,20 @@
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.65]{試料作製手順.jpg}
-			\caption{セリシンを含まない絹糸フィルムの作成手順}
+			\caption{セリシンを含まないシルクフィルムの作成手順}
 			\label{セリシンを含まない試料作製手順}
 		\end{figure}
 		\newpage
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width=\linewidth]{試料作製手順2.jpg}
-			\caption{セリシンを含む絹糸フィルムの作成手順}
+			\caption{セリシンを含むシルクフィルムの作成手順}
 			\label{セリシンを含むフィルム作成手順}
 		\end{figure}
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=1]{試料.jpg}
-			\caption{作成した絹糸フィルム。左がセリシンを含む。右がセリシンを含まない。}
+			\caption{作成したシルクフィルム。左がセリシンを含む。右がセリシンを含まない。}
 			\label{試料外観}
 		\end{figure}
 		\begin{figure}[H]
@@ -1092,7 +1090,7 @@
 			\subsection{X線回折($\theta - 2\theta$測定とPole figure測定)}
 			本研究では$\theta-2\theta$測定にて
 			結晶性を評価し、配向性の評価にはPole figure測定を用いた。
-			\subsubsection{$\theta - 2\theta$測定の原理}
+			\subsubsection{$\theta - 2\theta$測定}
 			試料の結晶構造の解析のためにXRD(X-Ray Diffraction)の$\theta-2\theta$測定を行った。
 			測定には図\ref{XRD_nakajima}に示したRINT-2000(Rigaku Corporation)を使用した。
 			ある結晶粒における面間隔$d$の格子面(hkl)が入射X線に対し、式\eqref{Bragg}の式を満たすとき回折が生じる。
@@ -1131,7 +1129,7 @@
 				\label{集中法光学系}
 			\end{figure}
 
-			\subsubsection{Pole figure測定の原理}
+			\subsubsection{Pole figure測定}
 			$\theta-2\theta$測定は試料表面に平行な格子面を測定するため、
 			結晶面の逆格子ベクトル$\bm{g}_{hkl}$は常に試料の表面に垂直方向を向いている。
 			逆格子ベクトル$\bm{g}_{hkl}$の大きさは結晶面の間隔$d$の逆数$1/d$に対応しており、
@@ -1316,9 +1314,24 @@
 			そして長さ方向と幅方向のどちらにおいても計測対象が$k_{14}$の1つであるため
 			本研究では試料の寸法は正方形とした。
 			\newpage
-	\chapter{結果と考察}
-			\section{X線回折と配向性評価}
-			図\ref{theta_2theta_fibroin_film}がセリシンを除去したシルクフィルムにおいて糸を並べた平行方向(parallel)と
+	\chapter{構造評価}
+			\section{様々な種類のシルクのXRD($\theta$-$2\theta$)}
+			図\ref{様々な絹糸XRD}は家蚕(Bombyx mori)、エリ蚕(Samia cynthia ricini)、
+			サク蚕(Antheraea pernyi)の糸におけるXRDの$\theta$-$2\theta$測定の結果である。
+			家蚕は$2\theta \approx 10^{\circ}, 20^{\circ}, 28^{\circ}$においてピークが伺える。
+			エリ蚕は$2\theta \approx 17^{\circ}, 20^{\circ}$においてピークが伺える。
+			サク蚕もエリ蚕と同様の位置にピークが確認されるが強度比が異なる。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.8]{糸の種類別XRD.jpg}
+				\caption{家蚕(Bombyx mori), エリ蚕(Samia cynthia ricini), 
+				サク蚕(Antheraea pernyi)の$\theta$-$2\theta$測定の結果.}
+				\label{様々な絹糸XRD}
+			\end{figure}
+			\newpage
+			\section{家蚕(Bombyx mori)におけるX線回折と配向性評価}
+			図\ref{theta_2theta_fibroin_film}がセリシンを除去した
+			シルクフィルムにおいて糸を並べた平行方向(parallel)と
 			垂直方向(vertical)の$\theta - 2\theta$測定を行った結果である。
 			$2\theta = 10^{\circ}, 20^{\circ}, 29^{\circ}$付近にピークが確認された。
 			vertical方向とparallel方向で大きな違いは見られなかった。
@@ -1370,6 +1383,52 @@
 				\label{セリシン含む_pole_figure}
 			\end{figure}
 			\newpage
+			\section{FTIR}
+			作成したフィルムの蛋白質の二次構造の割合を知るためにFTIRを行った。
+			測定した波数は400 cm$^{-1}$から4000 cm$^{-1}$とした。
+			セリシンありのフィルムで実際に入手したデータを可視化すると
+			図\ref{FTIR_セリシンあり}の通りである。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.6]{FTIR_セリシンあり.jpg}
+				\caption{セリシンありFTIRを行った結果}
+				\label{FTIR_セリシンあり}
+			\end{figure}
+			\\
+			セリシン除去過程を含まないフィルム、含むフィルム、それぞれを190℃で二時間の熱処理を行った場合の蛋白質、
+			二次構造の割合は表\ref{FTIR_蛋白質二次構造}の結果にまとめた。
+			また、表\ref{FTIR_蛋白質二次構造}における濃い黄色、薄い黄色とは図\ref{熱処理後のフィルム}
+			の画像の通りである。
+			熱処理前のセリシンあり、なしのフィルムにおいてセリシンなしの場合の方が最安定の$\beta$ シートが多い。
+			これはセリシンを取り除く、炭酸ナトリウム水溶液の熱湯の浸水にて熱処理と同じ効果にて
+			$\alpha$ helixが$\beta$ sheet へ転移したものによると思われる。
+			190℃の二時間に渡る熱処理後ではどちらの場合でも$\beta$ sheetの含有量が増え、
+			$\alpha$ helixが減った。セリシンありの薄い黄色の場合は異なるが、熱処理後のフィルムは
+			$\alpha$ helixが1 \%まで減った。
+
+			フィルムの特徴として熱処理後のフィルムは硬く、脆く、割れやすい。
+			$\beta$ sheetが多い、濃い黄色の箇所は顕著である。
+			\begin{table}[h]
+				\centering
+				\caption{FTIRによる蛋白質二次構造の割合の結果}
+				\label{FTIR_蛋白質二次構造}
+				\begin{tabular}{c c c c c} \hline
+					フィルムの種類 & $\alpha$ helix & $\beta$ sheet &$\beta$ turn & other \\ \hline \hline
+					セリシンあり(熱処理前) & 16 \% & 35 \% &  24 \% & 25 \% \\
+					セリシンあり(熱処理後)、薄い黄色 &  12 \% & 39 \% & 4 \% & 25 \% \\
+					セリシンあり(熱処理後)、濃い黄色 & 1 \% & 42 \% & 28 \% & 29 \% \\
+					セリシンなし(熱処理前) & 8 \% & 48 \% &  21 \% & 23 \% \\
+					セリシンなし(熱処理後)、薄い黄色 &  1 \% & 50 \% & 22 \% & 24 \% \\
+					セリシンなし(熱処理後)、濃い黄色 & 1 \% & 54 \% & 24 \% & 23 \% \\ \hline
+				\end{tabular}
+			\end{table}
+			\newpage
+			\begin{figure}[h]
+				\centering
+				\includegraphics[scale=0.5]{シルクフィルム_熱処理後.jpg}
+				\caption{190℃で熱処理した後のフィルム. (A) セリシンあり, (B) セリシンなし.}
+				\label{熱処理後のフィルム}
+			\end{figure}
 			\section{圧電共鳴の試料寸法と角度依存性}
 			セリシンを除去したフィルムにおいて、1辺の大きさが5 mm, 7.5 mm, 10 mmである正方形試料を作成した。
 			図\ref{45deg_cut_piezo_resonant}は45°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
@@ -1417,19 +1476,19 @@
 				(B)横軸は正方形試料の1辺の長さ$l$の逆数と圧電共鳴周波数$f_R$の関係と角度別の1次の近似直線}
 				\label{弾性率_角度依存性}
 			\end{figure}
-			\newpage
 			\begin{table}[h]
 				\centering
 				\caption{図\ref{弾性率_角度依存性}(B)の一次の近似直線から得た試料切り出し角度別の弾性率$1/s$}
 				\label{角度別_弾性率}
 				\begin{tabular}{cc} \hline
-					切り出し角度 & 弾性率 $1/s$ \\ \hline
+					切り出し角度 & 弾性率 $1/s$ \\ \hline \hline
 					0°	& 2.23 GPa\\
 					15° & 2.28 GPa\\
 					30° & 2.68 GPa\\
 					45° & 2.80 GPa\\ \hline
 				\end{tabular}
 			\end{table}
+			\newpage
 			\begin{figure}[h]
 				\centering
 				\includegraphics{電気機械結合係数の角度依存性.jpg}
@@ -1451,13 +1510,13 @@
 			飽和したと思われる。
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.45]{number_k.jpg}
+				\includegraphics[scale=0.5]{number_k.jpg}
 				\caption{セリシン除去過程(精錬)の回数と電気機械結合係数$k_{14}$の関係}
 				\label{times_k}
 			\end{figure}
 			\begin{table}[h]
 				\centering
-				\caption{FTIRによる蛋白質二次構造の割合の結果}
+				\caption{FTIRによる蛋白質二次構造の割合}
 				\label{FTIR_蛋白質二次構造_セリシン除去回数}
 				\begin{tabular}{c c c c c} \hline
 					精錬回数 & $\alpha$ helix & $\beta$ sheet &$\beta$ turn & other \\ \hline \hline
@@ -1468,8 +1527,108 @@
 					8 & 0 \% & 100 \% & 0 \% & 0 \% \\ \hline
 				\end{tabular}
 			\end{table}
-			
 			\newpage
+		\chapter{物性評価}
+		\section{DSC}
+		\label{DSC}
+		熱特性を評価するために
+		示差走査熱量測定(Differential Scanning Calorimetry; DSC)を使用した。
+		DSCとは参照試料と測定試料を同じ温度で走査し、その熱量差を測定する。
+		本研究ではDSC7020(Hitachi Corporation)を使用した。
+		参照試料として空のアルミパンを使用した。
+	
+		糸の種類別の熱特性評価は図\ref{DSC熱特性評価}(A)の通りである。
+		本論文にて使用したシルクは家蚕(Bombyx mori)である。他にも市販のエリ蚕(Samia cynthia ricini)、
+		サク蚕(Antheraea pernyi)の糸の熱特性を評価した。
+		家蚕とサク蚕の熱異常は73℃付近に表れている。
+		よって本研究のシルクフィルムは73℃にてプレスして作成した。
+		また、エリ蚕における熱異常のピークは他の糸と比べ高い97℃付近に表れた。
+		図\ref{DSC熱特性評価}(B)は$-50$℃から$350$℃における家蚕のDSCを用いた熱特性である。
+		図\ref{DSC熱特性評価}(A)に見られた73℃付近の熱異常は図\ref{DSC熱特性評価}(B)では90℃に移動している。
+		これは蚕の個体差、あるいはサンプルの含水量の違いであり本質的に違いはないと思われる。
+		よって図\ref{DSC熱特性評価}(A)におけるエリ蚕の熱異常温度の違いは蚕の個体差や含水量の違いによる
+		可能性もある。
+		同様に0℃付近における熱異常は水によるものと思われる。
+		また、220℃付近に存在する熱異常はシルクの$\alpha$ ヘリックスから$\beta$シートに転移したものと思われる。
+		300℃付近における大きな熱異常は分解によるものである。
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.75]{DSC_silk_0112_2.jpg}
+			\caption{DSCによるシルクの熱特性評価. (A)家蚕(Bombyx mori), エリ蚕(Samia cynthia ricini), 
+			サク蚕(Antheraea pernyi)の熱特性, (B)家蚕(Bombyx mori)の$-50$℃から$350$℃における熱特性.}
+			\label{DSC熱特性評価}
+		\end{figure}
+		\newpage
+		キャストフィルムに熱特性は図\ref{cast_film_DSC}の通りである。no treatmentが未延伸で熱処理を行っていない試料であり
+		他は50℃、75℃、100℃、150℃で延伸を行った試料における熱特性である。
+		図\ref{DSC熱特性評価}における糸の熱特性と異なりブロードな特性となった。
+		しかし、50℃付近に見られる熱異常は延伸温度が100℃を超えると確認出来なくなったため、
+		糸の場合と同様に水によるものと思われる。
+		図\ref{cast_film_熱特性_DSC}は報告されているDSCを用いたフィブロインキャストフィルム
+		の熱特性だが同様の結果は確認出来なかった。また、フィブロインキャストフィルム
+		の作製方法は章\ref{キャストフィルムの作製方法}の通りである。
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.9]{cast_film_DSC_20210621.jpg}
+			\caption{DSCをよるフィブロインキャストフィルムの熱特性}
+			\label{cast_film_DSC}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1]{DSC_cast_film_report.jpeg}
+			\caption{先行研究によるフィブロインキャストフィルムの熱特性\cite{cast_film_熱特性_DSC}}
+			\label{cast_film_熱特性_DSC}
+		\end{figure}
+		\newpage
+		図\ref{セリシン除去フィルムにおけるDSC}はセリシンを除去したシルクフィルムでDSCを用いて熱特性を計測した結果である。
+		図\ref{セリシン除去フィルムにおけるDSC}(A)は計測した-150℃から350℃の全範囲での様子である。
+		図\ref{セリシン除去フィルムにおけるDSC}(B)は温度を変えながら誘電率を測定した
+		-70℃から120℃におけるDSCの結果である。
+	
+		図\ref{セリシン除去フィルムにおけるDSC}はセリシンを残したシルクフィルムでDSCを用いて熱特性を計測した結果である。
+		図\ref{セリシン除去フィルムにおけるDSC}(A)は計測した-150℃から350℃の全範囲での様子である。
+		図\ref{セリシン除去フィルムにおけるDSC}(B)は温度を変えながら誘電率を測定した
+		-70℃から120℃におけるDSCの結果である。
+		セリシンを除去した場合と同様に80℃付近にブロードで分解と同程度の大きな吸熱ピークが伺える。
+		また、300℃付近の分解も同様に確認される。セリシンを除去した場合に見られた-120℃, -40℃
+		付近のピークは確認されなかった一方で、新たに0℃付近に発熱ピークが見られる。
+		試料内部の水分であると思われる。また、セリシンを除去した場合において確認された40℃付近の吸熱ピークは
+		確認されなかった。
+		-80℃の大きな吸熱ピークに隠れてしまったのか、元来、存在しないかは断定できない。
+		ただし、圧電共鳴の弾性緩和を踏まえるとピークに隠れてしまったと考えるのが妥当だと思われる。
+		セリシンを除去した場合、セリシンを残した場合のどちらにおいても220℃において吸熱ピークが存在する。
+		190℃付近に存在すると報告されている、$\alpha$ ヘリックスから$\beta$シートへの転移によるものと思われる。
+		\\
+		\\
+		\\
+		\\
+	
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\linewidth]{熱プレスシルクフィルム_DSC.jpg}
+			\caption{セリシンを除去したシルクフィルムのDSCによる熱特性. (A) -150℃から350℃の熱特性, 
+			(B) -70℃から120℃の熱特性.}
+			\label{セリシン除去フィルムにおけるDSC}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{セリシンあり_熱プレスシルクフィルム_DSC.jpg}
+			\caption{セリシンを残したシルクフィルムのDSCによる熱特性. (A) -150℃から350℃の熱特性, 
+			(B) -70℃から120℃の熱特性.}
+			\label{セリシンありフィルムにおけるDSC}
+		\end{figure}
+		\section{TG-DTA}
+		示差熱熱重量同時測定装置を用いて、シルクの温度と重量の関係、基準物質と温度差の関係を計測した。
+		基準物質として空のPANを使用した。図\ref{TG_DTA}がその結果である。
+		350℃付近にてTG曲線が落ち込んでおり、炭化である。また、計測時は解放PANであるため
+		炭化済みであると確認した。50℃から250℃において緩やかにTG曲線が減少しているが
+		脱水、結晶化など様々な現象を含んでいると思われる。
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.4]{TG_DTA.jpg}
+			\caption{シルク(Bombyx)のTG-DTA曲線}
+			\label{TG_DTA}
+		\end{figure}
 			\section{誘電率の温度依存性}
 			水冷ペルチェを用いて-70℃から120℃に変化させながら、40 Hzから110 MHzにおける誘電率を計測した。
 			
@@ -1479,12 +1638,12 @@
 			圧電共鳴付近である50 kHzから300 kHzにおいて細かく計測した。
 			0℃から30℃において、二つの計測結果がずれている。
 			これは0℃から30℃における誘電率の大きな変動に対して計測時間のずれが効いていると思われる。
-			誘電率の大きな変動は絹糸内部の水により導電性が上がったからと考えられる。
-			フィルム作成工程で水を必要とし、章\ref{DSC}のDSCの結果の通り、絹糸にも水を多く含む。
+			誘電率の大きな変動はシルク内部の水により導電性が上がったからと考えられる。
+			フィルム作成工程で水を必要とし、章\ref{DSC}のDSCの結果の通り、シルク繊維にも水を多く含む。
 			水冷ペルチェで温度をコントロールしている試料室は、窒素で満たしているが微量の水分を含みうる。
 			低温から高温に上げる過程で霜として試料に付着して導電性を一時的に挙げたとしても
-			0℃近傍のみと思われる。絹糸内部の水分が0℃を超え、
-			試料の導電性を向上させ、絹糸の吸水性もしくは電極により試料に内部に留まり、
+			0℃近傍のみと思われる。シルク内部の水分が0℃を超え、
+			試料の導電性を向上させ、シルクの吸水性もしくは電極により試料に内部に留まり、
 			その影響が30℃付近まで引きずったと思われる。
 			また、水分が試料内部に30℃付近まで留まり、フィブロイン高分子が動きやすくなり
 			大きな緩和現象として表れている可能性も考えられる。
@@ -1557,7 +1716,7 @@
 			0℃を境に大きく緩和の形状が異なる。
 			0℃以下は低周波側に存在した緩和が0℃以上では高周波側に存在する。
 			また、誘電率が0℃付近で上昇した後に再び下がる傾向がある。
-			絹糸内部の水の影響があるとも思われるが断定は出来ない。
+			シルク内部の水の影響があるとも思われるが断定は出来ない。
 			\begin{figure}[h]
 				\centering
 				\includegraphics[scale=1]{温度_誘電率_セリシンあり.jpg}
@@ -1644,12 +1803,13 @@
 	\end{figure}
 	\newpage
 	\section{キャストフィルムの作成方法}
-	絹糸からセリシンを除去したキャストフィルム作成方法は
+	\label{キャストフィルムの作製方法}
+	シルクからセリシンを除去したキャストフィルム作成方法は
 	図\ref{フィブロインキャストフィルムの作成方法}の通りである。
-	熱湯にした炭酸ナトリウム水溶液(Na$_2$CO$_3$)に絹糸を入れてセリシンを除去する。
+	熱湯にした炭酸ナトリウム水溶液(Na$_2$CO$_3$)にシルクを入れてセリシンを除去する。
 	セリシン以外のゴミも同時に除去されるためこれを繰り返す。
 	その次に、塩化カルシウムCaCl$_2$と蒸留水と無水エタノール
-	に絹糸を混ぜて加熱すると溶解する。
+	にシルクを混ぜて加熱すると溶解する。
 	その後、透析して塩を取り除く。
 	透析する前にゴミを除去するため、濾過してもよいが溶解
 	直後のフィブロイン溶液は粘性が高く濾過されない場合がある。
@@ -1661,184 +1821,19 @@
 	溶解過程のみ行えばよい。
 	\begin{figure}[h]
 		\centering
-		\includegraphics{cast_film_作成方法.jpg}
+		\includegraphics[scale=0.75]{cast_film_作成方法.jpg}
 		\caption{キャストフィルムの作成方法\cite{フィブロイン溶解方法}.}
 		\label{フィブロインキャストフィルムの作成方法}
 	\end{figure}
-	\newpage
+	\\
 	キャストにて作成した試料は以下の通りである。
 	セリシンを除去した場合は透明になると判明した。
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
-		\includegraphics{cast_film_sample.jpg}
+		\includegraphics[scale=0.3]{cast_film_sample.jpg}
 		\caption{キャストで作成した試料. (A)セリシンを除去しなった試料, (B)セリシンを除去した試料.}
 	\end{figure}
 	\newpage
-	\section{様々な種類の絹糸のXRD($\theta$-$2\theta$)}
-	図\ref{様々な絹糸XRD}は家蚕(Bombyx mori)、エリ蚕(Samia cynthia ricini)、
-	サク蚕(Antheraea pernyi)の糸におけるXRDの$\theta$-$2\theta$測定の結果である。
-	家蚕は$2\theta \approx 10^{\circ}, 20^{\circ}, 28^{\circ}$においてピークが伺える。
-	エリ蚕は$2\theta \approx 17^{\circ}, 20^{\circ}$においてピークが伺える。
-	サク蚕もエリ蚕と同様の位置にピークが確認されるが強度比が異なる。
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.8]{糸の種類別XRD.jpg}
-		\caption{家蚕(Bombyx mori), エリ蚕(Samia cynthia ricini), 
-		サク蚕(Antheraea pernyi)の$\theta$-$2\theta$測定の結果.}
-		\label{様々な絹糸XRD}
-	\end{figure}
-	\newpage
-	\section{DSC}
-	\label{DSC}
-	熱特性を評価するために
-	示差走査熱量測定(Differential Scanning Calorimetry; DSC)を使用した。
-	DSCとは参照試料と測定試料を同じ温度で走査し、その熱量差を測定する。
-	本研究ではDSC7020(Hitachi Corporation)を使用した。
-	参照試料として空のアルミパンを使用した。
-
-	糸の種類別の熱特性評価は図\ref{DSC熱特性評価}(A)の通りである。
-	本論文にて使用した絹糸は家蚕(Bombyx mori)である。他にも市販のエリ蚕(Samia cynthia ricini)、
-	サク蚕(Antheraea pernyi)の糸の熱特性を評価した。
-	家蚕とサク蚕の熱異常は73℃付近に表れている。
-	よって本研究の絹糸フィルムは73℃にてプレスして作成した。
-	また、エリ蚕における熱異常のピークは他の糸と比べ高い97℃付近に表れた。
-	図\ref{DSC熱特性評価}(B)は$-50$℃から$350$℃における家蚕のDSCを用いた熱特性である。
-	図\ref{DSC熱特性評価}(A)に見られた73℃付近の熱異常は図\ref{DSC熱特性評価}(B)では90℃に移動している。
-	これは蚕の個体差、あるいはサンプルの含水量の違いであり本質的に違いはないと思われる。
-	よって図\ref{DSC熱特性評価}(A)におけるエリ蚕の熱異常温度の違いは蚕の個体差や含水量の違いによる
-	可能性もある。
-	同様に0℃付近における熱異常は水によるものと思われる。
-	また、220℃付近に存在する熱異常は絹糸の$\alpha$ ヘリックスから$\beta$シートに転移したものと思われる。
-	300℃付近における大きな熱異常は分解によるものである。
-	
-	キャストフィルムに熱特性は図\ref{cast_film_DSC}の通りである。no treatmentが未延伸や熱処理を行っていない試料であり
-	他は50℃、75℃、100℃、150℃で延伸を行った試料における熱特性である。
-	図\ref{DSC熱特性評価}における糸の熱特性と異なりブロードな特性となった。
-	しかし、50℃付近に見られる熱異常は延伸温度が100℃を超えると確認出来なくなったため、
-	糸の場合と同様に水によるものと思われる。
-	図\ref{cast_film_熱特性_DSC}は報告されているDSCを用いたフィブロインキャストフィルム
-	の熱特性だが同様の結果は確認出来なかった。
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.8]{DSC_silk_0112_2.jpg}
-		\caption{DSCによる絹糸の熱特性評価. (A)家蚕(Bombyx mori), エリ蚕(Samia cynthia ricini), 
-		サク蚕(Antheraea pernyi)の熱特性, (B)家蚕(Bombyx mori)の$-50$℃から$350$℃における熱特性.}
-		\label{DSC熱特性評価}
-	\end{figure}
-	\newpage
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=1]{cast_film_DSC_20210621.jpg}
-		\caption{DSCをよるフィブロインキャストフィルムの熱特性}
-		\label{cast_film_DSC}
-	\end{figure}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=1]{DSC_cast_film_report.jpeg}
-		\caption{先行研究によるフィブロインキャストフィルムの熱特性\cite{cast_film_熱特性_DSC}}
-		\label{cast_film_熱特性_DSC}
-	\end{figure}
-	\newpage
-	図\ref{セリシン除去フィルムにおけるDSC}はセリシンを除去したシルクフィルムでDSCを用いて熱特性を計測した結果である。
-	図\ref{セリシン除去フィルムにおけるDSC}(A)は計測した-150℃から350℃の全範囲での様子である。
-	図\ref{セリシン除去フィルムにおけるDSC}(B)は温度を変えながら誘電率を測定した
-	-70℃から120℃におけるDSCの結果である。
-
-	図\ref{セリシン除去フィルムにおけるDSC}はセリシンを残したシルクフィルムでDSCを用いて熱特性を計測した結果である。
-	図\ref{セリシン除去フィルムにおけるDSC}(A)は計測した-150℃から350℃の全範囲での様子である。
-	図\ref{セリシン除去フィルムにおけるDSC}(B)は温度を変えながら誘電率を測定した
-	-70℃から120℃におけるDSCの結果である。
-	セリシンを除去した場合と同様に80℃付近にブロードで分解と同程度の大きな吸熱ピークが伺える。
-	また、300℃付近の分解も同様に確認される。セリシンを除去した場合に見られた-120℃, -40℃
-	付近のピークは確認されなかった一方で、新たに0℃付近に発熱ピークが見られる。
-	試料内部の水分であると思われる。また、セリシンを除去した場合において確認された40℃付近の吸熱ピークは
-	確認されなかった。
-	-80℃の大きな吸熱ピークに隠れてしまったのか、元来、存在しないかは断定できない。
-	ただし、圧電共鳴の弾性緩和を踏まえるとピークに隠れてしまったと考えるのが妥当だと思われる。
-	セリシンを除去した場合、セリシンを残した場合のどちらにおいても220℃において吸熱ピークが存在する。
-	190℃付近に存在すると報告されている、$\alpha$ ヘリックスから$\beta$シートへの転移によるものと思われる。
-	\\
-	\\
-	\\
-	\\
-
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=\linewidth]{熱プレスシルクフィルム_DSC.jpg}
-		\caption{セリシンを除去したシルクフィルムのDSCによる熱特性. (A) -150℃から350℃の熱特性, 
-		(B) -70℃から120℃の熱特性.}
-		\label{セリシン除去フィルムにおけるDSC}
-	\end{figure}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{セリシンあり_熱プレスシルクフィルム_DSC.jpg}
-		\caption{セリシンを残したシルクフィルムのDSCによる熱特性. (A) -150℃から350℃の熱特性, 
-		(B) -70℃から120℃の熱特性.}
-		\label{セリシンありフィルムにおけるDSC}
-	\end{figure}
-	\section{TG-DTA}
-	示差熱熱重量同時測定装置を用いて、絹糸の温度と重量の関係、基準物質と温度差の関係を計測した。
-	基準物質として空のPANを使用した。図\ref{TG_DTA}がその結果である。
-	350℃付近にてTG曲線が落ち込んでおり、炭化である。また、計測時は解放PANであるため
-	炭化済みであると確認した。50℃から250℃において緩やかにTG曲線が減少しているが
-	脱水、結晶化など様々な現象を含んでいると思われる。
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.4]{TG_DTA.jpg}
-		\caption{絹糸(Bombyx)のTG-DTA曲線}
-		\label{TG_DTA}
-	\end{figure}
-	\newpage
-	\section{FTIR}
-	作成したフィルムの蛋白質の二次構造の割合を知るためにFTIRを行った。
-	測定した波数は400 cm$^{-1}$から4000 cm$^{-1}$とした。
-	セリシンありのフィルムで実際に入手したデータを可視化すると
-	図\ref{FTIR_セリシンあり}の通りである。
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.6]{FTIR_セリシンあり.jpg}
-		\caption{セリシンありFTIRを行った結果}
-		\label{FTIR_セリシンあり}
-	\end{figure}
-	\\
-	セリシン除去過程を含まないフィルム、含むフィルム、それぞれを190℃で二時間の熱処理を行った場合の蛋白質、
-	二次構造の割合は表\ref{FTIR_蛋白質二次構造}の結果にまとめた。
-	また、表\ref{FTIR_蛋白質二次構造}における濃い黄色、薄い黄色とは図\ref{熱処理後のフィルム}
-	の画像の通りである。
-	熱処理前のセリシンあり、なしのフィルムにおいてセリシンなしの場合の方が最安定の$\beta$ シートが多い。
-	これはセリシンを取り除く、炭酸ナトリウム水溶液の熱湯の浸水にて熱処理と同じ効果にて
-	$\alpha$ helixが$\beta$ sheet へ転移したものによると思われる。
-	190℃の二時間に渡る熱処理後ではどちらの場合でも$\beta$ sheetの含有量が増え、
-	$\alpha$ helixが減った。セリシンありの薄い黄色の場合は異なるが、熱処理後のフィルムは
-	$\alpha$ helixが1 \%まで減った。
-
-	フィルムの特徴として熱処理後のフィルムは硬く、脆く、割れやすい。
-	$\beta$ sheetが多い、濃い黄色の箇所は顕著である。
-	\begin{table}[h]
-		\centering
-		\caption{FTIRによる蛋白質二次構造の割合の結果}
-		\label{FTIR_蛋白質二次構造}
-		\begin{tabular}{c c c c c} \hline
-			フィルムの種類 & $\alpha$ helix & $\beta$ sheet &$\beta$ turn & other \\ \hline \hline
-			セリシンあり(熱処理前) & 16 \% & 35 \% &  24 \% & 25 \% \\
-			セリシンあり(熱処理後)、薄い黄色 &  12 \% & 39 \% & 4 \% & 25 \% \\
-			セリシンあり(熱処理後)、濃い黄色 & 1 \% & 42 \% & 28 \% & 29 \% \\
-			セリシンなし(熱処理前) & 8 \% & 48 \% &  21 \% & 23 \% \\
-			セリシンなし(熱処理後)、薄い黄色 &  1 \% & 50 \% & 22 \% & 24 \% \\
-			セリシンなし(熱処理後)、濃い黄色 & 1 \% & 54 \% & 24 \% & 23 \% \\ \hline
-		\end{tabular}
-	\end{table}
-	\newpage
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.5]{シルクフィルム_熱処理後.jpg}
-		\caption{190℃で熱処理した後のフィルム. (A) セリシンあり, (B) セリシンなし.}
-		\label{熱処理後のフィルム}
-	\end{figure}
-
-	
-
-
 	\newpage
 	\section{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
 	原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡(SPM)に属する。
@@ -2001,7 +1996,7 @@
 	\bibliographystyle{junsrt} %参考文献出力スタイル
 	\chapter*{謝辞}
 	\begin{comment}
-	中嶋准教授には、材料のない材料研究、電源の修理から始めるデバイス開発、
+	中嶋准教授には、材料のない材料研究、電源が購入されないデバイス開発、
 	絹糸の圧電性に関する研究にてお世話になりました。
 	感謝を申し上げます。
 

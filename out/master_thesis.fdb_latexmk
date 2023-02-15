@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex out/master_thesis"] 1675164024 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1675164114
+["bibtex out/master_thesis"] 1676465638 "out/master_thesis.aux" "out/master_thesis.bbl" "out/master_thesis" 1676465712
   "junsrt.bst" 0 -1 0 ""
-  "master.bib" 1675005161 23689 ab5a2d22d6eb94233546f41a9177100a ""
-  "out/master_thesis.aux" 1675164101 33989 ff8f7c80c13d456c68526c9f9b0a2306 "latex"
+  "master.bib" 1676462341 22961 72148bef9048f602e66ac00c3f2b29e2 ""
+  "out/master_thesis.aux" 1676465708 34533 cc02a5e2c045822289d97a675fcc9843 "latex"
   (generated)
-  "out/master_thesis.blg"
   "out/master_thesis.bbl"
-["dvipdf"] 1675164102 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1675164114
-  "out/master_thesis.dvi" 1675164101 215256 040bbb41ddf588fde57c0ffa68fb74a7 "latex"
+  "out/master_thesis.blg"
+["dvipdf"] 1676465708 "out/master_thesis.dvi" "out/master_thesis.pdf" "out/master_thesis" 1676465712
+  "out/master_thesis.dvi" 1676465708 215584 8fdb1766cd83114fbe752071bb324063 "latex"
   (generated)
   "out/master_thesis.pdf"
-["latex"] 1675164025 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1675164114
-  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1675163949 124426 f780ae005e1983e2180f19969e761764 ""
+["latex"] 1676465681 "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" "out/master_thesis.dvi" "master_thesis" 1676465712
+  "c:/Users/kanek/Documents/2022/master_thesis/master_thesis/master_thesis.tex" 1676465680 125164 7669b78ed544d5420b5cd69bb8a9ea63 ""
   "c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1349595400 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1349595401 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -150,14 +150,14 @@
   "graphics//anti_parallel_beta.jpg" 1672903343 57526 db952ea191d703532c31733be8223de4 ""
   "graphics//cast_film_DSC_20210621.jpg" 1673523289 289221 104972b4484585a21c099a4a60be1fb4 ""
   "graphics//cast_film_piezo_data.jpg" 1670862562 206886 2be402f433346678ecc44b9a49f1fa07 ""
-  "graphics//cast_film_sample.jpg" 1673595801 333942 feb667a01ad6c628d037e9c9f6687b3c ""
+  "graphics//cast_film_sample.jpg" 1676465120 269158 8c15c56a13e617a5fe8bf0cd3e245ea9 ""
   "graphics//cast_film_ì¬•û–@.jpg" 1673592973 67753 c2ba5e213071e27e12d74fc7bb147e33 ""
   "graphics//electrospun_data.jpg" 1672805153 62454 ee4621c1c93965d6d81e7c941bacf4c1 ""
   "graphics//fiber_structures.jpg" 1669898231 63802 7e7008554df38b79a9f46bb6c83bc8f5 ""
   "graphics//fibroin_piezo_‘•’u.jpg" 1671367361 278078 df43f2e6fa327e6bdea4da7420fb6c82 ""
   "graphics//fibroin_structure.jpg" 1673095358 251158 ed0ca4c4b44bc705988d353d980885a6 ""
   "graphics//lateral_vertical.png" 1667036557 11740 0fba1586e1f014d023bcd67e5d17b040 ""
-  "graphics//number_k.jpg" 1675162860 96692 49f030169bc8283d0ed5534725370e59 ""
+  "graphics//number_k.jpg" 1676453898 65265 d12d548a80f1a98631c2efd3545ccb0e ""
   "graphics//orientation_beta_sheet_piezo.jpg" 1671367445 87373 50a38313b075429cc7d1d70cf55863ce ""
   "graphics//plla_fiber_device.jpg" 1672812288 44232 ed8449e766489312b49839f9988b8369 ""
   "graphics//pole_figure_inplane.jpg" 1667210841 43010 f164854989ccbb373754f24b5ec52024 ""
@@ -198,12 +198,12 @@
   "graphics//“d‹C‹@ŠBŒ‹‡ŒW”‚ÌŠp“xˆË‘¶«.jpg" 1673686885 154171 eb46138e70d6d94a8b45cf49e6e74950 ""
   "graphics//”MƒvƒŒƒXƒVƒ‹ƒNƒtƒBƒ‹ƒ€_DSC.jpg" 1674809899 271102 a07ee9585a2c410042a1b3f97e684495 ""
   "graphics//”Mˆ—Œã_—U“d—¦_ü”g”•ªU.jpg" 1674732234 158544 34bc80b9fdf7a57dbf12ae16ab6667ae ""
-  "master_thesis.tex" 1675163949 124426 f780ae005e1983e2180f19969e761764 ""
-  "out/master_thesis.aux" 1675164101 33989 ff8f7c80c13d456c68526c9f9b0a2306 "latex"
-  "out/master_thesis.bbl" 1675164025 15784 25a3315e2288250c24b0179acc4d99f6 "bibtex out/master_thesis"
-  "out/master_thesis.toc" 1675164101 3335 ed4a8bc80e3f1f813d94aba1b83eb4b5 "latex"
+  "master_thesis.tex" 1676465680 125164 7669b78ed544d5420b5cd69bb8a9ea63 ""
+  "out/master_thesis.aux" 1676465708 34533 cc02a5e2c045822289d97a675fcc9843 "latex"
+  "out/master_thesis.bbl" 1676465638 15053 b09395790f7ab185dbe47d38c6f02790 "bibtex out/master_thesis"
+  "out/master_thesis.toc" 1676465708 3611 3ac96a637c83422610353606433a944a "latex"
   (generated)
-  "out/master_thesis.log"
-  "out/master_thesis.toc"
-  "out/master_thesis.aux"
   "out/master_thesis.dvi"
+  "out/master_thesis.toc"
+  "out/master_thesis.log"
+  "out/master_thesis.aux"

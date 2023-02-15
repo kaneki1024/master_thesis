@@ -692,6 +692,18 @@ INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT ./graphics//sdgs_poster.jpg
 INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
@@ -724,6 +736,10 @@ INPUT ./graphics//electrospun_data.jpg
 INPUT ./graphics//electrospun_data.jpg
 INPUT ./graphics//electrospun_data.jpg
 INPUT extractbb -B cropbox -O ./graphics//electrospun_data.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT ./graphics//結合効果.jpg
+INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
 INPUT ./graphics//圧電共鳴.jpg
 INPUT ./graphics//圧電共鳴.jpg
 INPUT ./graphics//圧電共鳴.jpg
@@ -748,22 +764,47 @@ INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
 INPUT extractbb -B cropbox -O ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT ./graphics//結合効果.jpg
-INPUT extractbb -B cropbox -O ./graphics//結合効果.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmb10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT ./graphics//anti_parallel_beta.jpg
 INPUT ./graphics//anti_parallel_beta.jpg
 INPUT ./graphics//anti_parallel_beta.jpg
@@ -884,6 +925,10 @@ INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT ./graphics//糸の種類別XRD.jpg
+INPUT extractbb -B cropbox -O ./graphics//糸の種類別XRD.jpg
 INPUT ./graphics//theta_2theta_fibroin_film.jpg
 INPUT ./graphics//theta_2theta_fibroin_film.jpg
 INPUT extractbb -B cropbox -O ./graphics//theta_2theta_fibroin_film.jpg
@@ -899,6 +944,14 @@ INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT extractbb -B cropbox -O ./graphics//セリシンあり_polefigure.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//FTIR_セリシンあり.jpg
+INPUT extractbb -B cropbox -O ./graphics//FTIR_セリシンあり.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT ./graphics//シルクフィルム_熱処理後.jpg
+INPUT extractbb -B cropbox -O ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
 INPUT ./graphics//45deg_he_hi_ru.jpg
@@ -919,6 +972,30 @@ INPUT ./graphics//number_k.jpg
 INPUT ./graphics//number_k.jpg
 INPUT ./graphics//number_k.jpg
 INPUT extractbb -B cropbox -O ./graphics//number_k.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//DSC_silk_0112_2.jpg
+INPUT extractbb -B cropbox -O ./graphics//DSC_silk_0112_2.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//cast_film_DSC_20210621.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_DSC_20210621.jpg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//DSC_cast_film_report.jpeg
+INPUT extractbb -B cropbox -O ./graphics//DSC_cast_film_report.jpeg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT extractbb -B cropbox -O ./graphics//熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT extractbb -B cropbox -O ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT ./graphics//TG_DTA.jpg
+INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
@@ -947,47 +1024,6 @@ INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
 INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
 INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
 INPUT extractbb -B cropbox -O ./graphics//熱処理後_誘電率_周波数分散.jpg
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmb10.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbsy.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT ./graphics//デバイ.jpg
 INPUT ./graphics//デバイ.jpg
 INPUT ./graphics//デバイ.jpg
@@ -1000,42 +1036,6 @@ INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
-INPUT ./graphics//糸の種類別XRD.jpg
-INPUT ./graphics//糸の種類別XRD.jpg
-INPUT ./graphics//糸の種類別XRD.jpg
-INPUT extractbb -B cropbox -O ./graphics//糸の種類別XRD.jpg
-INPUT ./graphics//DSC_silk_0112_2.jpg
-INPUT ./graphics//DSC_silk_0112_2.jpg
-INPUT ./graphics//DSC_silk_0112_2.jpg
-INPUT extractbb -B cropbox -O ./graphics//DSC_silk_0112_2.jpg
-INPUT ./graphics//cast_film_DSC_20210621.jpg
-INPUT ./graphics//cast_film_DSC_20210621.jpg
-INPUT ./graphics//cast_film_DSC_20210621.jpg
-INPUT extractbb -B cropbox -O ./graphics//cast_film_DSC_20210621.jpg
-INPUT ./graphics//DSC_cast_film_report.jpeg
-INPUT ./graphics//DSC_cast_film_report.jpeg
-INPUT ./graphics//DSC_cast_film_report.jpeg
-INPUT extractbb -B cropbox -O ./graphics//DSC_cast_film_report.jpeg
-INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//熱プレスシルクフィルム_DSC.jpg
-INPUT extractbb -B cropbox -O ./graphics//熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
-INPUT extractbb -B cropbox -O ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg
-INPUT ./graphics//TG_DTA.jpg
-INPUT ./graphics//TG_DTA.jpg
-INPUT ./graphics//TG_DTA.jpg
-INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
-INPUT ./graphics//FTIR_セリシンあり.jpg
-INPUT ./graphics//FTIR_セリシンあり.jpg
-INPUT ./graphics//FTIR_セリシンあり.jpg
-INPUT extractbb -B cropbox -O ./graphics//FTIR_セリシンあり.jpg
-INPUT ./graphics//シルクフィルム_熱処理後.jpg
-INPUT ./graphics//シルクフィルム_熱処理後.jpg
-INPUT ./graphics//シルクフィルム_熱処理後.jpg
-INPUT extractbb -B cropbox -O ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png
 INPUT ./graphics//SPM.png

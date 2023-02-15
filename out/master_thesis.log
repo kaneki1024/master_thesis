@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  31 JAN 2023 20:20
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  15 FEB 2023 21:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,9 +600,17 @@ File: ./graphics//sdgs_poster.jpg Graphic file (type bmp)
 [3
 
 ]
+File: ./graphics//アルファヘリックス_CONH.jpg Graphic file (type bmp)
+<./graphics//アルファヘリックス_CONH.jpg>
+[4]
+File: ./graphics//リーフグリップリモコン.jpg Graphic file (type bmp)
+<./graphics//リーフグリップリモコン.jpg>
+File: ./graphics//plla_fiber_device.jpg Graphic file (type bmp)
+<./graphics//plla_fiber_device.jpg>
+[5]
 File: ./graphics//silk_device.jpg Graphic file (type bmp)
 <./graphics//silk_device.jpg>
-[4]
+[6]
 File: ./graphics//fibroin_structure.jpg Graphic file (type bmp)
 <./graphics//fibroin_structure.jpg>
 File: ./graphics//silk_fiber_デバイ.jpg Graphic file (type bmp)
@@ -612,22 +620,32 @@ File: ./graphics//NMR_silk_II.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6]
+[7] [8]
 File: ./graphics//fibroin_piezo_装置.jpg Graphic file (type bmp)
 <./graphics//fibroin_piezo_装置.jpg>
 File: ./graphics//cast_film_piezo_data.jpg Graphic file (type bmp)
 <./graphics//cast_film_piezo_data.jpg>
+[9]
 File: ./graphics//orientation_beta_sheet_piezo.jpg Graphic file (type bmp)
 <./graphics//orientation_beta_sheet_piezo.jpg>
-[7]
 File: ./graphics//electrospun_data.jpg Graphic file (type bmp)
 <./graphics//electrospun_data.jpg>
-[8] [9]
+[10] [11]
+第 2 章
+[12
+
+] [13]
+File: ./graphics//結合効果.jpg Graphic file (type bmp)
+<./graphics//結合効果.jpg>
+[14] Excluding 'comment' comment. [15] [16] [17] [18] [19]
 File: ./graphics//圧電共鳴.jpg Graphic file (type bmp)
 <./graphics//圧電共鳴.jpg>
 File: ./graphics//VDF_TrFe_圧電共鳴.jpg Graphic file (type bmp)
 <./graphics//VDF_TrFe_圧電共鳴.jpg>
-[10]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
 File: ./graphics//ずり圧電_共鳴モード.jpg Graphic file (type bmp)
 <./graphics//ずり圧電_共鳴モード.jpg>
 File: ./graphics//PLLA_圧電共鳴スペクトル.jpg Graphic file (type bmp)
@@ -638,43 +656,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[21] [22]
 File: ./graphics//PLA_ずり圧電_長方形カット.jpg Graphic file (type bmp)
 <./graphics//PLA_ずり圧電_長方形カット.jpg>
 File: ./graphics//PLA_圧電共鳴スペクトル_長方形.jpg Graphic file (type bmp)
 <./graphics//PLA_圧電共鳴スペクトル_長方形.jpg>
+[23]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 973.
 
-[11] [12] [13]
-第 2 章
-[14
 
-] [15]
-File: ./graphics//結合効果.jpg Graphic file (type bmp)
-<./graphics//結合効果.jpg>
-[16] Excluding 'comment' comment. [17] [18]
-File: ./graphics//アルファヘリックス_CONH.jpg Graphic file (type bmp)
-<./graphics//アルファヘリックス_CONH.jpg>
-[19]
-File: ./graphics//リーフグリップリモコン.jpg Graphic file (type bmp)
-<./graphics//リーフグリップリモコン.jpg>
-File: ./graphics//plla_fiber_device.jpg Graphic file (type bmp)
-<./graphics//plla_fiber_device.jpg>
-[20]
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 973.
+
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 973.
+
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 12.02774pt on input line 973.
+LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
+(Font)              scaled to size 9.04485pt on input line 973.
+
+LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 973.
+
 File: ./graphics//anti_parallel_beta.jpg Graphic file (type bmp)
 <./graphics//anti_parallel_beta.jpg>
 File: ./graphics//anit_parallel_force.jpg Graphic file (type bmp)
 <./graphics//anit_parallel_force.jpg>
-[21] [22] [23] [24] [25]
+[24]
 File: ./graphics//位置球.jpg Graphic file (type bmp)
 <./graphics//位置球.jpg>
 File: ./graphics//fiber_structures.jpg Graphic file (type bmp)
 <./graphics//fiber_structures.jpg>
-[26]
+[25]
 第 3 章
 File: ./graphics//試料作製手順.jpg Graphic file (type bmp)
 <./graphics//試料作製手順.jpg>
-[27
+[26
 
 ]
 File: ./graphics//試料作製手順2.jpg Graphic file (type bmp)
@@ -683,337 +704,316 @@ File: ./graphics//試料.jpg Graphic file (type bmp)
 <./graphics//試料.jpg>
 File: ./graphics//金属マスク.jpg Graphic file (type bmp)
 <./graphics//金属マスク.jpg>
-[28]
+[27]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1092.
+(Font)              size <10.95> substituted on input line 1090.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1092.
+(Font)              size <10.95> substituted on input line 1090.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1092.
+(Font)              size <10.95> substituted on input line 1090.
 
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 10.1033pt on input line 1092.
+(Font)              scaled to size 10.1033pt on input line 1090.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.60152pt on input line 1092.
+(Font)              scaled to size 7.60152pt on input line 1090.
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1092.
+(Font)              size <10.95> substituted on input line 1090.
 
 File: ./graphics//rint_2000.jpg Graphic file (type bmp)
 <./graphics//rint_2000.jpg>
 File: ./graphics//theta_2theta.jpg Graphic file (type bmp)
 <./graphics//theta_2theta.jpg>
-[29]
+[28]
 File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 <./graphics//XRD_theta_2theta_光学系.png>
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
-[30]
+[29]
 File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
 File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
 <./graphics//XRD_配置.jpg>
-[31]
+[30]
 File: ./graphics//smartlab.jpg Graphic file (type bmp)
 <./graphics//smartlab.jpg>
-[32]
+[31]
 File: ./graphics//4294A.jpg Graphic file (type bmp)
 <./graphics//4294A.jpg>
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
 
-Overfull \hbox (5.06282pt too wide) in paragraph at lines 1199--1217
+Overfull \hbox (5.06282pt too wide) in paragraph at lines 1197--1215
 []\JY1/hmc/m/n/12 作成したシルクフ ィブロインフ ィルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.13(KEYSIGHT
  []
 
-[33] [34]
+[32] [33]
 第 4 章
+File: ./graphics//糸の種類別XRD.jpg Graphic file (type bmp)
+<./graphics//糸の種類別XRD.jpg>
+[34
+
+]
 File: ./graphics//theta_2theta_fibroin_film.jpg Graphic file (type bmp)
 <./graphics//theta_2theta_fibroin_film.jpg>
 File: ./graphics//pole_figure_silk_fibroin.jpg Graphic file (type bmp)
 <./graphics//pole_figure_silk_fibroin.jpg>
-[35
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./graphics//theta_2theta_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//theta_2theta_セリシンあり.jpg>
-[36]
+[35] [36]
 File: ./graphics//セリシンあり_polefigure.jpg Graphic file (type bmp)
 <./graphics//セリシンあり_polefigure.jpg>
 [37]
+File: ./graphics//FTIR_セリシンあり.jpg Graphic file (type bmp)
+<./graphics//FTIR_セリシンあり.jpg>
+[38]
+File: ./graphics//シルクフィルム_熱処理後.jpg Graphic file (type bmp)
+<./graphics//シルクフィルム_熱処理後.jpg>
 File: ./graphics//45deg_he_hi_ru.jpg Graphic file (type bmp)
 <./graphics//45deg_he_hi_ru.jpg>
 File: ./graphics//0deg_without_sericin_2.jpg Graphic file (type bmp)
 <./graphics//0deg_without_sericin_2.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./graphics//弾性率_角度依存性.jpg Graphic file (type bmp)
 <./graphics//弾性率_角度依存性.jpg>
-[38] [39]
+[39] [40] [41]
 File: ./graphics//電気機械結合係数の角度依存性.jpg Graphic file (type bmp)
 <./graphics//電気機械結合係数の角度依存性.jpg>
-[40]
+[42]
 File: ./graphics//number_k.jpg Graphic file (type bmp)
 <./graphics//number_k.jpg>
-[41]
-File: ./graphics//温度_誘電率_セリシンなし.jpg Graphic file (type bmp)
-<./graphics//温度_誘電率_セリシンなし.jpg>
-[42]
-File: ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg Graphic file (type bmp)
-<./graphics//温度_誘電率_セリシンなし_拡大_2.jpg>
 [43]
-File: ./graphics//温度_k_e_d_セリシンなし.jpg Graphic file (type bmp)
-<./graphics//温度_k_e_d_セリシンなし.jpg>
-[44]
-File: ./graphics//温度_誘電率_セリシンあり.jpg Graphic file (type bmp)
-<./graphics//温度_誘電率_セリシンあり.jpg>
-File: ./graphics//温度_誘電率_セリシンあり_拡大.jpg Graphic file (type bmp)
-<./graphics//温度_誘電率_セリシンあり_拡大.jpg>
-[45] [46]
-File: ./graphics//温度_k_e_d_セリシンあり.jpg Graphic file (type bmp)
-<./graphics//温度_k_e_d_セリシンあり.jpg>
-[47]
-File: ./graphics//熱処理後_誘電率_周波数分散.jpg Graphic file (type bmp)
-<./graphics//熱処理後_誘電率_周波数分散.jpg>
-[48]
 第 5 章
-[49
-
-]
-第 6 章
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1634.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1634.
-
-
-LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1634.
-
-LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 12.02774pt on input line 1634.
-LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 9.04485pt on input line 1634.
-
-LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 1634.
-
-File: ./graphics//デバイ.jpg Graphic file (type bmp)
-<./graphics//デバイ.jpg>
-
-Overfull \hbox (4.12563pt too wide) in paragraph at lines 1641--1643
- [][] 
- []
-
-[50
-
-]
-File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
-<./graphics//cast_film_作成方法.jpg>
-
-Overfull \hbox (24.20062pt too wide) in paragraph at lines 1664--1665
- [][] 
- []
-
-[51]
-File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
-<./graphics//cast_film_sample.jpg>
-[52]
-File: ./graphics//糸の種類別XRD.jpg Graphic file (type bmp)
-<./graphics//糸の種類別XRD.jpg>
-[53]
 File: ./graphics//DSC_silk_0112_2.jpg Graphic file (type bmp)
 <./graphics//DSC_silk_0112_2.jpg>
-[54]
+[44
+
+]
 File: ./graphics//cast_film_DSC_20210621.jpg Graphic file (type bmp)
 <./graphics//cast_film_DSC_20210621.jpg>
 File: ./graphics//DSC_cast_film_report.jpeg Graphic file (type bmp)
 <./graphics//DSC_cast_film_report.jpeg>
-[55]
+[45]
 File: ./graphics//熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
 <./graphics//熱プレスシルクフィルム_DSC.jpg>
 File: ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
 <./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg>
-[56]
+[46]
 File: ./graphics//TG_DTA.jpg Graphic file (type bmp)
 <./graphics//TG_DTA.jpg>
+[47]
+File: ./graphics//温度_誘電率_セリシンなし.jpg Graphic file (type bmp)
+<./graphics//温度_誘電率_セリシンなし.jpg>
+[48]
+File: ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg Graphic file (type bmp)
+<./graphics//温度_誘電率_セリシンなし_拡大_2.jpg>
+[49]
+File: ./graphics//温度_k_e_d_セリシンなし.jpg Graphic file (type bmp)
+<./graphics//温度_k_e_d_セリシンなし.jpg>
+[50]
+File: ./graphics//温度_誘電率_セリシンあり.jpg Graphic file (type bmp)
+<./graphics//温度_誘電率_セリシンあり.jpg>
+File: ./graphics//温度_誘電率_セリシンあり_拡大.jpg Graphic file (type bmp)
+<./graphics//温度_誘電率_セリシンあり_拡大.jpg>
+[51] [52]
+File: ./graphics//温度_k_e_d_セリシンあり.jpg Graphic file (type bmp)
+<./graphics//温度_k_e_d_セリシンあり.jpg>
+[53]
+File: ./graphics//熱処理後_誘電率_周波数分散.jpg Graphic file (type bmp)
+<./graphics//熱処理後_誘電率_周波数分散.jpg>
+[54]
+第 6 章
+[55
+
+]
+第 7 章
+File: ./graphics//デバイ.jpg Graphic file (type bmp)
+<./graphics//デバイ.jpg>
+
+Overfull \hbox (4.12563pt too wide) in paragraph at lines 1800--1802
+ [][] 
+ []
+
+[56
+
+]
+File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
+<./graphics//cast_film_作成方法.jpg>
+File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
+<./graphics//cast_film_sample.jpg>
 [57]
-File: ./graphics//FTIR_セリシンあり.jpg Graphic file (type bmp)
-<./graphics//FTIR_セリシンあり.jpg>
-[58]
-File: ./graphics//シルクフィルム_熱処理後.jpg Graphic file (type bmp)
-<./graphics//シルクフィルム_熱処理後.jpg>
-[59]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
 <./graphics//SPM2.png>
 File: ./graphics//AFM.png Graphic file (type bmp)
 <./graphics//AFM.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[58]
 File: ./graphics//PFM.png Graphic file (type bmp)
 <./graphics//PFM.png>
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
 
-Overfull \hbox (7.59767pt too wide) in paragraph at lines 1891--1923
+Overfull \hbox (7.59767pt too wide) in paragraph at lines 1886--1918
 []\JY1/hmc/m/n/12 走査型プロ ーブ顕微鏡 \OT1/cmr/m/n/12 (Scan-ning Prob Mi-cro-scope, SPM) \JY1/hmc/m/n/12 の一種として圧電応答顕微鏡 \OT1/cmr/m/n/12 (Piezore-
  []
 
-[60]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61]
+[59]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[62]
+[60]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[63]
+[61]
 File: ./graphics//AFM_5_5.jpg Graphic file (type bmp)
 <./graphics//AFM_5_5.jpg>
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.46753pt on input line 1974.
+(Font)              scaled to size 8.46753pt on input line 1969.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 6.35065pt on input line 1974.
+(Font)              scaled to size 6.35065pt on input line 1969.
 File: ./graphics//AFM_1_1.jpg Graphic file (type bmp)
 <./graphics//AFM_1_1.jpg>
 File: ./graphics//AFM_silk.jpg Graphic file (type bmp)
 <./graphics//AFM_silk.jpg>
-[64]
+[62]
 File: ./graphics//PFM_silk_fiber.jpg Graphic file (type bmp)
 <./graphics//PFM_silk_fiber.jpg>
-(out/master_thesis.bbl [65]
+(out/master_thesis.bbl [63]
 Underfull \hbox (badness 10000) in paragraph at lines 9--13
 []$\OT1/cmtt/m/n/12 https : / / www . unic . or . jp / activities / economic _ social _ development / sustainable _
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 16.
+(Font)              No change on input line 17.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 22.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 28.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 33.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 40.
+(Font)              No change on input line 43.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 47.
+(Font)              No change on input line 48.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 59.
+(Font)              No change on input line 53.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 58.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 68.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 73.
-[66
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 78.
+[64
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 85.
+(Font)              No change on input line 84.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 90.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 95.
+(Font)              No change on input line 94.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 102.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 118.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 125.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 140.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 148.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 155.
-[67]
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 169.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 174.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 179.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 184.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 191.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 198.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 204.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 211.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 225.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 231.
-[68]
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 242.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 247.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 253.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 258.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 268.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 273.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 278.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 288.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 293.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 298.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 304.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 310.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 314.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 320.
-[69]
-Underfull \hbox (badness 10000) in paragraph at lines 328--333
+(Font)              No change on input line 100.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 []$\OT1/cmtt/m/n/12 https : / / corporate . murata . com / ja-[]jp / more _ murata / techmag / metamorphosis16 /
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 338.
+(Font)              No change on input line 118.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 344.
+(Font)              No change on input line 124.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 129.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 146.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 153.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 160.
+[65]
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 171.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 184.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 190.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 196.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 201.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 206.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 212.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 228.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 235.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 241.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 250.
+[66]
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 257.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 264.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 277.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 282.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 287.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 294.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 301.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 307.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 314.
+[67]
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 333.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 339.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 345.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 350.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 355.
+(Font)              No change on input line 356.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 361.
+(Font)              No change on input line 360.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 365.
+(Font)              No change on input line 360.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 365.
+(Font)              No change on input line 367.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 372.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 383.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 390.
-) [70] Excluding 'comment' comment. [71
+(Font)              No change on input line 384.
+) [68] Excluding 'comment' comment. [69
 
 ] (out/master_thesis.aux)
 
@@ -1023,11 +1023,11 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  11350 strings out of 479485
- 188604 string characters out of 5868332
- 487560 words of memory out of 5000000
+ 188624 string characters out of 5868332
+ 487563 words of memory out of 5000000
  28771 multiletter control sequences out of 15000+600000
  468777 words of font info for 216 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 83i,13n,88p,466b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 83i,13n,88p,468b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (72 pages, 215256 bytes).
+Output written on out/master_thesis.dvi (70 pages, 215584 bytes).
