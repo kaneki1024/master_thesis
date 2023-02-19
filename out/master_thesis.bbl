@@ -5,12 +5,6 @@ UN~Desa, et~al.
 \newblock Transforming our world: The 2030 agenda for sustainable development.
 \newblock 2016.
 
-\bibitem{sdgs_poster}
-国際連合広報センター.
-\newblock Sdgsのポスター・ロゴ・アイコンおよびガイドライン.
-\newblock \\
-  \url{https://www.unic.or.jp/activities/economic_social_development/sustainable_development/2030agenda/sdgs_logo/}.
-
 \bibitem{martin1941}
 A.~J.~P. Martin.
 \newblock Tribo-electricity in wool and hair.
@@ -370,6 +364,12 @@ N.~Du, Z.~Yang, X.~Y. Liu, Y.~Li, and H.~Y. Xu.
 X.~Hu, D.~Kaplan, and P.~Cebe.
 \newblock Dynamic protein- water relationships during $\beta$-sheet formation.
 \newblock {\em Macromolecules}, Vol.~41, No.~11, pp. 3939--3948, 2008.
+
+\bibitem{可塑剤としての水分子}
+L.~Yu, X.~Hu, D.~Kaplan, and P.~Cebe.
+\newblock Dielectric relaxation spectroscopy of hydrated and dehydrated silk
+  fibroin cast from aqueous solution.
+\newblock {\em Biomacromolecules}, Vol.~11, No.~10, pp. 2766--2775, 2010.
 
 \bibitem{フィブロイン溶解方法}
 二宮純子, 上野崇寿, 桑原眸, 森田洋.

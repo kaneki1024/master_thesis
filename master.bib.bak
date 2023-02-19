@@ -1,7 +1,7 @@
 % Encoding: UTF-8
 
 @Article{コラーゲン繊維PFM,
-  author    = {Denning, Denise and Alilat, Sofiane and Habelitz, Stefan and Fertala, Andrzej and Rodriguez, Brian J},
+  author    = {Denning, D. and Alilat, S. and Habelitz, S. and Fertala, A. and Rodriguez, B. J.},
   journal   = {J Struct Biol},
   title     = {Visualizing molecular polar order in tissues via electromechanical coupling},
   year      = {2012},
@@ -24,7 +24,7 @@
 }
 
 @Misc{小林理研ニュース,
-  author       = {古川猛夫},
+  author       = {Furukawa, T.},
   howpublished = {\\ \url{http://www.kobayasiriken.or.jp/news/newstop/news_Frame_6kenkyu.htm}},
   note         = {\\ (最終閲覧日 2022/02/01)},
   title        = {「小林理学ニュース-圧電ポリマー研究の話」},
@@ -41,7 +41,7 @@
 }
 
 @InProceedings{PLA_長方形_圧電共鳴,
-  author       = {Nishi, M and Kano, K and Takahashi, Yoshiyuki and Furukawa, T},
+  author       = {Nishi, M. and Kano, K. and Takahashi, Y. and Furukawa, T.},
   booktitle    = {10th International Symposium on Electrets (ISE 10). Proceedings (Cat. No. 99 CH36256)},
   title        = {Piezoelectric resonance in uniaxially oriented films of chiral polymers},
   year         = {1999},
@@ -50,7 +50,7 @@
 }
 
 @Article{fibroin_structure,
-  author    = {Inoue, Satoshi and Tanaka, Kazunori and Arisaka, Fumio and Kimura, Sumiko and Ohtomo, Kohei and Mizuno, Shigeki},
+  author    = {Inoue, S. and Tanaka, K. and Arisaka, F. and Kimura, S. and Ohtomo, K. and Mizuno, S.},
   journal   = {J. Biol. Chem.},
   title     = {Silk fibroin of Bombyx mori is secreted, assembling a high molecular mass elementary unit consisting of H-chain, L-chain, and P25, with a 6: 6: 1 molar ratio},
   year      = {2000},
@@ -61,7 +61,7 @@
 }
 
 @Article{H鎖の周期構造,
-  author    = {Mita, Kazuei and Ichimura, Sachiko and James, Tharappel C},
+  author    = {Mita, K. and Ichimura, S. and James, T. C.},
   journal   = {J. Mol. Evol.},
   title     = {Highly repetitive structure and its organization of the silk fibroin gene},
   year      = {1994},
@@ -72,7 +72,7 @@
 }
 
 @Article{fibroinの結晶構造,
-  author    = {Lotz, Bernard and Cesari, Franiois Colonna},
+  author    = {Lotz, B. and Cesari, F. C.},
   journal   = {Biochimie},
   title     = {The chemical structure and the crystalline structures of Bombyx mori silk fibroin},
   year      = {1979},
@@ -83,7 +83,7 @@
 }
 
 @Article{marshモデル,
-  author    = {Marsh, Richard E and Corey, Robert B and Pauling, Linus},
+  author    = {Marsh, R. E. and Corey, R. B. and Pauling, L.},
   journal   = {Biochim. Biophys. Acta},
   title     = {An investigation of the structure of silk fibroin},
   year      = {1955},
@@ -93,7 +93,7 @@
 }
 
 @Article{fibroin_準安定状態,
-  author    = {Kratky, O and Schauenstein, E and Sekora, A},
+  author    = {Kratky, O. and Schauenstein, E. and Sekora, A.},
   journal   = {Nature},
   title     = {An unstable lattice in silk fibroin},
   year      = {1950},
@@ -104,7 +104,7 @@
 }
 
 @Article{silk_III,
-  author    = {Valluzzi, Regina and Gido, Samuel P and Zhang, Weiping and Muller, Wayne S and Kaplan, David L},
+  author    = {Valluzzi, R. and Gido, S. P. and Zhang, W. and Muller, W. S. and Kaplan, D. L.},
   journal   = {Macromolecules},
   title     = {Trigonal crystal structure of Bombyx mori silk incorporating a threefold helical chain conformation found at the air- water interface},
   year      = {1996},
@@ -142,7 +142,7 @@
 }
 
 @Article{絹糸構造,
-  author    = {Shen, Yu and Johnson, Michael A and Martin, David C},
+  author    = {Shen, Y. and Johnson, M. A. and Martin, D. C},
   journal   = {Macromolecules},
   title     = {Microstructural characterization of Bombyx mori silk fibers},
   year      = {1998},
@@ -153,7 +153,7 @@
 }
 
 @Article{クモと絹糸の構造,
-  author    = {Du, Ning and Yang, Zhen and Liu, Xiang Yang and Li, Yang and Xu, Hong Yao},
+  author    = {Du, N. and Yang, Z. and Liu, X. Y. and Li, Y. and Xu, H. Y.},
   journal   = {Adv. Funct. Mater.},
   title     = {Structural origin of the strain-hardening of spider silk},
   year      = {2011},
@@ -164,7 +164,7 @@
 }
 
 @Article{Harvey,
-  author    = {Harvey, E Newton},
+  author    = {Harvey, E. N.},
   journal   = {Science},
   title     = {The luminescence of adhesive tape},
   year      = {1939},
@@ -175,7 +175,7 @@
 }
 
 @Article{fukada_silk_fiber,
-  author    = {Fukada, Eiichi},
+  author    = {Fukada, E.},
   journal   = {J. Phys. Soc. Japan},
   title     = {On the piezoelectric effect of silk fibers},
   year      = {1956},
@@ -186,7 +186,7 @@
 }
 
 @Article{fibroin_cast_film_piezo,
-  author    = {Yucel, Tuna and Cebe, Peggy and Kaplan, David L},
+  author    = {Yucel, T. and Cebe, P. and Kaplan, D. L.},
   journal   = {Adv. Funct. Mater.},
   title     = {Structural origins of silk piezoelectricity},
   year      = {2011},
@@ -197,7 +197,7 @@
 }
 
 @Article{エレクトロスパン,
-  author    = {Sencadas, Vitor and Garvey, Christopher and Mudie, Stephen and Kirkensgaard, Jacob JK and Gouadec, Gwenael and Hauser, Samuel},
+  author    = {Sencadas, V. and Garvey, C. and Mudie, S. and Kirkensgaard, J. JK. and Gouadec, G. and Hauser, S.},
   journal   = {Nano Energy},
   title     = {Electroactive properties of electrospun silk fibroin for energy harvesting applications},
   year      = {2019},
@@ -207,7 +207,7 @@
 }
 
 @Article{martin1941,
-  author    = {Martin, AJP},
+  author    = {Martin, A. J. P.},
   journal   = {Proc. Phys. Soc.},
   title     = {Tribo-electricity in wool and hair},
   year      = {1941},
@@ -235,7 +235,7 @@
 }
 
 @Article{fukada_wood,
-  author    = {Fukada, Eiichi},
+  author    = {Fukada, E.},
   journal   = {J. Phys. Soc. Japan},
   title     = {Piezoelectricity of wood},
   year      = {1955},
@@ -257,7 +257,7 @@
 }
 
 @Article{動脈_圧電性,
-  author    = {Fukada, Eiichi and Hara, Kiyoshi},
+  author    = {Fukada, E. and Hara, K.},
   journal   = {J. Phys. Soc. Japan},
   title     = {Piezoelectric effect in blood vessel walls},
   year      = {1969},
@@ -268,7 +268,7 @@
 }
 
 @Article{筋肉_圧電性,
-  author    = {Fukada, Eiichi and Ueda, Hiroyoshi Ueda Hiroyoshi},
+  author    = {Fukada, E. and Ueda, H.},
   journal   = {J. Phys. Soc. Japan},
   title     = {Piezoelectric effect in muscle},
   year      = {1970},
@@ -279,7 +279,7 @@
 }
 
 @Article{皮膚_圧電性,
-  author    = {Shamos, Morris H and Lavine, Leroy S},
+  author    = {Shamos, M. H. and Lavine, L. S.},
   journal   = {Nature},
   title     = {Piezoelectricity as a fundamental property of biological tissues},
   year      = {1967},
@@ -290,7 +290,7 @@
 }
 
 @Article{貝_強誘電性_圧電性,
-  author    = {Li, Tao and Zeng, Kaiyang},
+  author    = {Li, T. and Zeng, K.},
   journal   = {J. Phys. Soc. Japan},
   title     = {Nanoscale piezoelectric and ferroelectric behaviors of seashell by piezoresponse force microscopy},
   year      = {2013},
@@ -310,7 +310,7 @@
 }
 
 @Article{fukada_bone,
-  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  author    = {Fukada, E. and Yasuda, I.},
   journal   = {J. Phys. Soc. Japan},
   title     = {On the piezoelectric effect of bone},
   year      = {1957},
@@ -321,7 +321,7 @@
 }
 
 @Article{fukada_コラーゲン,
-  author    = {Fukada, Eiichi and Yasuda, Iwao},
+  author    = {Fukada, E. and Yasuda, I.},
   journal   = {Jpn. J. Appl. Phys.},
   title     = {Piezoelectric effects in collagen},
   year      = {1964},
@@ -332,7 +332,7 @@
 }
 
 @Article{DNA_圧電性,
-  author    = {Ando, Yutaka and Fukada, Eiichi},
+  author    = {Ando, Y. and Fukada, E.},
   journal   = {J Polym Sci B Polym Phys},
   title     = {Piezoelectric properties of oriented deoxyribonucleate films},
   year      = {1976},
@@ -343,7 +343,7 @@
 }
 
 @Book{合成キラル高分子の圧電性,
-  author    = {Fukada, Eiichi},
+  author    = {Fukada, E.},
   editor    = {Hari Singh Nalwa},
   publisher = {Marcel Dekker Inc},
   title     = {Piezoelectricity and pyroelectricity of biopolymers},
@@ -353,7 +353,7 @@
 }
 
 @Article{CONH_theory,
-  author    = {Namiki, Koji and Hayakawa, Reinosuke and Wada, Yasaku},
+  author    = {Namiki, K. and Hayakawa, R. and Wada, Y.},
   journal   = {J Polym Sci B Polym Phys},
   title     = {Molecular theory of piezoelectricity of $\alpha$-helical polypeptide},
   year      = {1980},
@@ -364,7 +364,7 @@
 }
 
 @Article{動脈_強誘電性,
-  author    = {Liu, Yuanming and Zhang, Yanhang and Chow, Ming-Jay and Chen, Qian Nataly and Li, Jiangyu},
+  author    = {Liu, Y. and Zhang, Y. and Chow, M. and Chen, Q. N. and Li, J.},
   journal   = {Phys. Rev. Lett.},
   title     = {Biological ferroelectricity uncovered in aortic walls by piezoresponse force microscopy},
   year      = {2012},
@@ -389,7 +389,7 @@
 }
 
 @Article{plla_バネ,
-  author    = {Ito, Syuhei and Imoto, Kenji and Takai, Kyohei and Kuroda, Shintaro and Kamimura, Yuki and Kataoka, Takuya and Kawai, Naoki and Date, Munehiro and Fukada, Eiichi and Tajitsu, Yoshiro},
+  author    = {Ito, S. and Imoto, K. and Takai, K. and Kuroda, S. and Kamimura, Y. and Kataoka, T. and Kawai, N. and Date, M. and Fukada, E. and Tajitsu, Y.},
   journal   = {Jpn. J. Appl. Phys.},
   title     = {Sensing using piezoelectric chiral polymer fiber},
   year      = {2012},
@@ -400,7 +400,7 @@
 }
 
 @Article{組み紐_plla,
-  author    = {Tajitsu, Yoshiro and Kawase, Yuka and Katsuya, Kyousuke and Tamura, Masataka and Sakamoto, Kosei and Kawahara, Kazuki and Harada, Yuhei and Kondo, Takashi and Imada, Yuya},
+  author    = {Tajitsu, Y. and Kawase, Y. and Katsuya, K. and Tamura, M. and Sakamoto, K. and Kawahara, K. and Harada, Y. and Kondo, T. and Imada, Y.},
   journal   = {IEEE Trans. Dielectr. Electr. Insul.},
   title     = {New wearable sensor in the shape of a braided cord (Kumihimo)},
   year      = {2018},
@@ -411,7 +411,7 @@
 }
 
 @Article{beta_sheet_piezo_theory,
-  author    = {Fukada, Eiichi and Takashita, Saburo},
+  author    = {Fukada, E. and Takashita, S.},
   journal   = {J. Phys. Soc. Japan},
   title     = {Piezoelectric constant in oriented $\beta$-form polypeptides},
   year      = {1971},
@@ -422,7 +422,7 @@
 }
 
 @Article{kim2015silk,
-  author    = {Kim, Kyeong Nam and Chun, Jinsung and Chae, Song A and Ahn, Chang Won and Kim, Ill Won and Kim, Sang-Woo and Wang, Zhong Lin and Baik, Jeong Min},
+  author    = {Kim, K. N. and Chun, J. and Chae, S. A. and Ahn, C. W. and Kim, I. W. and Kim, S. and Wang, Z. L. and Baik, J. M.},
   journal   = {Nano Energy},
   title     = {Silk fibroin-based biodegradable piezoelectric composite nanogenerators using lead-free ferroelectric nanoparticles},
   year      = {2015},
@@ -432,7 +432,7 @@
 }
 
 @Article{gogurla2020self,
-  author    = {Gogurla, Narendar and Roy, Biswajit and Kim, Sunghwan},
+  author    = {Gogurla, N. and Roy, B. and Kim, S.},
   journal   = {Nano Energy},
   title     = {Self-powered artificial skin made of engineered silk protein hydrogel},
   year      = {2020},
@@ -442,7 +442,7 @@
 }
 
 @Article{karan2018nature,
-  author    = {Karan, Sumanta Kumar and Maiti, Sandip and Kwon, Owoong and Paria, Sarbaranjan and Maitra, Anirban and Si, Suman Kumar and Kim, Yunseok and Kim, Jin Kon and Khatua, Bhanu Bhusan},
+  author    = {Karan, S. K. and Maiti, S. and Kwon, O. and Paria, S. and Maitra, A. and Si, S. K. and Kim, Y. and Kim, J. K. and Khatua, B. B.},
   journal   = {Nano Energy},
   title     = {Nature driven spider silk as high energy conversion efficient bio-piezoelectric nanogenerator},
   year      = {2018},
@@ -471,7 +471,7 @@
 }
 
 @Article{絹糸_液晶,
-  author  = {Magoshi, J and Magoshi, Y and Nakamura, S},
+  author  = {Magoshi, J. and Magoshi, Y. and Nakamura, S.},
   journal = {Polym. commun (Guildf.)},
   title   = {Physical properties and structure of silk. IX: Liquid crystal formation of silk fibroin},
   year    = {1985},
@@ -481,7 +481,7 @@
 }
 
 @Article{絹糸_2D_XRD,
-  author    = {Kawahara, Yutaka and Yoshioka, Taiyo and Tashiro, Kohji},
+  author    = {Kawahara, Y. and Yoshioka, T. and Tashiro, K.},
   journal   = {J. Fiber Sci. Technol.},
   title     = {Changes in the Higher-Order Structure of Silk Fibers Obtained by Forcibly Spinning as Compared to Those Obtained by the Naturally Spinning System of the Bombyx mori Silkworm},
   year      = {2019},
@@ -492,7 +492,7 @@
 }
 
 @Article{朝倉NMR,
-  author    = {Asakura, Tetsuo and Yao, Juming and Yamane, Tsutomu and Umemura, Kosuke and Ulrich, Anne S},
+  author    = {Asakura, T. and Yao, J. and Yamane, T. and Umemura, K. and Ulrich, A. S.},
   journal   = {J. Am. Chem. Soc.},
   title     = {Heterogeneous structure of silk fibers from Bombyx M Ori Resolved by 13C Solid-State NMR spectroscopy},
   year      = {2002},
@@ -510,7 +510,7 @@
 }
 
 @Article{cast_film_熱特性_DSC,
-  author    = {Hu, Xiao and Kaplan, David and Cebe, Peggy},
+  author    = {Hu, X. and Kaplan, D. and Cebe, P.},
   journal   = {Macromolecules},
   title     = {Dynamic protein- water relationships during $\beta$-sheet formation},
   year      = {2008},
@@ -521,7 +521,7 @@
 }
 
 @Article{yoshioka2016molecular,
-  author    = {Yoshioka, Taiyo and Tashiro, Kohji and Ohta, Noboru},
+  author    = {Yoshioka, T. and Tashiro, K. and Ohta, N.},
   journal   = {Biomacromolecules},
   title     = {Molecular orientation enhancement of silk by the hot-stretching-induced transition from $\alpha$-helix-HFIP complex to $\beta$-sheet},
   year      = {2016},
@@ -549,7 +549,7 @@
 }
 
 @Article{asakura_silk2,
-  author    = {Asakura, Tetsuo and Aoki, Akihiro and Komatsu, Kohei and Ito, Chie and Suzuki, Ikue and Naito, Akira and Kaji, Hironori},
+  author    = {Asakura, T. and Aoki, A. and Komatsu, K. and Ito, C. and Suzuki, I. and Naito, A. and Kaji, H.},
   journal   = {Biomacromolecules},
   title     = {Lamellar structure in alanine--glycine copolypeptides studied by solid-state NMR spectroscopy: a model for the crystalline domain of Bombyx mori silk fibroin in silk II form},
   year      = {2020},
@@ -560,7 +560,7 @@
 }
 
 @Book{繊維の女王,
-  author    = {Schoeser, M},
+  author    = {Schoeser, M.},
   publisher = {Yale University Press New Haven, CT},
   title     = {The Science of Silk},
   year      = {2007},
@@ -568,7 +568,7 @@
 }
 
 @Article{asakura_silk1_1,
-  author    = {Asakura, Tetsuo and Ashida, Jun and Yamane, Tsutomu and Kameda, Tsunenori and Nakazawa, Yasumoto and Ohgo, Kosuke and Komatsu, Kohei},
+  author    = {Asakura, T. and Ashida, J. and Yamane, T. and Kameda, T. and Nakazawa, Y. and Ohgo, K. and Komatsu, K.},
   journal   = {J. Mol. Biol.},
   title     = {A repeated $\beta$-turn structure in poly (Ala-Gly) as a model for silk I of Bombyx mori silk fibroin studied with two-dimensional spin-diffusion NMR under off magic angle spinning and rotational echo double resonance},
   year      = {2001},
@@ -579,7 +579,7 @@
 }
 
 @Article{asakura_silk1_2,
-  author    = {Asakura, Tetsuo and Ohgo, Kosuke and Komatsu, Kohei and Kanenari, Masakazu and Okuyama, Kenji},
+  author    = {Asakura, T. and Ohgo, K. and Komatsu, K. and Kanenari, M. and Okuyama, K.},
   journal   = {Macromolecules},
   title     = {Refinement of repeated $\beta$-turn structure for silk I conformation of Bombyx mori silk fibroin using 13C solid-state NMR and X-ray diffraction methods},
   year      = {2005},
@@ -590,7 +590,7 @@
 }
 
 @Article{asakura_silk1_3,
-  author    = {Asakura, Tetsuo and Suzuki, Yu and Yazawa, Koji and Aoki, Akihiro and Nishiyama, Yusuke and Nishimura, Katsuyuki and Suzuki, Furitsu and Kaji, Hironori},
+  author    = {Asakura, T. and Suzuki, Y. and Yazawa, K. and Aoki, A. and Nishiyama, Y. and Nishimura, K. and Suzuki, F. and Kaji, H.},
   journal   = {Macromolecules},
   title     = {Determination of accurate 1H positions of (Ala-Gly) n as a sequential peptide model of Bombyx mori silk fibroin before spinning (silk I)},
   year      = {2013},
@@ -614,7 +614,7 @@
 }
 
 @Article{人工血管1,
-  author    = {Enomoto, Soichiro and Sumi, Makoto and Kajimoto, Kan and Nakazawa, Yasumoto and Takahashi, Rui and Takabayashi, Chiyuki and Asakura, Tetsuo and Sata, Masataka},
+  author    = {Enomoto, S. and Sumi, M. and Kajimoto, K. and Nakazawa, Y. and Takahashi, R. and Takabayashi, C. and Asakura, T. and Sata, M.},
   journal   = {J. Vasc. Surg. Cases},
   title     = {Long-term patency of small-diameter vascular graft made from fibroin, a silk-based biodegradable material},
   year      = {2010},
@@ -625,7 +625,7 @@
 }
 
 @Article{人工血管2,
-  author    = {Aytemiz, Derya and Sakiyama, Wataru and Suzuki, Yu and Nakaizumi, Naoki and Tanaka, Ryou and Ogawa, Yoko and Takagi, Yoshihide and Nakazawa, Yasumoto and Asakura, Tetsuo},
+  author    = {Aytemiz, D. and Sakiyama, W. and Suzuki, Y. and Nakaizumi, N. and Tanaka, R. and Ogawa, Y. and Takagi, Y. and Nakazawa, Y. and Asakura, T.},
   journal   = {Adv. Healthc. Mater.},
   title     = {Small-diameter silk vascular grafts (3 mm diameter) with a double-raschel knitted silk tube coated with silk fibroin sponge},
   year      = {2013},
@@ -636,7 +636,7 @@
 }
 
 @Article{軟骨,
-  author    = {Silva, Simone S and Motta, Antonella and Rodrigues, M{\'a}rcia T and Pinheiro, Ana FM and Gomes, Manuela E and Mano, Joao F and Reis, Rui L and Migliaresi, Claudio},
+  author    = {Silva, S. S. and Motta, A. and Rodrigues, M. T. and Pinheiro, A. F. and Gomes, M. E. and Mano, J. F. and Reis, R. L. and Migliaresi, C.},
   journal   = {Biomacromolecules},
   title     = {Novel genipin-cross-linked chitosan/silk fibroin sponges for cartilage engineering strategies},
   year      = {2008},
@@ -653,7 +653,7 @@
 }
 
 @Article{焼結,
-  author    = {Kaneko, Atsushi and Tamada, Yasushi and Hirai, Shinji and Kuzuya, Toshihiro and Hashimoto, Tomoko},
+  author    = {Kaneko, A. and Tamada, Y. and Hirai, S. and Kuzuya, T. and Hashimoto, T.},
   journal   = {Macromol Mater Eng},
   title     = {Characterization of a Silk-Resinified Compact Fabricated Using a Pulse-Energizing Sintering Device},
   year      = {2012},
@@ -661,6 +661,26 @@
   pages     = {272--278},
   volume    = {297},
   publisher = {Wiley Online Library},
+}
+
+@Article{焼結2,
+  author  = {平井, 伸治 and 金子, 淳 and 玉田, 靖},
+  journal = {サテライト・ベンチャー・ビジネス・ラボラトリー年報},
+  title   = {シルク由来樹脂の電子材料への応用},
+  year    = {2005},
+  pages   = {75--77},
+  volume  = {7},
+}
+
+@Article{可塑剤としての水分子,
+  author    = {Yu, Lei and Hu, Xiao and Kaplan, David and Cebe, Peggy},
+  journal   = {Biomacromolecules},
+  title     = {Dielectric relaxation spectroscopy of hydrated and dehydrated silk fibroin cast from aqueous solution},
+  year      = {2010},
+  number    = {10},
+  pages     = {2766--2775},
+  volume    = {11},
+  publisher = {ACS Publications},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -688,10 +688,6 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT ./graphics//sdgs_poster.jpg
-INPUT ./graphics//sdgs_poster.jpg
-INPUT ./graphics//sdgs_poster.jpg
-INPUT extractbb -B cropbox -O ./graphics//sdgs_poster.jpg
 INPUT ./graphics//アルファヘリックス_CONH.jpg
 INPUT ./graphics//アルファヘリックス_CONH.jpg
 INPUT ./graphics//アルファヘリックス_CONH.jpg
@@ -996,34 +992,74 @@ INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
+INPUT ./graphics//8回_誘電率温度依存性.jpg
+INPUT ./graphics//8回_誘電率温度依存性.jpg
+INPUT ./graphics//8回_誘電率温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回_誘電率温度依存性.jpg
+INPUT ./graphics//8回_誘電率温度依存性_共鳴付近.jpg
+INPUT ./graphics//8回_誘電率温度依存性_共鳴付近.jpg
+INPUT ./graphics//8回_誘電率温度依存性_共鳴付近.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回_誘電率温度依存性_共鳴付近.jpg
+INPUT ./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//8回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//8回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//8回_電気機械結合係数_誘電率.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
-INPUT ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンなし_拡大_2.jpg
-INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
-INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
-INPUT ./graphics//温度_k_e_d_セリシンなし.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンなし.jpg
+INPUT ./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT extractbb -B cropbox -O ./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//1回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//1回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//1回_電気機械結合係数_誘電率.jpg
+INPUT extractbb -B cropbox -O ./graphics//1回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//1回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//1回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//1回_d定数_e定数_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//1回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//温度_誘電率_セリシンあり.jpg
 INPUT ./graphics//温度_誘電率_セリシンあり.jpg
 INPUT ./graphics//温度_誘電率_セリシンあり.jpg
 INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンあり.jpg
-INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
-INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
-INPUT ./graphics//温度_誘電率_セリシンあり_拡大.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_誘電率_セリシンあり_拡大.jpg
-INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
-INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
-INPUT ./graphics//温度_k_e_d_セリシンあり.jpg
-INPUT extractbb -B cropbox -O ./graphics//温度_k_e_d_セリシンあり.jpg
-INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
-INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
-INPUT ./graphics//熱処理後_誘電率_周波数分散.jpg
-INPUT extractbb -B cropbox -O ./graphics//熱処理後_誘電率_周波数分散.jpg
+INPUT ./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT extractbb -B cropbox -O ./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg
+INPUT ./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg
+INPUT ./graphics//0回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//0回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//0回_電気機械結合係数_誘電率.jpg
+INPUT extractbb -B cropbox -O ./graphics//0回_電気機械結合係数_誘電率.jpg
+INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//0回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回精錬_熱処理前と後.jpg
+INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
+INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
+INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
+INPUT extractbb -B cropbox -O ./graphics//0_1_回_精錬_熱処理前後.jpg
 INPUT ./graphics//デバイ.jpg
 INPUT ./graphics//デバイ.jpg
 INPUT ./graphics//デバイ.jpg
