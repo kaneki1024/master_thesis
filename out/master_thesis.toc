@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {第1章}序論}{3}{}%
 \contentsline {section}{\numberline {1.1}研究背景}{3}{}%
-\contentsline {subsection}{\numberline {1.1.1}SDGs}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}環境負荷が低く、生体親和性が高い機能性材料}{3}{}%
 \contentsline {section}{\numberline {1.2}シルク}{4}{}%
 \contentsline {subsection}{\numberline {1.2.1}シルクの概論}{4}{}%
 \contentsline {subsection}{\numberline {1.2.2}シルクの構造}{5}{}%
