@@ -688,18 +688,6 @@ INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-h.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//アルファヘリックス_CONH.jpg
-INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//リーフグリップリモコン.jpg
-INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT ./graphics//plla_fiber_device.jpg
-INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
@@ -716,6 +704,18 @@ INPUT ./graphics//NMR_silk_II.jpg
 INPUT ./graphics//NMR_silk_II.jpg
 INPUT ./graphics//NMR_silk_II.jpg
 INPUT extractbb -B cropbox -O ./graphics//NMR_silk_II.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//アルファヘリックス_CONH.jpg
+INPUT extractbb -B cropbox -O ./graphics//アルファヘリックス_CONH.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//リーフグリップリモコン.jpg
+INPUT extractbb -B cropbox -O ./graphics//リーフグリップリモコン.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT ./graphics//plla_fiber_device.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_fiber_device.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
 INPUT ./graphics//fibroin_piezo_装置.jpg
