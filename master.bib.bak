@@ -683,4 +683,29 @@
   publisher = {ACS Publications},
 }
 
+@Article{,
+}
+
+@Article{fukada1968piezoelectricity,
+  author    = {Fukada, E.},
+  journal   = {Ultrasonics},
+  title     = {Piezoelectricity in polymers and biological materials},
+  year      = {1968},
+  number    = {4},
+  pages     = {229--234},
+  volume    = {6},
+  publisher = {Elsevier},
+}
+
+@Article{馬越淳1985絹の結晶化と液晶,
+  author    = {馬越淳},
+  journal   = {高分子},
+  title     = {絹の結晶化と液晶},
+  year      = {1985},
+  number    = {2},
+  pages     = {98--101},
+  volume    = {34},
+  publisher = {公益社団法人 高分子学会},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

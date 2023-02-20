@@ -69,7 +69,7 @@
 \tableofcontents
   \chapter{序論}
 		\section{研究背景}
-		\subsection{環境負荷が低く、生体親和性が高い機能性材料}
+		\subsection{環境負荷が低く、生体親和性が高い機能性材料の重要性}
 		2015年9月25日-27日、国連総会において「国連持続可能な開発サミット」
 		が開催された。そして、2030年までに実現する国際目標として
 		 "Transforming Our World: 2030 Agenda for Sustainable Development" が採択された\cite{sdgs_2030}。
@@ -98,7 +98,7 @@
 		となっている。
 		現状、メタバースを実現する技術としてVRヘッドディスプレイと
 		加速度センサが内蔵されたコントローラが挙げられる。
-		しかし、どちらも大きく嵩張り、改良が必要である。
+		しかし、どちらも大きく嵩張り、ヘッドマウントデバイス以外の活用など改良が必要である。
 		また、仮想空間への没入感をさらに向上させるためには
 		生体親和性が非常に高い、衣服に近いデバイスによる
 		センシングとハプティックフィードバックが必要であると考えられる。
@@ -163,7 +163,7 @@
 			\centering
 			\includegraphics[width=\linewidth]{silk_device.jpg}
 			\caption{衣服以外のシルクの利用例\cite{農研機構}。(A)人工血管、(B)シルクスポンジ、(C)フィルム、
-			(D)電子回路基盤。}
+			(D)電子回路基板。}
 			\label{silk_device}
 		\end{figure}
 		\newpage
@@ -181,15 +181,8 @@
 		結晶構造は単斜晶系をとる\cite{fibroinの結晶構造,marshモデル}。
 		これをsilk IIと呼ぶ。
 		準安定状態で$\alpha$ helix構造をとり結晶構造は斜方晶系をとる\cite{fibroinの結晶構造,fibroin_準安定状態}。
-		これをsilk Iと呼ぶ。加熱や延伸によりsilk Iはsilk IIへ転移する。
-		薄膜の気液界面にてthreefoldヘリックスを形成し、silk IIIと呼ぶ\cite{silk_III}。
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=\linewidth]{fibroin_structure.jpg}
-			\caption{シルクの構造。(a) シルク1本の構造, (b) フィブロインにおけるH鎖とL鎖の関係, 
-			(c) H鎖周期構造におけるアミノ酸配列。}
-			\label{fibroin}
-		\end{figure}
+		これをsilk Iと呼ぶ。図\ref{silk_結晶}の様に加熱や延伸によりsilk Iはsilk IIへ転移する。
+		また、薄膜の気液界面にてthreefoldヘリックスを形成し、silk IIIと呼ぶ\cite{silk_III}。
 
 		シルクにおけるセリシンは、図\ref{fibroin}(A)の通りフィブロインを囲む形に存在している。
 		しかし、溶解性においては単一の蛋白質ではなく、4種類に分けられる\cite{セリシン構造}。
@@ -204,12 +197,7 @@
 		繊維化後の状態をsilk IIと呼ぶ。silk IIは延伸されているため配向した
 		逆平行$\beta$シートが形成されている。シルクの二次元XRDは図\ref{silk_fiber_debai}の通りであり、デバイシェラー環から
 		配向による異方性が伺える\cite{yoshioka2016molecular}。
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.8]{silk_fiber_デバイ.jpg}
-			\caption{シルクの2次元XRD\cite{yoshioka2016molecular}。左下の数字はHermanの配向係数。}
-			\label{silk_fiber_debai}
-		\end{figure}
+
 		シルクの構造はMarshらによって逆平行$\beta$シートのモデルが提案され長く採用されてきた\cite{marshモデル}。
 		しかしそのモデルのみだとX線回折像を説明しきれない箇所があるとされている。
 		AsakuraらはNMRを用いて構造解析を行い、シルクは分子間間隔の異なる2種類の
@@ -217,6 +205,27 @@
 		また、彼らはsilk I型は$\alpha$ヘリックスではなく
 		$\beta$ターンと主張している\cite{asakura_silk1_1,asakura_silk1_2,asakura_silk1_3}。
 		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.55]{silk_結晶.jpg}
+			\caption{シルクフィブロインの構造転移\cite{馬越淳1985絹の結晶化と液晶}}
+			\label{silk_結晶}
+		\end{figure}
+		\newpage
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\linewidth]{fibroin_structure.jpg}
+			\caption{シルクの構造。(a) シルク1本の構造, (b) フィブロインにおけるH鎖とL鎖の関係, 
+			(c) H鎖周期構造におけるアミノ酸配列。}
+			\label{fibroin}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.8]{silk_fiber_デバイ.jpg}
+			\caption{シルクの2次元XRD\cite{yoshioka2016molecular}。左下の数字はHermanの配向係数。}
+			\label{silk_fiber_debai}
+		\end{figure}
+		\newpage
+		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.3]{NMR_silk_II.jpg}
 			\caption{NMRによるSilk IIの構造解析\cite{朝倉_NMR_研究室,asakura_silk2}}
@@ -301,7 +310,7 @@
 				\label{PLLA_fiber_device}
 			\end{figure}
 			\newpage
-		\subsection{シルクの圧電性}
+		\subsection{シルクにおける圧電性}
 			シルクの圧電性に関して初めて言及したのはHarveyとされている\cite{Harvey}。
 			ただし、定量的な測定などが行われたのではなく、その可能性に言及されたのみに留まる。
 			初めて定量的に評価を行ったのはFukadaである\cite{fukada_silk_fiber}。
@@ -313,7 +322,7 @@
 			圧電性の報告がされた\cite{fibroin_cast_film_piezo}。
 			図\ref{silk_fibroin_cast_装置}の(A)の様に190℃のヒートブロックを
 			局所的に試料を温めながら、試料をなぞる様に移動させ、力を加えて延伸する。
-			硬くて脆いという特徴があるfibroinのキャストフィルムだが2.7倍まで延伸したと報告されている。
+			硬くて脆いという特徴があるフィブロインのキャストフィルムだが2.7倍まで延伸したと報告されている。
 			図\ref{silk_fibroin_cast_装置}(B)の動的粘弾性装置(Dynamic Mechanical Analysis: DMA)
 			を利用してずり圧電の圧電性を評価した。延伸倍率と圧電定数$d_{14}$の関係は図\ref{cast_film_data}(A)
 			の通りである。試料の切り出しの角度と圧電定数$d_{14}$の関係は図\ref{cast_film_data}(B)の通りである。
@@ -372,6 +381,7 @@
 			蚕のシルクではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
 			も報告されている。電極の上にクモの糸を並べて素子を作製し、
 			整流しコンデンサーに蓄えたと報告している\cite{karan2018nature}。
+
 		\section{研究の目的}
 		環境に優しい機能性材料に注目が集まっているため、
 		生体適合性、生分解性、圧電性を有するシルクも期待されている。
@@ -381,7 +391,8 @@
 		また、材料を溶解させて試料を作製するキャストフィルムはシルクの高い配向性を利用していない。
 		
 		本研究では、シルクの高い配向性を利用し熱プレスを用いてシルクフィルムを作製した。
-		また、圧電共鳴法を用いて高精度にシルクフィルムの圧電性、誘電性、機械特性を評価することを目的とした。
+		また、得られた試料に対し、圧電共鳴法を用いて定量的かつ高精度に圧電性、誘電性、機械特性を
+		評価することを目的とした。
 	\chapter{原理}
 		\section{圧電性}
 		\subsection{圧電基本式}
@@ -680,22 +691,6 @@
 			固定端条件では歪み$S$を0とした誘電率$\varepsilon^S$が対応する。
 			容量から誘電率を計算するが、以下の式では誘電率の比率であるため
 			試料寸法の計測エラーが消える。
-			\begin{comment}
-			表\ref{圧電材料}に代表的な圧電材料であるPZTとPVDFの物性値をまとめた。
-			\begin{table}[h]
-				\centering
-				\caption{PZTとPVDFの物性値}
-				\label{圧電材料}
-				\begin{tabular}{c|ccccc}\hline
-					材料&弾性率[N/m$^2$]&比誘電率$\varepsilon/\varepsilon_0$&$d_{31}$[pC/N]&$g_{31}$[Vm/N]&電気機械結合係数$k_{31}$ \\ \hline \hline
-					PZT&83.3&1200&110&0.01&0.31 \\
-					PVDF&3.0&13&20&0.17&0.10 \\ 
-					水晶&77&4.5&2&0.05&0.09 \\
-					VDCN/VAc&4.5&5&6&0.13&0.06 \\ 
-					VDCN/MMA&4.5&5&0.3&0.007&0.003 \\ \hline
-				\end{tabular} 
-			\end{table}
-			\end{comment}
 			\newpage
 		\section{誘電性}
 		電場が印加されると分極を生じる性質を誘電性といい、誘電性を有する物質を誘電体と呼ぶ。
@@ -992,7 +987,7 @@
 				\end{minipage}
 			\end{figure}
 			\newpage
-			\section{逆平行$\beta$ シートにおけるずりの圧電性}
+			\section{逆平行$\beta$ シート構造におけるずりの圧電性}
 			$\alpha$ヘリックス構造の分子を持ち、大きな圧電性が期待できるPLLAは理論、実験、
 			デバイス応用まで進んでいる。しかし、蛋白質の二次構造として$\alpha$ヘリックス以外にも
 			$\beta$ シート構造も取りうる。本研究の材料であるシルクは逆平行$\beta$シートを構成する。
@@ -1025,36 +1020,70 @@
 				\label{逆平行ベータシート_力}
 			\end{figure}
 			\newpage
+			\section{$\alpha$ ヘリックス構造におけるずりの圧電性}
+			螺旋構造を持ち、ずりの圧電性を有する物質として
+			PLLAがある。
+			蛋白質の$\alpha$ヘリックスとは異なるが、
+			PLLAにおけるずりの圧電性を簡単なモデルにて説明し、
+			それを拡張すると$\alpha$ ヘリックスにおけるずりの圧電性の
+			簡易的な説明となる。
+			PLLAは図\ref{alpha_helix_1}(A)の様な螺旋分子をとる。
+			この際に、螺旋分子の中心軸方向を3軸に取る。
+			螺旋分子は応力を印加する平面において1軸方向に対し
+			図\ref{alpha_helix_1}(B)の通り、正の領域と負の領域が存在する。
+			簡易的に4つ線分で一周する4/1螺旋構造を想定し、
+			それに対応する4領域が図\ref{alpha_helix_1}(C)である。
+			PLLAはC=O結合において双極子を有する。そのO原子は常に螺旋分子の
+			中心軸側を向いている。分子内の水素結合を考慮しない。
+			図\ref{alpha_helix_2}に対応する。
+			ずり応力を印加すると山領域においては伸び、谷領域では縮む。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\linewidth]{alpha_helix_piezo.jpg}
+				\caption{PLLAの螺旋分子とずり応力\cite{吉田光伸2016ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討}。
+				(A)PLLAの螺旋分子とずり応力の関係と座標軸、
+				(B)螺旋分子に加えられるずり応力平面に対する山と谷の領域、
+				(C)螺旋分子1周における山と谷の4領域。}
+				\label{alpha_helix_1}
+			\end{figure}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.8\linewidth]{PLLA_4領域_dipole.jpg}
+				\caption{4/1螺旋モデルと双極子(C=O)の関係\cite{吉田光伸2016ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討}。
+				}
+				\label{alpha_helix_2}
+			\end{figure}
 			\newpage
-			\section{結晶性高分子物質における繊維構造}
-			繊維状の高分子物質は微結晶がとある結晶軸の周りに分布し、その軸の向きは
-			図\ref{位置球}における$OY$と一定の角度$\phi$を保ちながらその周りに分布する二重回転の構造となっている。
-			図\ref{位置球}における$OY$は繊維軸と一致する。
-			また、微結晶の$b$軸を延長し、球と交差する点を$B$とし、
-			微結晶の分布は$OB$の周りに一様となる。従って、$b$となす角$\rho$である結晶面の
-			法線$N$の球における軌跡は図\ref{位置球}の位置球の表面上において円を描く。
-			また、微結晶の$b$軸は分布はY軸と一定の角$\phi$をなして$Y$軸周りに一様に分布する。
-			よって図\ref{位置球}における帯状部分をつくる。
-			このように結晶面の法線の分布を示した球を位置球といい、図\ref{位置球}の帯状部分を網面帯、
-			網面帯を描く元の円を網面円という。
-			繊維構造は$\phi$ の値により3つに大別される。繊維軸と微結晶の軸が一致する$\phi=0$を単純繊維構造、
-			有限の角度を持つ場合$\phi=\phi_0$をらせん繊維構造、
-			垂直$\phi=90^{\circ}$を環状繊維構造と呼ぶ。
-			単純繊維構造としてはラミー\cite{ラミー}、シルク\cite{絹糸構造}が挙げられる。
-			らせん繊維構造としては木綿が挙げられ、らせん角$\phi \approx 30^{\circ}$である\cite{cotton}。
+			ずり応力が印加されると縮む、山領域においては図\ref{alpha_helix_3}(A)
+			の通り双極子の回転を生じる。図\ref{alpha_helix_3}(B)の通り、
+			変形後は分極を生じる。
+			また、ずり応力が印加されると伸びる谷領域では
+			図\ref{alpha_helix_4}(A)
+			の通り双極子の回転を生じる。図\ref{alpha_helix_4}(B)の通り、
+			変形後は分極を生じる。
+			山領域、谷領域どちらも変形後の分極の揃っているため、大きな圧電性を生じる。
+			蛋白質の$\alpha$ ヘリックスは分子内で水素結合しており、C=O結合が
+			螺旋中心軸に向いておらず、平行となる。
+			しかし、ずり応力に生じる双極子の回転角度が減少するだけで、PLLAのモデルを拡張するだけとなる。
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.8]{位置球.jpg}
-				\caption{微結晶と位置球の関係. 左が微結晶、右が1/8象限の位置球.}
-				\label{位置球}
+				\includegraphics[width=\linewidth]{plla_yama.jpg}
+				\caption{4/1螺旋分子モデルの山領域におけるずり応力の変形\cite{吉田光伸2016ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討}。
+				(A)双極子の回転、
+				(B)双極子の回転と分極$\Delta P$。
+				}
+				\label{alpha_helix_3}
 			\end{figure}
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.8]{fiber_structures.jpg}
-				\caption{繊維の構造。 
-				(A)木綿\cite{cotton}, 
-				(B)クモと蚕のシルク(フィブロイン)の構造\cite{クモと絹糸の構造}}
+				\includegraphics[width=\linewidth]{plla_tani.jpg}
+				\caption{4/1螺旋分子モデルの谷領域におけるずり応力の変形\cite{吉田光伸2016ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討}。
+				(A)双極子の回転、
+				(B)双極子の回転と分極$\Delta P$。
+				}
+				\label{alpha_helix_4}
 			\end{figure}
+			\newpage
 	\chapter{実験手法}
 		\section{試料作製方法}
 		本研究では
@@ -1076,7 +1105,7 @@
 
 		図\ref{試料外観}が作製したフィルムの外観である。
 		セリシンなしのフィルムにおいてはフィブロイン単体で生じるとされる
-		光沢が伺える。
+		光沢が見られる。
 
 		電極はスパッタを用いて作製した。
 		その際に図\ref{金属マスク}の金属マスクを用いて角度依存性、試料寸法依存性の試料を作製した。
@@ -1336,6 +1365,129 @@
 			そして長さ方向と幅方向のどちらにおいても計測対象が$k_{14}$の1つであるため
 			本研究では試料の寸法は正方形とした。
 			\newpage
+			\section{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
+			原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡(SPM)に属する。
+			走査型プローブ顕微鏡(SPM)とは、微小な深針（カンチレバー）で試料をなぞり、
+			その形状や物性を観察、計測する顕微鏡の総称である。図\ref{SPM}, \ref{cantilever_photo_detector}
+			にSPMの基本構成を示す。SPMに属する顕微鏡は図\ref{SPM}のように
+			カンチレバーを試料表面に接触または接近させて、走査中に生じる試料のある物理量の変化を検出する。
+			本研究にて用いるSPMは原子間力顕微鏡(AFM)と圧電応答顕微鏡(PFM)のみである。
+			この二つにおいては、図\ref{cantilever_photo_detector}のようにそれぞれの物理量変化
+			によってカンチレバーがたわみ、そのカンチレバーに照射したレーザーの変位を
+			フォトディテクターで計測し、測定対象の物理量変化を測定する。
+			つまり、レーザーの変位から物質表面の物性変化をみる。
+			原子間力顕微鏡(AFM)はカンチレバーと試料間に生じる原子間力を検出し
+			試料表面画像を取得する。圧電応答顕微鏡(PFM)は試料の逆圧電効果に
+			よる表面の歪みをカンチレバーの変位として取得し画像化する。
+			\begin{figure}[h]
+				\centering
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics[width=\linewidth]{SPM.png}
+					\caption{走査型顕微鏡(SPM)の光学系}
+					\label{SPM}
+				\end{minipage}
+				\begin{minipage}{0.45\hsize}
+					\centering
+					\includegraphics[width=\linewidth]{SPM2.png}
+					\caption{CantileverとPhotodetectorの関係}
+					\label{cantilever_photo_detector}
+				\end{minipage}
+			\end{figure}
+				\subsubsection{AFM(Atomic Force Microscopy)}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[width=0.8\linewidth]{AFM.png}
+					\caption{AFMの信号模式図}
+					\label{stracture_of_AFM}
+				\end{figure}
+				図\ref{stracture_of_AFM}はAFMの信号模式図である。AFMの測定手法にはタッピングモード（ACモード）
+				とコンタクトモード(DCモード)がある。タッピングモードは、カンチレバーを内部に存在する圧電素子を用いて
+				共振周波数で振動させ、試料表面を断続的に接触させながら走査する。測定対象の表面形状からカンチレバーの振動振幅が変動し、
+				画像化する。正確にはカンチレバーを試料表面に近づけると原子間力を検出し、
+				この瞬間カンチレバーの振動振幅は小さくなる。この振動振幅の変位をレーザーの変位として取得し、
+				この変位分だけ元に戻すようにフィードバックをかけ、Z軸方向をZピエゾで調整する。このZピエゾの変位を画像化し、表面像を得る。
+				コンタクトモードはタッピングモードと異なり、
+				カンチレバーを振動させずに静的な状態で試料に常に接触させながら試料表面を走査し、
+				表面の凹凸に対応したカンチレバーのたわみをレーザーの変位としてフォトディテクターから検出する。
+				このレーザーの変位を一定にするようにZピエゾを用いて、フィードバック制御を行う。そのZピエゾの変位を表面形状として画像化する。
+				本研究において、AFMを用いた計測はカンチレバーの消耗の観点からタッピングモードで行った。
+				\subsubsection{PFM(Piezoresponse Force Microscopy)}
+				走査型プローブ顕微鏡(Scanning Prob Microscope, SPM)の一種として圧電応答顕微鏡
+				(Piezoresponse Force Microscopy, PFM)がある。
+				圧電応答顕微鏡(PFM)は試料の逆圧電効果による表面の歪みをカンチレバーの変位として取得し画像化する顕微鏡である。
+				図\ref{PFMの概念図}のように試料片面基板からカンチレバー間で交流電場を印加する。
+				このとき試料の分極方向に依存して、電場の変化に対応した歪みが試料に生じる。
+				その歪の大きさはカンチレバーの変位の大きさとして現れ、
+				Amplitude像として取得できる。
+				\begin{figure}[h]
+					\centering
+					\includegraphics{PFM.png}
+					\caption{PFMの概念図}
+					\label{PFMの概念図}
+				\end{figure}
+				\\
+				また、図\ref{PFM_phaseの概念図}のように交流電場に対応した試料の歪み方向は試料中の分極方向に依存しているため、
+				この分極方向を交流電場と歪みの位相差から解析し、Phase像として取得できる。
+				\begin{figure}[h]
+					\centering
+					\includegraphics[width=0.8\linewidth]{PFM_phase.png}
+					\caption{PFMのPhase像概念図. (a)電場E=0の様子,
+					(b)交流電場と試料の伸縮方向が同位相であるときの自発分極方向, 
+					(c)交流電場と試料の伸縮方向が逆位相であるときの自発分極方向.}
+					\label{PFM_phaseの概念図}
+				\end{figure}
+				PFMはカンチレバーを試料上に接触させ走査するコンタクトモードで行われる。
+				カンチレバーと試料からの相互作用を加味した共振周波数、
+				コンタクト周波数でカンチレバーを振動させることで、
+				その振動振幅の変化から、より高精度に圧電応答を観察できるようになっている。
+				しかし、そのコンタクト周波数は走査中一定に保たれているわけではない。
+				なぜならば、走査中の試料表面の形状変化によるカンチレバーの接触面積の違いがコンタクト周波数をシフトさせる要因になる。
+				コンタクト周波数のシフトにより、圧電応答によるカンチレバーのたわみ変化の大きさと走査中における試料表面の形状変化によるカンチレバーのたわみ変化がクロストークしてしまい、
+				正確な圧電応答や表面像を取得できなくなる。よって測定材料は測定前に表面を平らにする必要がある。
+				
+				図\ref{PFM_phaseの概念図}は垂直方向のみでの議論である。しかし、図\ref{PFMの概念図}におけるフォトディテクターから分かる通り、
+				図\ref{面内と垂直の概念図}の様に試料の面内方向の圧電性の評価も可能である。本研究においてはずり圧電の評価にて使用した。
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=0.7]{lateral_vertical.png}
+					\caption{カンチレバーにおける面内方向(Lateral)と垂直方向(Vertical)の関係.}
+					\label{面内と垂直の概念図}
+				\end{figure}
+				\newpage
+				生体材料の一つであるコラーゲンの圧電行列は以下の通りである。
+				\begin{equation}
+					\left(
+				\begin{array}{cccccc}
+					0&0&0&d_{14}&d_{15}&0 \\
+					0&0&0&d_{15}&-d_{14}&0 \\
+					d_{31}&d_{31}&d_{33}&0&0&0
+				\end{array}\right)
+			\end{equation}
+				コラーゲン繊維の側面において面内PFM、コラーゲン繊維の断面において垂直PFMを行った報告がある\cite{コラーゲン繊維PFM}。
+				このように生体材料の圧電測定においてPFMは頻繁に利用されている。
+				\begin{figure}[ht]
+					\begin{center}
+					\includegraphics[scale=0.6]{PFM_コラーゲン_側面.jpg}
+					\caption{コラーゲン繊維(側面)での面内PFM\cite{コラーゲン繊維PFM}.
+					(A) AFM topology, (B) 面内PFM, (C) 面内PFMのPhase, 
+					(D) AFM topology, (E) 面内PFM, (F) 面内PFMのPhase.
+					(A)-(C)のスケールバーは2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm.}
+					\label{PFM_コラーゲン_側面}
+					\end{center}
+				\end{figure}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[scale=0.6]{PFM_コラーゲン_断面.jpg}
+					\caption{コラーゲン繊維(断面)での垂直PFM\cite{コラーゲン繊維PFM}.
+					(A) AFM topology, (B) 垂直PFM, (C) 垂直PFMのPhase
+					, (D) AFM topology, (E) 垂直PFM, (F) 垂直PFMのPhase.
+					(A)-(C)のスケールバーは2 {\textmu}m, 
+					(D)-(F)のスケールバーは200 nm.}
+					\label{PFM_コラーゲン_断面}
+				\end{figure}
+				\newpage
 	\chapter{構造評価}
 			\section{様々な種類のシルクのXRD($\theta$-$2\theta$)}
 			図\ref{様々な絹糸XRD}は家蚕(Bombyx mori)、エリ蚕(Samia cynthia ricini)、
@@ -1355,7 +1507,7 @@
 			図\ref{theta_2theta_fibroin_film}がセリシンを除去した
 			シルクフィルムにおいて糸を並べた平行方向(parallel)と
 			垂直方向(vertical)の$\theta - 2\theta$測定を行った結果である。
-			$2\theta = 10^{\circ}, 20^{\circ}, 29^{\circ}$付近にピークが確認された。
+			silk IIのピーク\cite{marshモデル}とされる$2\theta = 10^{\circ}, 20^{\circ}, 29^{\circ}$付近にピークが確認された。
 			vertical方向とparallel方向で大きな違いは見られなかった。
 			
 			$\theta - 2\theta $測定にて最も大きなピークが表れた$2\theta=20^{\circ}$にて
@@ -1452,107 +1604,8 @@
 				\caption{190℃で熱処理した後のフィルム. (A) セリシンあり, (B) セリシンなし.}
 				\label{熱処理後のフィルム}
 			\end{figure}
-			\section{圧電共鳴の試料寸法と角度依存性}
-			セリシンを除去したフィルムにおいて、1辺の大きさが5 mm, 7.5 mm, 10 mmである正方形試料を作製した。
-			図\ref{45deg_cut_piezo_resonant}は45°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
-			また、図\ref{0deg_cut_piezo_resonant}は0°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
-			どちらの場合においても圧電共鳴は、100 kHz付近に観測された。
-			同時に共鳴周波数の式\eqref{ずりの共鳴周波数}に対応して、正方形試料の
-			1辺が大きいと低周波側に、1辺が小さいと高周波側に表れた。
-			ずり圧電の原理上、0°カットの場合は圧電共鳴スペクトルは表れないと考えられるが
-			異なる結果となった。
-			共鳴周波数$f_r$から式\eqref{ずりの共鳴周波数}を用いて弾性率$c=1/s$は、試料寸法$l$、密度$\rho$
-			として以下のように計算される。
-			\begin{equation}
-				c = \frac{1}{s} = 2l^2 f_R^2 \rho
-			\end{equation}
-			入手した圧電共鳴スペクトルに対し、式\eqref{ずりの圧電共鳴_理論式}に基づいてフィッティングした
-			後に上式から弾性率を計算した。
-			横軸を試料の切り出し角度、縦軸を弾性率としてプロットしたのが図\ref{弾性率_角度依存性}(A)である。
-			また、式\eqref{ずりの共鳴周波数}から横軸を$1/2l$、縦軸を共鳴周波数$f_R$としてプロットすると
-			その1次の近似曲線曲線から密度$\rho$をもちいて弾性率を計算できる。
-			図\ref{弾性率_角度依存性}(B)はそれを角度別にプロットしたグラフである。
-			図\ref{弾性率_角度依存性}(B)は図\ref{弾性率_角度依存性}(A)と異なり試料寸法の情報が残っている。
-			表\ref{角度別_弾性率}において図\ref{弾性率_角度依存性}(B)で得られた傾きから弾性率まとめた。
-			図\ref{弾性率_角度依存性}(A)において角度別に
-			平均値を出した場合においても表\ref{弾性率_角度依存性}と同じ値が得られる。
-			正方形試料のどの角度においても弾性率の大きな違いは認められなかった。
-
-			図\ref{角度別電気機械結合係数}は角度別の電気機械結合係数をプロットした。
-			電気機械結合係数の側面からも明確な角度依存性は見られなかった。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=1]{45deg_he_hi_ru.jpg}
-				\caption{45°カットで正方形試料の1辺の長さが5 mm, 7.5 mm, 10 mm における圧電共鳴}
-				\label{45deg_cut_piezo_resonant}
-			\end{figure}
-			\begin{figure}[H]
-				\centering
-				\includegraphics[scale=1]{0deg_without_sericin_2.jpg}
-				\caption{0°カットで正方形試料の1辺の長さが5 mm, 7.5 mm, 10 mm における圧電共鳴}
-				\label{0deg_cut_piezo_resonant}
-			\end{figure}
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=\linewidth]{弾性率_角度依存性.jpg}
-				\caption{角度別弾性率の違い.(A)式\eqref{ずりの圧電共鳴_理論式}に基づいてfittingして得られた角度別の弾性率。
-				(B)横軸は正方形試料の1辺の長さ$l$の逆数と圧電共鳴周波数$f_R$の関係と角度別の1次の近似直線}
-				\label{弾性率_角度依存性}
-			\end{figure}
-			\begin{table}[h]
-				\centering
-				\caption{図\ref{弾性率_角度依存性}(B)の一次の近似直線から得た試料切り出し角度別の弾性率$1/s$}
-				\label{角度別_弾性率}
-				\begin{tabular}{cc} \hline
-					切り出し角度 & 弾性率 $1/s$ \\ \hline \hline
-					0°	& 2.23 GPa\\
-					15° & 2.28 GPa\\
-					30° & 2.68 GPa\\
-					45° & 2.80 GPa\\ \hline
-				\end{tabular}
-			\end{table}
 			\newpage
-			\begin{figure}[h]
-				\centering
-				\includegraphics{電気機械結合係数の角度依存性.jpg}
-				\caption{試料切り出し角度別の電気機械結語係数$k$}
-				\label{角度別電気機械結合係数}
-			\end{figure}
-			\newpage
-			\section{精錬回数依存性}
-			セリシンを除去する過程を精錬と呼ぶ。
-			加熱された炭酸ナトリウム水溶液に3時間、浸水してセリシンを除去する。
-			電気機械結合係数$k_{14}$の精錬回数依存性を図\ref{times_k}にまとめた。
-			4回にて電気機械結合係数$k_{14}$が飽和した。
-			また、FTIRを用いて蛋白質の二次構造の割合を計測し、表\ref{FTIR_蛋白質二次構造_セリシン除去回数}
-			にまとめた。
-			精錬過程で温水に浸水しているため$\alpha$ helixが$\beta$ sheetへ転移したと思われる。
-			定量的なセリシン含有量の計測を実施していないが、セリシンを除去すると電気機械結合係数$k_{14}$
-			が向上する可能性と$\beta$ sheet の含有量が増え、電気機械係数が向上した可能性がある。
-			ただし、$\beta$ sheetの含有量が増加しても配向性が向上していないため電気機械結合係数が
-			飽和したと思われる。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[scale=0.5]{number_k.jpg}
-				\caption{セリシン除去過程(精錬)の回数と電気機械結合係数$k_{14}$の関係}
-				\label{times_k}
-			\end{figure}
-			\begin{table}[h]
-				\centering
-				\caption{FTIRによる蛋白質二次構造の割合}
-				\label{FTIR_蛋白質二次構造_セリシン除去回数}
-				\begin{tabular}{c c c c c} \hline
-					精錬回数 & $\alpha$ helix & $\beta$ sheet &$\beta$ turn & other \\ \hline \hline
-					0 & 16 \% & 35 \% &  24 \% & 25 \% \\
-					1 & 8 \% & 48 \% &  21 \% & 23 \% \\
-					2 &  2 \% & 57 \% & 20 \% & 21 \% \\
-					4 & 0 \% & 75 \% & 13 \% & 12 \% \\ 
-					8 & 0 \% & 100 \% & 0 \% & 0 \% \\ \hline
-				\end{tabular}
-			\end{table}
-			\newpage
-		\chapter{物性評価}
-		\section{DSC}
+			\section{DSC}
 		\label{DSC}
 		熱特性を評価するために
 		示差走査熱量測定(Differential Scanning Calorimetry; DSC)を使用した。
@@ -1652,6 +1705,105 @@
 			\caption{シルク(Bombyx)のTG-DTA曲線}
 			\label{TG_DTA}
 		\end{figure}
+		\chapter{物性評価}
+		\section{圧電共鳴の試料寸法と角度依存性}
+		セリシンを除去したフィルムにおいて、1辺の大きさが5 mm, 7.5 mm, 10 mmである正方形試料を作製した。
+		図\ref{45deg_cut_piezo_resonant}は45°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
+		また、図\ref{0deg_cut_piezo_resonant}は0°カットでそれぞれの試料寸法における圧電共鳴スペクトルである。
+		どちらの場合においても圧電共鳴は、100 kHz付近に観測された。
+		同時に共鳴周波数の式\eqref{ずりの共鳴周波数}に対応して、正方形試料の
+		1辺が大きいと低周波側に、1辺が小さいと高周波側に表れた。
+		ずり圧電の原理上、0°カットの場合は圧電共鳴スペクトルは表れないと考えられるが
+		異なる結果となった。
+		共鳴周波数$f_r$から式\eqref{ずりの共鳴周波数}を用いて弾性率$c=1/s$は、試料寸法$l$、密度$\rho$
+		として以下のように計算される。
+		\begin{equation}
+			c = \frac{1}{s} = 2l^2 f_R^2 \rho
+		\end{equation}
+		入手した圧電共鳴スペクトルに対し、式\eqref{ずりの圧電共鳴_理論式}に基づいてフィッティングした
+		後に上式から弾性率を計算した。
+		横軸を試料の切り出し角度、縦軸を弾性率としてプロットしたのが図\ref{弾性率_角度依存性}(A)である。
+		また、式\eqref{ずりの共鳴周波数}から横軸を$1/2l$、縦軸を共鳴周波数$f_R$としてプロットすると
+		その1次の近似曲線曲線から密度$\rho$をもちいて弾性率を計算できる。
+		図\ref{弾性率_角度依存性}(B)はそれを角度別にプロットしたグラフである。
+		図\ref{弾性率_角度依存性}(B)は図\ref{弾性率_角度依存性}(A)と異なり試料寸法の情報が残っている。
+		表\ref{角度別_弾性率}において図\ref{弾性率_角度依存性}(B)で得られた傾きから弾性率まとめた。
+		図\ref{弾性率_角度依存性}(A)において角度別に
+		平均値を出した場合においても表\ref{弾性率_角度依存性}と同じ値が得られる。
+		正方形試料のどの角度においても弾性率の大きな違いは認められなかった。
+
+		図\ref{角度別電気機械結合係数}は角度別の電気機械結合係数をプロットした。
+		電気機械結合係数の側面からも明確な角度依存性は見られなかった。
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=1]{45deg_he_hi_ru.jpg}
+			\caption{45°カットで正方形試料の1辺の長さが5 mm, 7.5 mm, 10 mm における圧電共鳴}
+			\label{45deg_cut_piezo_resonant}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=1]{0deg_without_sericin_2.jpg}
+			\caption{0°カットで正方形試料の1辺の長さが5 mm, 7.5 mm, 10 mm における圧電共鳴}
+			\label{0deg_cut_piezo_resonant}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{弾性率_角度依存性.jpg}
+			\caption{角度別弾性率の違い.(A)式\eqref{ずりの圧電共鳴_理論式}に基づいてfittingして得られた角度別の弾性率。
+			(B)横軸は正方形試料の1辺の長さ$l$の逆数と圧電共鳴周波数$f_R$の関係と角度別の1次の近似直線}
+			\label{弾性率_角度依存性}
+		\end{figure}
+		\begin{table}[h]
+			\centering
+			\caption{図\ref{弾性率_角度依存性}(B)の一次の近似直線から得た試料切り出し角度別の弾性率$1/s$}
+			\label{角度別_弾性率}
+			\begin{tabular}{cc} \hline
+				切り出し角度 & 弾性率 $1/s$ \\ \hline \hline
+				0°	& 2.23 GPa\\
+				15° & 2.28 GPa\\
+				30° & 2.68 GPa\\
+				45° & 2.80 GPa\\ \hline
+			\end{tabular}
+		\end{table}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.8]{電気機械結合係数の角度依存性.jpg}
+			\caption{試料切り出し角度別の電気機械結語係数$k$}
+			\label{角度別電気機械結合係数}
+		\end{figure}
+		\newpage
+		\section{精錬回数依存性}
+		セリシンを除去する過程を精錬と呼ぶ。
+		加熱された炭酸ナトリウム水溶液に3時間、浸水してセリシンを除去する。
+		電気機械結合係数$k_{14}$の精錬回数依存性を図\ref{times_k}にまとめた。
+		4回にて電気機械結合係数$k_{14}$が飽和した。
+		また、FTIRを用いて蛋白質の二次構造の割合を計測し、表\ref{FTIR_蛋白質二次構造_セリシン除去回数}
+		にまとめた。
+		精錬過程で温水に浸水しているため$\alpha$ helixが$\beta$ sheetへ転移したと思われる。
+		定量的なセリシン含有量の計測を実施していないが、セリシンを除去すると電気機械結合係数$k_{14}$
+		が向上する可能性と$\beta$ sheet の含有量が増え、電気機械係数が向上した可能性がある。
+		ただし、$\beta$ sheetの含有量が増加しても配向性が向上していないため電気機械結合係数が
+		飽和したと思われる。
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.5]{number_k.jpg}
+			\caption{セリシン除去過程(精錬)の回数と電気機械結合係数$k_{14}$の関係}
+			\label{times_k}
+		\end{figure}
+		\begin{table}[h]
+			\centering
+			\caption{FTIRによる蛋白質二次構造の割合}
+			\label{FTIR_蛋白質二次構造_セリシン除去回数}
+			\begin{tabular}{c c c c c} \hline
+				精錬回数 & $\alpha$ helix & $\beta$ sheet &$\beta$ turn & other \\ \hline \hline
+				0 & 16 \% & 35 \% &  24 \% & 25 \% \\
+				1 & 8 \% & 48 \% &  21 \% & 23 \% \\
+				2 &  2 \% & 57 \% & 20 \% & 21 \% \\
+				4 & 0 \% & 75 \% & 13 \% & 12 \% \\ 
+				8 & 0 \% & 100 \% & 0 \% & 0 \% \\ \hline
+			\end{tabular}
+		\end{table}
+		\newpage
 			\section{誘電率の温度依存性}
 			水冷ペルチェを用いて-70℃から120℃に変化させながら、40 Hzから110 MHzにおける誘電率を観測した。
 			
@@ -2036,129 +2188,7 @@
 		\caption{キャストで作製した試料. (A)セリシンを除去しなった試料, (B)セリシンを除去した試料.}
 	\end{figure}
 	\newpage
-	\newpage
-	\section{原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}
-	原子間力顕微鏡(AFM)、圧電応答顕微鏡(PFM)はどちらも走査型プローブ顕微鏡(SPM)に属する。
-	走査型プローブ顕微鏡(SPM)とは、微小な深針（カンチレバー）で試料をなぞり、
-	その形状や物性を観察、計測する顕微鏡の総称である。図\ref{SPM}, \ref{cantilever_photo_detector}
-	にSPMの基本構成を示す。SPMに属する顕微鏡は図\ref{SPM}のように
-	カンチレバーを試料表面に接触または接近させて、走査中に生じる試料のある物理量の変化を検出する。
-	本研究にて用いるSPMは原子間力顕微鏡(AFM)と圧電応答顕微鏡(PFM)のみである。
-	この二つにおいては、図\ref{cantilever_photo_detector}のようにそれぞれの物理量変化
-	によってカンチレバーがたわみ、そのカンチレバーに照射したレーザーの変位を
-	フォトディテクターで計測し、測定対象の物理量変化を測定する。
-	つまり、レーザーの変位から物質表面の物性変化をみる。
-	原子間力顕微鏡(AFM)はカンチレバーと試料間に生じる原子間力を検出し
-	試料表面画像を取得する。圧電応答顕微鏡(PFM)は試料の逆圧電効果に
-	よる表面の歪みをカンチレバーの変位として取得し画像化する。
-	\begin{figure}[h]
-		\centering
-		\begin{minipage}{0.45\hsize}
-			\centering
-			\includegraphics[width=\linewidth]{SPM.png}
-			\caption{走査型顕微鏡(SPM)の光学系}
-			\label{SPM}
-		\end{minipage}
-		\begin{minipage}{0.45\hsize}
-			\centering
-			\includegraphics[width=\linewidth]{SPM2.png}
-			\caption{CantileverとPhotodetectorの関係}
-			\label{cantilever_photo_detector}
-		\end{minipage}
-	\end{figure}
-		\subsubsection{AFM(Atomic Force Microscopy)}
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.8\linewidth]{AFM.png}
-			\caption{AFMの信号模式図}
-			\label{stracture_of_AFM}
-		\end{figure}
-		図\ref{stracture_of_AFM}はAFMの信号模式図である。AFMの測定手法にはタッピングモード（ACモード）
-		とコンタクトモード(DCモード)がある。タッピングモードは、カンチレバーを内部に存在する圧電素子を用いて
-		共振周波数で振動させ、試料表面を断続的に接触させながら走査する。測定対象の表面形状からカンチレバーの振動振幅が変動し、
-		画像化する。正確にはカンチレバーを試料表面に近づけると原子間力を検出し、
-		この瞬間カンチレバーの振動振幅は小さくなる。この振動振幅の変位をレーザーの変位として取得し、
-		この変位分だけ元に戻すようにフィードバックをかけ、Z軸方向をZピエゾで調整する。このZピエゾの変位を画像化し、表面像を得る。
-		コンタクトモードはタッピングモードと異なり、
-		カンチレバーを振動させずに静的な状態で試料に常に接触させながら試料表面を走査し、
-		表面の凹凸に対応したカンチレバーのたわみをレーザーの変位としてフォトディテクターから検出する。
-		このレーザーの変位を一定にするようにZピエゾを用いて、フィードバック制御を行う。そのZピエゾの変位を表面形状として画像化する。
-		本研究において、AFMを用いた計測はカンチレバーの消耗の観点からタッピングモードで行った。
-		\subsubsection{PFM(Piezoresponse Force Microscopy)}
-		走査型プローブ顕微鏡(Scanning Prob Microscope, SPM)の一種として圧電応答顕微鏡
-		(Piezoresponse Force Microscopy, PFM)がある。
-		圧電応答顕微鏡(PFM)は試料の逆圧電効果による表面の歪みをカンチレバーの変位として取得し画像化する顕微鏡である。
-		図\ref{PFMの概念図}のように試料片面基板からカンチレバー間で交流電場を印加する。
-		このとき試料の分極方向に依存して、電場の変化に対応した歪みが試料に生じる。
-		その歪の大きさはカンチレバーの変位の大きさとして現れ、
-		Amplitude像として取得できる。
-		\begin{figure}[h]
-			\centering
-			\includegraphics{PFM.png}
-			\caption{PFMの概念図}
-			\label{PFMの概念図}
-		\end{figure}
-		\\
-		また、図\ref{PFM_phaseの概念図}のように交流電場に対応した試料の歪み方向は試料中の分極方向に依存しているため、
-		この分極方向を交流電場と歪みの位相差から解析し、Phase像として取得できる。
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.8\linewidth]{PFM_phase.png}
-			\caption{PFMのPhase像概念図. (a)電場E=0の様子,
-			(b)交流電場と試料の伸縮方向が同位相であるときの自発分極方向, 
-			(c)交流電場と試料の伸縮方向が逆位相であるときの自発分極方向.}
-			\label{PFM_phaseの概念図}
-		\end{figure}
-		PFMはカンチレバーを試料上に接触させ走査するコンタクトモードで行われる。
-		カンチレバーと試料からの相互作用を加味した共振周波数、
-		コンタクト周波数でカンチレバーを振動させることで、
-		その振動振幅の変化から、より高精度に圧電応答を観察できるようになっている。
-		しかし、そのコンタクト周波数は走査中一定に保たれているわけではない。
-		なぜならば、走査中の試料表面の形状変化によるカンチレバーの接触面積の違いがコンタクト周波数をシフトさせる要因になる。
-		コンタクト周波数のシフトにより、圧電応答によるカンチレバーのたわみ変化の大きさと走査中における試料表面の形状変化によるカンチレバーのたわみ変化がクロストークしてしまい、
-		正確な圧電応答や表面像を取得できなくなる。よって測定材料は測定前に表面を平らにする必要がある。
-		
-		図\ref{PFM_phaseの概念図}は垂直方向のみでの議論である。しかし、図\ref{PFMの概念図}におけるフォトディテクターから分かる通り、
-		図\ref{面内と垂直の概念図}の様に試料の面内方向の圧電性の評価も可能である。本研究においてはずり圧電の評価にて使用した。
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.7]{lateral_vertical.png}
-			\caption{カンチレバーにおける面内方向(Lateral)と垂直方向(Vertical)の関係.}
-			\label{面内と垂直の概念図}
-		\end{figure}
-		\newpage
-		生体材料の一つであるコラーゲンの圧電行列は以下の通りである。
-		\begin{equation}
-			\left(
-		\begin{array}{cccccc}
-			0&0&0&d_{14}&d_{15}&0 \\
-			0&0&0&d_{15}&-d_{14}&0 \\
-			d_{31}&d_{31}&d_{33}&0&0&0
-		\end{array}\right)
-	\end{equation}
-		コラーゲン繊維の側面において面内PFM、コラーゲン繊維の断面において垂直PFMを行った報告がある\cite{コラーゲン繊維PFM}。
-		このように生体材料の圧電測定においてPFMは頻繁に利用されている。
-		\begin{figure}[ht]
-			\begin{center}
-			\includegraphics[scale=0.6]{PFM_コラーゲン_側面.jpg}
-			\caption{コラーゲン繊維(側面)での面内PFM\cite{コラーゲン繊維PFM}.
-			(A) AFM topology, (B) 面内PFM, (C) 面内PFMのPhase, 
-			(D) AFM topology, (E) 面内PFM, (F) 面内PFMのPhase.
-			(A)-(C)のスケールバーは2 {\textmu}m, 
-			(D)-(F)のスケールバーは200 nm.}
-			\label{PFM_コラーゲン_側面}
-			\end{center}
-		\end{figure}
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.6]{PFM_コラーゲン_断面.jpg}
-			\caption{コラーゲン繊維(断面)での垂直PFM\cite{コラーゲン繊維PFM}.
-			(A) AFM topology, (B) 垂直PFM, (C) 垂直PFMのPhase
-			, (D) AFM topology, (E) 垂直PFM, (F) 垂直PFMのPhase.
-			(A)-(C)のスケールバーは2 {\textmu}m, 
-			(D)-(F)のスケールバーは200 nm.}
-			\label{PFM_コラーゲン_断面}
-		\end{figure}
+	
 		\newpage
 		図\ref{5_5_AFM_silk}、\ref{1_1_AFM_silk}は
 		市販されている(販売元不明)絹糸表面のAFM像である。
@@ -2198,7 +2228,7 @@
 	\bibliographystyle{junsrt} %参考文献出力スタイル
 	\chapter*{謝辞}
 	\begin{comment}
-	中嶋准教授には、材料のない材料研究、電源の修理から始めるデバイス開発、
+	中嶋准教授には、
 	絹糸の圧電性に関する研究にてお世話になりました。
 	感謝を申し上げます。
 
@@ -2224,7 +2254,7 @@
 	中嶋研究室で出会った同輩、後輩には感謝を申し上げます。
 	特に、佐藤様、斎藤様、霜鳥様、菅野様、\CID{8705}橋様には今後の活躍をお祈り申し上げます。
 
-	最後に、全てを勉学と研究に割いた酷い生活を支えて頂いた家族に深く感謝するとともに
+	最後に、全てを勉学と研究に割いた酷い生活を支えて頂いた家族に
 	心から感謝を申し上げます。
 	\end{comment}
 \end{document}

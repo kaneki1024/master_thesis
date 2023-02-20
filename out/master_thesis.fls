@@ -692,6 +692,10 @@ INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT ./graphics//silk_device.jpg
 INPUT extractbb -B cropbox -O ./graphics//silk_device.jpg
+INPUT ./graphics//silk_結晶.jpg
+INPUT ./graphics//silk_結晶.jpg
+INPUT ./graphics//silk_結晶.jpg
+INPUT extractbb -B cropbox -O ./graphics//silk_結晶.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
 INPUT ./graphics//fibroin_structure.jpg
@@ -809,14 +813,22 @@ INPUT ./graphics//anit_parallel_force.jpg
 INPUT ./graphics//anit_parallel_force.jpg
 INPUT ./graphics//anit_parallel_force.jpg
 INPUT extractbb -B cropbox -O ./graphics//anit_parallel_force.jpg
-INPUT ./graphics//位置球.jpg
-INPUT ./graphics//位置球.jpg
-INPUT ./graphics//位置球.jpg
-INPUT extractbb -B cropbox -O ./graphics//位置球.jpg
-INPUT ./graphics//fiber_structures.jpg
-INPUT ./graphics//fiber_structures.jpg
-INPUT ./graphics//fiber_structures.jpg
-INPUT extractbb -B cropbox -O ./graphics//fiber_structures.jpg
+INPUT ./graphics//alpha_helix_piezo.jpg
+INPUT ./graphics//alpha_helix_piezo.jpg
+INPUT ./graphics//alpha_helix_piezo.jpg
+INPUT extractbb -B cropbox -O ./graphics//alpha_helix_piezo.jpg
+INPUT ./graphics//PLLA_4領域_dipole.jpg
+INPUT ./graphics//PLLA_4領域_dipole.jpg
+INPUT ./graphics//PLLA_4領域_dipole.jpg
+INPUT extractbb -B cropbox -O ./graphics//PLLA_4領域_dipole.jpg
+INPUT ./graphics//plla_yama.jpg
+INPUT ./graphics//plla_yama.jpg
+INPUT ./graphics//plla_yama.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_yama.jpg
+INPUT ./graphics//plla_tani.jpg
+INPUT ./graphics//plla_tani.jpg
+INPUT ./graphics//plla_tani.jpg
+INPUT extractbb -B cropbox -O ./graphics//plla_tani.jpg
 INPUT ./graphics//試料作製手順.jpg
 INPUT ./graphics//試料作製手順.jpg
 INPUT ./graphics//試料作製手順.jpg
@@ -921,6 +933,39 @@ INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT ./graphics//自動平衡ブリッジ回路.jpg
 INPUT extractbb -B cropbox -O ./graphics//自動平衡ブリッジ回路.jpg
+INPUT ./graphics//SPM.png
+INPUT ./graphics//SPM.png
+INPUT ./graphics//SPM.png
+INPUT extractbb -B cropbox -O ./graphics//SPM.png
+INPUT ./graphics//SPM2.png
+INPUT ./graphics//SPM2.png
+INPUT ./graphics//SPM2.png
+INPUT extractbb -B cropbox -O ./graphics//SPM2.png
+INPUT ./graphics//AFM.png
+INPUT ./graphics//AFM.png
+INPUT ./graphics//AFM.png
+INPUT extractbb -B cropbox -O ./graphics//AFM.png
+INPUT ./graphics//PFM.png
+INPUT ./graphics//PFM.png
+INPUT ./graphics//PFM.png
+INPUT extractbb -B cropbox -O ./graphics//PFM.png
+INPUT ./graphics//PFM_phase.png
+INPUT ./graphics//PFM_phase.png
+INPUT ./graphics//PFM_phase.png
+INPUT extractbb -B cropbox -O ./graphics//PFM_phase.png
+INPUT ./graphics//lateral_vertical.png
+INPUT ./graphics//lateral_vertical.png
+INPUT ./graphics//lateral_vertical.png
+INPUT extractbb -B cropbox -O ./graphics//lateral_vertical.png
+INPUT ./graphics//PFM_コラーゲン_側面.jpg
+INPUT ./graphics//PFM_コラーゲン_側面.jpg
+INPUT ./graphics//PFM_コラーゲン_側面.jpg
+INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_側面.jpg
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./graphics//PFM_コラーゲン_断面.jpg
+INPUT ./graphics//PFM_コラーゲン_断面.jpg
+INPUT ./graphics//PFM_コラーゲン_断面.jpg
+INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//糸の種類別XRD.jpg
 INPUT ./graphics//糸の種類別XRD.jpg
 INPUT ./graphics//糸の種類別XRD.jpg
@@ -948,26 +993,6 @@ INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT extractbb -B cropbox -O ./graphics//シルクフィルム_熱処理後.jpg
-INPUT ./graphics//45deg_he_hi_ru.jpg
-INPUT ./graphics//45deg_he_hi_ru.jpg
-INPUT ./graphics//45deg_he_hi_ru.jpg
-INPUT extractbb -B cropbox -O ./graphics//45deg_he_hi_ru.jpg
-INPUT ./graphics//0deg_without_sericin_2.jpg
-INPUT ./graphics//0deg_without_sericin_2.jpg
-INPUT ./graphics//0deg_without_sericin_2.jpg
-INPUT extractbb -B cropbox -O ./graphics//0deg_without_sericin_2.jpg
-INPUT ./graphics//弾性率_角度依存性.jpg
-INPUT ./graphics//弾性率_角度依存性.jpg
-INPUT ./graphics//弾性率_角度依存性.jpg
-INPUT extractbb -B cropbox -O ./graphics//弾性率_角度依存性.jpg
-INPUT ./graphics//電気機械結合係数の角度依存性.jpg
-INPUT ./graphics//電気機械結合係数の角度依存性.jpg
-INPUT ./graphics//電気機械結合係数の角度依存性.jpg
-INPUT extractbb -B cropbox -O ./graphics//電気機械結合係数の角度依存性.jpg
-INPUT ./graphics//number_k.jpg
-INPUT ./graphics//number_k.jpg
-INPUT ./graphics//number_k.jpg
-INPUT extractbb -B cropbox -O ./graphics//number_k.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
@@ -992,6 +1017,26 @@ INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT ./graphics//TG_DTA.jpg
 INPUT extractbb -B cropbox -O ./graphics//TG_DTA.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//45deg_he_hi_ru.jpg
+INPUT extractbb -B cropbox -O ./graphics//45deg_he_hi_ru.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//0deg_without_sericin_2.jpg
+INPUT extractbb -B cropbox -O ./graphics//0deg_without_sericin_2.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//弾性率_角度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//弾性率_角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT extractbb -B cropbox -O ./graphics//電気機械結合係数の角度依存性.jpg
+INPUT ./graphics//number_k.jpg
+INPUT ./graphics//number_k.jpg
+INPUT ./graphics//number_k.jpg
+INPUT extractbb -B cropbox -O ./graphics//number_k.jpg
 INPUT ./graphics//8回_誘電率温度依存性.jpg
 INPUT ./graphics//8回_誘電率温度依存性.jpg
 INPUT ./graphics//8回_誘電率温度依存性.jpg
@@ -1072,39 +1117,6 @@ INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT ./graphics//cast_film_sample.jpg
 INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
-INPUT ./graphics//SPM.png
-INPUT ./graphics//SPM.png
-INPUT ./graphics//SPM.png
-INPUT extractbb -B cropbox -O ./graphics//SPM.png
-INPUT ./graphics//SPM2.png
-INPUT ./graphics//SPM2.png
-INPUT ./graphics//SPM2.png
-INPUT extractbb -B cropbox -O ./graphics//SPM2.png
-INPUT ./graphics//AFM.png
-INPUT ./graphics//AFM.png
-INPUT ./graphics//AFM.png
-INPUT extractbb -B cropbox -O ./graphics//AFM.png
-INPUT ./graphics//PFM.png
-INPUT ./graphics//PFM.png
-INPUT ./graphics//PFM.png
-INPUT extractbb -B cropbox -O ./graphics//PFM.png
-INPUT ./graphics//PFM_phase.png
-INPUT ./graphics//PFM_phase.png
-INPUT ./graphics//PFM_phase.png
-INPUT extractbb -B cropbox -O ./graphics//PFM_phase.png
-INPUT ./graphics//lateral_vertical.png
-INPUT ./graphics//lateral_vertical.png
-INPUT ./graphics//lateral_vertical.png
-INPUT extractbb -B cropbox -O ./graphics//lateral_vertical.png
-INPUT ./graphics//PFM_コラーゲン_側面.jpg
-INPUT ./graphics//PFM_コラーゲン_側面.jpg
-INPUT ./graphics//PFM_コラーゲン_側面.jpg
-INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_側面.jpg
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./graphics//PFM_コラーゲン_断面.jpg
-INPUT ./graphics//PFM_コラーゲン_断面.jpg
-INPUT ./graphics//PFM_コラーゲン_断面.jpg
-INPUT extractbb -B cropbox -O ./graphics//PFM_コラーゲン_断面.jpg
 INPUT ./graphics//AFM_5_5.jpg
 INPUT ./graphics//AFM_5_5.jpg
 INPUT ./graphics//AFM_5_5.jpg

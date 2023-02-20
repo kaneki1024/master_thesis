@@ -1,47 +1,47 @@
 \contentsline {chapter}{\numberline {第1章}序論}{3}{}%
 \contentsline {section}{\numberline {1.1}研究背景}{3}{}%
-\contentsline {subsection}{\numberline {1.1.1}環境負荷が低く、生体親和性が高い機能性材料}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}環境負荷が低く、生体親和性が高い機能性材料の重要性}{3}{}%
 \contentsline {section}{\numberline {1.2}シルク}{4}{}%
 \contentsline {subsection}{\numberline {1.2.1}シルクの概論}{4}{}%
 \contentsline {subsection}{\numberline {1.2.2}シルクの構造}{5}{}%
-\contentsline {section}{\numberline {1.3}生体材料の圧電性}{7}{}%
-\contentsline {subsection}{\numberline {1.3.1}ずりの圧電性を利用したデバイス}{8}{}%
-\contentsline {subsection}{\numberline {1.3.2}シルクの圧電性}{9}{}%
-\contentsline {section}{\numberline {1.4}研究の目的}{11}{}%
-\contentsline {chapter}{\numberline {第2章}原理}{12}{}%
-\contentsline {section}{\numberline {2.1}圧電性}{12}{}%
-\contentsline {subsection}{\numberline {2.1.1}圧電基本式}{12}{}%
-\contentsline {subsection}{\numberline {2.1.2}電気機械結合係数}{14}{}%
-\contentsline {section}{\numberline {2.2}誘電性}{17}{}%
-\contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{17}{}%
-\contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{17}{}%
-\contentsline {subsection}{\numberline {2.2.3}周波数応答関数とパルス応答関数}{18}{}%
-\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{18}{}%
-\contentsline {subsection}{\numberline {2.2.5}圧電共鳴法}{20}{}%
-\contentsline {section}{\numberline {2.3}逆平行$\beta $ シートにおけるずりの圧電性}{24}{}%
-\contentsline {section}{\numberline {2.4}結晶性高分子物質における繊維構造}{25}{}%
-\contentsline {chapter}{\numberline {第3章}実験手法}{26}{}%
-\contentsline {section}{\numberline {3.1}試料作製方法}{26}{}%
-\contentsline {section}{\numberline {3.2}評価方法}{28}{}%
-\contentsline {subsection}{\numberline {3.2.1}X線回折($\theta - 2\theta $測定とPole figure測定)}{28}{}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}$\theta - 2\theta $測定}{28}{}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}Pole figure測定}{29}{}%
-\contentsline {subsection}{\numberline {3.2.2}誘電率測定}{32}{}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}誘電率測定の原理}{32}{}%
-\contentsline {chapter}{\numberline {第4章}構造評価}{34}{}%
-\contentsline {section}{\numberline {4.1}様々な種類のシルクのXRD($\theta $-$2\theta $)}{34}{}%
-\contentsline {section}{\numberline {4.2}家蚕(Bombyx mori)におけるX線回折と配向性評価}{35}{}%
-\contentsline {section}{\numberline {4.3}FTIR}{38}{}%
-\contentsline {section}{\numberline {4.4}圧電共鳴の試料寸法と角度依存性}{39}{}%
-\contentsline {section}{\numberline {4.5}精錬回数依存性}{43}{}%
-\contentsline {chapter}{\numberline {第5章}物性評価}{44}{}%
-\contentsline {section}{\numberline {5.1}DSC}{44}{}%
-\contentsline {section}{\numberline {5.2}TG-DTA}{47}{}%
-\contentsline {section}{\numberline {5.3}誘電率の温度依存性}{48}{}%
-\contentsline {chapter}{\numberline {第6章}総括}{60}{}%
-\contentsline {chapter}{\numberline {第7章}付録}{61}{}%
-\contentsline {section}{\numberline {7.1}$\theta -2\theta $の角度依存性}{61}{}%
-\contentsline {section}{\numberline {7.2}キャストフィルムの作製方法}{62}{}%
-\contentsline {section}{\numberline {7.3}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{63}{}%
-\contentsline {subsubsection}{\numberline {7.3.0.1}AFM(Atomic Force Microscopy)}{63}{}%
-\contentsline {subsubsection}{\numberline {7.3.0.2}PFM(Piezoresponse Force Microscopy)}{64}{}%
+\contentsline {section}{\numberline {1.3}生体材料の圧電性}{8}{}%
+\contentsline {subsection}{\numberline {1.3.1}ずりの圧電性を利用したデバイス}{9}{}%
+\contentsline {subsection}{\numberline {1.3.2}シルクにおける圧電性}{10}{}%
+\contentsline {section}{\numberline {1.4}研究の目的}{12}{}%
+\contentsline {chapter}{\numberline {第2章}原理}{13}{}%
+\contentsline {section}{\numberline {2.1}圧電性}{13}{}%
+\contentsline {subsection}{\numberline {2.1.1}圧電基本式}{13}{}%
+\contentsline {subsection}{\numberline {2.1.2}電気機械結合係数}{15}{}%
+\contentsline {section}{\numberline {2.2}誘電性}{18}{}%
+\contentsline {subsection}{\numberline {2.2.1}誘電応答における時間的な遅れ}{18}{}%
+\contentsline {subsection}{\numberline {2.2.2}誘電性と導電性の関係}{18}{}%
+\contentsline {subsection}{\numberline {2.2.3}周波数応答関数とパルス応答関数}{19}{}%
+\contentsline {subsection}{\numberline {2.2.4}Havriliak-Negamiの式}{19}{}%
+\contentsline {subsection}{\numberline {2.2.5}圧電共鳴法}{21}{}%
+\contentsline {section}{\numberline {2.3}逆平行$\beta $ シート構造におけるずりの圧電性}{25}{}%
+\contentsline {section}{\numberline {2.4}$\alpha $ ヘリックス構造におけるずりの圧電性}{26}{}%
+\contentsline {chapter}{\numberline {第3章}実験手法}{28}{}%
+\contentsline {section}{\numberline {3.1}試料作製方法}{28}{}%
+\contentsline {section}{\numberline {3.2}評価方法}{30}{}%
+\contentsline {subsection}{\numberline {3.2.1}X線回折($\theta - 2\theta $測定とPole figure測定)}{30}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}$\theta - 2\theta $測定}{30}{}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Pole figure測定}{31}{}%
+\contentsline {subsection}{\numberline {3.2.2}誘電率測定}{34}{}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}誘電率測定の原理}{34}{}%
+\contentsline {section}{\numberline {3.3}原子間力顕微鏡(AFM), 圧電応答顕微鏡(PFM)}{36}{}%
+\contentsline {subsubsection}{\numberline {3.3.0.1}AFM(Atomic Force Microscopy)}{36}{}%
+\contentsline {subsubsection}{\numberline {3.3.0.2}PFM(Piezoresponse Force Microscopy)}{37}{}%
+\contentsline {chapter}{\numberline {第4章}構造評価}{40}{}%
+\contentsline {section}{\numberline {4.1}様々な種類のシルクのXRD($\theta $-$2\theta $)}{40}{}%
+\contentsline {section}{\numberline {4.2}家蚕(Bombyx mori)におけるX線回折と配向性評価}{41}{}%
+\contentsline {section}{\numberline {4.3}FTIR}{44}{}%
+\contentsline {section}{\numberline {4.4}DSC}{46}{}%
+\contentsline {section}{\numberline {4.5}TG-DTA}{49}{}%
+\contentsline {chapter}{\numberline {第5章}物性評価}{50}{}%
+\contentsline {section}{\numberline {5.1}圧電共鳴の試料寸法と角度依存性}{50}{}%
+\contentsline {section}{\numberline {5.2}精錬回数依存性}{53}{}%
+\contentsline {section}{\numberline {5.3}誘電率の温度依存性}{54}{}%
+\contentsline {chapter}{\numberline {第6章}総括}{66}{}%
+\contentsline {chapter}{\numberline {第7章}付録}{67}{}%
+\contentsline {section}{\numberline {7.1}$\theta -2\theta $の角度依存性}{67}{}%
+\contentsline {section}{\numberline {7.2}キャストフィルムの作製方法}{68}{}%
