@@ -8,46 +8,46 @@ Warning--empty publisher in 農研機構
 Warning--can't use both volume and number fields in bazhenov1950
 Warning--can't use both author and editor fields in 合成キラル高分子の圧電性
 Warning--can't use both author and editor fields in 応用物性
-You've used 66 entries,
+You've used 67 entries,
             2270 wiz_defined-function locations,
-            953 strings with 14838 characters,
-and the built_in function-call counts, 24811 in all, are:
-= -- 1999
-> -- 753
-< -- 148
-+ -- 295
-- -- 229
-* -- 1378
-:= -- 2886
-add.period$ -- 201
-call.type$ -- 66
-change.case$ -- 59
+            960 strings with 14953 characters,
+and the built_in function-call counts, 25194 in all, are:
+= -- 2034
+> -- 757
+< -- 151
++ -- 297
+- -- 230
+* -- 1400
+:= -- 2927
+add.period$ -- 204
+call.type$ -- 67
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 71
-duplicate$ -- 1578
-empty$ -- 2198
-format.name$ -- 458
-if$ -- 6157
+cite$ -- 72
+duplicate$ -- 1604
+empty$ -- 2235
+format.name$ -- 460
+if$ -- 6253
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 69
-newline$ -- 335
-num.names$ -- 66
-pop$ -- 383
+int.to.str$ -- 67
+missing$ -- 70
+newline$ -- 340
+num.names$ -- 67
+pop$ -- 387
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1347
+skip$ -- 1370
 stack$ -- 0
-substring$ -- 1453
-swap$ -- 646
-text.length$ -- 148
+substring$ -- 1485
+swap$ -- 658
+text.length$ -- 151
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 199
-width$ -- 68
-write$ -- 717
-is.kanji.str$ -- 832
+while$ -- 203
+width$ -- 69
+write$ -- 728
+is.kanji.str$ -- 842
 (There were 5 warnings)

@@ -363,7 +363,7 @@
 				\centering
 				\includegraphics[scale=1]{electrospun_data.jpg}
 				\caption{エレクトロスピニング法によるFibroin nano fiber\cite{エレクトロスパン}。
-				(A)SEM像、(B)PFMを用いたバタフライ曲線}
+				(A)SEM像、(B)PFMを用いた圧電バタフライ曲線}
 				\label{electrospun}
 			\end{figure}
 			\newpage
@@ -376,7 +376,7 @@
 			シルクフィブロインに混ぜ生体適合性を担保しつつ圧電性を向上させ、
 			人の動きによって発電するワイヤー状のデバイスを開発したという報告されている\cite{kim2015silk}。
 			他にも酸化亜鉛のナノロッドをフィブロイン膜に作製し、e-skinとして実装した報告もあるが
-			生体適合性は下がっている\cite{gogurla2020self}。
+			生体適合性の課題は残されたままである\cite{gogurla2020self}。
 			
 			蚕のシルクではないがクモの糸もフィブロインである。クモの糸のフィブロインの圧電性を利用したエナジーハーベスター
 			も報告されている。電極の上にクモの糸を並べて素子を作製し、
@@ -564,7 +564,7 @@
 			延伸やポーリングなどの処理により$\infty$回軸を減らす。
 			圧電性や焦電性を示すマクロな対称性においては$\infty (C_\infty), \infty$ mm
 			($C_{\infty v}$), $\infty 2(D_\infty)$の3群となる。
-			シルクフィブロインは$D_\infty$となり圧電ｄ行列は以下のように決まる。
+			シルクフィブロインは$D_\infty$となり圧電$d$テンソルは以下のように決まる。
 			\begin{equation}
 				\left(
 				\begin{array}{cccccc}
@@ -1085,7 +1085,7 @@
 			\end{figure}
 			\newpage
 	\chapter{実験手法}
-		\section{試料作製方法}
+		\section{熱プレスを用いたシルクフィルムの作製方法}
 		本研究では
 		図\ref{セリシンを含まない試料作製手順}、図\ref{セリシンを含むフィルム作製手順}
 		の通り熱プレスしてシルクフィルムを作製した。
@@ -1136,6 +1136,38 @@
 			\label{金属マスク}
 		\end{figure}
 
+		\newpage
+		\section{キャストによるシルクフィルムの作製方法}
+		\label{キャストフィルムの作製方法}
+		シルクからセリシンを除去したキャストフィルム作製方法は
+		図\ref{フィブロインキャストフィルムの作製方法}の通りである。
+		熱湯にした炭酸ナトリウム水溶液(Na$_2$CO$_3$)にシルクを入れてセリシンを除去する。
+		セリシン以外のゴミも同時に除去されるためこれを繰り返す。
+		その次に、塩化カルシウムCaCl$_2$と蒸留水と無水エタノール
+		にシルクを混ぜて加熱すると溶解する。
+		その後、透析して塩を取り除く。
+		透析する前にゴミを除去するため、濾過してもよいが溶解
+		直後のフィブロイン溶液は粘性が高く濾過されない場合がある。
+		透析には毎日、水を入れ替えて最低3日ほど繰り返す。
+		入れ替える回数、透析する時間を伸ばす程、塩が除去されると期待出来る。
+		50℃以下でキャストするとSilk I型となり、50℃以上でキャストするとSilk II型となる。
+
+		セリシンを除去していないフィルムを作製する場合は図\ref{フィブロインキャストフィルムの作製方法}の右側の
+		溶解過程のみ行えばよい。
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.75]{cast_film_作成方法.jpg}
+			\caption{キャストフィルムの作製方法\cite{フィブロイン溶解方法}.}
+			\label{フィブロインキャストフィルムの作製方法}
+		\end{figure}
+		\\
+		キャストにて作製した試料は以下の通りである。
+		セリシンを除去した場合は透明になると判明した。
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.3]{cast_film_sample.jpg}
+			\caption{キャストで作製した試料. (A)セリシンを除去しなった試料, (B)セリシンを除去した試料.}
+		\end{figure}
 		\newpage
 		\section{評価方法}
 			\subsection{X線回折($\theta - 2\theta$測定とPole figure測定)}
@@ -1493,8 +1525,10 @@
 			図\ref{様々な絹糸XRD}は家蚕(Bombyx mori)、エリ蚕(Samia cynthia ricini)、
 			サク蚕(Antheraea pernyi)の糸におけるXRDの$\theta$-$2\theta$測定の結果である。
 			家蚕は$2\theta \approx 10^{\circ}, 20^{\circ}, 28^{\circ}$においてピークが伺える。
-			エリ蚕は$2\theta \approx 17^{\circ}, 20^{\circ}$においてピークが伺える。
+			エリ蚕は$2\theta \approx 16.5^{\circ}, 20^{\circ}$においてピークが伺える。
 			サク蚕もエリ蚕と同様の位置にピークが確認されるが強度比が異なる。
+			サク蚕、エリ蚕のどちらも家蚕と同じ逆平行$\beta$シートであるが、
+			家蚕の方が単位格子が正方晶に近いため回折線が重なって見える\cite{warwicker1954}。
 			\begin{figure}[h]
 				\centering
 				\includegraphics[scale=0.8]{糸の種類別XRD.jpg}
@@ -1557,6 +1591,17 @@
 				(B) 極点図を半径方向に積分した結果。0$^{\circ}$、180$^{\circ}$を繊維軸(parallel)とした。}
 				\label{セリシン含む_pole_figure}
 			\end{figure}
+			\subsection{$\theta-2\theta$の角度依存性}
+			精錬したフィルムにおいて$\theta-2\theta$測定を
+			360°試料を面内で回転させながら計測した。
+			$\theta-2\theta$測定が試料の膜厚方向の結晶面しか計測されていないため
+			配向したフィルムにおいてもデバイシェラー環の様な円環が得られたと思われる。
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.9]{デバイ.jpg}
+				\caption{$\theta-2\theta$を試料に対して360°面内で計測した結果。
+				(A)計測で得られた生データ、(B)logスケールに変換した結果。}
+			\end{figure}
 			\newpage
 			\section{FTIR}
 			作製したフィルムの蛋白質の二次構造の割合を知るためにFTIRを行った。
@@ -1603,6 +1648,41 @@
 				\includegraphics[scale=0.5]{シルクフィルム_熱処理後.jpg}
 				\caption{190℃で熱処理した後のフィルム. (A) セリシンあり, (B) セリシンなし.}
 				\label{熱処理後のフィルム}
+			\end{figure}
+			\newpage
+			\section{AFM像, PFM像}
+			図\ref{5_5_AFM_silk}、図\ref{1_1_AFM_silk}は
+			市販されている(販売元不明)絹糸表面のAFM像である。
+			表面に凹凸形状が確認できる。
+			既に報告されているAFM像、図\ref{先行研究_AFM_糸}と同様にミクロフィブリルが確認された。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=\linewidth]{AFM_5_5.jpg}
+				\caption{5 \si{\micro\meter}$\times$ 5 \si{\micro\meter}におけるAFM絹糸表面像. 
+				(A) Topology, (B) Amplitude, (C) Phase. }
+				\label{5_5_AFM_silk}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=\linewidth]{AFM_1_1.jpg}
+				\caption{1 \si{\micro\meter}$\times$ 1 \si{\micro\meter}におけるAFM絹糸表面像. 
+				(A) Topology, (B) Amplitude, (C) Phase.}
+				\label{1_1_AFM_silk}
+			\end{figure}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.5]{AFM_silk.jpg}
+				\caption{ミクロフィブリル\cite{クモと絹糸の構造}. (A)絹糸の構造, (B) AFM像におけるミクロフィブリル.}
+				\label{先行研究_AFM_糸}
+			\end{figure}
+			\newpage
+			市販の絹糸(販売元不明)のPFM像は図\ref{silk_fiber_PFM}の通りである。
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=\linewidth]{PFM_silk_fiber.jpg}
+				\caption{絹糸の垂直PFMと面内PFM. (A) Height, (B) 垂直Amplitude, (C) 垂直Phase, 
+				(D) 面内Amplitude, (E)面内Phase.}
+				\label{silk_fiber_PFM}
 			\end{figure}
 			\newpage
 			\section{DSC}
@@ -1909,6 +1989,31 @@
 				(A)$-d_{14}$と温度の関係、(B)$-e_{14}$と温度の関係。}
 				\label{8回_d定数_e定数_温度依存性}
 			\end{figure}
+			図\ref{熱処理後の誘電率}は8回精錬したフィルムにおいて
+			-70℃から120℃に変化して計測した
+			試料を常温で周波数分散を再計測した結果である。
+			表\ref{8回_熱処理前後_物性値}は熱処理前後における物性値の比較である。
+			0℃以上で確認された電気機械結合係数の増加、束縛誘電率のピークなどは
+			可逆性のあるものと判明した。
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.6]{8回精錬_熱処理前と後.jpg}
+				\caption{8回精錬したフィルムにて熱処理後のの常温における周波数分散}
+				\label{熱処理後の誘電率}
+			\end{figure}
+			\newpage
+			\begin{table}[h]
+				\centering
+				\caption{8回精錬したシルクフィルムにおける熱処理前と後の物性値}
+				\label{8回_熱処理前後_物性値}
+				\begin{tabular}{c c c} \hline
+					物性値 & 熱処理前 & 熱処理後  \\ \hline \hline
+					誘電率$\varepsilon'/\varepsilon_0$ (@1kHz) & 5.20 & 5.23 \\
+					電気機械結合係数 $k_{14}$ & 0.018 & 0.018 \\
+					弾性率$1/s_{44}$ &  2.68 GPa & 2.49 GPa \\
+					圧電$d$定数 $d_{14}$ & -2.23 pC/N & -2.72 pC/N \\ \hline
+				\end{tabular}
+			\end{table}
 			\newpage
 			図\ref{温度_誘電率_セリシンなし_全体像}はセリシンを除去する精錬作業を一回行った
 			シルクフィルムにおける誘電率の観測結果である。
@@ -1930,7 +2035,7 @@
 			である図\ref{8回誘電率温度依存性_拡大図}の場合よりブロードな結果になった。
 			ブロードな圧電共鳴ピークは共鳴成分が分布をもつことを意味し、
 			試料の配向度が低いためと考えられる。
-			また、セリシンの含有量か、作製したフィルムの状態が悪いのかは検証が不十分である。
+			また、セリシンの含有量による影響か、作製したフィルムの状態が悪いのかは検証が不十分である。
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=\linewidth]{温度_誘電率_セリシンなし.jpg}
@@ -2063,32 +2168,7 @@
 				(A)$-d_{14}$と温度の関係、(B)$-e_{14}$と温度の関係。}
 				\label{0回_d定数_e定数_温度依存性}
 			\end{figure}
-			\newpage
 			
-			図\ref{熱処理後の誘電率}は8回精錬したフィルムにおいて
-			-70℃から120℃に変化して計測した
-			試料を常温で周波数分散を再計測した結果である。た。
-			表\ref{8回_熱処理前後_物性値}は熱処理前後における物性値の比較である。
-			0℃以上で確認された電気機械結合係数の増加、束縛誘電率のピークなどは
-			可逆性のあるものと判明した。
-			\begin{figure}[h]
-				\centering
-				\includegraphics[width=0.8\linewidth]{8回精錬_熱処理前と後.jpg}
-				\caption{8回精錬したフィルムにて-70℃から120℃に変化させ、周波数分散を計測する前と後の常温における周波数分散}
-				\label{熱処理後の誘電率}
-			\end{figure}
-			\begin{table}[H]
-				\centering
-				\caption{8回精錬したシルクフィルムにおける熱処理前と後の物性値}
-				\label{8回_熱処理前後_物性値}
-				\begin{tabular}{c c c} \hline
-					物性値 & 熱処理前 & 熱処理後  \\ \hline \hline
-					誘電率$\varepsilon'/\varepsilon_0$ (@1kHz) & 5.20 & 5.23 \\
-					電気機械結合係数 $k_{14}$ & 0.018 & 0.018 \\
-					弾性率$1/s_{44}$ &  2.68 GPa & 2.49 GPa \\
-					圧電$d$定数 $d_{14}$ & -2.23 pC/N & -2.72 pC/N \\ \hline
-				\end{tabular}
-			\end{table}
 			\newpage
 			温度を変化させながら複素誘電スペクトルを観測した、
 			セリシン未処理と1回精錬したフィルムにおける
@@ -2143,104 +2223,24 @@
 	複素誘電スペクトルから圧電共鳴に対して
 	フィッティングして算出された圧電d定数からは将来的にセンサとして利用の
 	可能性を秘めていると思われる。
-	\chapter{付録}
-	\section{$\theta-2\theta$の角度依存性}
-	セリシンを除去したフィルムにおいて$\theta-2\theta$測定を
-	360°試料を面内で回転させながら計測した。
-	$\theta-2\theta$測定が試料の膜厚方向の結晶面しか計測されていないため
-	配向したフィルムにおいてもデバイシェラー環の様な円環が得られたと思われる。
-	\begin{figure}[h]
-		\centering
-		\includegraphics{デバイ.jpg}
-		\caption{$\theta-2\theta$を試料に対して360°面内で計測した結果。
-		(A)計測で得られた生データ、(B)logスケールに変換した結果。}
-	\end{figure}
-	\newpage
-	\section{キャストフィルムの作製方法}
-	\label{キャストフィルムの作製方法}
-	シルクからセリシンを除去したキャストフィルム作製方法は
-	図\ref{フィブロインキャストフィルムの作製方法}の通りである。
-	熱湯にした炭酸ナトリウム水溶液(Na$_2$CO$_3$)にシルクを入れてセリシンを除去する。
-	セリシン以外のゴミも同時に除去されるためこれを繰り返す。
-	その次に、塩化カルシウムCaCl$_2$と蒸留水と無水エタノール
-	にシルクを混ぜて加熱すると溶解する。
-	その後、透析して塩を取り除く。
-	透析する前にゴミを除去するため、濾過してもよいが溶解
-	直後のフィブロイン溶液は粘性が高く濾過されない場合がある。
-	透析には毎日、水を入れ替えて最低3日ほど繰り返す。
-	入れ替える回数、透析する時間を伸ばす程、塩が除去されると期待出来る。
-	50℃以下でキャストするとSilk I型となり、50℃以上でキャストするとSilk II型となる。
-
-	セリシンを除去していないフィルムを作製する場合は図\ref{フィブロインキャストフィルムの作製方法}の右側の
-	溶解過程のみ行えばよい。
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.75]{cast_film_作成方法.jpg}
-		\caption{キャストフィルムの作製方法\cite{フィブロイン溶解方法}.}
-		\label{フィブロインキャストフィルムの作製方法}
-	\end{figure}
-	\\
-	キャストにて作製した試料は以下の通りである。
-	セリシンを除去した場合は透明になると判明した。
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.3]{cast_film_sample.jpg}
-		\caption{キャストで作製した試料. (A)セリシンを除去しなった試料, (B)セリシンを除去した試料.}
-	\end{figure}
-	\newpage
-	
-		\newpage
-		図\ref{5_5_AFM_silk}、\ref{1_1_AFM_silk}は
-		市販されている(販売元不明)絹糸表面のAFM像である。
-		表面に凹凸形状が確認できる。
-		既に報告されているAFM像、図\ref{先行研究_AFM_糸}と同様にミクロフィブリルが確認された。
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=\linewidth]{AFM_5_5.jpg}
-			\caption{5 \si{\micro\meter}$\times$ 5 \si{\micro\meter}におけるAFM絹糸表面像. 
-			(A) Topology, (B) Amplitude, (C) Phase. }
-			\label{5_5_AFM_silk}
-		\end{figure}
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=\linewidth]{AFM_1_1.jpg}
-			\caption{1 \si{\micro\meter}$\times$ 1 \si{\micro\meter}におけるAFM絹糸表面像. 
-			(A) Topology, (B) Amplitude, (C) Phase.}
-			\label{1_1_AFM_silk}
-		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[scale=0.65]{AFM_silk.jpg}
-			\caption{ミクロフィブリル\cite{クモと絹糸の構造}. (A)絹糸の構造, (B) AFM像におけるミクロフィブリル.}
-			\label{先行研究_AFM_糸}
-		\end{figure}
-		\newpage
-		市販の絹糸(販売元不明)のPFM像は図\ref{silk_fiber_PFM}の通りである。
-
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=\linewidth]{PFM_silk_fiber.jpg}
-			\caption{絹糸の垂直PFMと面内PFM. (A) Height, (B) 垂直Amplitude, (C) 垂直Phase, 
-			(D) 面内Amplitude, (E)面内Phase.}
-			\label{silk_fiber_PFM}
-		\end{figure}
 	\bibliography{master} %hoge.bibから拡張子を外した名前
 	\bibliographystyle{junsrt} %参考文献出力スタイル
 	\chapter*{謝辞}
-	\begin{comment}
 	中嶋准教授には、
-	絹糸の圧電性に関する研究にてお世話になりました。
+	デバイス開発から絹糸の圧電性に関する研究まで幅広くお世話になりました。
 	感謝を申し上げます。
+
+	小林理学研究所、古川先生、児玉様には圧電研究に関して丁寧に教えて頂きました。
+	感謝を申し上げます。
+	また、スパッタ装置、水冷ペルチェ、インピーダンスアナライザを使用させていただきありがとうございました。
 
 	中嶋研究室、2022年卒業の古橋愛実様には、
 	絹糸の研究にて多大なる負担を与えた事をお詫び申し上げると
 	共に、研究に対する貢献に感謝を申し上げます。
-	ひとえに古橋様のおかげで本論文をまとめることが出来ました。
-	
+	古橋様のおかげで本論文をまとめることが出来ました。
+
 	田中研、窪田様にはシルクフィブロインのキャストフィルムにおける
 	貢献に感謝を申し上げます。
-
-	小林理学研究所にはスパッタ装置、水冷ペルチェを使用させていただきありがとうございました。
 
 	中嶋研究室、2022年修士過程修了の横山様にはデータサイエンスという
 	世界を教えていただきありがとうございました。
@@ -2256,5 +2256,4 @@
 
 	最後に、全てを勉学と研究に割いた酷い生活を支えて頂いた家族に
 	心から感謝を申し上げます。
-	\end{comment}
 \end{document}

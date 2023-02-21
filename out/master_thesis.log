@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  21 FEB 2023 06:59
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.2.27)  21 FEB 2023 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -709,56 +709,61 @@ File: ./graphics//試料.jpg Graphic file (type bmp)
 File: ./graphics//金属マスク.jpg Graphic file (type bmp)
 <./graphics//金属マスク.jpg>
 [29]
+File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
+<./graphics//cast_film_作成方法.jpg>
+File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
+<./graphics//cast_film_sample.jpg>
+[30]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1141.
+(Font)              size <10.95> substituted on input line 1173.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1141.
+(Font)              size <10.95> substituted on input line 1173.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1141.
+(Font)              size <10.95> substituted on input line 1173.
 
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 10.1033pt on input line 1141.
+(Font)              scaled to size 10.1033pt on input line 1173.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 7.60152pt on input line 1141.
+(Font)              scaled to size 7.60152pt on input line 1173.
 
 LaTeX Font Warning: Font shape `OT1/cmr/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 1141.
+(Font)              size <10.95> substituted on input line 1173.
 
 File: ./graphics//rint_2000.jpg Graphic file (type bmp)
 <./graphics//rint_2000.jpg>
 File: ./graphics//theta_2theta.jpg Graphic file (type bmp)
 <./graphics//theta_2theta.jpg>
-[30]
+[31]
 File: ./graphics//XRD_theta_2theta_光学系.png Graphic file (type bmp)
 <./graphics//XRD_theta_2theta_光学系.png>
 File: ./graphics//極点の測定方法.jpg Graphic file (type bmp)
 <./graphics//極点の測定方法.jpg>
-[31]
+[32]
 File: ./graphics//pole_figure_outplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_outplane.jpg>
 File: ./graphics//pole_figure_inplane.jpg Graphic file (type bmp)
 <./graphics//pole_figure_inplane.jpg>
 File: ./graphics//XRD_配置.jpg Graphic file (type bmp)
 <./graphics//XRD_配置.jpg>
-[32]
+[33]
 File: ./graphics//smartlab.jpg Graphic file (type bmp)
 <./graphics//smartlab.jpg>
-[33]
+[34]
 File: ./graphics//4294A.jpg Graphic file (type bmp)
 <./graphics//4294A.jpg>
 File: ./graphics//自動平衡ブリッジ回路.jpg Graphic file (type bmp)
 <./graphics//自動平衡ブリッジ回路.jpg>
 
-Overfull \hbox (5.06282pt too wide) in paragraph at lines 1248--1266
-[]\JY1/hmc/m/n/12 作製したシルクフ ィブロインフ ィルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.13(KEYSIGHT
+Overfull \hbox (5.06282pt too wide) in paragraph at lines 1280--1298
+[]\JY1/hmc/m/n/12 作製したシルクフ ィブロインフ ィルムの誘電率はインピ ーダンスアナライザ図 \OT1/cmr/m/n/12 3.15(KEYSIGHT
  []
 
-[34] [35]
+[35] [36]
 File: ./graphics//SPM.png Graphic file (type bmp)
 <./graphics//SPM.png>
 File: ./graphics//SPM2.png Graphic file (type bmp)
@@ -773,62 +778,78 @@ File: ./graphics//PFM.png Graphic file (type bmp)
 File: ./graphics//PFM_phase.png Graphic file (type bmp)
 <./graphics//PFM_phase.png>
 
-Overfull \hbox (7.59767pt too wide) in paragraph at lines 1416--1448
+Overfull \hbox (7.59767pt too wide) in paragraph at lines 1448--1480
 []\JY1/hmc/m/n/12 走査型プロ ーブ顕微鏡 \OT1/cmr/m/n/12 (Scan-ning Prob Mi-cro-scope, SPM) \JY1/hmc/m/n/12 の一種として圧電応答顕微鏡 \OT1/cmr/m/n/12 (Piezore-
  []
 
-[36]
+[37]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]
+[38]
 File: ./graphics//lateral_vertical.png Graphic file (type bmp)
 <./graphics//lateral_vertical.png>
-[38]
+[39]
 File: ./graphics//PFM_コラーゲン_側面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_側面.jpg>
 File: ./graphics//PFM_コラーゲン_断面.jpg Graphic file (type bmp)
 <./graphics//PFM_コラーゲン_断面.jpg>
-[39]
+[40]
 第 4 章
 File: ./graphics//糸の種類別XRD.jpg Graphic file (type bmp)
 <./graphics//糸の種類別XRD.jpg>
-[40
+[41
 
 ]
 File: ./graphics//theta_2theta_fibroin_film.jpg Graphic file (type bmp)
 <./graphics//theta_2theta_fibroin_film.jpg>
-[41]
+[42]
 File: ./graphics//pole_figure_silk_fibroin.jpg Graphic file (type bmp)
 <./graphics//pole_figure_silk_fibroin.jpg>
 File: ./graphics//theta_2theta_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//theta_2theta_セリシンあり.jpg>
-[42]
+[43]
 File: ./graphics//セリシンあり_polefigure.jpg Graphic file (type bmp)
 <./graphics//セリシンあり_polefigure.jpg>
-[43]
+File: ./graphics//デバイ.jpg Graphic file (type bmp)
+<./graphics//デバイ.jpg>
+[44]
 File: ./graphics//FTIR_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//FTIR_セリシンあり.jpg>
-[44]
+[45]
 File: ./graphics//シルクフィルム_熱処理後.jpg Graphic file (type bmp)
 <./graphics//シルクフィルム_熱処理後.jpg>
-[45]
+[46]
+File: ./graphics//AFM_5_5.jpg Graphic file (type bmp)
+<./graphics//AFM_5_5.jpg>
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 8.46753pt on input line 1662.
+LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
+(Font)              scaled to size 6.35065pt on input line 1662.
+File: ./graphics//AFM_1_1.jpg Graphic file (type bmp)
+<./graphics//AFM_1_1.jpg>
+File: ./graphics//AFM_silk.jpg Graphic file (type bmp)
+<./graphics//AFM_silk.jpg>
+[47]
+File: ./graphics//PFM_silk_fiber.jpg Graphic file (type bmp)
+<./graphics//PFM_silk_fiber.jpg>
+[48]
 File: ./graphics//DSC_silk_0112_2.jpg Graphic file (type bmp)
 <./graphics//DSC_silk_0112_2.jpg>
-[46]
+[49]
 File: ./graphics//cast_film_DSC_20210621.jpg Graphic file (type bmp)
 <./graphics//cast_film_DSC_20210621.jpg>
 File: ./graphics//DSC_cast_film_report.jpeg Graphic file (type bmp)
 <./graphics//DSC_cast_film_report.jpeg>
-[47]
+[50]
 File: ./graphics//熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
 <./graphics//熱プレスシルクフィルム_DSC.jpg>
 File: ./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg Graphic file (type bmp)
 <./graphics//セリシンあり_熱プレスシルクフィルム_DSC.jpg>
-[48]
+[51]
 File: ./graphics//TG_DTA.jpg Graphic file (type bmp)
 <./graphics//TG_DTA.jpg>
-[49]
+[52]
 第 5 章
 File: ./graphics//45deg_he_hi_ru.jpg Graphic file (type bmp)
 <./graphics//45deg_he_hi_ru.jpg>
@@ -839,95 +860,64 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./graphics//弾性率_角度依存性.jpg Graphic file (type bmp)
 <./graphics//弾性率_角度依存性.jpg>
-[50
+[53
 
-] [51]
+] [54]
 File: ./graphics//電気機械結合係数の角度依存性.jpg Graphic file (type bmp)
 <./graphics//電気機械結合係数の角度依存性.jpg>
-[52]
+[55]
 File: ./graphics//number_k.jpg Graphic file (type bmp)
 <./graphics//number_k.jpg>
-[53]
+[56]
 File: ./graphics//8回_誘電率温度依存性.jpg Graphic file (type bmp)
 <./graphics//8回_誘電率温度依存性.jpg>
-[54]
+[57]
 File: ./graphics//8回_誘電率温度依存性_共鳴付近.jpg Graphic file (type bmp)
 <./graphics//8回_誘電率温度依存性_共鳴付近.jpg>
 File: ./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg Graphic file (type bmp)
 <./graphics//8回_共鳴周波数_弾性率_温度依存性.jpg>
-[55]
+[58]
 File: ./graphics//8回_電気機械結合係数_誘電率.jpg Graphic file (type bmp)
 <./graphics//8回_電気機械結合係数_誘電率.jpg>
-[56]
+[59]
 File: ./graphics//8回_d定数_e定数_温度依存性.jpg Graphic file (type bmp)
 <./graphics//8回_d定数_e定数_温度依存性.jpg>
-[57]
+File: ./graphics//8回精錬_熱処理前と後.jpg Graphic file (type bmp)
+<./graphics//8回精錬_熱処理前と後.jpg>
+[60] [61]
 File: ./graphics//温度_誘電率_セリシンなし.jpg Graphic file (type bmp)
 <./graphics//温度_誘電率_セリシンなし.jpg>
-[58]
+[62]
 File: ./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg Graphic file (type bmp)
 <./graphics//1回_誘電率温度依存性_圧電共鳴付近.jpg>
 File: ./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg Graphic file (type bmp)
 <./graphics//1回_共鳴周波数_弾性率_温度依存性.jpg>
-[59]
+[63]
 File: ./graphics//1回_電気機械結合係数_誘電率.jpg Graphic file (type bmp)
 <./graphics//1回_電気機械結合係数_誘電率.jpg>
 File: ./graphics//1回_d定数_e定数_温度依存性.jpg Graphic file (type bmp)
 <./graphics//1回_d定数_e定数_温度依存性.jpg>
-[60]
+[64]
 File: ./graphics//温度_誘電率_セリシンあり.jpg Graphic file (type bmp)
 <./graphics//温度_誘電率_セリシンあり.jpg>
-[61]
+[65]
 File: ./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg Graphic file (type bmp)
 <./graphics//0回_誘電率温度依存性_圧電共鳴付近.jpg>
 File: ./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg Graphic file (type bmp)
 <./graphics//0回_共鳴周波数_弾性率_温度依存性.jpg>
-[62]
+[66]
 File: ./graphics//0回_電気機械結合係数_誘電率.jpg Graphic file (type bmp)
 <./graphics//0回_電気機械結合係数_誘電率.jpg>
 File: ./graphics//0回_d定数_e定数_温度依存性.jpg Graphic file (type bmp)
 <./graphics//0回_d定数_e定数_温度依存性.jpg>
-[63]
-File: ./graphics//8回精錬_熱処理前と後.jpg Graphic file (type bmp)
-<./graphics//8回精錬_熱処理前と後.jpg>
-[64]
+[67]
 File: ./graphics//0_1_回_精錬_熱処理前後.jpg Graphic file (type bmp)
 <./graphics//0_1_回_精錬_熱処理前後.jpg>
-[65]
-第 6 章
-[66
-
-]
-第 7 章
-File: ./graphics//デバイ.jpg Graphic file (type bmp)
-<./graphics//デバイ.jpg>
-
-Overfull \hbox (4.12563pt too wide) in paragraph at lines 2154--2156
- [][] 
- []
-
-[67
-
-]
-File: ./graphics//cast_film_作成方法.jpg Graphic file (type bmp)
-<./graphics//cast_film_作成方法.jpg>
-File: ./graphics//cast_film_sample.jpg Graphic file (type bmp)
-<./graphics//cast_film_sample.jpg>
 [68]
-File: ./graphics//AFM_5_5.jpg Graphic file (type bmp)
-<./graphics//AFM_5_5.jpg>
-LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.46753pt on input line 2201.
-LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 6.35065pt on input line 2201.
-File: ./graphics//AFM_1_1.jpg Graphic file (type bmp)
-<./graphics//AFM_1_1.jpg>
-File: ./graphics//AFM_silk.jpg Graphic file (type bmp)
-<./graphics//AFM_silk.jpg>
-[69]
-File: ./graphics//PFM_silk_fiber.jpg Graphic file (type bmp)
-<./graphics//PFM_silk_fiber.jpg>
-(out/master_thesis.bbl [70]
+第 6 章
+(out/master_thesis.bbl [69
+
+]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 10.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
@@ -944,7 +934,7 @@ LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 71.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 77.
-[71
+[70
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
@@ -967,7 +957,7 @@ LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 163.
-[72]
+[71]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 168.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
@@ -996,7 +986,7 @@ LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 241.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 245.
-[73]
+[72]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 251.
 
@@ -1022,22 +1012,29 @@ LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 313.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 332.
-[74]
+[73]
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 338.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 344.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 355.
-LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
-(Font)              No change on input line 360.
+(Font)              No change on input line 361.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 366.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 371.
 LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 376.
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
 (Font)              No change on input line 382.
-) [75] Excluding 'comment' comment. [76
+LaTeX Font Info:    Kanji font shape `JY1/hgt/m/it' undefined
+(Font)              No change on input line 387.
+) [74]
+LaTeX Font Info:    Font shape `JT1/cidj/m/2' will be
+(Font)              scaled to size 11.54663pt on input line 2255.
+LaTeX Font Info:    Font shape `JY1/cidj/m/2' will be
+(Font)              scaled to size 11.54663pt on input line 2255.
+[75
 
 ] (out/master_thesis.aux)
 
@@ -1046,12 +1043,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 11413 strings out of 479485
- 191168 string characters out of 5868332
- 487734 words of memory out of 5000000
- 28822 multiletter control sequences out of 15000+600000
- 468777 words of font info for 216 fonts, out of 8000000 for 9000
+ 11417 strings out of 479485
+ 191221 string characters out of 5868332
+ 487745 words of memory out of 5000000
+ 28824 multiletter control sequences out of 15000+600000
+ 469514 words of font info for 218 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  83i,13n,88p,467b,1023s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on out/master_thesis.dvi (77 pages, 233344 bytes).
+Output written on out/master_thesis.dvi (76 pages, 236500 bytes).

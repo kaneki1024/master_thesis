@@ -845,6 +845,14 @@ INPUT ./graphics//金属マスク.jpg
 INPUT ./graphics//金属マスク.jpg
 INPUT ./graphics//金属マスク.jpg
 INPUT extractbb -B cropbox -O ./graphics//金属マスク.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_作成方法.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_作成方法.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT ./graphics//cast_film_sample.jpg
+INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
@@ -985,6 +993,10 @@ INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT ./graphics//セリシンあり_polefigure.jpg
 INPUT extractbb -B cropbox -O ./graphics//セリシンあり_polefigure.jpg
+INPUT ./graphics//デバイ.jpg
+INPUT ./graphics//デバイ.jpg
+INPUT ./graphics//デバイ.jpg
+INPUT extractbb -B cropbox -O ./graphics//デバイ.jpg
 INPUT ./graphics//FTIR_セリシンあり.jpg
 INPUT ./graphics//FTIR_セリシンあり.jpg
 INPUT ./graphics//FTIR_セリシンあり.jpg
@@ -993,6 +1005,26 @@ INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT ./graphics//シルクフィルム_熱処理後.jpg
 INPUT extractbb -B cropbox -O ./graphics//シルクフィルム_熱処理後.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT ./graphics//AFM_5_5.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_5_5.jpg
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_1_1.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_1_1.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT ./graphics//AFM_silk.jpg
+INPUT extractbb -B cropbox -O ./graphics//AFM_silk.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT ./graphics//PFM_silk_fiber.jpg
+INPUT extractbb -B cropbox -O ./graphics//PFM_silk_fiber.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
 INPUT ./graphics//DSC_silk_0112_2.jpg
@@ -1057,6 +1089,10 @@ INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//8回_d定数_e定数_温度依存性.jpg
 INPUT extractbb -B cropbox -O ./graphics//8回_d定数_e定数_温度依存性.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT ./graphics//8回精錬_熱処理前と後.jpg
+INPUT extractbb -B cropbox -O ./graphics//8回精錬_熱処理前と後.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
 INPUT ./graphics//温度_誘電率_セリシンなし.jpg
@@ -1097,49 +1133,15 @@ INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
 INPUT ./graphics//0回_d定数_e定数_温度依存性.jpg
 INPUT extractbb -B cropbox -O ./graphics//0回_d定数_e定数_温度依存性.jpg
-INPUT ./graphics//8回精錬_熱処理前と後.jpg
-INPUT ./graphics//8回精錬_熱処理前と後.jpg
-INPUT ./graphics//8回精錬_熱処理前と後.jpg
-INPUT extractbb -B cropbox -O ./graphics//8回精錬_熱処理前と後.jpg
 INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
 INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
 INPUT ./graphics//0_1_回_精錬_熱処理前後.jpg
 INPUT extractbb -B cropbox -O ./graphics//0_1_回_精錬_熱処理前後.jpg
-INPUT ./graphics//デバイ.jpg
-INPUT ./graphics//デバイ.jpg
-INPUT ./graphics//デバイ.jpg
-INPUT extractbb -B cropbox -O ./graphics//デバイ.jpg
-INPUT ./graphics//cast_film_作成方法.jpg
-INPUT ./graphics//cast_film_作成方法.jpg
-INPUT ./graphics//cast_film_作成方法.jpg
-INPUT extractbb -B cropbox -O ./graphics//cast_film_作成方法.jpg
-INPUT ./graphics//cast_film_sample.jpg
-INPUT ./graphics//cast_film_sample.jpg
-INPUT ./graphics//cast_film_sample.jpg
-INPUT extractbb -B cropbox -O ./graphics//cast_film_sample.jpg
-INPUT ./graphics//AFM_5_5.jpg
-INPUT ./graphics//AFM_5_5.jpg
-INPUT ./graphics//AFM_5_5.jpg
-INPUT extractbb -B cropbox -O ./graphics//AFM_5_5.jpg
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/nmlminr-v.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
-INPUT ./graphics//AFM_1_1.jpg
-INPUT ./graphics//AFM_1_1.jpg
-INPUT ./graphics//AFM_1_1.jpg
-INPUT extractbb -B cropbox -O ./graphics//AFM_1_1.jpg
-INPUT ./graphics//AFM_silk.jpg
-INPUT ./graphics//AFM_silk.jpg
-INPUT ./graphics//AFM_silk.jpg
-INPUT extractbb -B cropbox -O ./graphics//AFM_silk.jpg
-INPUT ./graphics//PFM_silk_fiber.jpg
-INPUT ./graphics//PFM_silk_fiber.jpg
-INPUT ./graphics//PFM_silk_fiber.jpg
-INPUT extractbb -B cropbox -O ./graphics//PFM_silk_fiber.jpg
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT out/master_thesis.bbl
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/cidjmr2-v.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/japanese-otf/cidjmr2-h.tfm
 INPUT out/master_thesis.aux

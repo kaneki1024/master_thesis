@@ -346,13 +346,29 @@ E.~Fukada and S.~Takashita.
 \bibitem{吉田光伸2016ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討}
 吉田光伸, 田實佳郎.
 \newblock ポリ乳酸を用いた固相延伸フィルムの高圧電性発現機構の検討.
-\newblock 静電気学会誌/静電気学会 編, Vol.~40, No.~1, pp. 38--43, 2016.
+\newblock 静電気学会, Vol.~40, No.~1, pp. 38--43, 2016.
+
+\bibitem{フィブロイン溶解方法}
+二宮純子, 上野崇寿, 桑原眸, 森田洋.
+\newblock 絹フィブロインを用いた化学実験教材の開発
+  -タンパク質の検出反応と染色実験-.
+\newblock 日本理科教育学会理科教育学研究, Vol.~59, No.~3, 2019.
 
 \bibitem{コラーゲン繊維PFM}
 D.~Denning, S.~Alilat, S.~Habelitz, A.~Fertala, and B.~J. Rodriguez.
 \newblock Visualizing molecular polar order in tissues via electromechanical
   coupling.
 \newblock {\em J Struct Biol}, Vol. 180, No.~3, pp. 409--419, 2012.
+
+\bibitem{warwicker1954}
+J.~O. Warwicker.
+\newblock The crystal structure of silk fibroin.
+\newblock {\em Acta Crystallographica}, Vol.~7, No. 8-9, pp. 565--573, 1954.
+
+\bibitem{クモと絹糸の構造}
+N.~Du, Z.~Yang, X.~Y. Liu, Y.~Li, and H.~Y. Xu.
+\newblock Structural origin of the strain-hardening of spider silk.
+\newblock {\em Adv. Funct. Mater.}, Vol.~21, No.~4, pp. 772--778, 2011.
 
 \bibitem{cast_film_熱特性_DSC}
 X.~Hu, D.~Kaplan, and P.~Cebe.
@@ -369,16 +385,5 @@ L.~Yu, X.~Hu, D.~Kaplan, and P.~Cebe.
 E.~Fukada.
 \newblock Piezoelectricity in polymers and biological materials.
 \newblock {\em Ultrasonics}, Vol.~6, No.~4, pp. 229--234, 1968.
-
-\bibitem{フィブロイン溶解方法}
-二宮純子, 上野崇寿, 桑原眸, 森田洋.
-\newblock 絹フィブロインを用いた化学実験教材の開発
-  -タンパク質の検出反応と染色実験-.
-\newblock 日本理科教育学会理科教育学研究, Vol.~59, No.~3, 2019.
-
-\bibitem{クモと絹糸の構造}
-N.~Du, Z.~Yang, X.~Y. Liu, Y.~Li, and H.~Y. Xu.
-\newblock Structural origin of the strain-hardening of spider silk.
-\newblock {\em Adv. Funct. Mater.}, Vol.~21, No.~4, pp. 772--778, 2011.
 
 \end{thebibliography}
